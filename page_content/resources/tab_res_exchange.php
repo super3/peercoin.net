@@ -1,4 +1,4 @@
-           <h2>  Exchanges</h2>
+           <h2>Exchanges</h2>
 
             <p>
               Exchanges are the trading websites where you can buy or sell Peercoin. Be careful not to place large sums of Peercoin on exchanges without adequate security measures such as a good password and 2-factor authentication.
