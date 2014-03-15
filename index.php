@@ -34,7 +34,7 @@
     </header>
 
     <!-- Call To Action -->
-	<div id="cta" name="cta">
+	<div class="cta">
 		<div class="container centered">
 			<h2 class="col-lg-4"><?php echo $Locale->getText("why_peercoin_title"); ?></h2>
 			<p class="col-lg-8"><?php echo $Locale->getText("why_peercoin_desc"); ?></p>
@@ -76,15 +76,15 @@
 				So use a local video source withe Chinese captions.
 			-->
 			<?php if ($Locale->locale_code == 'zh') { ?>
-				<iframe height=498 width=510 src="http://player.youku.com/embed/XNjQ4MjE1MTYw" frameborder=0 allowfullscreen></iframe>
+				<iframe height=498 width=510 src="http://player.youku.com/embed/XNjQ4MjE1MTYw" allowfullscreen></iframe>
 			<?php } else { ?>
-				<iframe width="560" height="315" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" allowfullscreen></iframe>
 			<?php } ?>
 		</div>
 	</div>
 
-		   <!-- Call To Action -->
-	<div id="cta" name="cta">
+	<!-- Call To Action -->
+	<div class="cta">
 		<div class="container centered">
 			<h2 class="col-lg-4"><?php echo $Locale->getText("fund_peercoin"); ?></h2>
 			<p class="col-lg-8">
