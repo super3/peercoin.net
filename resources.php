@@ -56,6 +56,9 @@
 
       <!-- End Row -->
       </div>
+
+    <!-- End container -->
+    </div>
     
 
     <?php include ('footer.php'); ?>
