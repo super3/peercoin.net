@@ -22,8 +22,9 @@
   <div class="tab-content">
     <div class="tab-pane active fade in" id="peercoinnews">
       <!-- Peercoin News Items -->
-       <?php include ('page_content/news_and_events/tab_news_news.php')?><!-- end PPC News items-->
-      </div><!-- end news tab-->
+      <?php include('page_content/news_and_events/tab_news_news.php'); ?>
+      <!-- end PPC News items-->
+    </div><!-- end news tab-->
     <!-- ACTIVATE AFTER ADDING CRYPTO NEWS  <div class="tab-pane" id="crypto news">
         <div class="row">
         <!-- Crypto News Items--
@@ -38,7 +39,8 @@
       <!-- ends cryptot news tab-->
     <div class="tab-pane fade" id="events"><!-- Event Items -->
         <?php include ('page_content/news_and_events/tab_events_news.php') ?><!-- end events tab-->
-  </div><!-- ends tabs-->
+    </div><!-- ends tabs-->
+  </div>
 </div>
 <!-- end container-->
 
