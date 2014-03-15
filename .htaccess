@@ -1,0 +1,11 @@
+#URL rewrites for ALL pages that end in php, saves time
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# pretty view rewrite rule for single page views of tabbed content. sytax will be.net/page/[param(which is the id of the php page we want]
+RewriteRule ^/?page/([^/d]+)/?$ single.php?doc=$1 [L,QSA]
+
+#Error Documents for pages that don't exist yet
+ErrorDocument 404 /404

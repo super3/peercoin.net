@@ -1,0 +1,101 @@
+/*-----------------------------------------------------------------------------
+
+REVOLUTION RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	26/06/12
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+  /*********************************************************************************************
+		-	SET THE SCREEN SIZES FOR THE BANNER IF YOU WISH TO MAKE THE BANNER RESPONSIVE 	-
+  **********************************************************************************************/
+
+ /*	THE MEDIA CHOOSER TO SET DIFFERENT SIZES OF THE CONTAINER DEPENDING ON THE SCREEN SIZE    */
+   @media only screen and (max-width : 1024px) {
+		 .banner{width:100%; height:463px !important;}
+		 .banner2{width:100%; height:412px !important;}		 
+   }
+  
+  
+   @media only screen and (min-width: 768px) and (max-width: 959px) {
+		.banner{width:100%; height:346px !important;}
+		.banner2{width:100%; height:295px !important;}	
+		.general_caption h1 {font-size:28px !important;} 
+		.general_caption h2 {font-size:24px !important;}
+		.general_caption p {font-size:13px !important; line-height:20px !important;}
+		.general_caption p.lead {font-size:13px !important; line-height:20px !important;}
+		.general_caption p.lead-alt {font-size:13px !important; line-height:20px !important;}
+		.caption a.button {width: 96% !important; font-size:12px !important;}
+		.pst_media {margin-top:-8px !important;}
+		.pst_media2 {margin-left:12px !important;}
+		.pst_media3 {margin-left:-6px !important; margin-top:-9px !important;}
+		.pst_media4 {margin-top:5px !important;}
+		.pst_media5 {margin-top:10px !important;}
+		.pst_media6 {margin-top:-10px !important;}
+		.pst_media7 {margin-top:14px !important;}
+		.pst_media8 {margin-top:14px !important; margin-left:29px !important;}
+		.pst_media9 {margin-left:10px !important;}
+		.pst_media10 {margin-left:20px !important;}
+		.pst_media11 {margin-left:30px !important;}
+   }
+
+   @media only screen and (min-width: 480px) and (max-width: 767px) {
+		.banner{width:100%; height:266px !important;}
+		.banner2{width:100%; height:215px !important;}
+		.general_caption h1 {font-size:24px !important;} 
+		.general_caption h1.handwrite {display:none !important;} 
+		.general_caption h2 {font-size:20px !important;}
+		.general_caption h3.border3 {font-size:16px !important; padding:3px 13px 5px 13px !important; margin-left:25px !important;} 
+		.general_caption p {display: none !important;}
+		.general_caption p.lead {display: none !important;}
+		.general_caption p.lead-alt {display: none !important;}
+		.caption a.button {display: none !important;}
+		.pst_media {display: none !important;}
+		.pst_media2 {margin-top:10px !important; margin-left:-10px !important;}
+		.pst_media3 {display: none !important;}
+		.pst_media6 {margin-top:35px !important; margin-left:20px !important;}
+		.pst_media9 {margin-left:20px !important; margin-top:-30px !important;}
+		.pst_media10 {margin-left:40px !important; margin-top:-30px !important;}
+		.pst_media11 {margin-left:60px !important; margin-top:-30px !important;}
+		.pst_media12 {margin-top:30px !important; margin-left:24px !important;}
+		.pst_media13 {margin-left:125px !important;}
+		.pst_media14 {margin-top:48px !important; margin-left:20px !important;}
+		.pst_media15 {margin-top:-30px !important;}
+		.media_hide {display: none !important;}
+   }
+
+   @media only screen and (min-width: 0px) and (max-width: 479px) {
+		.banner{width:100%; height:180px !important;}
+		.banner2{width:100%; height:170px !important;}
+		.general_caption h1 {font-size:18px !important;} 
+		.general_caption h1.handwrite {display:none !important;} 
+		.general_caption h1.btm-line {border-bottom:2px solid #fff !important; padding-bottom:6px !important;}
+		.general_caption h2 {font-size:16px !important;}
+		.general_caption h3.border3 {font-size:12px !important; padding:1px 7px 3px 7px !important; margin-left:12px !important; margin-top:-8px;} 
+		.general_caption p {display: none !important;}
+		.general_caption p.lead {display: none !important;}
+		.general_caption p.lead-alt {display: none !important;}
+		.general_caption .circle-border {display:none !important;}
+		.caption a.button {display: none !important;}
+		.pst_media {display: none !important;}
+		.pst_media2 {margin-top:3px !important; margin-left:-37px !important;}
+		.pst_media6 {margin-top:22px !important; margin-left:12px !important;}
+		.pst_media9 {display: none !important;}
+		.pst_media10 {display: none !important;}
+		.pst_media11 {display: none !important;}
+		.pst_media12 {margin-top:12px !important; margin-left:12px !important;}
+		.pst_media13 {margin-left:72px !important;}
+		.pst_media14 {margin-top:22px !important; margin-left:10px !important;}
+		.pst_media15 {display: none !important;}
+		.pst_media16 {margin-top:22px !important; margin-left:-42px !important;}
+		.pst_media17 {margin-top:-8px !important; margin-left:-47px !important;}
+		.pst_media18 {margin-top:22px !important; margin-right:-42px !important;}
+		.media_hide {display: none !important;}
+   }
