@@ -515,25 +515,25 @@ a:hover {
 
 /* 2.4 Call To Action */
 
-#cta {
+.cta {
 	background-color: #2b3135;
 	padding-top: 35px;
 	padding-bottom: 35px;
 
 }
 
-#cta h2 {
+.cta h2 {
 	color: #ffffff;
 	font-weight: 100;
 	padding-top: 15px;
 	font-size: 38px;
 }
 
-#cta h2 span {
+.cta h2 span {
 	font-weight: 500;
 }
 
-#cta p {
+.cta p {
 	font-weight: 300;
 	color: #c5c5c5;
 	text-align: left;
@@ -707,6 +707,7 @@ margin-top:0px;
 	height: 0;
 }
 .videoWrapper iframe {
+    border-width: 0;
 	position: absolute;
 	top: 0;
 	left: 0;
