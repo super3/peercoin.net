@@ -244,6 +244,7 @@
 						</div><!-- /ch-img-1 -->
 						<h4><a href="downloads#config"><?php echo $Locale->getText("setting_up_wallet"); ?></a></h4>
 					</li>
+				</ul>
 			</div><!-- /col-lg-4 -->
 
 		<div class="col-lg-4">
