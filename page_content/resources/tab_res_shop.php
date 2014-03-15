@@ -1,4 +1,4 @@
-            <h2 name="retail"> Shops, Retail product and Services accepting Peercoin</h2>
+            <h2 id="retail"> Shops, Retail product and Services accepting Peercoin</h2>
             
             <p>
               <strong>Use your peercoins for to buy and trade, and help make Peercoin commonly used world wide</strong>
