@@ -11,7 +11,7 @@ If you have a simple change to the website, we ask that you put in a pull reques
 
 [![tip for next commit](http://tip4commit.com/projects/222.svg)](http://tip4commit.com/projects/222) [![tip for next commit](http://peer4commit.com/projects/2.svg)](http://peer4commit.com/projects/2)
 
-If don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/). 
+If you don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/). 
 
 ## Installing and Running
 Below are just some notes for running the website yourself. We run the website on a simple [Apache2](https://httpd.apache.org/) server with [PHP5](http://php.net/) installed.
