@@ -1,7 +1,7 @@
 <?php include ('header_index.php'); ?>
 
   <!-- Headerwrap -->
-			<div class="row">
+			<div class="row" style="max-width:100%; margin:0px;">
         <h1 style="margin-top:90px;">
 		          <?php echo $Locale->getText("big_welcome_header"); ?>
 		        </h1>
