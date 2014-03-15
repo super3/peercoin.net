@@ -9,14 +9,14 @@
 
 			<div class="col-lg-6">
 				<p>
-					Peercoin is a hybrid Proof-Of-Work / Proof-Of-Stake coin that uses the same proof-of-work algorithm as Bitcoin. This means you can mine Peercoin with GPUs, FGPAs and ASICs using Bitcoin mining software.
+					Peercoin is a hybrid proof-of-work/proof-of-stake coin that uses the same proof-of-work algorithm as Bitcoin. This means you can mine Peercoin with GPUs, FGPAs and ASICs using Bitcoin mining software.
 					Through Peercoin's increasing popularity, the transition to proof-of-stake, and the decreasing return on mining, competition for blocks becomes more fierce.
 				</p>
 			</div>
 
 			<div class="col-lg-6">
 				<p>
-					Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find blocks, and share the reward proportionally based on shares. These guides
+					Even with powerful hardware it is difficult to mine alone.	Mining pools combine the power of all participants to find blocks and share the reward proportionally based on shares. These guides
 					show you how to poolmine at some of the largest PPC pools. Also make sure to take a look at our <a href="/minting">Minting Guide</a>, as you can also earn up 1% on top of your mining rewards. 
 				</p>
 			</div>
@@ -48,14 +48,14 @@
 					
 					<div class="item">
 						<p>
-							<strong>·</strong> Go to the pool website: <a href="https://peercoin.ecoining.com">https://peercoin.ecoining.com</a> and sign up [1]. A valid email address is not required, but it is recommended if you wish to receive worker and pool notifications or reset your password in the future. You should also enter a 4 number PIN that will be required to change your payout address and for manual payouts. Don't forget to read and accept the Terms and Conditions [2].
+							<strong>·</strong> Go to the pool website: <a href="https://peercoin.ecoining.com">https://peercoin.ecoining.com</a> and sign up [1]. A valid email address is not required, but it is recommended if you wish to receive worker and pool notifications or reset your password in the future. You should also enter a 4 digit PIN that will be required to change your payout address and for manual payouts. Don't forget to read and accept the Terms and Conditions [2].
 						</p>
 						<a href="assets/img/mining7.png" target="_blank"><img src="assets/img/mining7.png" alt="Mining" /></a>
 					</div>
                                         
 					<div class="item">
 						<p>
-                                        		<strong>·</strong> Log in and setup your workers clicking the "My Workers" section [1]. Add a different worker for every machine you mine with. Here you can activate the worker monitoring, which will notify you if your workers stop mining [2].
+                                        		<strong>·</strong> Log in and set up your workers by clicking the "My Workers" section [1]. Add a different worker for every machine you mine with. Here you can activate the worker monitoring, which will notify you if your workers stop mining [2].
                                         	</p>
 						<a href="assets/img/mining8.png" target="_blank"><img src="assets/img/mining8.png" alt="Mining" /></a>
 					</div>
@@ -69,7 +69,7 @@
 					
 					<div class="item">
 						<p>
-							<strong>·</strong> Now just point your BFGminer/CGminer to <strong>"-o stratum+tcp://peercoin.ecoining.com:3336 -u username.workername -p workerpassword"</strong>. If you have any doubt or suggestion contact us at <strong>support@ecoining.com</strong> or use the contact form in the pool.
+							<strong>·</strong> Now just point your BFGminer/CGminer to <strong>"-o stratum+tcp://peercoin.ecoining.com:3336 -u username.workername -p workerpassword"</strong>. If you have any questions or suggestions, contact us at <strong>support@ecoining.com</strong> or use the contact form in the pool.
 							<br /> Thanks for your support!
 						</p>
 					</div>
@@ -83,28 +83,28 @@
                                 <div id="collapseTwo" class="panel-collapse collapse">
                                 	<div class="item">
 						<p>
-							Go over to the pool website: <a href="https://ppcoin.d7.lt">https://ppcoin.d7.lt</a> and sign up
+							Go to the pool website, <a href="https://ppcoin.d7.lt">https://ppcoin.d7.lt</a>, and sign up.
 						</p>
 						<a href="assets/img/mining1.png" target="_blank"><img src="assets/img/mining1.png" alt="Mining" /></a>
 					</div>
 	
 					<div class="item">
 						<p>
-							Set up your wallet address and specify a minimum payout, fill in 1. Don't forget to press update after setting both the fields.
+							Set up your wallet address [2] and specify a minimum payout [3]. Don't forget to press update after setting each field.
 						</p>
 						<a href="assets/img/mining2.png" target="_blank"><img src="assets/img/mining2.png" alt="Mining" /></a>
 					</div>
 	
 					<div class="item">
 						<p>
-							Your workers are here, you can mine on multiple PCs. Remember the worker's details. Leave the difficulty as is.
+							Your workers are here, and you can mine on multiple PCs. Remember the workers' details. Leave the difficulty as is.
 						</p>
 						<a href="assets/img/mining3.png" target="_blank"><img src="assets/img/mining3.png" alt="Mining" /></a>
 					</div>
 
 					<div class="item">
 						<p>
-							Download the software from here. The link is where arrow 2 points to. The pool settings are where arrow 3 points.
+							On the "Quick Start" page [1], download the software [2]. Pool settings are shown in [3].
 						</p>
 						<a href="assets/img/mining4.png" target="_blank"><img src="assets/img/mining4.png" alt="Mining" /></a>
 						<p>Download the zip file, and save it to C:/Peercoin. If the file downloaded without a .zip extension, rename it and add .zip to the end of the filename. Extract the archive and open the folder "ppc".</p>
@@ -113,17 +113,17 @@
 					<div class="item">
 						<p>
 							<strong>Set Up the Miner</strong><br />
-							For the first worker, no setup is required! Just double click start.bat and you should see this
+							For the first worker, no setup is required! Just double-click start.bat and you should see the following.
 						</p>
 						<a href="assets/img/mining5.png" target="_blank"><img src="assets/img/mining5.png" alt="Mining" /></a>
-						<p>In the above image [2] displays the mining rate and [3] are submitted shares accepted by the pool!</p>
+						<p>In the above image, [2] displays the mining rate and [3] displays the submitted shares accepted by the pool.</p>
 					</div>
 
 					<div class="item">
 						<p>
-							Now to add another worker, create a worker on the pool website and remember the details. Right click the start.bat file and click edit, press OK on the dialog. Now edit the text behind the -u (see [3]) and -p (see [4]) flags to the settings of the new worker.
-							<br />Save, hit start.bat and you are mining!
-							<br />You can see your results on the first page, see image one!
+							To add another worker, create a worker on the pool website and remember the details. Right click the start.bat file, click edit, and press OK on the dialog. Now edit the text behind the -u and -p flags to reflect the new worker's settings.
+							<br />Save, run start.bat, and you are mining!
+							<br />You can see your results on the first page.
 							<br />
 							<br />Happy mining!
 						</p>
