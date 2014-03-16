@@ -13,7 +13,7 @@
 		<br>
 		
 		<div class="col-lg-10 col-lg-offset-1">
-			<img class="img-responsive" src="assets/img/placeholder.png" alt="">
+			<img class="img-responsive" src="/assets/img/placeholder.png" alt="">
 		</div><!-- col-lg-10 -->
 	</div><!-- row -->
 </div><!-- container -->
@@ -52,7 +52,7 @@
 		<br>
 		
 		<div class="col-lg-10 col-lg-offset-1">
-			<img class="img-responsive" src="assets/img/placeholder.png" alt="">
+			<img class="img-responsive" src="/assets/img/placeholder.png" alt="">
 		</div><!-- col-lg-10 -->
 	</div><!-- row -->
 </div><!-- container -->
@@ -77,7 +77,7 @@
 			<h6>Warren Design</h6>
 			<p>
 				Date: Oct 20, 2013 <br/>
-				Work: Web Design & Development <br/>
+				Work: Web Design &amp; Development <br/>
 				Leader: Brad Frost<br/><br/>
 				<button class="btn btn-primary">Visit Site</button>
 				

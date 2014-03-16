@@ -20,7 +20,7 @@
 	<meta property="og:title" content="Peercoin" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://peercoin.net" />
-	<meta property="og:image" content="http://peercoin.net/img/logo.png"/>
+	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png"/>
 	<meta property="og:description" content="Secure and sustainable cryptocoin." />
 
 	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
@@ -65,7 +65,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">
-            <img src="assets/images/logos/Dark-Text-350.png" width="170" alt="Peercoin">
+            <img src="/assets/img/logos/Dark-Text-350.png" width="170" alt="Peercoin">
             <span style="width=100%; font-size:12px; text-align:center;"><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
         </div>
@@ -121,13 +121,13 @@ Like Peercoin
               <img src="./assets/img/icons/social-fb.png" alt="Visit us on Facebook">
         </a>
             <a target="_blank" href="http://www.reddit.com/r/peercoin">
-              <img src="assets/img/icons/social-reddit.png" alt="Reddit">
+              <img src="/assets/img/icons/social-reddit.png" alt="Reddit">
         </a>
             <a target="_blank" href="https://twitter.com/PeercoinPPC">
-              <img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
+              <img src="/assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
         </a>
             <a target="_blank" style="margin:0px; width:50%" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
-              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
+              <img src="/assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
         </a>
           </div>';} ?>
 <?php if($_SERVER['PHP_SELF'] == "/index.php") { echo ' 
@@ -136,15 +136,15 @@ Like Peercoin
         <div class="container-content">
           <div class ="top_social">
             <a target="_blank" href="https://www.facebook.com/Peercoin">
-              <img src="./assets/img/icons/social-fb.png" alt="Visit us on Facebook">
+              <img src="/assets/img/icons/social-fb.png" alt="Visit us on Facebook">
         </a>
             <a target="_blank" href="http://www.reddit.com/r/peercoin">
-              <img src="assets/img/icons/social-reddit.png" alt="Reddit">
+              <img src="/assets/img/icons/social-reddit.png" alt="Reddit">
         </a>
             <a target="_blank" href="https://twitter.com/PeercoinPPC">
-              <img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
+              <img src="/assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
         </a>
             <a target="_blank" style="margin:0px; width:50%" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
-              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
+              <img src="/assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
         </a>
           </div>';}?>

@@ -110,7 +110,7 @@ a:hover {
 /* 1.3 Headerwrap */
 
 #headerwrap {
-	background: url(../images/header-bg.jpg) no-repeat center top;
+	background: url(/assets/img/misc/header-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:160px;
 	text-align:center;
@@ -135,7 +135,7 @@ a:hover {
 }
 
 #headerwrap-2 {
-	background: url(../images/header2-bg.jpg) no-repeat center top;
+	background: url(/assets/img/misc/header2-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top: 180px;
 	text-align:center;
@@ -399,29 +399,16 @@ a:hover {
 }
 
 .ch-img-1 {
-	background-image: url(../images/1.jpg);
+	background-image: url(/assets/img/home/1.jpg);
 }
 
 .ch-img-2 {
-	background-image: url(../images/2.jpg);
+	background-image: url(/assets/img/home/2.jpg);
 }
 
 .ch-img-3 {
-	background-image: url(../images/3.jpg);
+	background-image: url(/assets/img/home/3.jpg);
 }
-
-.ch-img-4 {
-	background-image: url(../images/4.jpg);
-}
-
-.ch-img-5 {
-	background-image: url(../images/5.jpg);
-}
-
-.ch-img-6 {
-	background-image: url(../images/6.jpg);
-}
-
 
 .ch-info {
 	position: absolute;
@@ -793,18 +780,18 @@ margin-top:0px;
 	display: block;
 	height: 64px;
 	width: 64px;
-	background: url(../images/downloads/windows.png) no-repeat 0 0 transparent;
+	background: url(/assets/img/downloads/windows.png) no-repeat 0 0 transparent;
 	position: absolute;
 	top: 20px;
 	right: 20px;
 }
 
 .downloads li.mac span.icon {
-	background: url(../images/downloads/mac.png) no-repeat 0 0 transparent;
+	background: url(/assets/img/downloads/mac.png) no-repeat 0 0 transparent;
 }
 
 .downloads li.linux span.icon {
-	background: url(../images/downloads/linux.png) no-repeat 0 0 transparent;
+	background: url(/assets/img/downloads/linux.png) no-repeat 0 0 transparent;
 }
 
 .downloads a {
@@ -917,7 +904,7 @@ margin-top:0px;
 		}
 
 		.navbar {
-			background: url(../images/mobile-header-bg.png) repeat-x 0 100% #f8f8f8;
+			background: url(/assets/img/misc/mobile-header-bg.png) repeat-x 0 100% #f8f8f8;
 		}
 
 		.navbar .container {
@@ -1116,7 +1103,7 @@ margin-top:0px;
 
 /***** About Wrap *****/
 #aboutwrap {
-	background: url(../images/about-bg.jpg) no-repeat center top;
+	background: url(/assets/img/misc/about-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:80px;
 	text-align:center;
@@ -1142,7 +1129,7 @@ margin-top:0px;
 
 /***** Service Wrap *****/
 #servicewrap {
-	background: url(../images/service-bg.jpg) no-repeat center top;
+	background: url(/assets/img/misc/service-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -1168,7 +1155,7 @@ margin-top:0px;
 
 /***** Testimonial Wrap *****/
 #testwrap {
-	background: url(../images/test-bg.jpg) no-repeat center top;
+	background: url(/assets/img/misc/test-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -1199,7 +1186,7 @@ margin-top:0px;
 
 /***** Team Wrap *****/
 #teamwrap {
-	background: url(../images/team-bg.jpg) no-repeat center top;
+	background: url(/assets/img/misc/team-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:100px;
 	text-align:center;
@@ -1225,7 +1212,7 @@ margin-top:0px;
 
 /***** Team Wrap *****/
 #faqwrap {
-	background: url(../images/faq-bg.jpg) no-repeat center top;
+	background: url(/assets/img/misc/faq-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:100px;
 	text-align:center;

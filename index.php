@@ -49,19 +49,19 @@
 		<div class="services row svgicons centered">
 
 			<div class="col-lg-4">
-				<img src="assets/images/icons/rocket.svg" alt="Original Innovation">
+				<img src="/assets/img/icons/rocket.svg" alt="Original Innovation">
 				<h4><?php echo $Locale->getText("why_peercoin_header_innovation"); ?></h4>
 				<p><?php echo $Locale->getText("why_peercoin_desc_innovation"); ?></p>
 			</div><!-- col-lg-4 -->
 
 			<div class="col-lg-4">
-				<img src="assets/images/icons/key.svg" alt="Increased Security">
+				<img src="/assets/img/icons/key.svg" alt="Increased Security">
 				<h4><?php echo $Locale->getText("why_peercoin_header_security"); ?></h4>
 				<p><?php echo $Locale->getText("why_peercoin_desc_security"); ?></p>
 			</div><!-- col-lg-4 -->
 
 			<div class="col-lg-4">
-				<img src="assets/images/icons/earth.svg" alt="Energy and Cost Efficiency">
+				<img src="/assets/img/icons/earth.svg" alt="Energy and Cost Efficiency">
 				<h4><?php echo $Locale->getText("why_peercoin_header_efficiency"); ?></h4>
 				<p><?php echo $Locale->getText("why_peercoin_desc_efficiency"); ?></p>
 			</div><!-- col-lg-4 -->
@@ -199,10 +199,10 @@
 			    	<p><?php echo $Locale->getText("convinced_you_desc"); ?></p>
 			        <a href="downloads" class="btn btn-primary btn-large"><i class="fui-link"></i> <?php echo $Locale->getText("download_wallet"); ?>!</a>
 			        <div class="social">
-			<a href="https://www.facebook.com/Peercoin"><img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
-			<a href="http://www.reddit.com/r/peercoin"><img src="assets/img/icons/social-reddit.png" alt="Reddit"></a>
-			<a href="https://twitter.com/PeercoinPPC"><img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
-			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube"></a>
+			<a href="https://www.facebook.com/Peercoin"><img src="/assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
+			<a href="http://www.reddit.com/r/peercoin"><img src="/assets/img/icons/social-reddit.png" alt="Reddit"></a>
+			<a href="https://twitter.com/PeercoinPPC"><img src="/assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
+			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="/assets/img/icons/social-yt.png" alt="Watch videos on YouTube"></a>
 		   </div>
 			     </div>
 
