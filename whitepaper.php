@@ -12,54 +12,55 @@
 
         <div class="col-lg-12 whitepapers">
             <ul>
-                <li class="col-lg-3 pdf">
+                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>Chinese/中文</h2><a href="bin/peercoin-paper-cn.pdf"
+                        <h2>English</h2><a href="assets/paper/peercoin-paper.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>Dutch/Nederlands</h2><a href="bin/peercoin-paper-nl.pdf"
+                        <h2>Chinese/中文</h2><a href="assets/papers/peercoin-paper-cn.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>English</h2><a href="bin/peercoin-paper.pdf"
+                        <h2>Spanish/Español</h2><a href="assets/paper/peercoin-paper-es.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>French/Français</h2><a href="bin/peercoin-paper-fr.pdf"
+                        <h2>Dutch/Nederlands</h2><a href="assets/paper/peercoin-paper-nl.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>German/Deutsch</h2><a href="bin/peercoin-paper-de.pdf"
+                        <h2>French/Français</h2><a href="assets/paper/peercoin-paper-fr.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>Japanese/日本語</h2><a href="bin/peercoin-paper-jp.pdf"
+                        <h2>German/Deutsch</h2><a href="assets/paper/peercoin-paper-de.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>Korean/한국말</h2><a href="bin/peercoin-paper-kr.pdf"
+                        <h2>Japanese/日本語</h2><a href="assets/paper/peercoin-paper-jp.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>Spanish/Español</h2><a href="bin/peercoin-paper-es.pdf"
+                        <h2>Korean/한국말</h2><a href="assets/paper/peercoin-paper-kr.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
+
             </ul>
         </div>
     </div>
