@@ -23,6 +23,31 @@
 					        <span><?php echo $Locale->getText("total_supply"); ?></span>
 				        </li>
 			        </ul>
+			        <div class="last-block" id="J_lastBlockContainer"></div>
+			        <!--Last block info render tmplate-->
+			        <script type="template/text" id="J_indexBlockInfoTpl">
+			        	<span class="label"><?php echo $Locale->getText("block_info_last"); ?>:</span>
+			        	{{#info}}
+	        			<p class="block-info">
+	        				<span class="info-item">
+	        					<a href="http://ppc.blockr.io/block/info/{{nb}}" target="blank">{{nb}}</a>
+	        					<i>/{{minFlag}}</i>
+	        				</span>
+	        				<span class="info-item">
+	        					{{difficulty}}
+	        					<i>/<?php echo $Locale->getText("block_info_difficulty"); ?></i>
+	        				</span>
+	        				<span class="info-item">
+	        					{{vout_sum}}
+	        					<i>/<?php echo $Locale->getText("block_info_vout"); ?></i>
+	        				</span>
+	        				<span class="info-item">
+	        					{{days_destroyed}}
+	        					<i>/<?php echo $Locale->getText("block_info_days_destroyed"); ?></i>
+	        				</span>
+	        			</p>
+	        			{{/info}}
+			        </script>
 			        <div class="updated">
 				        <span><?php echo $Locale->getText("ticker_last_updated"); ?></span>
 	        	        <span id="seconds-since-update"><?php echo $Locale->getText("ticker_last_updated_never"); ?></span>

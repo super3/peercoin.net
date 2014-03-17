@@ -36,5 +36,60 @@ $(document).ready(function() {
     }
 
     updateMarketInfo();
-    setInterval(updateMarketInfo, 30000);
+
+    //Block info update
+    var Mu = Mustache;
+    BlockInfo = function(config){
+        this.fetchUrl = 'http://ppc.blockr.io/api/v1/block/info/last';
+        this.info = {};
+        this.tpl = config.tpl || '';
+        this.container = config.container;
+    };
+
+    BlockInfo.prototype.getInfo = function(callback) {
+        var self = this;
+        $.getJSON(this.fetchUrl, null, function(data) {  
+            var info = data.data;
+
+            info.minFlag = info[info.extras.flags];
+            info.difficulty = commaSeparateNumber(info.difficulty);
+            info.vout_sum = commaSeparateNumber(info.vout_sum);
+            info.days_destroyed = commaSeparateNumber(info.days_destroyed);
+            
+            self.info = info;
+            callback && callback();
+        });
+    }
+
+    BlockInfo.prototype.render = function(){
+        var shortName = {
+            'proof-of-stake': 'POS',
+            'proof-of-work': 'POW'
+        };
+        this.info.minFlag = shortName[this.info.extras.flags];
+        return Mu.render(this.tpl, {
+            info: this.info
+        });
+    };
+
+    BlockInfo.prototype.update = function() {
+        var self = this;
+        this.getInfo(function(data) {
+            var html = self.render();
+            self.container.html(html);
+        });
+    };
+
+    var lastBlock = new BlockInfo({
+        tpl: $('#J_indexBlockInfoTpl').html(),
+        container: $('#J_lastBlockContainer')
+    });
+
+    //update the last block info to the html;
+    lastBlock.update();
+
+    setInterval(function(){
+        updateMarketInfo();
+        lastBlock.update();
+    }, 30000);
 });

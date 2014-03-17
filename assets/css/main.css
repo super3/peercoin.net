@@ -210,6 +210,27 @@ a:hover {
 	color: #ccc;
 }
 
+/*Last block info*/
+.last-block{
+	margin-top: 10px;
+}
+.last-block .label{
+	font-size:20px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.last-block .block-info{
+	display: inline;
+}
+.last-block .info-item{
+	font-size:0.9em;
+	margin-right: 10px;
+}
+.last-block .info-item i{
+	font-size: 0.7em;
+	color:#a3a3a3;
+	font-style: normal;
+}
 
 /* 1.4 Footer */
 

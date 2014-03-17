@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 //title
 
@@ -220,6 +220,38 @@ $locale_strings['gr']['ticker_last_updated_never'] = "ποτέ";
 $locale_strings['it']['ticker_last_updated_never'] = "mai";
 $locale_strings['cat']['ticker_last_updated_never'] = "mai";
 $locale_strings['zh']['ticker_last_updated_never'] = "从未";
+
+$locale_strings['en']['block_info_last'] = "Last Block";
+$locale_strings['fr']['block_info_last'] = "Last Block";
+$locale_strings['es']['block_info_last'] = "Last Block";
+$locale_strings['gr']['block_info_last'] = "Last Block";
+$locale_strings['it']['block_info_last'] = "Last Block";
+$locale_strings['cat']['block_info_last'] = "Last Block";
+$locale_strings['zh']['block_info_last'] = "最新块";
+
+$locale_strings['en']['block_info_difficulty'] = "Difficulty";
+$locale_strings['fr']['block_info_difficulty'] = "Difficulty";
+$locale_strings['es']['block_info_difficulty'] = "Difficulty";
+$locale_strings['gr']['block_info_difficulty'] = "Difficulty";
+$locale_strings['it']['block_info_difficulty'] = "Difficulty";
+$locale_strings['cat']['block_info_difficulty'] = "Difficulty";
+$locale_strings['zh']['block_info_difficulty'] = "难度";
+
+$locale_strings['en']['block_info_vout'] = "Vout";
+$locale_strings['fr']['block_info_vout'] = "Vout";
+$locale_strings['es']['block_info_vout'] = "Vout";
+$locale_strings['gr']['block_info_vout'] = "Vout";
+$locale_strings['it']['block_info_vout'] = "Vout";
+$locale_strings['cat']['block_info_vout'] = "Vout";
+$locale_strings['zh']['block_info_vout'] = "产出";
+
+$locale_strings['en']['block_info_days_destroyed'] = "Coin days destroyed";
+$locale_strings['fr']['block_info_days_destroyed'] = "Coin days destroyed";
+$locale_strings['es']['block_info_days_destroyed'] = "Coin days destroyed";
+$locale_strings['gr']['block_info_days_destroyed'] = "Coin days destroyed";
+$locale_strings['it']['block_info_days_destroyed'] = "Coin days destroyed";
+$locale_strings['cat']['block_info_days_destroyed'] = "Coin days destroyed";
+$locale_strings['zh']['block_info_days_destroyed'] = "币天销毁";
 
 $locale_strings['en']['why_peercoin_desc_innovation'] = "Peercoin's original innovation is the <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work hybrid</a> system. Like other <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>cryptocurrencies</a>, initial coins can be mined, but the core network is maintained by coin holders, rather than the fastest <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pool</a>.";
 $locale_strings['fr']['why_peercoin_desc_innovation'] = "L'innovation originale de Peercoin est le système <a href='/bin/peercoin-paper-fr.pdf'>hybride preuve-de-part/preuve-de-travail</a>. Comme d'autres <a href='https://fr.wikipedia.org/wiki/Crypto-monnaie'>crypto-monnaies</a>, la monnaie initiale peut être générée par extraction (minage), mais le coeur du réseau est maintenu par les possesseurs de monnaie, plutôt que par la <a href='https://en.bitcoin.it/wiki/Pooled_mining'>coopérative de mineurs</a> la plus rapide.";
