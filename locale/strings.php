@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 //title
 
@@ -82,7 +82,7 @@ $locale_strings['es']['dropdown_title_use_peercoins'] = "Usa Peercoins";
 $locale_strings['gr']['dropdown_title_use_peercoins'] = "Χρησιμοποίησε Peercoins";
 $locale_strings['it']['dropdown_title_use_peercoins'] = "Utilizzare Peercoins";
 $locale_strings['cat']['dropdown_title_use_peercoins'] = "Utilitza Peercoins";
-$locale_strings['zh']['dropdown_title_use_peercoins'] = "使用点点币";
+$locale_strings['zh']['dropdown_title_use_peercoins'] = "资源";
 
 $locale_strings['en']['dropdown_title_peercoins'] = "Get Peercoins";
 $locale_strings['fr']['dropdown_title_peercoins'] = "Obtenir des Peercoins";
