@@ -21,7 +21,7 @@
 
 	        <div class="item">
 		        <h2 class="maintitle"><a href="mining">Mine</a> and <a href="minting">Mint</a></h2>
-				<p>Minting and mining peercoins generates more Peercoins and makes the Peercoin network faster and more reliable.</p><br>
+				<p>Minting and mining peercoins generates more Peercoins and makes the Peercoin network more resilient and secure.</p><br>
 	        </div>
 
 
