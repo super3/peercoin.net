@@ -20,7 +20,7 @@
 	<meta property="og:title" content="Peercoin" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://peercoin.net" />
-	<meta property="og:image" content="http://peercoin.net/img/logo.png"/>
+	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png"/>
 	<meta property="og:description" content="Secure and sustainable cryptocoin." />
 
 	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
@@ -65,7 +65,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">
-            <img src="assets/images/logos/Dark-Text-350.png" width="170" alt="Peercoin">
+            <img src="/assets/img/logos/Dark-Text-350.png" width="170" alt="Peercoin">
             <span style="width=100%; font-size:12px; text-align:center;"><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
         </div>

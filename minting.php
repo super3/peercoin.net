@@ -82,7 +82,7 @@
 								The wallet encryption option can be found under the settings tab in the Peercoin-Qt wallet program. </p>
 								<h4>Configure the software: </h4>
 								<p>Open up explorer and select the navigation bar. Type in: %appdata%/PPCoin</p>
-								<img src="assets/img/minting1.png" alt="Minting" />
+								<img src="/assets/img/minting/minting1.png" alt="Minting" />
 							</div>
 						</div>
 						<div class="item">
@@ -112,7 +112,7 @@
 							<div class="col-lg-12">
 								<h4>Set-up the minting daemon: </h4>
 								<p>Go back to the Peercoin-Qt wallet folder and go to the daemon folder. Create a new text document. Copy over this information:</p>
-								<img src="assets/img/minting2.png" alt="Minting" />
+								<img src="/assets/img/minting/minting2.png" alt="Minting" />
 							</div>
 						</div>
 						<div class="item">
@@ -130,9 +130,9 @@
 								<p>Save the document and rename it to Minting.bat<br />
 								<h4>Start minting:</h4>
 								Run the Peercoin-Qt wallet. The bottom left should display a message that the wallet is locked and the minting process is suspended.</p>
-								<img src="assets/img/minting3.png" alt="Minting" />
+								<img src="/assets/img/minting/minting3.png" alt="Minting" />
 								<p>Now double click the minting.bat file and enter your passphrase.<br /></p>
-								<img src="assets/img/minting4.png" alt="Minting" /><br />
+								<img src="/assets/img/minting/minting4.png" alt="Minting" /><br />
 								<p>If the bottom right corner shows a unlocked padlock after 30 seconds you are now minting. <strong>Congratulations!</strong></p>
 							</div>
 						</div>

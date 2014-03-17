@@ -516,9 +516,9 @@ _::-ms-reveal, .caption a.button.large {padding:15px 24px 16px 24px !important;}
         -o-user-select: none;
 	}
 
-.tp-bannershadow.tp-shadow1 {	background:url("../images/assets/shadow1.png") no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
-.tp-bannershadow.tp-shadow2 {	background:url("../images/assets/shadow2.png") no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
-.tp-bannershadow.tp-shadow3 {	background:url("../images/assets/shadow3.png") no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow1 {	background:url("/img/texticons/shadow1.png") no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
+.tp-bannershadow.tp-shadow2 {	background:url("/img/texticons/shadow2.png") no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow3 {	background:url("/img/texticons/shadow3.png") no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
 
 
 /********************************
@@ -554,30 +554,30 @@ _::-ms-reveal, .caption a.button.large {padding:15px 24px 16px 24px !important;}
 											}
 
 
-.tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url("../images/assets/boxed_bgtile.png"); height:40px; padding:0px 10px;  }
+.tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url("/img/texticons/boxed_bgtile.png"); height:40px; padding:0px 10px;  }
 
-.tp-bullets.simplebullets.navbar-old					{ 	 background:url("../images/assets/navigdots_bgtile.png"); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
+.tp-bullets.simplebullets.navbar-old					{ 	 background:url("/img/texticons/navigdots_bgtile.png"); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
 
-.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url("../images/assets/bullet.png") no-Repeat top left;	width:16px;	height:16px;  margin-right:0px; float:left; margin-top:-10px; margin-left:3px;}
+.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url("/img/texticons/bullet.png") no-Repeat top left;	width:16px;	height:16px;  margin-right:0px; float:left; margin-top:-10px; margin-left:3px;}
 .tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
 
-.tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url("../images/assets/bullets.png") no-Repeat bottom left;	width:17px;	height:17px; margin-right:5px; float:left; margin-top:-8px; margin-top:0px\0/;}
+.tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url("/img/texticons/bullets.png") no-Repeat bottom left;	width:17px;	height:17px; margin-right:5px; float:left; margin-top:-8px; margin-top:0px\0/;}
 .tp-bullets.simplebullets.round-old .bullet.last		{	margin-right:0px;}
 
 
 /**	SQUARE BULLETS **/
-.tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url("../images/assets/bullets2.png") no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
+.tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url("/img/texticons/bullets2.png") no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
 .tp-bullets.simplebullets.square .bullet.last			{	margin-right:0px;}
 
 
 /**	SQUARE BULLETS **/
-.tp-bullets.simplebullets.square-old .bullet			{	cursor:pointer; position:relative;	background:url("../images/assets/bullets2.png") no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
+.tp-bullets.simplebullets.square-old .bullet			{	cursor:pointer; position:relative;	background:url("/img/texticons/bullets2.png") no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
 .tp-bullets.simplebullets.square-old .bullet.last		{	margin-right:0px;}
 
 
 /** navbar NAVIGATION VERSION **/
-.tp-bullets.simplebullets.navbar .bullet			{	cursor:pointer; position:relative;	background:url("../images/assets/bullet_boxed.png") no-Repeat top left;	width:18px;	height:19px;   margin-right:5px; float:left; margin-top:10px;}
+.tp-bullets.simplebullets.navbar .bullet			{	cursor:pointer; position:relative;	background:url("/img/texticons/bullet_boxed.png") no-Repeat top left;	width:18px;	height:19px;   margin-right:5px; float:left; margin-top:10px;}
 
 .tp-bullets.simplebullets.navbar .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar .bullet.last		{	margin-right:0px !important;}
@@ -585,7 +585,7 @@ _::-ms-reveal, .caption a.button.large {padding:15px 24px 16px 24px !important;}
 
 
 /** navbar NAVIGATION VERSION **/
-.tp-bullets.simplebullets.navbar-old .bullet			{	cursor:pointer; position:relative;	background:url("../images/assets/navigdots.png") no-Repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
+.tp-bullets.simplebullets.navbar-old .bullet			{	cursor:pointer; position:relative;	background:url("/img/texticons/navigdots.png") no-Repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
 .tp-bullets.simplebullets.navbar-old .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar-old .bullet.last		{	margin-right:0px !important;}
 
@@ -616,50 +616,50 @@ _::-ms-reveal, .caption a.button.large {padding:15px 24px 16px 24px !important;}
 															-khtml-opacity: 0;
 															opacity: 0;
 														}
-.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/large_left.png") no-Repeat top left;	width:35px;	height:75px;   }
-.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/large_right.png") no-Repeat top left;	width:35px;	height:75px;   }
+.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/large_left.png") no-Repeat top left;	width:35px;	height:75px;   }
+.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/large_right.png") no-Repeat top left;	width:35px;	height:75px;   }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-.tp-leftarrow											{	background:url("../images/assets/large_left@2x.png") no-Repeat top left;	background-size: 35px 150px;   }
-.tp-rightarrow											{	background:url("../images/assets/large_right@2x.png") no-Repeat top left;	background-size: 35px 150px;   }
+.tp-leftarrow											{	background:url("/img/texticons/large_left@2x.png") no-Repeat top left;	background-size: 35px 150px;   }
+.tp-rightarrow											{	background:url("/img/texticons/large_right@2x.png") no-Repeat top left;	background-size: 35px 150px;   }
 }
 
 
-.tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/small_left.png") no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:-7px;	}
-.tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/small_right.png") no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:-7px;}
+.tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/small_left.png") no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:-7px;	}
+.tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/small_right.png") no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:-7px;}
 
 
-.tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/arrow_left.png") no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:-13px;	}
-.tp-rightarrow.round-old								{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/arrow_right.png") no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:-13px;}
+.tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/arrow_left.png") no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:-13px;	}
+.tp-rightarrow.round-old								{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/arrow_right.png") no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:-13px;}
 
 
-.tp-leftarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/small_left_boxed.png") no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-right:6px; margin-top:12px;}
-.tp-rightarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/small_right_boxed.png") no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-left:6px; margin-top:12px;}
+.tp-leftarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/small_left_boxed.png") no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-right:6px; margin-top:12px;}
+.tp-rightarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/small_right_boxed.png") no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-left:6px; margin-top:12px;}
 
 
-.tp-leftarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/arrowleft.png") no-Repeat top left;		width:9px;	height:16px;   float:left;	margin-right:6px; margin-top:10px;}
-.tp-rightarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/arrowright.png") no-Repeat top left;	width:9px;	height:16px;   float:left;	margin-left:6px; margin-top:10px;}
+.tp-leftarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/arrowleft.png") no-Repeat top left;		width:9px;	height:16px;   float:left;	margin-right:6px; margin-top:10px;}
+.tp-rightarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/arrowright.png") no-Repeat top left;	width:9px;	height:16px;   float:left;	margin-left:6px; margin-top:10px;}
 
 .tp-leftarrow.navbar-old.thumbswitharrow				{	margin-right:10px; }
 .tp-rightarrow.navbar-old.thumbswitharrow				{	margin-left:0px; }
 
-.tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/arrow_left2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
-.tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/arrow_right2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
+.tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/arrow_left2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
+.tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/arrow_right2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
 
 
-.tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/arrow_left2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
-.tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/arrow_right2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
+.tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/arrow_left2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
+.tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/arrow_right2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
 
 
-.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/large_left.png") no-Repeat 0 0; background:url("../images/assets/large_left.png") no-Repeat 0 0\0/ !important;	width:35px;	height:75px;
+.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/large_left.png") no-Repeat 0 0; background:url("/img/texticons/large_left.png") no-Repeat 0 0\0/ !important;	width:35px;	height:75px;
 
 														}
-.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/assets/large_right.png") no-Repeat 0 0; background:url("../images/assets/large_right.png") no-Repeat 0 0\0/ !important; width:35px;	height:75px;
+.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url("/img/texticons/large_right.png") no-Repeat 0 0; background:url("/img/texticons/large_right.png") no-Repeat 0 0\0/ !important; width:35px;	height:75px;
 
 														}
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-.tp-leftarrow.default										{	background:url("../images/assets/large_left@2x.png") no-Repeat 0 0;	background-size: 35px 150px;   }
-.tp-rightarrow.default										{	background:url("../images/assets/large_right@2x.png") no-Repeat 0 0;	background-size: 35px 150px;   }		
+.tp-leftarrow.default										{	background:url("/img/texticons/large_left@2x.png") no-Repeat 0 0;	background-size: 35px 150px;   }
+.tp-rightarrow.default										{	background:url("/img/texticons/large_right@2x.png") no-Repeat 0 0;	background-size: 35px 150px;   }		
 }
 
 
@@ -723,7 +723,7 @@ _::-ms-reveal, .caption a.button.large {padding:15px 24px 16px 24px !important;}
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
-.tp-bannertimer								{	width:100%; height:4px; background:url("../images/assets/timer.png"); position:absolute; z-index:200; filter: alpha(opacity=40); -moz-opacity:0.4; -khtml-opacity: 0.4; opacity: 0.4;}
+.tp-bannertimer								{	width:100%; height:4px; background:url("/img/texticons/timer.png"); position:absolute; z-index:200; filter: alpha(opacity=40); -moz-opacity:0.4; -khtml-opacity: 0.4; opacity: 0.4;}
 .tp-bannertimer.tp-bottom					{	bottom:0px !important;height:4px;}
 .tp-bannertimer.tp-top						{	top:0px !important;height:4px;}
 
@@ -787,16 +787,16 @@ _::-ms-reveal, .caption a.button.large {padding:15px 24px 16px 24px !important;}
 }
 /*  CAPTION SLIDELINK   **/
 .caption.slidelink a div,
-.tp-caption.slidelink a div {	width:10000px; height:10000px;  background:url("../images/assets/coloredbg.png") repeat;}
+.tp-caption.slidelink a div {	width:10000px; height:10000px;  background:url("/img/texticons/coloredbg.png") repeat;}
 
-.tp-loader 	{	background:url("../images/assets/loader.gif") no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
+.tp-loader 	{	background:url("/img/texticons/loader.gif") no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
 				border-radius: 3px;
 				-moz-border-radius: 3px;
 				-webkit-border-radius: 3px;
 			}
 
 
-.tp-transparentimg {	content:"url("../images/assets/transparent.png")"}
+.tp-transparentimg {	content:"url("/img/texticons/transparent.png")"}
 .tp-3d				{	-webkit-transform-style: preserve-3d;
 						 -webkit-transform-origin: 50% 50%;
 					}
