@@ -69,6 +69,7 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/retina.js"></script>
+    <script src="assets/js/mustache.js"></script>
     <script type="text/javascript">
         var secondText = "<?php echo $Locale->getText("second_ago"); ?>";
         var secondsText = "<?php echo $Locale->getText("seconds_ago"); ?>";
