@@ -11,7 +11,9 @@
           </p>
           
           <ul style="list-style-type: circle;">
-            <li><a href="https://peercoin.blockmines.com/">Blockmines</a></li>
+            <li>
+              <a href="https://peercoin.blockmines.com/">Blockmines</a> - 2% fee, PPLNS: payout per share of the last N rounds
+            </li>
             <li>
               <a href="https://peercoin.ecoining.com/">Ecoining</a> -  1% fee, Dynamic PPLNS Payment System
             </li>
@@ -32,7 +34,7 @@
 
           <ul style="list-style-type: circle;">
             <li>
-              <a href="https://www.coinotron.com/coinotron/">Coinotron</a> - Pay Per Share: 12% fee, Round-Based Pay Per Share: 2%
+              <a href="https://www.coinotron.com/coinotron/">Coinotron</a> - Pay Per Share: 5% fee, Round-Based Pay Per Share: 3%
             </li>
             <li>
               <a href="http://www.multipool.us/">Multipool.us</a> - 1.5% fee, Pay Per Share
