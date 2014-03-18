@@ -89,7 +89,7 @@
                 <?php } ?>
               </ul>
             </li>
-            <li><a href="http://peercoin.net/resources"><?php echo $Locale->getText("dropdown_title_use_peercoins"); ?></a></li>
+            <li><a href="http://peercoin.net/resources"><?php echo $Locale->getText("dropdown_title_resources"); ?></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_peercoins"); ?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
