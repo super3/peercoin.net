@@ -35,19 +35,19 @@
         <!-- Tab panes -->
         <div class="tab-content">
 
-          <div class="tab-pane active fade in" id="start">
+          <div class="tab-pane fade active in" id="start">
             <?php include ('page_content/resources/tab_res_getting_started.php'); ?>
           </div>
-          <div class="tab-pane active fade" id="tools">
+          <div class="tab-pane fade" id="tools">
             <?php include ('page_content/resources/tab_res_tools.php'); ?>
           </div>
-          <div class="tab-pane active fade" id="mine">
+          <div class="tab-pane fade" id="mine">
             <?php include ('page_content/resources/tab_res_mine.php'); ?>
           </div>
-          <div class="tab-pane active fade" id="exchange">
+          <div class="tab-pane fade" id="exchange">
             <?php include ('page_content/resources/tab_res_exchange.php'); ?>
           </div>
-          <div class="tab-pane active fade" id="shop">
+          <div class="tab-pane fade" id="shop">
             <?php include ('page_content/resources/tab_res_shop.php'); ?>  
           </div>
 
