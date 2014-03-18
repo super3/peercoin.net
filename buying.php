@@ -5,9 +5,9 @@
 				<div class="item">
 					<div>
 						<p>Peercoins are traded on various virtual currency exchanges. The most common exchange method is to 
-						exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a 
+						exchange bitcoin into Peercoin. You can buy bitcoins by using services like <a
 						href="https://coinbase.com" target="_blank">coinbase</a> or <a href="https://www.bitstamp.net/" target="_blank">bitstamp</a>.
-					 	Once you have your Bitcoins you can send them to an exchange and proceed to exchange your Bitcoins into Peercoin.</p>
+					 	Once you have your bitcoins you can send them to an exchange and proceed to exchange them into Peercoin.</p>
 
 						<h2>List of available exchanges</h2>
 						<ul>
