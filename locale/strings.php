@@ -2,6 +2,7 @@
 
 //title
 
+$locale_strings['en-GB']['homepage_title'] = "Secure &amp; Sustainable Cryptocoin.";
 $locale_strings['en']['homepage_title'] = "Secure &amp; Sustainable Cryptocoin.";
 $locale_strings['fr']['homepage_title'] = "Crypto-monnaie Sûre &amp; Durable.";
 $locale_strings['es']['homepage_title'] = "Criptomoneda Segura y Sostenible.";
@@ -12,6 +13,7 @@ $locale_strings['zh']['homepage_title'] = "安全 &amp; 可持续的加密货币
 
 //dropdown menu (header)
 
+$locale_strings['en-GB']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['en']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['fr']['dropdown_title_docs_and_press'] = "Documents";
 $locale_strings['es']['dropdown_title_docs_and_press'] = "Documentos";
@@ -20,6 +22,7 @@ $locale_strings['it']['dropdown_title_docs_and_press'] = "Documenti";
 $locale_strings['cat']['dropdown_title_docs_and_press'] = "Documents";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "文档";
 
+$locale_strings['en-GB']['dropdown_docs_news'] = "News and Events";
 $locale_strings['en']['dropdown_docs_news'] = "News and Events";
 $locale_strings['fr']['dropdown_docs_news'] = "Documents";
 $locale_strings['es']['dropdown_docs_news'] = "Noticias acerca de Peercoin";
@@ -28,6 +31,7 @@ $locale_strings['it']['dropdown_docs_news'] = "Notizie su Peercoin";
 $locale_strings['cat']['dropdown_docs_news'] = "Noticies sobre Peercoin";
 $locale_strings['zh']['dropdown_docs_news'] = "新闻和事件";
 
+$locale_strings['en-GB']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 $locale_strings['en']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 $locale_strings['fr']['dropdown_docs_and_press_whitepaper'] = "Livre Blanc Peercoin";
 $locale_strings['es']['dropdown_docs_and_press_whitepaper'] = "Libro Blanco Peercoin";
@@ -36,6 +40,7 @@ $locale_strings['it']['dropdown_docs_and_press_whitepaper'] = "Libro Bianco Peer
 $locale_strings['cat']['dropdown_docs_and_press_whitepaper'] = "Llibre Blanc Peercoin";
 $locale_strings['zh']['dropdown_docs_and_press_whitepaper'] = "点点币白皮书";
 
+$locale_strings['en-GB']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['en']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['fr']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['es']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
@@ -44,6 +49,7 @@ $locale_strings['it']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['cat']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['zh']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 
+$locale_strings['en-GB']['dropdown_docs_and_press_resources'] = "List of Resources";
 $locale_strings['en']['dropdown_docs_and_press_resources'] = "List of Resources";
 $locale_strings['fr']['dropdown_docs_and_press_resources'] = "Liste de Ressources";
 $locale_strings['es']['dropdown_docs_and_press_resources'] = "Lista de Recursos";
@@ -52,6 +58,7 @@ $locale_strings['it']['dropdown_docs_and_press_resources'] = "Elenco delle Risor
 $locale_strings['cat']['dropdown_docs_and_press_resources'] = "Llista de Recursos";
 $locale_strings['zh']['dropdown_docs_and_press_resources'] = "资源列表";
 
+$locale_strings['en-GB']['dropdown_docs_and_press_kit'] = "Press Kit";
 $locale_strings['en']['dropdown_docs_and_press_kit'] = "Press Kit";
 $locale_strings['fr']['dropdown_docs_and_press_kit'] = "Kit Presse";
 $locale_strings['es']['dropdown_docs_and_press_kit'] = "Kit de prensa";
@@ -60,6 +67,7 @@ $locale_strings['it']['dropdown_docs_and_press_kit'] = "Corredo Pressa";
 $locale_strings['cat']['dropdown_docs_and_press_kit'] = "Kit de premsa";
 $locale_strings['zh']['dropdown_docs_and_press_kit'] = "新闻资料";
 
+$locale_strings['en-GB']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
 $locale_strings['en']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
 $locale_strings['fr']['dropdown_docs_and_press_articles_interviews'] = "Articles et Interviews";
 $locale_strings['es']['dropdown_docs_and_press_articles_interviews'] = "Artículos y entrevistas";
@@ -68,6 +76,7 @@ $locale_strings['it']['dropdown_docs_and_press_articles_interviews'] = "Articoli
 $locale_strings['cat']['dropdown_docs_and_press_articles_interviews'] = "Articles i entrevistes";
 $locale_strings['zh']['dropdown_docs_and_press_articles_interviews'] = "文章和访谈";
 
+$locale_strings['en-GB']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
 $locale_strings['en']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
 $locale_strings['fr']['dropdown_docs_and_press_sunny_king_interview'] = "Interviewer Sunny King";
 $locale_strings['es']['dropdown_docs_and_press_sunny_king_interview'] = "Entrevista a Sunny King";
@@ -76,6 +85,7 @@ $locale_strings['it']['dropdown_docs_and_press_sunny_king_interview'] = "Intervi
 $locale_strings['cat']['dropdown_docs_and_press_sunny_king_interview'] = "Entrevista a Sunny King";
 $locale_strings['zh']['dropdown_docs_and_press_sunny_king_interview'] = "Sunny King采访";
 
+$locale_strings['en-GB']['dropdown_title_use_peercoins'] = "Resources";
 $locale_strings['en']['dropdown_title_use_peercoins'] = "Resources";
 $locale_strings['fr']['dropdown_title_use_peercoins'] = "Utiliser des Peercoins";
 $locale_strings['es']['dropdown_title_use_peercoins'] = "Usa Peercoins";
@@ -84,6 +94,7 @@ $locale_strings['it']['dropdown_title_use_peercoins'] = "Utilizzare Peercoins";
 $locale_strings['cat']['dropdown_title_use_peercoins'] = "Utilitza Peercoins";
 $locale_strings['zh']['dropdown_title_use_peercoins'] = "使用点点币";
 
+$locale_strings['en-GB']['dropdown_title_peercoins'] = "Obtain Peercoins";
 $locale_strings['en']['dropdown_title_peercoins'] = "Get Peercoins";
 $locale_strings['fr']['dropdown_title_peercoins'] = "Obtenir des Peercoins";
 $locale_strings['es']['dropdown_title_peercoins'] = "Obtén Peercoins";
@@ -92,6 +103,7 @@ $locale_strings['it']['dropdown_title_peercoins'] = "Ottenere Peercoins";
 $locale_strings['cat']['dropdown_title_peercoins'] = "Obtindre Peercoins";
 $locale_strings['zh']['dropdown_title_peercoins'] = "获取点点币";
 
+$locale_strings['en-GB']['dropdown_peercoins_mine'] = "Mine Peercoins";
 $locale_strings['en']['dropdown_peercoins_mine'] = "Mine Peercoins";
 $locale_strings['fr']['dropdown_peercoins_mine'] = "Extraire des Peercoins";
 $locale_strings['es']['dropdown_peercoins_mine'] = "Mina Peercoins";
@@ -100,6 +112,7 @@ $locale_strings['it']['dropdown_peercoins_mine'] = "Miniera Peercoins";
 $locale_strings['cat']['dropdown_peercoins_mine'] = "Mina Peercoins";
 $locale_strings['zh']['dropdown_peercoins_mine'] = "点点币挖矿";
 
+$locale_strings['en-GB']['dropdown_peercoins_mint'] = "Mint Peercoins";
 $locale_strings['en']['dropdown_peercoins_mint'] = "Mint Peercoins";
 $locale_strings['fr']['dropdown_peercoins_mint'] = "Frapper des Peercoins";
 $locale_strings['es']['dropdown_peercoins_mint'] = "Acuña Peercoins";
@@ -301,6 +314,7 @@ $locale_strings['it']['fund_peercoin_accepting_donations'] = "Ora stiamo accetta
 $locale_strings['cat']['fund_peercoin_accepting_donations'] = " Aceptem donacions per al dessenvolupament de Peercoin i la plana web.";
 $locale_strings['zh']['fund_peercoin_accepting_donations'] = "我们现在接受捐赠用于点点币的开发和Web基金.";
 
+$locale_strings['en-GB']['fund_peercoin_donations_btc'] = "BTC Donations: ";
 $locale_strings['en']['fund_peercoin_donations_btc'] = "BTC Donations: ";
 $locale_strings['fr']['fund_peercoin_donations_btc'] = "Dons en BTC: ";
 $locale_strings['es']['fund_peercoin_donations_btc'] = "Donaciones con BTC: ";
@@ -309,6 +323,7 @@ $locale_strings['it']['fund_peercoin_donations_btc'] = "BTC Donazioni: ";
 $locale_strings['cat']['fund_peercoin_donations_btc'] = "Donacions amb BTC: ";
 $locale_strings['zh']['fund_peercoin_donations_btc'] = "BTC 捐赠: ";
 
+$locale_strings['en-GB']['fund_peercoin_donations_ppc'] = "PPC Donations: ";
 $locale_strings['en']['fund_peercoin_donations_ppc'] = "PPC Donations: ";
 $locale_strings['fr']['fund_peercoin_donations_ppc'] = "Dons en PPC: ";
 $locale_strings['es']['fund_peercoin_donations_ppc'] = "Donaciones con PPC: ";
@@ -317,6 +332,7 @@ $locale_strings['it']['fund_peercoin_donations_ppc'] = "PPC Donazioni: ";
 $locale_strings['cat']['fund_peercoin_donations_ppc'] = "Donacions amb PPC: ";
 $locale_strings['zh']['fund_peercoin_donations_ppc'] = "PPC 捐赠: ";
 
+$locale_strings['en-GB']['block_explorer'] = "Block Explorer";
 $locale_strings['en']['block_explorer'] = "Block Explorer";
 $locale_strings['fr']['block_explorer'] = "Explorateur de blocs";
 $locale_strings['es']['block_explorer'] = "Explorador de bloques";
@@ -325,6 +341,7 @@ $locale_strings['it']['block_explorer'] = "Esploratore di Blocco";
 $locale_strings['cat']['block_explorer'] = "Explorador de blocs";
 $locale_strings['zh']['block_explorer'] = "区块浏览";
 
+$locale_strings['en-GB']['faq_header'] = "Frequently <span>asked questions</span>";
 $locale_strings['en']['faq_header'] = "Frequently <span>asked questions</span>";
 $locale_strings['fr']['faq_header'] = "<span>Questions</span> fréquemment posées";
 $locale_strings['es']['faq_header'] = "<span>Preguntas</span> frecuentes";
@@ -333,6 +350,7 @@ $locale_strings['it']['faq_header'] = "<span>Domande fare</span> frequenti";
 $locale_strings['cat']['faq_header'] = "<span>Preguntes</span> freqüents";
 $locale_strings['zh']['faq_header'] = "常见 <span>问题</span>";
 
+$locale_strings['en-GB']['faq_q_title_innovation'] = "Tell me more about Original Innovation.";
 $locale_strings['en']['faq_q_title_innovation'] = "Tell me more about Original Innovation.";
 $locale_strings['fr']['faq_q_title_innovation'] = "Dites m'en plus à propos de l'Innovation originale.";
 $locale_strings['es']['faq_q_title_innovation'] = "Cuéntame más acerca de la Innovación Original.";
@@ -341,6 +359,9 @@ $locale_strings['it']['faq_q_title_innovation'] = "Per saperne di più Sull'inno
 $locale_strings['cat']['faq_q_title_innovation'] = "Explica'm més sobre l'Innovació Original.";
 $locale_strings['zh']['faq_q_title_innovation'] = "说说你们的创新之处.";
 
+$locale_strings['en-GB']['faq_q_desc_innovation'] = "<p>Peercoin's original and noteworthy innovation is the proof-of-stake/proof-of-work hybrid system.</p>
+						<p>Like other cryptocurrencies, initial coins can be mined through the more commonly used proof-of-work hashing process. However unlike other coins, as the hashing difficulty increases over time, users continue to be rewarded with coins generated by the additional proof-of-stake algorithm. Anyone holding 1% of the currency will be compensated with 1% of all proof-of-stake coin blocks.</p>
+						<p>In addition to increased security and improved energy efficiency, the hybrid proof-of-work/proof-of-stake algorithm combats the deflationary tendencies that cryptocurrencies can suffer because of their hard mintage caps.</p>";
 $locale_strings['en']['faq_q_desc_innovation'] = "<p>Peercoin's original and noteworthy innovation is the proof-of-stake/proof-of-work hybrid system.</p>
 						<p>Like other cryptocurrencies, initial coins can be mined through the more commonly used proof-of-work hashing process. However unlike other coins, as the hashing difficulty increases over time, users continue to be rewarded with coins generated by the additional proof-of-stake algorithm. Anyone holding 1% of the currency will be compensated with 1% of all proof-of-stake coin blocks.</p>
 						<p>In addition to increased security and improved energy efficiency, the hybrid proof-of-work/proof-of-stake algorithm combats the deflationary tendencies that cryptocurrencies can suffer because of their hard mintage caps.</p>";
@@ -368,6 +389,7 @@ $locale_strings['zh']['faq_q_desc_innovation'] = "
 						<p>就像其他加密货币, 刚开始，货币通过挖矿产生. 但是,随着挖矿难度的提高,持币者将可以随时间推移而获得利息.例如拥有1%货币的人将可以获得1%利息区块的货币.</p>
 						<p>并且，这还带来了更高的安全加密级别。任何的破解都会变得异常艰难.</p>";
 
+$locale_strings['en-GB']['faq_q_title_security'] = "Tell me more about Increased Security.";
 $locale_strings['en']['faq_q_title_security'] = "Tell me more about Increased Security.";
 $locale_strings['fr']['faq_q_title_security'] = "Dites m'en plus à propos de la Sécuritée accrue.";
 $locale_strings['es']['faq_q_title_security'] = "Cuéntame más acerca de la Seguridad Mejorada.";
@@ -376,6 +398,9 @@ $locale_strings['it']['faq_q_title_security'] = "Dimmi di più sulla sicurezza a
 $locale_strings['cat']['faq_q_title_security'] = "Explica'm més sobre la Seguretat Millorada.";
 $locale_strings['zh']['faq_q_title_security'] = "说说你们更强的安全性.";
 
+$locale_strings['en-GB']['faq_q_desc_security'] = "<p>Generating blocks through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the Selfish-Miner Cornell Flaw, \">50%\" attacks, and the block bloating that have been used to exploit other currencies.</p>
+						<p>The proof-of-stake portion of the algorithm stands at the heart of this security because it drastically raises the cost of an attack. Acquiring 51% of all existing coins requires more effort and resources than acquiring 51% of all mining power. Further, in a \">50%\" stake attack, the attacker's investment will be, by definition, at risk of great loss because the attacker will be holding a majority of the coins that they are attacking. This risk of loss reduces the incentive to attempt such an attack in the first place.</p>
+						<p>Peercoin also employs other advanced security features including enforcing transaction fees at protocol level to defend against block bloating attacks.</p>";
 $locale_strings['en']['faq_q_desc_security'] = "<p>Generating blocks through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the Selfish-Miner Cornell Flaw, \">50%\" attacks, and the block bloating that have been used to exploit other currencies.</p>
 						<p>The proof-of-stake portion of the algorithm stands at the heart of this security because it drastically raises the cost of an attack. Acquiring 51% of all existing coins requires more effort and resources than acquiring 51% of all mining power. Further, in a \">50%\" stake attack, the attacker's investment will be, by definition, at risk of great loss because the attacker will be holding a majority of the coins that they are attacking. This risk of loss reduces the incentive to attempt such an attack in the first place.</p>
 						<p>Peercoin also employs other advanced security features including enforcing transaction fees at protocol level to defend against block bloating attacks.</p>";
@@ -402,6 +427,7 @@ $locale_strings['zh']['faq_q_desc_security'] = "<p>使用权益证明和工作�
 						<p>权益证明算法作为安全加密的核心。它极大地加大了攻击的难度和代价.获得51%的货币远比51%的矿工难多了. 并且在\">50%\"攻击中黑客会有巨大的风险，因为，他有这种货币的绝大多数，他需要自己承担价值受损的风险</p>
 						<p>点点币同时强制了交易税来防止被不法之徒危害.</p>";
 
+$locale_strings['en-GB']['faq_q_title_efficiency'] = "Tell me more about Energy and Cost Efficiency.";
 $locale_strings['en']['faq_q_title_efficiency'] = "Tell me more about Energy and Cost Efficiency.";
 $locale_strings['fr']['faq_q_title_efficiency'] = "Dites m'en plus à propos de l'Efficacité en terme d'énergie et de coût.";
 $locale_strings['es']['faq_q_title_efficiency'] = "Cuéntame más acerca de la eficiencia energética.";
@@ -410,6 +436,8 @@ $locale_strings['it']['faq_q_title_efficiency'] = "Dimmi di più su energia ed e
 $locale_strings['cat']['faq_q_title_efficiency'] = "Explica'm més sobre l'eficiència energética.";
 $locale_strings['zh']['faq_q_title_efficiency'] = "说说你们的低能耗.";
 
+$locale_strings['en-GB']['faq_q_desc_efficiency'] = "<p>Generating proof-of-stake blocks requires far less energy than generating hardware-intensive proof-of-work hashes. This means that over time, the Peercoin network will consume less energy as proof-of-work blocks become less rewarding and blocks are generated instead by the proof-of-stake portion of the algorithm.</p>
+				        <p>Proof-of-stake also does away with the ~$1 billion 'tax' on the Bitcoin network through proof-of-work blocks. You can read more about that <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>here</a>.</p>";
 $locale_strings['en']['faq_q_desc_efficiency'] = "<p>Generating proof-of-stake blocks requires far less energy than generating hardware-intensive proof-of-work hashes. This means that over time, the Peercoin network will consume less energy as proof-of-work blocks become less rewarding and blocks are generated instead by the proof-of-stake portion of the algorithm.</p>
 				        <p>Proof-of-stake also does away with the ~$1 billion 'tax' on the Bitcoin network through proof-of-work blocks. You can read more about that <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>here</a>.</p>";
 $locale_strings['fr']['faq_q_desc_efficiency'] = "
@@ -431,6 +459,7 @@ $locale_strings['zh']['faq_q_desc_efficiency'] = "
 						<p>通过权益证明产生区块耗能少.在长远上，当挖矿效益低时，大部分的区块将会是证明型股权区块，这将是非常环保的.</p>
 				        <p>权益证明还可以防止出现比特币一样的十亿美元税金事件.你可以从<a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>这里</a>了解更多信息.</p>";
 
+$locale_strings['en-GB']['faq_q_title_myth1'] = "Myth #1 - Peercoin is just a clone of Bitcoin.";
 $locale_strings['en']['faq_q_title_myth1'] = "Myth #1 - Peercoin is just a clone of Bitcoin.";
 $locale_strings['fr']['faq_q_title_myth1'] = "Mythe #1 - Peercoin est juste un clone de Bitcoin.";
 $locale_strings['es']['faq_q_title_myth1'] = "Mito #1 - Peercoin es sólo un clon de Bitcoin.";
@@ -439,6 +468,12 @@ $locale_strings['it']['faq_q_title_myth1'] = "Mito #1 - Peercoin è solo un clon
 $locale_strings['cat']['faq_q_title_myth1'] = "Mite #1 - Peercoin és només un clon de Bitcoin.";
 $locale_strings['zh']['faq_q_title_myth1'] = "流言 #1 - 点点币只是比特币的一个克隆.";
 
+$locale_strings['en-GB']['faq_q_desc_myth1'] = "
+						<p>Peercoin is one of the truly unique coins that are not just a clone of the original Bitcoin code.
+				           Peercoin is the first coin to introduce a proof-of-stake/proof-of-work combination along with other energy efficient mechanisms. In fact, many altcoins are now integrating Peercoin's proof-of-stake into their codebase.
+				           <br/> <br/>
+						   Source: <a href='http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features'>http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
+						</p>";
 $locale_strings['en']['faq_q_desc_myth1'] = "
 						<p>Peercoin is one of the truly unique coins that are not just a clone of the original Bitcoin code.
 				           Peercoin is the first coin to introduce a proof-of-stake/proof-of-work combination along with other energy efficient mechanisms. In fact, many altcoins are now integrating Peercoin's proof-of-stake into their codebase.
@@ -479,6 +514,7 @@ $locale_strings['zh']['faq_q_desc_myth1'] = "
 						<p>点点币是一个独特而创新的货币绝不简简单单是比特币的一个克隆。点点币是第一个将权益证明应用到加密货币中的。事实上，很多货币都在学习点点币把权益证明代码加到他们的源码中。<br/> <br/>来源: <a href=\"http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features\">http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
 						</p>";
 
+$locale_strings['en-GB']['faq_q_title_myth2'] = "Myth #2 - Peercoin is a centralised coin because of checkpointing.";
 $locale_strings['en']['faq_q_title_myth2'] = "Myth #2 - Peercoin is a centralized coin because of checkpointing.";
 $locale_strings['fr']['faq_q_title_myth2'] = "Mythe #2 - Peercoin est une monnaie centralisée à cause des points de contrôle.";
 $locale_strings['es']['faq_q_title_myth2'] = "Mito #2 - Peercoin es una moneda centralizada debido a los puntos de control.";
@@ -487,6 +523,10 @@ $locale_strings['it']['faq_q_title_myth2'] = "Mito #2 - Peercoin è una moneta c
 $locale_strings['cat']['faq_q_title_myth2'] = "Mite #2 - Peercoin és una moneda centralitzada degut als punts de control.";
 $locale_strings['zh']['faq_q_title_myth2'] = "流言 #2 - 因为有检查点所以点点币不是分布式货币.";
 
+$locale_strings['en-GB']['faq_q_desc_myth2'] = "
+						<p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in its infancy. Sunny King explains:</p>
+						<p>&quot;The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resource required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days.&quot;</p>
+						<p>As Peercoin's network has grown substantially in the past year, checkpoints will be phased out in one of the next versions, probably in PPC 0.5.</p>";
 $locale_strings['en']['faq_q_desc_myth2'] = "
 						<p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in its infancy. Sunny King explains:</p>
 						<p>&quot;The risk of 51% denial-of-service attack on block chain is real, especially to a smaller network. In fact I wouldn’t exclude such a possibility to even bitcoin. Of course such an attack on bitcoin would likely not come from an individual due to the resource required. But it’s irresponsible to say that’s not possible. Just imagine what would happen if bitcoin stops processing transactions for a few days.&quot;</p>
@@ -516,6 +556,7 @@ $locale_strings['zh']['faq_q_desc_myth2'] = "
 						<p>&quot;区块链上51%拒绝服务攻击的风险是真实存在的，特别是对于一个小型网络来说。事实上我也不排除比特币也有这种可能性。当然限于资源需求，对比特币进行这种攻击不太可能来源于个人。但不能保证它不会发生。试想一下，如果比特币将停止处理交易数天会发生什么。&quot;</p>
 						<p>鉴于过去几年中点点币网络大幅增长，检查点将会在后续版本中移除，可能会是PPC 0.5.</p>";
 
+$locale_strings['en-GB']['faq_q_title_myth3'] = "Myth #3 - Peercoin is extremely inflationary in nature.";
 $locale_strings['en']['faq_q_title_myth3'] = "Myth #3 - Peercoin is extremely inflationary in nature.";
 $locale_strings['fr']['faq_q_title_myth3'] = "Mythe #3 - Peercoin est extrèmement inflationniste par nature.";
 $locale_strings['es']['faq_q_title_myth3'] = "Mito #3 - Peercoin tiene una naturaleza extremadamente inflacionara.";
@@ -524,6 +565,10 @@ $locale_strings['it']['faq_q_title_myth3'] = "Mito #3 - Peercoin è estremamente
 $locale_strings['cat']['faq_q_title_myth3'] = "Mite #3 - Peercoin té una naturalesa extremadament inflacionària.";
 $locale_strings['zh']['faq_q_title_myth3'] = "流言 #3 - 点点币在本质上是高通胀.";
 
+$locale_strings['en-GB']['faq_q_desc_myth3'] = "
+						<p>Nope. If Peercoin grows rapidly, stake minting may temporarily decrease as coin days are lost when trading. This would cause Peercoin to become deflationary. The flat nature of the transaction fees is intended to counter this by decreasing total transaction volume. Proponents of Peercoin argue that this will decrease deflation.</p>
+						<p>Furthermore, Bitcoin currently experiences <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>a ~10%</a> inflation per year as it approaches its total supply of 21 million. It is <b>hoped</b> that when the total supply is reached that the transactions fees will be enough to sustain a secure network.</p>
+						<p>To maintain a secure network in the future, Peercoin has a 1% a year inflation (proof-of-stake reward) to make sure there will be a secure network, no matter the transaction fees. As stated before this may become deflationary, as Bitcoin aims to be, during high volumes of transactions.</p>";
 $locale_strings['en']['faq_q_desc_myth3'] = "
 						<p>Nope. If Peercoin grows rapidly, stake minting may temporarily decrease as coin days are lost when trading. This would cause Peercoin to become deflationary. The flat nature of the transaction fees is intended to counter this by decreasing total transaction volume. Proponents of Peercoin argue that this will decrease deflation.</p>
 						<p>Furthermore, Bitcoin currently experiences <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>a ~10%</a> inflation per year as it approaches its total supply of 21 million. It is <b>hoped</b> that when the total supply is reached that the transactions fees will be enough to sustain a secure network.</p>
@@ -553,6 +598,7 @@ $locale_strings['zh']['faq_q_desc_myth3'] = "
 						<p>另外, Bitcoin面临着<a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>~10%</a>通胀每年，当它达到2100万总量时.当达到供应总量后才有足够的交易费用以维护一个安全的网络。</p>
 						<p>为了将来维护一个安全的网络，点点币有每年1%的通胀(权益证明的利息), 而不管交易费有多少。如前所述，在此之前可能会是通货紧缩，比特币的目标是支持高交易量。</p>";
 
+$locale_strings['en-GB']['convinced_you_header'] = "Convinced <b>you</b>?";
 $locale_strings['en']['convinced_you_header'] = "Convinced <b>you</b>?";
 $locale_strings['fr']['convinced_you_header'] = "<b>Convaincu</b>?";
 $locale_strings['es']['convinced_you_header'] = "¿<b>Convencido</b>?";
@@ -561,6 +607,7 @@ $locale_strings['it']['convinced_you_header'] = "Convinto <b>tu</b>?";
 $locale_strings['cat']['convinced_you_header'] = "¿<b>Convençut</b>?";
 $locale_strings['zh']['convinced_you_header'] = "已使<b>你</b>信服?";
 
+$locale_strings['en-GB']['convinced_you_desc'] = "Time to download the client, and try it yourself. If you have any questions just ask on the <a href='http://www.peercointalk.org/'>forum</a>, or the social links below.";
 $locale_strings['en']['convinced_you_desc'] = "Time to download the client, and try it yourself. If you have any questions just ask on the <a href='http://www.peercointalk.org/'>forum</a>, or the social links below.";
 $locale_strings['fr']['convinced_you_desc'] = "Il est temps de télécharger le client, et de l'essayer par vous-même. Si vous avez des questions, posez les sur le <a href='http://www.peercointalk.org/'>forum</a>, ou sur les réseaux sociaux ci-dessous.";
 $locale_strings['es']['convinced_you_desc'] = "Es hora de descargar el cliente y probarlo tú mismo. Si tienes alguna duda simplemente pregunta en el <a href='http://www.peercointalk.org/'>foro</a>, o los enlaces a redes sociales de más abajo.";
@@ -569,6 +616,7 @@ $locale_strings['it']['convinced_you_desc'] = "Tempo per scaricare il client e p
 $locale_strings['cat']['convinced_you_desc'] = "Es l'hora de descarregar el client i probar-ho tu mateix. Si tens algun dubte simplement pregunta al <a href='http://www.peercointalk.org/'>forum</a>, o als enllaços de xarxes socials de més avall.";
 $locale_strings['zh']['convinced_you_desc'] = "是时候下载钱包客户端，自己尝试一下了。有任何问题可以到<a href='http://www.peercointalk.org/'>论坛</a>交流, 或下面社交媒体获取信息。";
 
+$locale_strings['en-GB']['tutorials'] = "Tutorials";
 $locale_strings['en']['tutorials'] = "Tutorials";
 $locale_strings['fr']['tutorials'] = "Tutoriels";
 $locale_strings['es']['tutorials'] = "Tutoriales";
@@ -577,6 +625,7 @@ $locale_strings['it']['tutorials'] = "Lezione";
 $locale_strings['cat']['tutorials'] = "Tutorials";
 $locale_strings['zh']['tutorials'] = "新手指导";
 
+$locale_strings['en-GB']['installing_wallet'] = "Installing a Wallet";
 $locale_strings['en']['installing_wallet'] = "Installing a Wallet";
 $locale_strings['fr']['installing_wallet'] = "Installer le Portefeuille";
 $locale_strings['es']['installing_wallet'] = "Instalar monedero";
@@ -585,6 +634,7 @@ $locale_strings['it']['installing_wallet'] = "L'installazione di un Portafoglio"
 $locale_strings['cat']['installing_wallet'] = "Instal·lar moneder";
 $locale_strings['zh']['installing_wallet'] = "安装钱包";
 
+$locale_strings['en-GB']['setting_up_wallet'] = "Setting Up Wallet";
 $locale_strings['en']['setting_up_wallet'] = "Setting Up Wallet";
 $locale_strings['fr']['setting_up_wallet'] = "Configurer le Portefeuille";
 $locale_strings['es']['setting_up_wallet'] = "Configurar monedero";
@@ -593,6 +643,7 @@ $locale_strings['it']['setting_up_wallet'] = "Creazione di Portafogli";
 $locale_strings['cat']['setting_up_wallet'] = "Configurar moneder";
 $locale_strings['zh']['setting_up_wallet'] = "设置钱包";
 
+$locale_strings['en-GB']['more_ellipsis'] = "More...";
 $locale_strings['en']['more_ellipsis'] = "More...";
 $locale_strings['fr']['more_ellipsis'] = "Plus...";
 $locale_strings['es']['more_ellipsis'] = "Más...";
@@ -603,6 +654,7 @@ $locale_strings['zh']['more_ellipsis'] = "更多...";
 
 //footer
 
+$locale_strings['en-GB']['links'] = "Links";
 $locale_strings['en']['links'] = "Links";
 $locale_strings['fr']['links'] = "Liens";
 $locale_strings['es']['links'] = "Enlaces";
@@ -611,6 +663,7 @@ $locale_strings['it']['links'] = "Collegamente";
 $locale_strings['cat']['links'] = "Enllaços";
 $locale_strings['zh']['links'] = "链接";
 
+$locale_strings['en-GB']['tools'] = "Tools";
 $locale_strings['en']['tools'] = "Tools";
 $locale_strings['fr']['tools'] = "Outils";
 $locale_strings['es']['tools'] = "Herramientas";
@@ -619,6 +672,7 @@ $locale_strings['it']['tools'] = "Strumenti";
 $locale_strings['cat']['tools'] = "Eines";
 $locale_strings['zh']['tools'] = "工具";
 
+$locale_strings['en-GB']['exchanges'] = "Exchanges";
 $locale_strings['en']['exchanges'] = "Exchanges";
 $locale_strings['fr']['exchanges'] = "Échanges";
 $locale_strings['es']['exchanges'] = "Exchanges";
@@ -627,6 +681,7 @@ $locale_strings['it']['exchanges'] = "Scambi";
 $locale_strings['cat']['exchanges'] = "Exchanges";
 $locale_strings['zh']['exchanges'] = "交易";
 
+$locale_strings['en-GB']['mining'] = "Mining";
 $locale_strings['en']['mining'] = "Mining";
 $locale_strings['fr']['mining'] = "Extraction";
 $locale_strings['es']['mining'] = "Minado";
@@ -635,6 +690,7 @@ $locale_strings['it']['mining'] = "Minerario";
 $locale_strings['cat']['mining'] = "Minar";
 $locale_strings['zh']['mining'] = "挖矿";
 
+$locale_strings['en-GB']['languages'] = "Languages: ";
 $locale_strings['en']['languages'] = "Languages: ";
 $locale_strings['fr']['languages'] = "Langues: ";
 $locale_strings['es']['languages'] = "Idiomas: ";
@@ -645,6 +701,7 @@ $locale_strings['zh']['languages'] = "语言: ";
 
 //javascript
 
+$locale_strings['en-GB']['second_ago'] = "second ago";
 $locale_strings['en']['second_ago'] = "second ago";
 $locale_strings['fr']['second_ago'] = "seconde";
 $locale_strings['es']['second_ago'] = "segundo";
@@ -653,6 +710,7 @@ $locale_strings['it']['second_ago'] = "secondo fa";
 $locale_strings['cat']['second_ago'] = "segón";
 $locale_strings['zh']['second_ago'] = "秒前";
 
+$locale_strings['en-GB']['seconds_ago'] = "seconds ago";
 $locale_strings['en']['seconds_ago'] = "seconds ago";
 $locale_strings['fr']['seconds_ago'] = "secondes";
 $locale_strings['es']['seconds_ago'] = "segundos";
