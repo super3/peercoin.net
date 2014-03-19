@@ -1,6 +1,7 @@
 <?php
 
 $locale_languages = array(
+		'en-GB'	=>	'British English'
 		'en'	=>	'English',
 		'es'	=>	'Español',
 		'fr'	=>	'Français',
