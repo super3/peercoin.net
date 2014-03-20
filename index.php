@@ -3,29 +3,29 @@
   <!-- Headerwrap -->
 			<div class="row" style="max-width:100%; margin:0px;">
         <h1 style="margin-top:90px;">
-		          <?php echo $Locale->getText("big_welcome_header"); ?>
+		          <?= $Locale->getText("big_welcome_header"); ?>
 		        </h1>
-				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll"><?php echo $Locale->getText("why_peercoin_button"); ?></a>
-		        <a href="downloads" target="_blank" class="btn btn-embossed btn-primary"><?php echo $Locale->getText("download_wallet"); ?>!</a>
+				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll"><?= $Locale->getText("why_peercoin_button"); ?></a>
+		        <a href="downloads" target="_blank" class="btn btn-embossed btn-primary"><?= $Locale->getText("download_wallet"); ?>!</a>
 
 		        <div class="marketcap">
 			        <ul>
 				        <li>
 					        <span id="current-price"></span>
-				        	<span><?php echo $Locale->getText("price"); ?></span>
+				        	<span><?= $Locale->getText("price"); ?></span>
 				        </li>
 				        <li>
 					        <span id="market-cap"></span>
-					        <span><?php echo $Locale->getText("market_cap"); ?></span>
+					        <span><?= $Locale->getText("market_cap"); ?></span>
 				        </li>
 				        <li>
 					        <span id="total-supply"></span>
-					        <span><?php echo $Locale->getText("total_supply"); ?></span>
+					        <span><?= $Locale->getText("total_supply"); ?></span>
 				        </li>
 			        </ul>
 			        <div class="updated">
-				        <span><?php echo $Locale->getText("ticker_last_updated"); ?></span>
-	        	        <span id="seconds-since-update"><?php echo $Locale->getText("ticker_last_updated_never"); ?></span>
+				        <span><?= $Locale->getText("ticker_last_updated"); ?></span>
+	        	        <span id="seconds-since-update"><?= $Locale->getText("ticker_last_updated_never"); ?></span>
 			        </div>
 		        </div>
 
@@ -36,8 +36,8 @@
     <!-- Call To Action -->
 	<div id="cta" name="cta">
 		<div class="container centered">
-			<h2 class="col-lg-4"><?php echo $Locale->getText("why_peercoin_title"); ?></h2>
-			<p class="col-lg-8"><?php echo $Locale->getText("why_peercoin_desc"); ?></p>
+			<h2 class="col-lg-4"><?= $Locale->getText("why_peercoin_title"); ?></h2>
+			<p class="col-lg-8"><?= $Locale->getText("why_peercoin_desc"); ?></p>
 			<br>
 
 		</div><!-- /container -->
@@ -50,20 +50,20 @@
 
 			<div class="col-lg-4">
 				<img src="/assets/img/icons/rocket.svg" alt="Original Innovation">
-				<h4><?php echo $Locale->getText("why_peercoin_header_innovation"); ?></h4>
-				<p><?php echo $Locale->getText("why_peercoin_desc_innovation"); ?></p>
+				<h4><?= $Locale->getText("why_peercoin_header_innovation"); ?></h4>
+				<p><?= $Locale->getText("why_peercoin_desc_innovation"); ?></p>
 			</div><!-- col-lg-4 -->
 
 			<div class="col-lg-4">
 				<img src="/assets/img/icons/key.svg" alt="Increased Security">
-				<h4><?php echo $Locale->getText("why_peercoin_header_security"); ?></h4>
-				<p><?php echo $Locale->getText("why_peercoin_desc_security"); ?></p>
+				<h4><?= $Locale->getText("why_peercoin_header_security"); ?></h4>
+				<p><?= $Locale->getText("why_peercoin_desc_security"); ?></p>
 			</div><!-- col-lg-4 -->
 
 			<div class="col-lg-4">
 				<img src="/assets/img/icons/earth.svg" alt="Energy and Cost Efficiency">
-				<h4><?php echo $Locale->getText("why_peercoin_header_efficiency"); ?></h4>
-				<p><?php echo $Locale->getText("why_peercoin_desc_efficiency"); ?></p>
+				<h4><?= $Locale->getText("why_peercoin_header_efficiency"); ?></h4>
+				<p><?= $Locale->getText("why_peercoin_desc_efficiency"); ?></p>
 			</div><!-- col-lg-4 -->
 
 		</div><!-- /row -->
@@ -86,13 +86,13 @@
 		   <!-- Call To Action -->
 	<div id="cta" name="cta">
 		<div class="container centered">
-			<h2 class="col-lg-4"><?php echo $Locale->getText("fund_peercoin"); ?></h2>
+			<h2 class="col-lg-4"><?= $Locale->getText("fund_peercoin"); ?></h2>
 			<p class="col-lg-8">
-				<?php echo $Locale->getText("fund_peercoin_accepting_donations"); ?><br/>
-				<?php echo $Locale->getText("fund_peercoin_donations_btc"); ?> 1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i - 
-				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i"><?php echo $Locale->getText("block_explorer"); ?></a><br/>
-				<?php echo $Locale->getText("fund_peercoin_donations_ppc"); ?> P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN - 
-				<a href="http://ppc.blockr.io/address/info/P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN"><?php echo $Locale->getText("block_explorer"); ?></a>
+				<?= $Locale->getText("fund_peercoin_accepting_donations"); ?><br/>
+				<?= $Locale->getText("fund_peercoin_donations_btc"); ?> 1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i - 
+				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i"><?= $Locale->getText("block_explorer"); ?></a><br/>
+				<?= $Locale->getText("fund_peercoin_donations_ppc"); ?> P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN - 
+				<a href="http://ppc.blockr.io/address/info/P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN"><?= $Locale->getText("block_explorer"); ?></a>
 			</p>
 			<br/>
 		</div><!-- /container -->
@@ -101,7 +101,7 @@
 
 
 <div class="faq container">
-		<h2 class="centered"><?php echo $Locale->getText("faq_header"); ?></h2>
+		<h2 class="centered"><?= $Locale->getText("faq_header"); ?></h2>
 		<div class="row">
 			<div class="col-lg-8">
 				<div class="panel-group" id="accordion">
@@ -109,13 +109,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_innovation"); ?>
+				          <span class="fui-plus"></span> <?= $Locale->getText("faq_q_title_innovation"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseOne" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <?php echo $Locale->getText("faq_q_desc_innovation"); ?>
+				        <?= $Locale->getText("faq_q_desc_innovation"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -123,13 +123,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_security"); ?>
+				          <span class="fui-plus"></span> <?= $Locale->getText("faq_q_title_security"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseTwo" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <?php echo $Locale->getText("faq_q_desc_security"); ?>
+				        <?= $Locale->getText("faq_q_desc_security"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -137,13 +137,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_efficiency"); ?>
+				          <span class="fui-plus"></span> <?= $Locale->getText("faq_q_title_efficiency"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseThree" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <?php echo $Locale->getText("faq_q_desc_efficiency"); ?>
+				        <?= $Locale->getText("faq_q_desc_efficiency"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -151,13 +151,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_myth1"); ?>
+				          <span class="fui-plus"></span> <?= $Locale->getText("faq_q_title_myth1"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseFour" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <?php echo $Locale->getText("faq_q_desc_myth1"); ?>
+				        <?= $Locale->getText("faq_q_desc_myth1"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -165,13 +165,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_myth2"); ?>
+				          <span class="fui-plus"></span> <?= $Locale->getText("faq_q_title_myth2"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseFive" class="panel-collapse collapse">
 				      <div class="panel-body">
-				        <?php echo $Locale->getText("faq_q_desc_myth2"); ?>
+				        <?= $Locale->getText("faq_q_desc_myth2"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -179,13 +179,13 @@
 				    <div class="panel-heading">
 				      <h4 class="panel-title">
 				        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-				          <span class="fui-plus"></span> <?php echo $Locale->getText("faq_q_title_myth3"); ?>
+				          <span class="fui-plus"></span> <?= $Locale->getText("faq_q_title_myth3"); ?>
 				        </a>
 				      </h4>
 				    </div>
 				    <div id="collapseSix" class="panel-collapse collapse" >
 				      <div class="panel-body" >
-				        <?php echo $Locale->getText("faq_q_desc_myth3"); ?>
+				        <?= $Locale->getText("faq_q_desc_myth3"); ?>
 				      </div>
 				    </div>
 				  </div>
@@ -195,9 +195,9 @@
 
 			<div class="col-lg-4 centered">
 				<div class="alert alert-success">
-				<h4><?php echo $Locale->getText("convinced_you_header"); ?></h4>
-			    	<p><?php echo $Locale->getText("convinced_you_desc"); ?></p>
-			        <a href="downloads" class="btn btn-primary btn-large"><i class="fui-link"></i> <?php echo $Locale->getText("download_wallet"); ?>!</a>
+				<h4><?= $Locale->getText("convinced_you_header"); ?></h4>
+			    	<p><?= $Locale->getText("convinced_you_desc"); ?></p>
+			        <a href="downloads" class="btn btn-primary btn-large"><i class="fui-link"></i> <?= $Locale->getText("download_wallet"); ?>!</a>
 			        <div class="social">
 			<a href="https://www.facebook.com/Peercoin"><img src="/assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
 			<a href="http://www.reddit.com/r/peercoin"><img src="/assets/img/icons/social-reddit.png" alt="Reddit"></a>
@@ -215,7 +215,7 @@
 	<!-- Portfolio Section -->
 	<div class="container">
 	<div class="row centered">
-		<h2><?php echo $Locale->getText("tutorials"); ?></h2>
+		<h2><?= $Locale->getText("tutorials"); ?></h2>
 		<div class="ch-grid">
 			<div class="col-lg-4">
 				<ul>
@@ -223,11 +223,11 @@
 						<div class="ch-item ch-img-1">
 							<a href="downloads">
 								<div class="ch-info">
-									<h3><?php echo $Locale->getText("installing_wallet"); ?></h3>
+									<h3><?= $Locale->getText("installing_wallet"); ?></h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads"><?php echo $Locale->getText("installing_wallet"); ?></a></h4>
+						<h4><a href="downloads"><?= $Locale->getText("installing_wallet"); ?></a></h4>
 					</li>
 				</ul>
 			</div><!-- /col-lg-4 -->
@@ -238,11 +238,11 @@
 						<div class="ch-item ch-img-2">
 							<a href="downloads#config">
 								<div class="ch-info">
-									<h3><?php echo $Locale->getText("setting_up_wallet"); ?></h3>
+									<h3><?= $Locale->getText("setting_up_wallet"); ?></h3>
 								</div>
 							</a>
 						</div><!-- /ch-img-1 -->
-						<h4><a href="downloads#config"><?php echo $Locale->getText("setting_up_wallet"); ?></a></h4>
+						<h4><a href="downloads#config"><?= $Locale->getText("setting_up_wallet"); ?></a></h4>
 					</li>
 				</ul>
 			</div><!-- /col-lg-4 -->
@@ -253,11 +253,11 @@
 					<div class="ch-item ch-img-3">
 						<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
 							<div class="ch-info">
-								<h3><?php echo $Locale->getText("more_ellipsis"); ?></h3>
+								<h3><?= $Locale->getText("more_ellipsis"); ?></h3>
 							</div>
 						</a>
 					</div><!-- /ch-img-1 -->
-					<h4><a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><?php echo $Locale->getText("more_ellipsis"); ?></a></h4>
+					<h4><a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><?= $Locale->getText("more_ellipsis"); ?></a></h4>
 				</li>
 			</ul>
 		</div><!-- /col-lg-4 -->
