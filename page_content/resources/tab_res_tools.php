@@ -12,6 +12,15 @@
               <a href="http://ppc.cryptocoinexplorer.com/">CryptoCoinExplorer</a> -  Blockchain Explorer: View transactions by PPC address
             </li>
             <li>
+            <a href="http://ppc.blockr.io/">Peercoin block explorer | blockr.io</a> -  Peercoin blocks, addresses and transactions
+            </li>
+            <li>
+            <a href="http://bkchain.org/ppc/">Peercoin Block Explorer</a> -  Blockchain Explorer: View blocks, addresses and transactions
+            </li>
+            <li>
+            <a href="http://peerchain.net/">peerchain.net</a> -  The Peercoin Blockchain
+            </li>
+            <li>
               <a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">BitInfoCharts Hashrate Comparison</a> -  Peercoin Network Statistics
             </li>
             <li>
