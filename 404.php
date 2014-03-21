@@ -5,7 +5,7 @@
         <h1 style="margin-top:90px;">
 		          <?php echo $Locale->getText("big_404"); ?>
 		        </h1>
-				<a href="#cta" class="btn btn-embossed btn-primary smoothScroll"><?php echo $Locale->getText("why_peercoin_button"); ?></a>
+				<a href="/#whypeercoin" class="btn btn-embossed btn-primary smoothScroll"><?php echo $Locale->getText("why_peercoin_button"); ?></a>
 		        <a href="downloads" target="_blank" class="btn btn-embossed btn-primary"><?php echo $Locale->getText("download_wallet"); ?>!</a>
 
 		        <div class="marketcap">

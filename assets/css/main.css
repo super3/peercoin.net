@@ -502,25 +502,25 @@ a:hover {
 
 /* 2.4 Call To Action */
 
-#cta {
+.cta {
 	background-color: #2b3135;
 	padding-top: 35px;
 	padding-bottom: 35px;
 
 }
 
-#cta h2 {
+.cta h2 {
 	color: #ffffff;
 	font-weight: 100;
 	padding-top: 15px;
 	font-size: 38px;
 }
 
-#cta h2 span {
+.cta h2 span {
 	font-weight: 500;
 }
 
-#cta p {
+.cta p {
 	font-weight: 300;
 	color: #c5c5c5;
 	text-align: left;
@@ -1079,12 +1079,12 @@ margin-top:0px;
 	}
 
 	@media only screen and (max-width: 1200px) {
-		#cta,
-		#cta p {
+		.cta,
+		.cta p {
 			text-align: center;
 		}
 
-		#cta h2 {
+		.cta h2 {
 			margin-bottom: 20px;
 		}
 	}
