@@ -16,7 +16,9 @@
 					<h2><?php echo $Locale->getText("tools"); ?></h2>
 					<ul>
 						<li><a href="http://wallet.peercointalk.org/">Wallet Generator (Beta!)</a></li>
-						<li><a href="http://ppc.blockr.io/">Block Explorer</a></li>
+						<li><a href="http://bkchain.org/ppc">Block Explorer (1)</a></li>
+						<li><a href="http://ppc.blockr.io/">Block Explorer (2)</a></li>
+						<li><a href="https://bkchain.org/ppc/wallet">Web Wallets</a></li>
 						<li><a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">Network Statistics</a></li>
 						<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator/">Mining Calculator</a></li>
 					</ul>
