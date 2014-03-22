@@ -1,7 +1,7 @@
 ﻿<?php include ('header.php'); ?>
     <div class="row">
         <div class="col-lg-12">
-            <h1>Peercoin-Qt Downloads</h1>
+            <h1><?php echo $Locale->getText("Peercoin-Qt Downloads"); ?></h1>
         </div>
 
         <div class="col-lg-12 downloads">
@@ -29,7 +29,7 @@
                 </li>
                 <li class="col-lg-3">
                     <div class="inner">
-                        <h2>Source Code</h2>
+                        <h2><?php echo $Locale->getText("Source Code"); ?></h2>
                         <a href="https://github.com/ppcoin/ppcoin">Go to Github</a>
                     </div>
                 </li>
@@ -45,7 +45,7 @@
                         <h4 class="panel-title"><a class=
                         "accordion-toggle collapsed" data-parent="#accordion"
                         data-toggle="collapse" href=
-                        "#collapseSignatures"><span class="fui-plus"></span> Signatures</a></h4>
+                        "#collapseSignatures"><span class="fui-plus"></span><?php echo $Locale->getText("Signatures"); ?></a></h4>
                     </div>
 
                     <div class="panel-collapse collapse" id="collapseSignatures">
@@ -77,7 +77,7 @@
                         <h4 class="panel-title"><a class=
                         "accordion-toggle collapsed" data-parent="#accordion"
                         data-toggle="collapse" href=
-                        "#collapseLicense"><span class="fui-plus"></span> License</a></h4>
+                        "#collapseLicense"><span class="fui-plus"></span><?php echo $Locale->getText("License"); ?></a></h4>
                     </div>
 
                     <div class="panel-collapse collapse" id="collapseLicense">
@@ -122,7 +122,7 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="maintitle">Installation Instructions</h2>
+            <h2 class="maintitle"><?php echo $Locale->getText("Installation Instructions"); ?></h2>
 
             <div class="item">
                 <div class="markdown-body">
@@ -130,15 +130,14 @@
                         <h3>Windows</h3>
 
                         <ul>
-                            <li>Install
+                            <li><?php echo $Locale->getText("Install"); ?>
                             <code>ppcoin-0.3.0-win32-setup.exe</code> (<a href=
                             "http://cryptocurrencynews.wordpress.com/2013/04/19/getting-started-with-ppcoin/">guide</a>)</li>
 
-                            <li>Default installation directory is
+                            <li><?php echo $Locale->getText("Default installation directory is"); ?>
                             <code>C:\Program Files\PPCoin</code></li>
 
-                            <li>Run <code>ppcoin-qt</code> from the Start menu
-                            or the installation directory</li>
+                            <li><?php echo $Locale->getText("Run ppcoin-qt from the Start menu"); ?></li>
                         </ul>
 
                         <h4>Daemon</h4>
@@ -151,7 +150,7 @@
                             <li>Run <code>daemon\ppcoind</code></li>
                         </ul>
 
-                        <p>Your wallet is located in
+                        <p><?php echo $Locale->getText("Your wallet is located in"); ?>
                         <code>C:\Users\&lt;username&gt;\AppData</code>
                         <em>(hidden folder)</em>. Open the folder with
                         <code>Start menu -&gt; Run...</code> (or press
@@ -187,11 +186,9 @@
                             <li>Run <code>ppcoind</code></li>
                         </ul>
 
-                        <p>Your wallet is located in
-                        <code>~/Library/Application Support/PPCoin</code>. To
-                        open the folder, press <code>Command-Shift-G</code> in
-                        Finder, insert the path, and press
-                        <code>Enter</code>.</p>
+                        <p><?php echo $Locale->getText("Your wallet is located in"); ?>
+                        <code>~/Library/Application Support/PPCoin</code>. 
+                        <?php echo $Locale->getText("osx Daemon Note"); ?></p>
                     </div>
 
                     <div class="item">
@@ -215,29 +212,23 @@
                             <li>Run <code>bin/32/ppcoind</code></li>
                         </ul>
 
-                        <p>Your wallet is located in
+                        <p><?php echo $Locale->getText("Your wallet is located in"); ?>
                         <code>~/.ppcoin</code>.</p>
 
-                        <p><em>Note: 64 bit binaries available in
+                        <p><em><?php echo $Locale->getText("Note: 64 bit binaries available in"); ?>
                         <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>
                     </div>
 
                     <div class="item">
-                        <h2 id="config">Configuration</h2>
+                        <h2 id="config"><?php echo $Locale->getText("Configuration"); ?></h2>
 
-                        <p><em>Note: Optional if you only use
-                        PPCoin-Qt.</em></p>
+                        <p><em><?php echo $Locale->getText("Optional if you only use"); ?></em></p>
 
-                        <p>Create <code><a class="internal present" href=
-                        "#ppconf">ppcoin.conf</a></code> in the wallet
-                        directory.</p>
+                        <?php echo $Locale->getText("Configuration Create pcoin.conf"); ?>
                     </div>
 
                     <div class="item">
-                        <h3>Enable RPC query capabilities with PPCoin-Qt</h3>
-
-                        <p>Change or add <code>server=1</code> to
-                        <code>ppcoin.conf</code>.</p>
+                        <?php echo $Locale->getText("Configuration Enable RPC"); ?>
                     </div>
 
                     <div class="item">
@@ -362,17 +353,7 @@
 </code>
 </pre>
                     </div>
-
-                    <h2>Mining</h2>
-
-                    <p>You should be able to use most <a href=
-                    "https://en.bitcoin.it/wiki/Category:Miners">Bitcoin
-                    miners</a>. Default RPC port is 9902 for
-                    <code>ppcoind</code>.</p>
-
-                    <p><em>Note: Peercoin does not support <a href=
-                    "http://dot-bit.org/Merged_Mining">merged mining</a> with
-                    Bitcoin.</em></p>
+                    <?php echo $Locale->getText("Mining"); ?>
                 </div>
             </div>
         </div><!-- end col -->

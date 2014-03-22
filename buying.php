@@ -1,15 +1,12 @@
 <?php include ('header.php'); ?>
 		<div class="row">
 			<div class="col-lg-12">
-				<h1>Buying Peercoins</h1>
+				<h1><?php echo $Locale->getText("Buying Peercoins"); ?></h1>
 				<div class="item">
 					<div>
-						<p>Peercoins are traded on various virtual currency exchanges. The most common exchange method is to 
-						exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a 
-						href="https://coinbase.com" target="_blank">coinbase</a> or <a href="https://www.bitstamp.net/" target="_blank">bitstamp</a>.
-					 	Once you have your bitcoins you can send them to an exchange and proceed to exchange your bitcoins into Peercoin.</p>
+						<p><?php echo $Locale->getText("Buying Peercoins des"); ?></p>
 
-						<h2>List of available exchanges</h2>
+						<h2><?php echo $Locale->getText("List of available exchanges"); ?></h2>
 						<ul>
 							<li><a href="https://btc-e.com/exchange/ppc_btc/">BTC-E</a></li>
 							<li><a href="https://www.vaultofsatoshi.com/">Vault of Satoshi</a></li>
@@ -22,17 +19,11 @@
 							<li><a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a></li>
 							<li><a href="https://www.coins-e.com/exchange/PPC_BTC/">Coins-e</a></li>
 							<li><a href="https://796.com/ppcusd/market">796</a></li>			
-							<li>many more...</li>
+							<li><?php echo $Locale->getText("List of available exchanges many more"); ?></li>
 						</ul>
 
-						<h2>Disclaimer:</h2>
-						<p>
-							This website is not an offer or solicitation for investment 
-							advisory services, brokerage or banking services, or other products or services, especially regarding financial 
-							services or derivatives trading.  Any views expressed are provided strictly for informational purposes and 
-							represent only opinions of this website and should not be construed or interpreted in any way as advice or an 
-							offer, an endorsement, testimony, or inducement to invest or trade.
-						</p>
+						<h2><?php echo $Locale->getText("buying Disclaimer"); ?></h2>
+						<p><?php echo $Locale->getText("buying Disclaimer content"); ?></p>
 					</div>
 				</div>
 			</div>
