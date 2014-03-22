@@ -40,19 +40,19 @@
             <?php include ('page_content/resources/tab_res_getting_started.php'); ?>
             <a href ="./page/start" target="_blank"> view tab as page</a>
           </div>
-          <div class="tab-pane active fade" id="tools">
+          <div class="tab-pane fade" id="tools">
             <?php include ('page_content/resources/tab_res_tools.php'); ?>
             <a href ="./page/tools" target="_blank"> view tab as page</a>
           </div>
-          <div class="tab-pane active fade" id="mine">
+          <div class="tab-pane fade" id="mine">
             <?php include ('page_content/resources/tab_res_mine.php'); ?>
             <a href ="./page/mine" target="_blank"> view tab as page</a>
           </div>
-          <div class="tab-pane active fade" id="exchange">
+          <div class="tab-pane fade" id="exchange">
             <?php include ('page_content/resources/tab_res_exchange.php'); ?>
             <a href ="./page/exchange" target="_blank"> view tab as page</a>
           </div>
-          <div class="tab-pane active fade" id="shop">
+          <div class="tab-pane fade" id="shop">
             <?php include ('page_content/resources/tab_res_shop.php'); ?>
             <a href ="./page/shop" target="_blank"> view tab as page</a>
           </div>
