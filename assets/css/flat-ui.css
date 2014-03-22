@@ -4257,6 +4257,9 @@ a.list-group-item.active > .badge,
   border-bottom-color: #ffffff;
   border-width: 2px;
   color: #7f8c9a;
+    background-color: #1abc9c;
+  color:#ffffff;
+
 }
 .nav-tabs > li.active .dropdown-toggle,
 .nav-tabs > li.active .dropdown-toggle:hover,
