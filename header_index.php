@@ -20,21 +20,21 @@
 	<meta property="og:title" content="Peercoin" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://peercoin.net" />
-	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png"/>
+	<meta property="og:image" content="http://www.peercoin.net/assets/img/logos/logo.png"/>
 	<meta property="og:description" content="Secure and sustainable cryptocoin." />
 
 	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
  	<!-- Bootstrap core CSS -->
- 	<link href="assets/css/bootstrap.css" rel="stylesheet">
- 	<link href="assets/css/flat-ui.css" rel="stylesheet">
+ 	<link href="http://www.peercoin.net/assets/css/bootstrap.css" rel="stylesheet">
+ 	<link href="http://www.peercoin.net/assets/css/flat-ui.css" rel="stylesheet">
 
  	<!-- Custom styles for this template -->
- 	<link href="assets/css/main.css" rel="stylesheet">
+ 	<link href="http://www.peercoin.net/assets/css/main.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="assets/css/revolution.css" media="screen"/>
-	<link rel="stylesheet" href="assets/css/media-slideshow.css" media="screen"/>
+	<link rel="stylesheet" href="http://www.peercoin.net/assets/css/revolution.css" media="screen"/>
+	<link rel="stylesheet" href="http://www.peercoin.net/assets/css/media-slideshow.css" media="screen"/>
 
     	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     	<!--[if lt IE 9]>
@@ -42,7 +42,7 @@
       	<script src="assets/js/respond.min.js"></script>
     	<![endif]-->
 
-	<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
+	<script type="text/javascript" src="http://www.peercoin.net/assets/js/modernizr.custom.79639.js"></script>
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -76,7 +76,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_docs_and_press"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="whitepaper"><?php echo $Locale->getText("dropdown_docs_and_press_whitepaper"); ?></a></li>
-                <li><a href="http://peercoin.net/news"><?php echo $Locale->getText("dropdown_docs_news"); ?></a></li> 
+                <li><a href="news"><?php echo $Locale->getText("dropdown_docs_news"); ?></a></li> 
                 <li><a href="http://www.peercointalk.org/index.php?topic=1616.0"><?php echo $Locale->getText("dropdown_docs_and_press_kit"); ?></a></li>
                 <li><a href="http://www.peercointalk.org/index.php?topic=2219.0"><?php echo $Locale->getText("dropdown_docs_and_press_articles_interviews"); ?></a></li>
                 <?php
@@ -88,7 +88,7 @@
                 <?php } ?>
               </ul>
             </li>
-            <li><a href="http://peercoin.net/resources"><?php echo $Locale->getText("dropdown_title_use_peercoins"); ?></a></li>
+            <li><a href="resources"><?php echo $Locale->getText("dropdown_title_use_peercoins"); ?></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_peercoins"); ?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
