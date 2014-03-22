@@ -67,13 +67,13 @@
     </div>
   </div><div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
     <div class="article_container">
-      <a href="http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/]http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/" target="_blank">
+      <a href="http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/" target="_blank">
         <div class="article_image" style="background-image:url('http://btcmag.9wizards.netdna-cdn.com/wp-content/uploads/2013/08/ppcoin.png')"></div>
       </a>
       <div class ="article_summary">
         <div style="color:white;background-color:#1ABC9C;text-align:center; font-weight:bold;margin:0px; padding:0px;">
-          <a style="color:white;" href="http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/]http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/" target="_blank">What Proof of Stake Is And Why It Matters</a>
-        </div>If you have been involved in Bitcoin for any significant length of time, you have probably at least heard of the idea of "proof of work." The basic concept behind proof of work is simple: one party (usually called the prover) presents the result of a computation which is known to be hard to compute, but easy to verify, and by verifying the solution anyone else can be sure that the prover performed a certain amount of computational work to generate the result. The first modern application, presented as "Hashcash"Â by Adam Back in 1996, uses a SHA256-based proof of work as an anti-spam measure by requiring all emails to come with a strong proof-of-work attached, the system makes
+          <a style="color:white;" href="http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/" target="_blank">What Proof of Stake Is And Why It Matters</a>
+        </div>If you have been involved in Bitcoin for any significant length of time, you have probably at least heard of the idea of "proof of work." The basic concept behind proof of work is simple: one party (usually called the prover) presents the result of a computation which is known to be hard to compute, but easy to verify, and by verifying the solution anyone else can be sure that the prover performed a certain amount of computational work to generate the result. The first modern application, presented as "Hashcash" by Adam Back in 1996, uses a SHA256-based proof of work as an anti-spam measure by requiring all emails to come with a strong proof-of-work attached.
       </div>
     </div>
   </div>

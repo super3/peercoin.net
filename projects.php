@@ -13,7 +13,7 @@
 			<br>
 			
 			<div class="col-lg-10 col-lg-offset-1">
-				<img class="img-responsive" src="assets/images/portfolio01.jpg" alt="">
+				<img class="img-responsive" src="/images/portfolio01.jpg" alt="">
 			</div><!-- col-lg-10 -->
 		</div><!-- row -->
 	</div><!-- container -->
@@ -31,7 +31,7 @@
 		
 			<div class="col-lg-3">
 				<p>
-					This page will also help new, and uneduated cryptoc
+					This page will also help new and uneduated cryptocurrency users.
 				</p>
 			</div>
 			
@@ -39,7 +39,7 @@
 				<h6>Warren Design</h6>
 				<p>
 					Date: Oct 20, 2013 <br/>
-					Work: Web Design & Development <br/>
+					Work: Web Design &amp; Development <br/>
 					Leader: Brad Frost<br/><br/>
 					<button class="btn btn-primary">Visit Site</button>
 					

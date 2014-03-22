@@ -50,21 +50,21 @@
 						<p>
 							<strong>·</strong> Go to the pool website: <a href="https://peercoin.ecoining.com">https://peercoin.ecoining.com</a> and sign up [1]. A valid email address is not required, but it is recommended if you wish to receive worker and pool notifications or reset your password in the future. You should also enter a 4 number PIN that will be required to change your payout address and for manual payouts. Don't forget to read and accept the Terms and Conditions [2].
 						</p>
-						<a href="assets/img/mining7.png" target="_blank"><img src="assets/img/mining7.png" alt="Mining" /></a>
+						<a href="/assets/img/mining/mining7.png" target="_blank"><img src="/assets/img/mining/mining7.png" alt="Mining" /></a>
 					</div>
                                         
 					<div class="item">
 						<p>
                                         		<strong>·</strong> Log in and setup your workers clicking the "My Workers" section [1]. Add a different worker for every machine you mine with. Here you can activate the worker monitoring, which will notify you if your workers stop mining [2].
                                         	</p>
-						<a href="assets/img/mining8.png" target="_blank"><img src="assets/img/mining8.png" alt="Mining" /></a>
+						<a href="/assets/img/mining/mining8.png" target="_blank"><img src="/assets/img/mining/mining8.png" alt="Mining" /></a>
 					</div>
                                         
 					<div class="item">
 						<p>
                                                 	<strong>·</strong> Click on "Edit Account" [1] and set up your wallet address [2]. Here you can also set up your payout threshold, which determines the account balance required for an automatic payout to your personal address. You can also add a donation percentage to help with the pool's operational costs. Keep in mind that you will need to enter the 4 digit PIN [3] every time you want to change these settings.
                                         	</p>
-						<a href="assets/img/mining9.png" target="_blank"><img src="assets/img/mining9.png" alt="Mining" /></a>
+						<a href="/assets/img/mining/mining9.png" target="_blank"><img src="/assets/img/mining/mining9.png" alt="Mining" /></a>
 					</div>
 					
 					<div class="item">
@@ -85,28 +85,28 @@
 						<p>
 							Go over to the pool website: <a href="https://ppcoin.d7.lt">https://ppcoin.d7.lt</a> and sign up
 						</p>
-						<a href="assets/img/mining1.png" target="_blank"><img src="assets/img/mining1.png" alt="Mining" /></a>
+						<a href="/assets/img/mining/mining1.png" target="_blank"><img src="/assets/img/mining/mining1.png" alt="Mining" /></a>
 					</div>
 	
 					<div class="item">
 						<p>
 							Set up your wallet address and specify a minimum payout, fill in 1. Don't forget to press update after setting both the fields.
 						</p>
-						<a href="assets/img/mining2.png" target="_blank"><img src="assets/img/mining2.png" alt="Mining" /></a>
+						<a href="/assets/img/mining/mining2.png" target="_blank"><img src="/assets/img/mining/mining2.png" alt="Mining" /></a>
 					</div>
 	
 					<div class="item">
 						<p>
 							Your workers are here, you can mine on multiple PCs. Remember the worker's details. Leave the difficulty as is.
 						</p>
-						<a href="assets/img/mining3.png" target="_blank"><img src="assets/img/mining3.png" alt="Mining" /></a>
+						<a href="/assets/img/mining/mining3.png" target="_blank"><img src="/assets/img/mining/mining3.png" alt="Mining" /></a>
 					</div>
 
 					<div class="item">
 						<p>
 							Download the software from here. The link is where arrow 2 points to. The pool settings are where arrow 3 points.
 						</p>
-						<a href="assets/img/mining4.png" target="_blank"><img src="assets/img/mining4.png" alt="Mining" /></a>
+						<a href="/assets/img/mining/mining4.png" target="_blank"><img src="/assets/img/mining/mining4.png" alt="Mining" /></a>
 						<p>Download the zip file, and save it to C:/Peercoin. If the file downloaded without a .zip extension, rename it and add .zip to the end of the filename. Extract the archive and open the folder "ppc".</p>
 					</div>
 
@@ -115,7 +115,7 @@
 							<strong>Set Up the Miner</strong><br />
 							For the first worker, no setup is required! Just double click start.bat and you should see this
 						</p>
-						<a href="assets/img/mining5.png" target="_blank"><img src="assets/img/mining5.png" alt="Mining" /></a>
+						<a href="/assets/img/mining/mining5.png" target="_blank"><img src="/assets/img/mining/mining5.png" alt="Mining" /></a>
 						<p>In the above image [2] displays the mining rate and [3] are submitted shares accepted by the pool!</p>
 					</div>
 
