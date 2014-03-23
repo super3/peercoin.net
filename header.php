@@ -77,6 +77,7 @@
               <ul class="dropdown-menu">
                 <li><a href="whitepaper"><?php echo $Locale->getText("dropdown_docs_and_press_whitepaper"); ?></a></li>
                 <li><a href="http://peercoin.net/news"><?php echo $Locale->getText("dropdown_docs_news"); ?></a></li> 
+                <li><a href="http://peercoin.net/events"><?php echo $Locale->getText("dropdown_docs_events"); ?></a></li> 
                 <li><a href="http://www.peercointalk.org/index.php?topic=1616.0"><?php echo $Locale->getText("dropdown_docs_and_press_kit"); ?></a></li>
                 <li><a href="http://www.peercointalk.org/index.php?topic=2219.0"><?php echo $Locale->getText("dropdown_docs_and_press_articles_interviews"); ?></a></li>
                 <?php

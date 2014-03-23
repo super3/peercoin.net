@@ -20,13 +20,21 @@ $locale_strings['it']['dropdown_title_docs_and_press'] = "Documenti";
 $locale_strings['cat']['dropdown_title_docs_and_press'] = "Documents";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "文档";
 
-$locale_strings['en']['dropdown_docs_news'] = "News and Events";
+$locale_strings['en']['dropdown_docs_news'] = "News";
 $locale_strings['fr']['dropdown_docs_news'] = "Documents";
 $locale_strings['es']['dropdown_docs_news'] = "Noticias acerca de Peercoin";
 $locale_strings['gr']['dropdown_docs_news'] = "Έγγραφα";
 $locale_strings['it']['dropdown_docs_news'] = "Notizie su Peercoin";
 $locale_strings['cat']['dropdown_docs_news'] = "Noticies sobre Peercoin";
 $locale_strings['zh']['dropdown_docs_news'] = "新闻和事件";
+
+$locale_strings['en']['dropdown_docs_events'] = "Events";
+$locale_strings['fr']['dropdown_docs_events'] = "Evénements";
+$locale_strings['es']['dropdown_docs_events'] = "Eventos";
+$locale_strings['gr']['dropdown_docs_events'] = "Εκδηλώσεις";
+$locale_strings['it']['dropdown_docs_events'] = "Eventi";
+$locale_strings['cat']['dropdown_docs_events'] = "Esdeveniments";
+$locale_strings['zh']['dropdown_docs_events'] = "活动";
 
 $locale_strings['en']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 $locale_strings['fr']['dropdown_docs_and_press_whitepaper'] = "Livre Blanc Peercoin";
