@@ -77,6 +77,7 @@
               <ul class="dropdown-menu">
                 <li><a href="whitepaper"><?php echo $Locale->getText("dropdown_docs_and_press_whitepaper"); ?></a></li>
                 <li><a href="http://peercoin.net/news"><?php echo $Locale->getText("dropdown_docs_news"); ?></a></li> 
+                <li><a href="http://peercoin.net/events"><?php echo $Locale->getText("dropdown_docs_events"); ?></a></li> 
                 <li><a href="http://www.peercointalk.org/index.php?topic=1616.0"><?php echo $Locale->getText("dropdown_docs_and_press_kit"); ?></a></li>
                 <li><a href="http://www.peercointalk.org/index.php?topic=2219.0"><?php echo $Locale->getText("dropdown_docs_and_press_articles_interviews"); ?></a></li>
                 <?php
@@ -114,37 +115,10 @@
       </div>
     </div>
 <?php if($_SERVER['PHP_SELF'] != "/index.php") {echo ' 
-<div class="container content">
-<div class="top_social_other">
-Like Peercoin
-        <a target="_blank" href="https://www.facebook.com/Peercoin">
-              <img src="./assets/img/icons/social-fb.png" alt="Visit us on Facebook">
-        </a>
-            <a target="_blank" href="http://www.reddit.com/r/peercoin">
-              <img src="/assets/img/icons/social-reddit.png" alt="Reddit">
-        </a>
-            <a target="_blank" href="https://twitter.com/PeercoinPPC">
-              <img src="/assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
-        </a>
-            <a target="_blank" style="margin:0px; width:50%" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
-              <img src="/assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
-        </a>
-          </div>';} ?>
+  <div class="container content">
+';} ?>
 <?php if($_SERVER['PHP_SELF'] == "/index.php") { echo ' 
-     <!-- Headerwrap -->
-      <header id="headerwrap-2">
-        <div class="container-content">
-          <div class ="top_social">
-            <a target="_blank" href="https://www.facebook.com/Peercoin">
-              <img src="/assets/img/icons/social-fb.png" alt="Visit us on Facebook">
-        </a>
-            <a target="_blank" href="http://www.reddit.com/r/peercoin">
-              <img src="/assets/img/icons/social-reddit.png" alt="Reddit">
-        </a>
-            <a target="_blank" href="https://twitter.com/PeercoinPPC">
-              <img src="/assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
-        </a>
-            <a target="_blank" style="margin:0px; width:50%" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
-              <img src="/assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
-        </a>
-          </div>';}?>
+ <!-- Headerwrap -->
+  <header id="headerwrap-2">
+    <div class="container-content">
+';}?>

@@ -1,4 +1,4 @@
-<?php include ('header_index.php'); ?>
+<?php include ('header.php'); ?>
 
   <!-- Headerwrap -->
 			<div class="row" style="max-width:100%; margin:0px;">
