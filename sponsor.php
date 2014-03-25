@@ -11,14 +11,11 @@
 			</p>
 		</div><!-- col-lg-8 -->
 		<br>
-		
 		<div class="col-lg-10 col-lg-offset-1">
-			<img class="img-responsive" src="/assets/img/placeholder.png" alt="">
+			<img class="img-responsive" src="assets/img/sponsor/tri-leaf-banner.jpg" alt="">
 		</div><!-- col-lg-10 -->
 	</div><!-- row -->
-</div><!-- container -->
 
-<div class="container">
 	<div class="row sinfo">
 		<div class="col-lg-4 col-lg-offset-1">
 			<p>
@@ -36,10 +33,8 @@
 		</div>
 
 	</div><!-- row -->
-</div><!-- container -->
 
 <!-- Leaf Section -->
-<div class="container">
 	<div class="row centered">
 		<br>
 		<br>
@@ -52,12 +47,10 @@
 		<br>
 		
 		<div class="col-lg-10 col-lg-offset-1">
-			<img class="img-responsive" src="/assets/img/placeholder.png" alt="">
+			<img class="img-responsive" src="assets/img/sponsor/leaf-banner.jpg" alt="">
 		</div><!-- col-lg-10 -->
 	</div><!-- row -->
-</div><!-- container -->
 
-<div class="container">
 	<div class="row sinfo">
 		<div class="col-lg-3 col-lg-offset-1">
 			<p>
