@@ -1,51 +1,98 @@
 <?php include ('header.php'); ?>
 
-<!-- Portfolio Section -->
-		<div class="row centered">
-			<br>
-			<br>
-			<div class="col-lg-8 col-lg-offset-2">
-				<h3>LANDING PAGE</h3>
-				<p class="lead">
-					This page aims to get users to quickly learn about Peercoin, and get them to download a wallet.
-				</p>
-			</div><!-- col-lg-8 -->
-			<br>
-			
-			<div class="col-lg-10 col-lg-offset-1">
-				<img class="img-responsive" src="/images/portfolio01.jpg" alt="">
-			</div><!-- col-lg-10 -->
-		</div><!-- row -->
-	</div><!-- container -->
-	
-	<div class="container">
-		<div class="row sinfo">
-			<div class="col-lg-3 col-lg-offset-1">
-				<p>
-					One of the greatest barriers to entry for Peercoin for people outside the US is that
-					we don't cater to other languages. This very simplistic landing page we can describe 
-					our key features in as many languages as possible.
-				</p> 
-							
-			</div><!-- col-lg-3 -->
-		
-			<div class="col-lg-3">
-				<p>
-					This page will also help new and uneduated cryptocurrency users.
-				</p>
-			</div>
-			
-			<div class="col-lg-4">
-				<h6>Warren Design</h6>
-				<p>
-					Date: Oct 20, 2013 <br/>
-					Work: Web Design &amp; Development <br/>
-					Leader: Brad Frost<br/><br/>
-					<button class="btn btn-primary">Visit Site</button>
-					
-				</p>
-			</div>
-		</div><!-- row -->
-	</div><!-- container -->		
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 class="maintitle">Projects</h2>
+    </div>   
+  </div>
 
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1">
+
+      <div class="item">
+        <img src="assets/img/projects/icon-translation.png" class="projects-icon" alt="Landing Page and Translations">
+        <h3><a href="">Landing Page and Translations</a></h3>
+        <p>Our website is only available on English language at the moment, which is an entry barrier for non-english speakers interested in Peercoin. A simple landing page will list the key features in as many lanugages as possible. </p>
+        <a href="" class="btn btn-primary btn-lg projects-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="col-md-5 col-md-offset-1">
+      <div class="item">
+        <img src="assets/img/projects/icon-merchant.png" class="projects-icon" alt="Merchant Page and Outreach Program">
+        <h3><a href="">Merchant Page and Outreach Program</a></h3>
+        <p>We need better integration documentation for merchants or our own solution if possible. We will also need to showcase successful merchants. Peercoin is not just for trading, people need to be able to spend it as well. This project merges with the Social Faucet project.
+        <a href="" class="btn btn-primary btn-lg projects-button">Read More</a>
+      </div>
+    </div>
+    <hr>
+  </div>  
+
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1">
+
+      <div class="item">
+        <img src="assets/img/projects/icon-wallet.png" class="projects-icon" alt="Online Web Wallet">
+        <h3><a href="">Online Web Wallet</a></h3>
+        <p>Reduce the entry barrier by maintaining an online web wallet where only the user would have the private keys.</p>
+        <a href="" class="btn btn-primary btn-lg projects-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="col-md-5 col-md-offset-1">
+      <div class="item">
+        <img src="assets/img/projects/icon-android.png" class="projects-icon" alt="Android Moble App">
+        <h3><a href="">Android Moble App</a></h3>
+        <p>To spread and simplify the usage of Peercoin in person, we would need mobile wallet on Android.</p>
+        <a href="" class="btn btn-primary btn-lg projects-button">Read More</a>
+      </div>
+    </div>
+    <hr>
+  </div>  
+
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1">
+
+      <div class="item">
+        <img src="assets/img/projects/icon-faucet.png" class="projects-icon" alt="Social Faucets">
+        <h3><a href="">Social Faucet</a></h3>
+        <p>Lets automate the swarm process, and actually give users a reason to keep coming back to the Peercoin website. Users can earn crypto by rewarding swarm participants, participating in social media, referring friends to download the client, etc. This is not done anywhere else and it could grow our userbase exponentially.</p>
+        <a href="" class="btn btn-primary btn-lg projects-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="col-md-5 col-md-offset-1">
+      <div class="item">
+        <img src="assets/img/projects/icon-ads.png" class="projects-icon" alt="Direct Advertisement">
+        <h3><a href="">Direct Advertisement</a></h3>
+        <p>We receive around 50,000 unique visitors per month. With a direct advertisement to the right place on our website, we can double or triple the amount of unique visitors.</p>
+        <a href="" class="btn btn-primary btn-lg projects-button">Read More</a>
+      </div>
+    </div>
+    <hr>
+  </div>  
+
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1">
+
+      <div class="item">
+        <img src="assets/img/projects/icon-website.png" class="projects-icon" alt="Website Fixes">
+        <h3><a href="">Website Fixes</a></h3>
+        <p>The current website has some obvious problems in terms of organization and flow.</p>
+        <a href="" class="btn btn-primary btn-lg projects-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="col-md-5 col-md-offset-1">
+      <div class="item">
+        <img src="assets/img/projects/icon-ideas.png" class="projects-icon" alt="Website Fixes">
+        <h3><a href="">New Ideas</a></h3>
+        <p>Here you can add your ideas and suggestions.</p>
+        <a href="" class="btn btn-primary btn-lg projects-button">New Idea Topic</a>
+      </div>
+    </div>
+    <hr>
+  </div>  
+
+</div>
 <?php include ('footer.php'); ?>
