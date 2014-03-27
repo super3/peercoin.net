@@ -702,6 +702,20 @@ margin-top:3em;
 	opacity: 1;
 }
 
+/***** Projects page icons *****/
+
+.projects-icon {
+	float: left;
+	width: 42px;
+	height: 42px;
+	margin: 0px 10px 0 0;
+	margin-left:-60px;
+}
+
+.projects-button {
+	margin-top: 1em;
+}
+
 /***** Contact Tweak *****/
 
 .cinfo img {
