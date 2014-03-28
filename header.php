@@ -89,7 +89,7 @@
                 <?php } ?>
               </ul>
             </li>
-            <li><a href="http://peercoin.net/resources"><?php echo $Locale->getText("dropdown_title_use_peercoins"); ?></a></li>
+            <li><a href="http://peercoin.net/resources"><?php echo $Locale->getText("dropdown_title_resources"); ?></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_peercoins"); ?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -104,8 +104,8 @@
               <ul class="dropdown-menu">
                 <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform"><?php echo $Locale->getText("dropdown_contribute_volunteer"); ?></a></li>
                 <li><a href="participate"><?php echo $Locale->getText("dropdown_contribute_participate"); ?></a></li>
-                <li><a href="sponsor">Sponsor</a></li>
-                <li><a href="projects">Projects</a></li>
+                <li><a href="sponsor"><?php echo $Locale->getText("dropdown_contribute_sponsor"); ?></a></li>
+                <li><a href="projects"><?php echo $Locale->getText("dropdown_contribute_projects"); ?></a></li>
                 <!-- TODO: add more ways to contribute and support the Peercoin community -->
               </ul>
             </li>
