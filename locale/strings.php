@@ -150,10 +150,10 @@ $locale_strings['zh']['dropdown_contribute_participate'] = "参与";
 
 $locale_strings['en']['dropdown_forum'] = "Forum";
 $locale_strings['fr']['dropdown_forum'] = "Forum";
-$locale_strings['es']['dropdown_forum'] = "Forum";
+$locale_strings['es']['dropdown_forum'] = "Foro";
 $locale_strings['gr']['dropdown_forum'] = "Forum";
 $locale_strings['it']['dropdown_forum'] = "Forum";
-$locale_strings['cat']['dropdown_forum'] = "Forum";
+$locale_strings['cat']['dropdown_forum'] = "Fòrum";
 $locale_strings['zh']['dropdown_forum'] = "论坛";
 
 //main body
@@ -175,10 +175,10 @@ $locale_strings['cat']['big_welcome_header'] = "Segur. Sostenible. <span><strong
 $locale_strings['zh']['big_welcome_header'] = "安全的. 可持续的. <span><strong>点点币</strong> 就在这里.</span>";
 
 $locale_strings['en']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
-$locale_strings['fr']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['fr']['big_404'] = "<span><strong>404</strong> Página no encontrada. </span> Por favor usa el menú superior y prueba otra página.";
 $locale_strings['es']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 $locale_strings['gr']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
-$locale_strings['cat']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['cat']['big_404'] = "<span><strong>404</strong> Pàgina no trovada. </span> Si us plau, utilitza el menú superior i prova una altra pàgina.";
 $locale_strings['zh']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 
 $locale_strings['en']['why_peercoin_header_innovation'] = "Original <b>Innovation</b>";
@@ -219,7 +219,7 @@ $locale_strings['es']['ticker_last_updated'] = "Última actualización: ";
 $locale_strings['gr']['ticker_last_updated'] = "Τελευταία ενημέρωση: ";
 $locale_strings['it']['ticker_last_updated'] = "Ultimo aggiornamento: ";
 $locale_strings['cat']['ticker_last_updated'] = "Darrera actualització: ";
-$locale_strings['zh']['ticker_last_updated'] = "最后更新: ";
+$locale_strings['zh']['ticker_last_updated'] = "最后更新: ";
 
 $locale_strings['en']['ticker_last_updated_never'] = "never";
 $locale_strings['fr']['ticker_last_updated_never'] = "jamais";
@@ -231,7 +231,7 @@ $locale_strings['zh']['ticker_last_updated_never'] = "从未";
 
 $locale_strings['en']['why_peercoin_desc_innovation'] = "Peercoin's original innovation is the <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work hybrid</a> system. Like other <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>cryptocurrencies</a>, initial coins can be mined, but the core network is maintained by coin holders, rather than the fastest <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pool</a>.";
 $locale_strings['fr']['why_peercoin_desc_innovation'] = "L'innovation originale de Peercoin est le système <a href='/bin/peercoin-paper-fr.pdf'>hybride preuve-de-part/preuve-de-travail</a>. Comme d'autres <a href='https://fr.wikipedia.org/wiki/Crypto-monnaie'>crypto-monnaies</a>, la monnaie initiale peut être générée par extraction (minage), mais le coeur du réseau est maintenu par les possesseurs de monnaie, plutôt que par la <a href='https://en.bitcoin.it/wiki/Pooled_mining'>coopérative de mineurs</a> la plus rapide.";
-$locale_strings['es']['why_peercoin_desc_innovation'] = "La innovación original de Peercoin es el sistema <a href='/bin/peercoin-paper-es.pdf'>híbrido proof-of-stake/proof-of-work</a>. Como en otras <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>criptomonedas</a>, las monedas iniciales pueden ser minadas, pero la red principal está mantenida por los propietarios de monedas, en lugar de los <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pools</a> más rápidos.";
+$locale_strings['es']['why_peercoin_desc_innovation'] = "La innovación original de Peercoin es el sistema <a href='/bin/peercoin-paper-es.pdf'>híbrido proof-of-stake/proof-of-work</a>. Como en otras <a href='http://es.wikipedia.org/wiki/Criptodivisa'>criptomonedas</a>, las monedas iniciales pueden ser minadas, pero la red principal está mantenida por los propietarios de monedas, en lugar de los <a href='http://elbitcoin.org/tutorial-como-minar-bitcoins-parte-11-mineria-en-grupo-vs-mineria-individual/'>pools</a> más rápidos.";
 $locale_strings['gr']['why_peercoin_desc_innovation'] = "Η πρωτότυπη καινοτομία του Peercoin είναι το σύστημα του <a href='/bin/peercoin-paper.pdf'>υβρίδιου απόδειξης-της-συμμετοχής/απόδειξης-της-δουλειάς</a>. Όπως άλλα <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>κρυπτονομίσματα</a>, τα αρχικά νομίσματα μπορούν να εξορυχθούν, αλλά ο πυρήνας του δικτύου διαχειρίζεται από τους κάτοχους των κερμάτων, αντί του γρηγορότερoυ <a href='https://en.bitcoin.it/wiki/Pooled_mining'>κοινού ταμείου</a>.";
 $locale_strings['it']['why_peercoin_desc_innovation'] = "Innovazione originale di Peercoin è il sistema <a href='/bin/peercoin-paper.pdf'>ibrido di prova del palo/prova-di-lavoro</a>. Come altri <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>criptovaluta</a>, monete iniziale possono essere minate, ma la rete centrale è gestita da titolari di moneta, piuttosto che il più veloce, <a href='https://en.bitcoin.it/wiki/Pooled_mining'>piscina</a>.";
 $locale_strings['cat']['why_peercoin_desc_innovation'] = "L'innovació original de Peercoin és el sistema <a href='/bin/peercoin-paper-es.pdf'>híbrid proof-of-stake/proof-of-work</a>. Com en d'altres <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>criptomonedes</a>, les monedes inicials poden ser minades, però la xarxa principal és mantenida pels propietaris de monedes, en lloc dels <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pools</a> més ràpids.";
@@ -247,7 +247,7 @@ $locale_strings['zh']['why_peercoin_header_security'] = "更强的<b>安全性</
 
 $locale_strings['en']['why_peercoin_desc_security'] = "Maintaining the network through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'> Selfish-Miner Flaw</a>, <a href='https://en.bitcoin.it/wiki/Weaknesses'>51% attacks</a>, and the block bloating that have been used to exploit other currencies.";
 $locale_strings['fr']['why_peercoin_desc_security'] = "Maintenir le réseau avec l'algorithme hybride preuve-de-part/preuve-de-travail réduit les risques d'<a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'> attaque par mineur égoïste</a>, d'<a href='https://en.bitcoin.it/wiki/Weaknesses'>attaque des 51%</a>, et de congestion de bloc qui ont été utilisées pour exploiter les autres crypto-monnaies.";
-$locale_strings['es']['why_peercoin_desc_security'] = "Manteniendo la red a través del algoritmo híbrido proof-of-work/proof-of-stake, se reduce el riesgo de aprovechamiento del <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'> defecto de Minero Egoísta</a>, los <a href='https://en.bitcoin.it/wiki/Weaknesses'>ataques del 51%</a>, y el hinchado de monedas que se ha usado para atacar a otras monedas.";
+$locale_strings['es']['why_peercoin_desc_security'] = "Manteniendo la red a través del algoritmo híbrido proof-of-work/proof-of-stake, se reduce el riesgo de aprovechamiento del <a href='http://www.tendencias21.net/El-sistema-monetario-virtual-Bitcoin-esta-en-riesgo-de-manipulacion_a26670.html'> defecto de Minero Egoísta</a>, los <a href='https://en.bitcoin.it/wiki/Weaknesses'>ataques del 51%</a>, y el hinchado de monedas que se ha usado para atacar a otras monedas.";
 $locale_strings['gr']['why_peercoin_desc_security'] = "Η διαχείρηση του δικτύου μέσω του αλγορίθμου απόδειξης-της-δουλειάς/απόδειξης-της-συμμετοχής μειώνει τον κίνδυνο του <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'>Ελλατώματος του Εγωιστή-Μεταλλωρύχου</a>, <a href='https://en.bitcoin.it/wiki/Weaknesses'>το 51% των επιθέσεων</a>, και το block bloating που έχει χρησιμοποιηθεί για την εκμετάλλευση άλλων νομισμάτων.";
 $locale_strings['it']['why_peercoin_desc_security'] = "Mantenimento della rete attraverso l'algoritmo di prova-di-lavoro/prova-di-posta ibrida riduce il rischio del <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'>Egoista-minatore difetto</a>, <a href='https://en.bitcoin.it/wiki/Weaknesses'>attacchi del 51%</a>, e il blocco gonfiore che sono stati usati per sfruttare altre valute.";
 $locale_strings['cat']['why_peercoin_desc_security'] = "Mantenint la xarxa a través de l'algoritme híbrid proof-of-work/proof-of-stake, es redueix el risc d'aprofitament del <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'> defecte del Miner Egoista</a>, els <a href='https://en.bitcoin.it/wiki/Weaknesses'>atacs del 51%</a>, i l'inflat de monedes que s'ha utilitzat per atacar a d'altres monedes.";
@@ -359,7 +359,7 @@ $locale_strings['fr']['faq_q_desc_innovation'] = "
 $locale_strings['es']['faq_q_desc_innovation'] = "
 						<p>La más notoria innovación original de Peercoin es el sistema híbrido proof-of-stake/proof-of-work.</p>
 						<p>Como otras criptomonedas, las monedas iniciales pueden ser minadas con el sistema tradicional de procesado de hashing mediante el proof-of-work. Sin embargo, a diferencia de otras monedas, mientras la dificultad de hashing aumenta con el tiempo, los usuarios continúan siendo recompensados con monedas generadas con el algoritmo adicional del proof-of-stake. Cualquiera que tenga moneda, será recompensado con un 1% del total mediante bloques proof-of-stake.</p>
-						<p>Adicionalmente al aumento de seguridad in la mejorada eficiencia energética, el sistema híbrido del algoritmo proof-of-work/proof-of-stake combate las tendencias deflacionarias que las criptomonedas pueden sufrir debido a su tope de acuñado preestablecido.</p>";
+						<p>Adicionalmente al aumento de seguridad y la mejorada eficiencia energética, el sistema híbrido del algoritmo proof-of-work/proof-of-stake combate las tendencias deflacionarias que las criptomonedas pueden sufrir debido a su tope de acuñado preestablecido.</p>";
 $locale_strings['gr']['faq_q_desc_innovation'] = "
 						<p>Η πρωτότυπη και αξιοσημείωτη καινοτομία του Peercoin είναι το σύστημα του υβριδίου της απόδειξης-της-συμμετοχής/απόδειξης-της-δουλειάς.</p>
 						<p>Όπως και άλλα κρυπτονομίσματα, τα αρχικά νομίσματα μπορούν να εξορυχθούν μέσω των κοινών απόδειξης-της-δουλειάς hashing διαδικασιών. Παρ'όλα αυτά, σε αντίθεση με τα άλλα νομίσματα, όσο η δυσκολία hashing μεγαλώνει καθώς περνάει ο χρόνος, οι χρήστες συνεχίζουν να ανταμείβονται με νομίσματα τα οποία παράγονται από τον επιπλέον αλγόριθμο της απόδειξης-της-συμμετοχής. Οποιοσδήποτε έχει το 1% του νομίσματος θα αποζημιώνεται με το 1% από όλων των blocks της απόδειξης-της-συμμετοχής.</p>
@@ -526,7 +526,7 @@ $locale_strings['zh']['faq_q_desc_myth2'] = "
 
 $locale_strings['en']['faq_q_title_myth3'] = "Myth #3 - Peercoin is extremely inflationary in nature.";
 $locale_strings['fr']['faq_q_title_myth3'] = "Mythe #3 - Peercoin est extrèmement inflationniste par nature.";
-$locale_strings['es']['faq_q_title_myth3'] = "Mito #3 - Peercoin tiene una naturaleza extremadamente inflacionara.";
+$locale_strings['es']['faq_q_title_myth3'] = "Mito #3 - Peercoin tiene una naturaleza extremadamente inflacionaria.";
 $locale_strings['gr']['faq_q_title_myth3'] = "Μύθος #3 - Το Peercoin είναι εξαιρετικά πληθωριστικό στη φύση.";
 $locale_strings['it']['faq_q_title_myth3'] = "Mito #3 - Peercoin è estremamente inflazionistiche in natura.";
 $locale_strings['cat']['faq_q_title_myth3'] = "Mite #3 - Peercoin té una naturalesa extremadament inflacionària.";
@@ -541,7 +541,7 @@ $locale_strings['fr']['faq_q_desc_myth3'] = "
 						<p>De plus, Bitcoin connaît actuellement une inflation <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>d'environ 10%</a> par an alors qu'il approche de sa masse monétaire totale de 21 millions. Les gens <b>espèrent</b> que lorsque la masse monétaire maximale sera atteinte, les frais de transaction seront suffisants pour maintenir la sécurité du réseau.</p>
 						<p>Pour maintenir la sécurité du réseau dans le futur, Peercoin a une inflation annuelle de 1% (récompense de preuve-de-part) afin de s'assurer un réseau sûr, quels que soient les frais de transaction. Comme indiqué précedemment ceci pourrait rendre Peercoin déflationniste, comme Bitcoin vise à l'être, pendant les hauts volumes de transactions.</p>";
 $locale_strings['es']['faq_q_desc_myth3'] = "
-						<p>No. Si Peercoin crece rápidamente, el acuñado mediante Stake se reducirá temporalmente mientras los días de moneda se pierden debido al comercio de éstas. Esto causaría que Peercoin fuera deflacionarioy. La naturaleza de las tasas de transacción fijadas se diseñaron como medida de contrarestar esto, reduciendo el volumen de total de transacciones. Los defensores de Peercoin argumentan que esto disminuirá la deflación.</p>
+						<p>No. Si Peercoin crece rápidamente, el acuñado mediante Stake se reducirá temporalmente mientras los días de moneda se pierden debido al comercio de éstas. Ésto causaría que Peercoin fuera deflacionario. La naturaleza de las tasas de transacción fijadas se diseñaron como medida de contrarestar esto, reduciendo el volumen de total de transacciones. Los defensores de Peercoin argumentan que esto disminuirá la deflación.</p>
 						<p>Además, Bitcoin experimenta actualmente <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>un ~10%</a> de inflación anual mientras de acerca a su suministro total de 21 millones de monedas. Se <b>espera</b> que cuando se alcance el suministro total de monedas las tasas de transacción serán suficientes para mantener una red segura.</p>
 						<p>Para mantener una red segura en el futuro, Peercoin provee una inflación anual del 1% (recompensa por proof-of-stake) para asegurarse que habrá una red segura, independientemente de las tasas de transacción. Como se ha comentado antes, esto volverá la moneda deflacionaria, igual que Bitcoin pretende ser, durante niveles de transacciones altos.</p>";
 $locale_strings['gr']['faq_q_desc_myth3'] = "
