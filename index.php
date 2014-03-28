@@ -78,7 +78,7 @@
 			<?php if ($Locale->locale_code == 'zh') { ?>
 				<iframe height=498 width=510 src="http://player.youku.com/embed/XNjQ4MjE1MTYw" style="border: 0; border-width: 0px;" allowfullscreen></iframe>
 			<?php } else { ?>
-				<iframe width="560" height="315" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1" style="border: 0; border-width: 0px;" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="//www.youtube.com/embed/TjL2AgCQDJ0?rel=0?modestbranding=1&amp;wmode=transparent" style="border: 0; border-width: 0px;" allowfullscreen></iframe>
 			<?php } ?>
 		</div>
 	</div>
