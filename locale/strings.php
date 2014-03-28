@@ -179,7 +179,7 @@ $locale_strings['fr']['big_404'] = "<span><strong>404</strong> Page Not Found. <
 $locale_strings['es']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 $locale_strings['gr']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 $locale_strings['cat']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
-$locale_strings['zh']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
+$locale_strings['zh']['big_404'] = "<span><strong>404</strong> 未找到该页面. </span> 请点击顶部导航探索点点币.";
 
 $locale_strings['en']['why_peercoin_header_innovation'] = "Original <b>Innovation</b>";
 $locale_strings['fr']['why_peercoin_header_innovation'] = "<b>Innovation</b> originale";
@@ -668,3 +668,324 @@ $locale_strings['gr']['seconds_ago'] = "δευτερόλεπτα πριν";
 $locale_strings['it']['seconds_ago'] = "secondi fa";
 $locale_strings['cat']['seconds_ago'] = "segons";
 $locale_strings['zh']['seconds_ago'] = "秒前";
+
+//buying
+
+$locale_strings['en']['Buying Peercoins'] = "Buying Peercoins";
+$locale_strings['fr']['Buying Peercoins'] = "Buying Peercoins";
+$locale_strings['es']['Buying Peercoins'] = "Buying Peercoins";
+$locale_strings['gr']['Buying Peercoins'] = "Buying Peercoins";
+$locale_strings['it']['Buying Peercoins'] = "Buying Peercoins";
+$locale_strings['cat']['Buying Peercoins'] = "Buying Peercoins";
+$locale_strings['zh']['Buying Peercoins'] = "交易点点币";
+
+$locale_strings['en']['Buying Peercoins des'] = "Peercoins are traded on various virtual currency exchanges. The most common exchange method is to exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a href='https://coinbase.com' target='_blank'>coinbase</a> or <a href='https://www.bitstamp.net/'' target='_blank'>bitstamp</a>.Once you have your bitcoins you can send them to an exchange and proceed to exchange your bitcoins into Peercoin.";
+$locale_strings['fr']['Buying Peercoins des'] = "Peercoins are traded on various virtual currency exchanges. The most common exchange method is to exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a href='https://coinbase.com' target='_blank'>coinbase</a> or <a href='https://www.bitstamp.net/'' target='_blank'>bitstamp</a>.Once you have your bitcoins you can send them to an exchange and proceed to exchange your bitcoins into Peercoin.";
+$locale_strings['es']['Buying Peercoins des'] = "Peercoins are traded on various virtual currency exchanges. The most common exchange method is to exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a href='https://coinbase.com' target='_blank'>coinbase</a> or <a href='https://www.bitstamp.net/'' target='_blank'>bitstamp</a>.Once you have your bitcoins you can send them to an exchange and proceed to exchange your bitcoins into Peercoin.";
+$locale_strings['gr']['Buying Peercoins des'] = "Peercoins are traded on various virtual currency exchanges. The most common exchange method is to exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a href='https://coinbase.com' target='_blank'>coinbase</a> or <a href='https://www.bitstamp.net/'' target='_blank'>bitstamp</a>.Once you have your bitcoins you can send them to an exchange and proceed to exchange your bitcoins into Peercoin.";
+$locale_strings['it']['Buying Peercoins des'] = "Peercoins are traded on various virtual currency exchanges. The most common exchange method is to exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a href='https://coinbase.com' target='_blank'>coinbase</a> or <a href='https://www.bitstamp.net/'' target='_blank'>bitstamp</a>.Once you have your bitcoins you can send them to an exchange and proceed to exchange your bitcoins into Peercoin.";
+$locale_strings['cat']['Buying Peercoins des'] = "Peercoins are traded on various virtual currency exchanges. The most common exchange method is to exchange Bitcoin into Peercoin. You can buy Bitcoins by using services like <a href='https://coinbase.com' target='_blank'>coinbase</a> or <a href='https://www.bitstamp.net/'' target='_blank'>bitstamp</a>.Once you have your bitcoins you can send them to an exchange and proceed to exchange your bitcoins into Peercoin.";
+$locale_strings['zh']['Buying Peercoins des'] = "点点币在多个主流虚拟货币交易市场流通. 最常见的方式是比特币与点点币的交易. 在<a href='https://coinbase.com' target='_blank'>coinbase</a> 或者 <a href='https://www.bitstamp.net/'' target='_blank'>bitstamp</a>这样的交易市场购买比特币.一旦有了比特币你就可以使用交易市场把比特币换成点点币了.";
+
+$locale_strings['en']['List of available exchanges'] = "List of available exchanges";
+$locale_strings['fr']['List of available exchanges'] = "List of available exchanges";
+$locale_strings['es']['List of available exchanges'] = "List of available exchanges";
+$locale_strings['gr']['List of available exchanges'] = "List of available exchanges";
+$locale_strings['it']['List of available exchanges'] = "List of available exchanges";
+$locale_strings['cat']['List of available exchanges'] = "List of available exchanges";
+$locale_strings['zh']['List of available exchanges'] = "可用点点币的交易市场";
+
+$locale_strings['en']['List of available exchanges many more'] = "many more...";
+$locale_strings['fr']['List of available exchanges many more'] = "many more...";
+$locale_strings['es']['List of available exchanges many more'] = "many more...";
+$locale_strings['gr']['List of available exchanges many more'] = "many more...";
+$locale_strings['it']['List of available exchanges many more'] = "many more...";
+$locale_strings['cat']['List of available exchanges many more'] = "many more...";
+$locale_strings['zh']['List of available exchanges many more'] = "以及更多市场...";
+
+$locale_strings['en']['buying Disclaimer'] = "Disclaimer:";
+$locale_strings['fr']['buying Disclaimer'] = "Disclaimer:";
+$locale_strings['es']['buying Disclaimer'] = "Disclaimer:";
+$locale_strings['gr']['buying Disclaimer'] = "Disclaimer:";
+$locale_strings['it']['buying Disclaimer'] = "Disclaimer:";
+$locale_strings['cat']['buying Disclaimer'] = "Disclaimer:";
+$locale_strings['zh']['buying Disclaimer'] = "声明:";
+
+$locale_strings['en']['buying Disclaimer content'] = "This website is not an offer or solicitation for investment 
+							advisory services, brokerage or banking services, or other products or services, especially regarding financial 
+							services or derivatives trading.  Any views expressed are provided strictly for informational purposes and 
+							represent only opinions of this website and should not be construed or interpreted in any way as advice or an 
+							offer, an endorsement, testimony, or inducement to invest or trade.";
+$locale_strings['fr']['buying Disclaimer content'] = "This website is not an offer or solicitation for investment 
+							advisory services, brokerage or banking services, or other products or services, especially regarding financial 
+							services or derivatives trading.  Any views expressed are provided strictly for informational purposes and 
+							represent only opinions of this website and should not be construed or interpreted in any way as advice or an 
+							offer, an endorsement, testimony, or inducement to invest or trade.";
+$locale_strings['es']['buying Disclaimer content'] = "This website is not an offer or solicitation for investment 
+							advisory services, brokerage or banking services, or other products or services, especially regarding financial 
+							services or derivatives trading.  Any views expressed are provided strictly for informational purposes and 
+							represent only opinions of this website and should not be construed or interpreted in any way as advice or an 
+							offer, an endorsement, testimony, or inducement to invest or trade.";
+$locale_strings['gr']['buying Disclaimer content'] = "This website is not an offer or solicitation for investment 
+							advisory services, brokerage or banking services, or other products or services, especially regarding financial 
+							services or derivatives trading.  Any views expressed are provided strictly for informational purposes and 
+							represent only opinions of this website and should not be construed or interpreted in any way as advice or an 
+							offer, an endorsement, testimony, or inducement to invest or trade.";
+$locale_strings['it']['buying Disclaimer content'] = "This website is not an offer or solicitation for investment 
+							advisory services, brokerage or banking services, or other products or services, especially regarding financial 
+							services or derivatives trading.  Any views expressed are provided strictly for informational purposes and 
+							represent only opinions of this website and should not be construed or interpreted in any way as advice or an 
+							offer, an endorsement, testimony, or inducement to invest or trade.";
+$locale_strings['cat']['buying Disclaimer content'] = "This website is not an offer or solicitation for investment 
+							advisory services, brokerage or banking services, or other products or services, especially regarding financial 
+							services or derivatives trading.  Any views expressed are provided strictly for informational purposes and 
+							represent only opinions of this website and should not be construed or interpreted in any way as advice or an 
+							offer, an endorsement, testimony, or inducement to invest or trade.";
+$locale_strings['zh']['buying Disclaimer content'] = "本网站不提供也不接受任何包括但不限于 商业投资/咨询服务/返利回扣/存款服务
+							等一切与经济交易相关的服务。所提供资料仅供参考 仅代表网站观点 不作为任何投资或交易的建议。
+							一切风险由投资 者自行承担。";
+
+//downloads
+$locale_strings['en']['Peercoin-Qt Downloads'] = "Peercoin-Qt Downloads";
+$locale_strings['fr']['Peercoin-Qt Downloads'] = "Peercoin-Qt Downloads";
+$locale_strings['es']['Peercoin-Qt Downloads'] = "Peercoin-Qt Downloads";
+$locale_strings['gr']['Peercoin-Qt Downloads'] = "Peercoin-Qt Downloads";
+$locale_strings['it']['Peercoin-Qt Downloads'] = "Peercoin-Qt Downloads";
+$locale_strings['cat']['Peercoin-Qt Downloads'] = "Peercoin-Qt Downloads";
+$locale_strings['zh']['Peercoin-Qt Downloads'] = "下载点点币钱包";
+
+$locale_strings['en']['Source Code'] = "Source Code";
+$locale_strings['fr']['Source Code'] = "Source Code";
+$locale_strings['es']['Source Code'] = "Source Code";
+$locale_strings['gr']['Source Code'] = "Source Code";
+$locale_strings['it']['Source Code'] = "Source Code";
+$locale_strings['cat']['Source Code'] = "Source Code";
+$locale_strings['zh']['Source Code'] = "源代码";
+
+$locale_strings['en']['Signatures'] = "Signatures";
+$locale_strings['fr']['Signatures'] = "Signatures";
+$locale_strings['es']['Signatures'] = "Signatures";
+$locale_strings['gr']['Signatures'] = "Signatures";
+$locale_strings['it']['Signatures'] = "Signatures";
+$locale_strings['cat']['Signatures'] = "Signatures";
+$locale_strings['zh']['Signatures'] = "签名";
+
+$locale_strings['en']['License'] = "License";
+$locale_strings['fr']['License'] = "License";
+$locale_strings['es']['License'] = "License";
+$locale_strings['gr']['License'] = "License";
+$locale_strings['it']['License'] = "License";
+$locale_strings['cat']['License'] = "License";
+$locale_strings['zh']['License'] = "开源协议";
+
+$locale_strings['en']['Installation Instructions'] = "Installation Instructions";
+$locale_strings['fr']['Installation Instructions'] = "Installation Instructions";
+$locale_strings['es']['Installation Instructions'] = "Installation Instructions";
+$locale_strings['gr']['Installation Instructions'] = "Installation Instructions";
+$locale_strings['it']['Installation Instructions'] = "Installation Instructions";
+$locale_strings['cat']['Installation Instructions'] = "Installation Instructions";
+$locale_strings['zh']['Installation Instructions'] = "安装指导";
+
+$locale_strings['en']['Install'] = "Install";
+$locale_strings['fr']['Install'] = "Install";
+$locale_strings['es']['Install'] = "Install";
+$locale_strings['gr']['Install'] = "Install";
+$locale_strings['it']['Install'] = "Install";
+$locale_strings['cat']['Install'] = "Install";
+$locale_strings['zh']['Install'] = "安装";
+
+$locale_strings['en']['Default installation directory is'] = "Default installation directory is";
+$locale_strings['fr']['Default installation directory is'] = "Default installation directory is";
+$locale_strings['es']['Default installation directory is'] = "Default installation directory is";
+$locale_strings['gr']['Default installation directory is'] = "Default installation directory is";
+$locale_strings['it']['Default installation directory is'] = "Default installation directory is";
+$locale_strings['cat']['Default installation directory is'] = "Default installation directory is";
+$locale_strings['zh']['Default installation directory is'] = "默认的安装路径在";
+
+$locale_strings['en']['Run ppcoin-qt from the Start menu'] = "Run <code>ppcoin-qt</code> from the Start menu
+																or the installation directory";
+$locale_strings['fr']['Run ppcoin-qt from the Start menu'] = "Run <code>ppcoin-qt</code> from the Start menu
+																or the installation directory";
+$locale_strings['es']['Run ppcoin-qt from the Start menu'] = "Run <code>ppcoin-qt</code> from the Start menu
+																or the installation directory";
+$locale_strings['gr']['Run ppcoin-qt from the Start menu'] = "Run <code>ppcoin-qt</code> from the Start menu
+																or the installation directory";
+$locale_strings['it']['Run ppcoin-qt from the Start menu'] = "Run <code>ppcoin-qt</code> from the Start menu
+																or the installation directory";
+$locale_strings['cat']['Run ppcoin-qt from the Start menu'] = "Run <code>ppcoin-qt</code> from the Start menu
+																or the installation directory";
+$locale_strings['zh']['Run ppcoin-qt from the Start menu'] = "从开始菜单或安装目录 运行 <code>ppcoin-qt</code>";
+
+$locale_strings['en']['Your wallet is located in'] = "Your wallet is located in";
+$locale_strings['fr']['Your wallet is located in'] = "Your wallet is located in";
+$locale_strings['es']['Your wallet is located in'] = "Your wallet is located in";
+$locale_strings['gr']['Your wallet is located in'] = "Your wallet is located in";
+$locale_strings['it']['Your wallet is located in'] = "Your wallet is located in";
+$locale_strings['cat']['Your wallet is located in'] = "Your wallet is located in";
+$locale_strings['zh']['Your wallet is located in'] = "你的钱包放在";
+
+$locale_strings['en']['Configuration'] = "Configuration";
+$locale_strings['fr']['Configuration'] = "Configuration";
+$locale_strings['es']['Configuration'] = "Configuration";
+$locale_strings['gr']['Configuration'] = "Configuration";
+$locale_strings['it']['Configuration'] = "Configuration";
+$locale_strings['cat']['Configuration'] = "Configuration";
+$locale_strings['zh']['Configuration'] = "配置";
+
+$locale_strings['en']['osx Daemon Note'] = "To open the folder, press <code>Command-Shift-G</code> in
+                        Finder, insert the path, and press <code>Enter</code>.";
+$locale_strings['fr']['osx Daemon Note'] = "To open the folder, press <code>Command-Shift-G</code> in
+                        Finder, insert the path, and press <code>Enter</code>.";
+$locale_strings['es']['osx Daemon Note'] = "To open the folder, press <code>Command-Shift-G</code> in
+                        Finder, insert the path, and press <code>Enter</code>.";
+$locale_strings['gr']['osx Daemon Note'] = "To open the folder, press <code>Command-Shift-G</code> in
+                        Finder, insert the path, and press <code>Enter</code>.";
+$locale_strings['it']['osx Daemon Note'] = "To open the folder, press <code>Command-Shift-G</code> in
+                        Finder, insert the path, and press <code>Enter</code>.";
+$locale_strings['cat']['osx Daemon Note'] = "To open the folder, press <code>Command-Shift-G</code> in
+                        Finder, insert the path, and press <code>Enter</code>.";
+$locale_strings['zh']['osx Daemon Note'] = "在Finder中按<code>Command-Shift-G</code>
+						输入路径, 然后按下<code>Enter</code>来打开文件夹.";
+
+$locale_strings['en']['Note: 64 bit binaries available in'] = "Note: 64 bit binaries available in";
+$locale_strings['fr']['Note: 64 bit binaries available in'] = "Note: 64 bit binaries available in";
+$locale_strings['es']['Note: 64 bit binaries available in'] = "Note: 64 bit binaries available in";
+$locale_strings['gr']['Note: 64 bit binaries available in'] = "Note: 64 bit binaries available in";
+$locale_strings['it']['Note: 64 bit binaries available in'] = "Note: 64 bit binaries available in";
+$locale_strings['cat']['Note: 64 bit binaries available in'] = "Note: 64 bit binaries available in";
+$locale_strings['zh']['Note: 64 bit binaries available in'] = "注意: 64 位程序在这里";
+
+$locale_strings['en']['Optional if you only use'] = "Note: Optional if you only use PPCoin-Qt.";
+$locale_strings['fr']['Optional if you only use'] = "Note: Optional if you only use PPCoin-Qt.";
+$locale_strings['es']['Optional if you only use'] = "Note: Optional if you only use PPCoin-Qt.";
+$locale_strings['gr']['Optional if you only use'] = "Note: Optional if you only use PPCoin-Qt.";
+$locale_strings['it']['Optional if you only use'] = "Note: Optional if you only use PPCoin-Qt.";
+$locale_strings['cat']['Optional if you only use'] = "Note: Optional if you only use PPCoin-Qt.";
+$locale_strings['zh']['Optional if you only use'] = "注意: 如果你只使用 PPCoin-Qt 那么下面的配置是可选的.";
+
+$locale_strings['en']['Configuration Create pcoin.conf'] = "<p>Create <code><a class='internal present' href=
+                        '#ppconf'>ppcoin.conf</a></code> in the wallet
+                        directory.</p>";
+$locale_strings['fr']['Configuration Create pcoin.conf'] = "<p>Create <code><a class='internal present' href=
+                        '#ppconf'>ppcoin.conf</a></code> in the wallet
+                        directory.</p>";
+$locale_strings['es']['Configuration Create pcoin.conf'] = "<p>Create <code><a class='internal present' href=
+                        '#ppconf'>ppcoin.conf</a></code> in the wallet
+                        directory.</p>";
+$locale_strings['gr']['Configuration Create pcoin.conf'] = "<p>Create <code><a class='internal present' href=
+                        '#ppconf'>ppcoin.conf</a></code> in the wallet
+                        directory.</p>";
+$locale_strings['it']['Configuration Create pcoin.conf'] = "<p>Create <code><a class='internal present' href=
+                        '#ppconf'>ppcoin.conf</a></code> in the wallet
+                        directory.</p>";
+$locale_strings['cat']['Configuration Create pcoin.conf'] = "<p>Create <code><a class='internal present' href=
+                        '#ppconf'>ppcoin.conf</a></code> in the wallet
+                        directory.</p>";
+$locale_strings['zh']['Configuration Create pcoin.conf'] = "<p>在钱包的目录创建 <code><a class='internal present' href=
+                        '#ppconf'>ppcoin.conf</a></code>文件</p>";
+
+
+
+$locale_strings['en']['Configuration Enable RPC'] = "<h3>Enable RPC query capabilities with PPCoin-Qt</h3>
+
+                        <p>Change or add <code>server=1</code> to
+                        <code>ppcoin.conf</code>.</p>";
+$locale_strings['fr']['Configuration Enable RPC'] = "<h3>Enable RPC query capabilities with PPCoin-Qt</h3>
+
+                        <p>Change or add <code>server=1</code> to
+                        <code>ppcoin.conf</code>.</p>";
+$locale_strings['es']['Configuration Enable RPC'] = "<h3>Enable RPC query capabilities with PPCoin-Qt</h3>
+
+                        <p>Change or add <code>server=1</code> to
+                        <code>ppcoin.conf</code>.</p>";
+$locale_strings['gr']['Configuration Enable RPC'] = "<h3>Enable RPC query capabilities with PPCoin-Qt</h3>
+
+                        <p>Change or add <code>server=1</code> to
+                        <code>ppcoin.conf</code>.</p>";
+$locale_strings['it']['Configuration Enable RPC'] = "<h3>Enable RPC query capabilities with PPCoin-Qt</h3>
+
+                        <p>Change or add <code>server=1</code> to
+                        <code>ppcoin.conf</code>.</p>";
+$locale_strings['cat']['Configuration Enable RPC'] = "<h3>Enable RPC query capabilities with PPCoin-Qt</h3>
+
+                        <p>Change or add <code>server=1</code> to
+                        <code>ppcoin.conf</code>.</p>";
+$locale_strings['zh']['Configuration Enable RPC'] = "<h3>开启PPCoin-Qt的RPC查询支持</h3>
+
+						在<code>ppcoin.conf</code>文件中
+                        <p>添加或修改 <code>server=1</code>.</p>";
+
+
+
+$locale_strings['en']['Mining'] = "<h2>Mining</h2>
+
+                    <p>You should be able to use most <a href=
+                    'https://en.bitcoin.it/wiki/Category:Miners'>Bitcoin
+                    miners</a>. Default RPC port is 9902 for
+                    <code>ppcoind</code>.</p>
+
+                    <p><em>Note: Peercoin does not support <a href=
+                    'http://dot-bit.org/Merged_Mining'>merged mining</a> with
+                    Bitcoin.</em></p>";
+$locale_strings['fr']['Mining'] = "<h2>Mining</h2>
+
+                    <p>You should be able to use most <a href=
+                    'https://en.bitcoin.it/wiki/Category:Miners'>Bitcoin
+                    miners</a>. Default RPC port is 9902 for
+                    <code>ppcoind</code>.</p>
+
+                    <p><em>Note: Peercoin does not support <a href=
+                    'http://dot-bit.org/Merged_Mining'>merged mining</a> with
+                    Bitcoin.</em></p>";
+$locale_strings['es']['Mining'] = "<h2>Mining</h2>
+
+                    <p>You should be able to use most <a href=
+                    'https://en.bitcoin.it/wiki/Category:Miners'>Bitcoin
+                    miners</a>. Default RPC port is 9902 for
+                    <code>ppcoind</code>.</p>
+
+                    <p><em>Note: Peercoin does not support <a href=
+                    'http://dot-bit.org/Merged_Mining'>merged mining</a> with
+                    Bitcoin.</em></p>";
+$locale_strings['gr']['Mining'] = "<h2>Mining</h2>
+
+                    <p>You should be able to use most <a href=
+                    'https://en.bitcoin.it/wiki/Category:Miners'>Bitcoin
+                    miners</a>. Default RPC port is 9902 for
+                    <code>ppcoind</code>.</p>
+
+                    <p><em>Note: Peercoin does not support <a href=
+                    'http://dot-bit.org/Merged_Mining'>merged mining</a> with
+                    Bitcoin.</em></p>";
+$locale_strings['it']['Mining'] = "<h2>Mining</h2>
+
+                    <p>You should be able to use most <a href=
+                    'https://en.bitcoin.it/wiki/Category:Miners'>Bitcoin
+                    miners</a>. Default RPC port is 9902 for
+                    <code>ppcoind</code>.</p>
+
+                    <p><em>Note: Peercoin does not support <a href=
+                    'http://dot-bit.org/Merged_Mining'>merged mining</a> with
+                    Bitcoin.</em></p>";
+$locale_strings['cat']['Mining'] = "<h2>Mining</h2>
+
+                    <p>You should be able to use most <a href=
+                    'https://en.bitcoin.it/wiki/Category:Miners'>Bitcoin
+                    miners</a>. Default RPC port is 9902 for
+                    <code>ppcoind</code>.</p>
+
+                    <p><em>Note: Peercoin does not support <a href=
+                    'http://dot-bit.org/Merged_Mining'>merged mining</a> with
+                    Bitcoin.</em></p>";
+$locale_strings['zh']['Mining'] = "<h2>挖矿</h2>
+
+                    <p>你可以使用常见的 <a href=
+                    'https://en.bitcoin.it/wiki/Category:Miners'>比特币矿机</a>
+                    挖矿. <code>ppcoind</code>默认的 RPC 端口
+                    是 9902.</p>
+
+                    <p><em>注意: 点点币不支持与比特币 <a href=
+                    'http://dot-bit.org/Merged_Mining'>混合挖矿</a>.</em></p>";
+
+
+
