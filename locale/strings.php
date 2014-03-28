@@ -242,7 +242,7 @@ $locale_strings['en']['why_peercoin_header_security'] = "Increased <b>Security</
 $locale_strings['fr']['why_peercoin_header_security'] = "<b>Sécurité</b> accrue";
 $locale_strings['es']['why_peercoin_header_security'] = "Más <b>Seguro</b>";
 $locale_strings['gr']['why_peercoin_header_security'] = "Αυξημένη <b>Ασφάλεια</b>";
-$locale_strings['it']['why_peercoin_header_security'] = "Maggiore <b>Sicurezza</b>";
+$locale_strings['it']['why_peercoin_header_security'] = "Maggiore <b>Protezione</b>";
 $locale_strings['cat']['why_peercoin_header_security'] = "Més <b>Segur</b>";
 $locale_strings['zh']['why_peercoin_header_security'] = "更强的<b>安全性</b>";
 
@@ -346,7 +346,7 @@ $locale_strings['en']['faq_q_title_innovation'] = "Tell me more about Original I
 $locale_strings['fr']['faq_q_title_innovation'] = "Dites m'en plus à propos de l'Innovation originale.";
 $locale_strings['es']['faq_q_title_innovation'] = "Cuéntame más acerca de la Innovación Original.";
 $locale_strings['gr']['faq_q_title_innovation'] = "Πείτε μου περισσότερα για την Πρωτότυπη Καινοτομία.";
-$locale_strings['it']['faq_q_title_innovation'] = "Saperne di più sull'innovazione originale.";
+$locale_strings['it']['faq_q_title_innovation'] = "Saperne di più sull'Innovazione Originale.";
 $locale_strings['cat']['faq_q_title_innovation'] = "Explica'm més sobre l'Innovació Original.";
 $locale_strings['zh']['faq_q_title_innovation'] = "说说你们的创新之处.";
 
@@ -366,9 +366,9 @@ $locale_strings['gr']['faq_q_desc_innovation'] = "
 						<p>Όπως και άλλα κρυπτονομίσματα, τα αρχικά νομίσματα μπορούν να εξορυχθούν μέσω των κοινών απόδειξης-της-δουλειάς hashing διαδικασιών. Παρ'όλα αυτά, σε αντίθεση με τα άλλα νομίσματα, όσο η δυσκολία hashing μεγαλώνει καθώς περνάει ο χρόνος, οι χρήστες συνεχίζουν να ανταμείβονται με νομίσματα τα οποία παράγονται από τον επιπλέον αλγόριθμο της απόδειξης-της-συμμετοχής. Οποιοσδήποτε έχει το 1% του νομίσματος θα αποζημιώνεται με το 1% από όλων των blocks της απόδειξης-της-συμμετοχής.</p>
 						<p>Επιπροσθέτως της αυξανόμενης ασφάλειας και της βελτιωμένης ενεργειακής απόδοσης, ο υβριδικός αλγόριθμος απόδειξης-της-δουλειάς/απόδειξης-της-συμμετοχής καταπολεμά τις αποπληθωριστικές τάσεις από τις οποίες μπορούν να υποφέρουν τα κρυπτονομίσματα λόγω των σκληρών καλυμμάτων νομισματοκοπίας.</p>";
 $locale_strings['it']['faq_q_desc_innovation'] = "
-						<p>innovazione originale e degno di nota Peercoin è il sistema ibrido prova-del-palo/prova-di-lavoro.</p>
-						<p>Come altri criptovalute, monete iniziale possono essere estratto attraverso il processo di hashing prova-di-lavoro più comunemente utilizzato. Tuttavia a differenza di altre monete, come la difficoltà di hash aumenta nel tempo, gli utenti continuano a ricompensati con monete generate dall'algoritmo prova-di-quota aggiuntiva. Chiunque detenga l'1% della moneta sarà compensata con 1% di tutti i blocchi di monete di prova-del-palo.</p>
-						<p>Oltre a una maggiore sicurezza e una migliore efficienza energetica, l'ibrido prova-del-palo/prova-di-lavoro combatte l'algoritmo tendenze deflazionistiche che criptovalute può soffrire a causa del loro duro conio caps.</p>";
+						<p>L'innovazione originale e degna di nota di Peercoin è il sistema ibrido proof-of-stake/proof-of-work.</p>
+						<p>Come altre criptovalute, le monete iniziali possono essere minate attraverso il processo di hashing proof-of-work più comune. Tuttavia a differenza di altre monete, visto che la difficotltà di hash aumenta col tempo, gli utenti continuano a essere ricompensati con monete generate dall'algoritmo supplementare proof-of-stake. Chiunque detenga l'1% della valuta sarà ripagato con l'1% di tutti i blocchi di monete proof-of-stake.</p>
+						<p>Oltre a una maggiore protezione e una migliore efficienza energetica, l'algoritmo ibrido proof-of-work/proof-of-stake combatte le tendenze deflazionistiche che le criptovalute possono subire a causa del loro duro tetto di conio.</p>";
 $locale_strings['cat']['faq_q_desc_innovation'] = "<p>La més notoria innovació original de Peercoin és el sistema híbrid proof-of-stake/proof-of-work.</p>
 						<p>Com d'altres criptomonedes, les monedes inicials poden ser minades amb el sistema tradicional de processat de hashing mitjançant el proof-of-work. No obstant, a diferència d'altres monedes, mentre la dificultat de hashing augmenta amb el temps, els usuaris continuen sent recompensats amb monedes generades amb l'algoritme adicional del proof-of-stake. Cualsevol que tingui moneda, serà recompensat amb un 1% del total mitjançant blocs proof-of-stake.</p>
 						<p>Adicionalment a l'augment de seguretat i la millorada eficiència energética, el sistema híbrid de l'algoritme proof-of-work/proof-of-stake combat les tendencies deflacionaries que les criptomonedes poden patir degut al seu límit d'encunyament preestablert.</p>";
@@ -381,7 +381,7 @@ $locale_strings['en']['faq_q_title_security'] = "Tell me more about Increased Se
 $locale_strings['fr']['faq_q_title_security'] = "Dites m'en plus à propos de la Sécuritée accrue.";
 $locale_strings['es']['faq_q_title_security'] = "Cuéntame más acerca de la Seguridad Mejorada.";
 $locale_strings['gr']['faq_q_title_security'] = "Πείτε μου περισσότερα για την Αυξημένη Ασφάλεια.";
-$locale_strings['it']['faq_q_title_security'] = "Dimmi di più sulla sicurezza aumentata.";
+$locale_strings['it']['faq_q_title_security'] = "Saperne di più sulla Maggiore Proteziones.";
 $locale_strings['cat']['faq_q_title_security'] = "Explica'm més sobre la Seguretat Millorada.";
 $locale_strings['zh']['faq_q_title_security'] = "说说你们更强的安全性.";
 
@@ -400,9 +400,9 @@ $locale_strings['gr']['faq_q_desc_security'] = "
 						<p>Το τμήμα του αλγορίθμου που αναφέρεται στην απόδειξη-της-συμμετοχής βρίσκεται στην καρδιά της ασφάλειας επειδή αυξάνει δραστικά το κόστος μιας επίθεσης. Η απόκτηση του 51% από όλα τα υπάρχοντα νομίσματα απαιτεί περισσότερη προσπάθεια και πόρους από όσο η απόκτηση του 51% όλης της δύναμης εξόρυξης. Επιπλέον, σε μία μετοχική επίθεση της τάξης του \">50%\", η επένδυση του εισβολέα θα είναι, εξ ορισμού, σε κίνδυνο τεράστιας απώλειας επειδή ο ίδιος θα έχει στα χέρια του την πλειονότητα των κερμάτων στα οποία επιτίθεται. Αυτός ο κίνδυνος απώλειας μειώνει το κίνητρο του να προσπαθήσει κάποιος μια τέτοια επίθεση εξαρχής.</p>
 						<p>Το Peercoin επίσης χρησιμοποιεί και άλλα προηγμένα χαρακτηριστικά ασφαλείας συμπεριλαμβανομένης της εφαρμογής των τελών συναλλαγής σε επίπεδο πρωτοκόλλου για την υπεράσπιση ενάντια στις block bloating επιθέσεις.</p>";
 $locale_strings['it']['faq_q_desc_security'] = "
-						<p>Generare blocchi attraverso l'algoritmo di prova-del-palo/prova-di-lavoro ibrida riduce il rischio del difetto di Cornell egoista-minatore, \">50%\" attacchi e il gonfiore del blocco che sono stati usati per sfruttare altre valute.</p>
-						<p>La porzione di prova-del-palo dell'algoritmo si trova nel cuore di questa sicurezza perché genera drasticamente il costo di un attacco. Acquisire il 51% di tutte le monete esistenti richiede più sforzo e le risorse di acquisire il 51% di ogni potere di data mining. Ulteriormente, in un \">50%\" palo attacco, gli investimenti dell'attaccante sarà, per definizione, a rischio di grave perdita perché l'attaccante sarà in possesso di una maggioranza delle monete che essi stanno attaccando. Questo rischio di perdita riduce l'incentivo a tentare in primo luogo un tale attacco.</p>
-						<p>Peercoin impiega anche altre funzionalità di protezione avanzate tra cui applicare spese di transazione a livello di protocollo per difendere contro blocco attacchi di meteorismo.</p>";
+						<p>Generare blocchi attraverso l'algoritmo ibrido proof-of-work/proof-of-stake riduce il rischio della falla del Selfish-Miner di Cornell, di attacchi del \">50%\" e il dilatare i blocchi che sono stati usati per sfruttare altre valute.</p>
+						<p>La porzione proof-of-stake dell'algoritmo si trova al centro di questa protezione perché aumenta drasticamente il costo di un attacco. Acquisire il 51% di tutte le monete esistenti richiede più sforzo e risorse dell' acquisire il 51% di ogni potere estrazione. Inoltre, in un attacco \">50%\", l'investimento dell'attaccante sarà, per definizione, a rischio di grave perdita perché l'attaccante sarà in possesso della maggioranza delle monete che stanno attaccando. Questo rischio di perdita riduce in primo luogo la spinta di tentare tale attacco.</p>
+						<p>Peercoin impiega anche altre funzionalità di protezione avanzata tra cui applicare spese di transazione a livello di protocollo per difendersi da attacchi che dilatano i blocchi.</p>";
 $locale_strings['cat']['faq_q_desc_security'] = "
 						<p>La generació de blocs mitjançant l'algoritme híbrid proof-of-work/proof-of-stake redueix el risc del defecte del Miner Egoísta de Cornell, atacs de\">50%\", i l'inflat de blocs que s'ha utilitzat per aprofitar-se d'altres monedes.</p>
 						<p>La porció proof-of-stake de l'algoritme és al cor de les mesures de seguretat perquè augmenta considerablement el cost d'un atac. Adquirir el 51% de totes les monedes existents requereix de més esforç i recursos que adquirir el 51% de tot el poder de minat. Ademés, en un atac stake de \">50%\", l'inversió de l'atacant serà, per definició, un gran risc de pèrdua, perque l'atacant tindrà la major part de les monedes que està atacant. Aquest risc de pèrdua redueix l'incentiu d'intentar aquest tipus d'atac en primer lloc.</p>
@@ -415,7 +415,7 @@ $locale_strings['en']['faq_q_title_efficiency'] = "Tell me more about Energy and
 $locale_strings['fr']['faq_q_title_efficiency'] = "Dites m'en plus à propos de l'Efficacité en terme d'énergie et de coût.";
 $locale_strings['es']['faq_q_title_efficiency'] = "Cuéntame más acerca de la eficiencia energética.";
 $locale_strings['gr']['faq_q_title_efficiency'] = "Πείτε μου περισσότερα για την Αποδοτικότητα της Ενέργειας και του Κόστους.";
-$locale_strings['it']['faq_q_title_efficiency'] = "Dimmi di più su energia ed efficienza di costo.";
+$locale_strings['it']['faq_q_title_efficiency'] = "Saperne di più sull'Efficienza di Costi ed Energia.";
 $locale_strings['cat']['faq_q_title_efficiency'] = "Explica'm més sobre l'eficiència energética.";
 $locale_strings['zh']['faq_q_title_efficiency'] = "说说你们的低能耗.";
 
@@ -431,8 +431,8 @@ $locale_strings['gr']['faq_q_desc_efficiency'] = "
 						<p>Η παραγωγή block απόδειξης-της-συμμετοχής απαιτεί πολύ λιγότερη ενέργεια από την παραγωγή εντατικού υλικού proof-of-work hashes. Αυτό σημαίνει ότι με το πέρασμα του χρόνου, το δίκτυο του Peercoin θα καταναλώνει λιγότερη ενέργεια όσο τα blocks απόδειξης-της-δουλειάς γίνονται λιγότερο ικανοποιητικά, και έτσι, αντί αυτού, blocks παράγονται από το τμήμα του αλγορίθμου που συμπεριλαμβάνει την απόδειξη-της-συμμετοχής.</p>
 				        <p>Η απόδειξη-της-συμμετοχής επίσης ξεφεύγει από το ~$1 δισεκατομμύριο 'φόρο' στο δίκτυο του Bitcoin μέσω των block απόδειξης-της-δουλειάς. Μπορείτε να διαβάσετε περισσότερα για αυτό <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>εδώ</a>.</p>";
 $locale_strings['it']['faq_q_desc_efficiency'] = "
-						<p>Blocchi di prova-del-palo generazione richiede molto meno energia che generano gli hash di prova-di-lavoro hardware ad alta intensità. Questo significa che nel corso del tempo, la rete Peercoin consumerà meno energia come blocchi di prova di lavoro diventano meno gratificante e blocchi vengono generati invece dalla parte dell'algoritmo di prova-di-rogo.</p>
-						<p>Prova-del-palo inoltre sopprime la ~ $1 miliardo 'tassa' sulla rete Bitcoin attraverso blocchi di prova di lavoro. Si può leggere di più su quello <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>qui</a>.</p>";
+						<p>Generare blocchi tramite proof-of-stake richiede molta meno energia che generare hash proof-of-work intensi per gli hardware. Questo significa che col tempo, la rete Peercoin consumerà meno energia poiché i blocchi proof-of-work diventano meno remunerativi e i blocchi vengono generati invece dalla porzione proof-of-stake dell'algoritmo.</p>
+						<p>Il sistema Proof-of-stake inoltre evita la 'tassa' da ~$1 miliardo della rete Bitcoin di blocchi proof-of-work. <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>Qui</a> puoi leggere di più al riguardo.</p>";
 $locale_strings['cat']['faq_q_desc_efficiency'] = "
 						<p>La generació de blocs mitjançant proof-of-stake requereix molta menys energia que generar hashes amb hardware especialitzat mitjançant el proof-of-work. Això significa que amb el temps, la xarxa Peercoin consumirà molta menys energia a mesura que els blocs generats mitjançant proof-of-work siguin menys rentables que els blocs generats mitjançant la porció de l'algoritme del proof-of-stake.</p>
 				        <p>Ademés el Proof-of-stake es desfà de l'\"impost\" de ~$1000 milions de la xarxa Bitcoin mitjançant els blocs proof-of-work. Pots llegir més sobre això <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>aquí</a>.</p>";
@@ -473,8 +473,8 @@ $locale_strings['gr']['faq_q_desc_myth1'] = "
 						   Πηγή: <a href='http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features'>http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
 						</p>";
 $locale_strings['it']['faq_q_desc_myth1'] = "
-						<p>Peercoin è una delle monete davvero uniche che non sono solo un duplicato del codice originale Bitcoin.
-						   Peercoin è la prima moneta di introdurre una combinazione di prova del palo/prova-di-lavoro insieme ad altri meccanismi efficienti di energia. Infatti, molte altcoins sono ora integrare prova-del-palo su Peercoin in loro codebase.
+						<p>Peercoin è una delle monete realmente uniche e non sono solamente un clone del codice originale Bitcoin.
+						   Peercoin è la prima moneta di introdurre una combinazione proof-of-stake/proof-of-work insieme ad altri meccanismi di efficienza energetica. Difatti, molte altcoin adesso integrano il proof-of-stake di Peercoin nel loro codice.
 						   <br/> <br/>
 						   Fonte: <a href='http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features'>http://en.wikipedia.org/wiki/PPCoin#Distinguishing _features</a>
 						</p>";
@@ -492,7 +492,7 @@ $locale_strings['en']['faq_q_title_myth2'] = "Myth #2 - Peercoin is a centralize
 $locale_strings['fr']['faq_q_title_myth2'] = "Mythe #2 - Peercoin est une monnaie centralisée à cause des points de contrôle.";
 $locale_strings['es']['faq_q_title_myth2'] = "Mito #2 - Peercoin es una moneda centralizada debido a los puntos de control.";
 $locale_strings['gr']['faq_q_title_myth2'] = "Μύθος #2 - Το Peercoin είναι ένα συγκεντρωτικό νόμισμα λόγω του checkpointing.";
-$locale_strings['it']['faq_q_title_myth2'] = "Mito #2 - Peercoin è una moneta centralizzata a causa di checkpoint.";
+$locale_strings['it']['faq_q_title_myth2'] = "Mito #2 - Peercoin è una moneta centralizzata a causa del checkpoint.";
 $locale_strings['cat']['faq_q_title_myth2'] = "Mite #2 - Peercoin és una moneda centralitzada degut als punts de control.";
 $locale_strings['zh']['faq_q_title_myth2'] = "流言 #2 - 因为有检查点所以点点币不是分布式货币.";
 
@@ -513,9 +513,9 @@ $locale_strings['gr']['faq_q_desc_myth2'] = "
 						<p>&quot;Ο κίνδυνος της 51% denial-of-service επίθεσης στην αλυσίδα block είναι αληθινός, ειδικά σε ένα μικρότερο δίκτυο. Στην πραγματικότητα δεν θα απέκλεια μια τέτοια πιθανότητα ούτε ακόμα και στο bitcoin. Φυσικά μία τέτοια επίθεση στο bitcoin πιθανότατα δεν θα ερχόταν από έναν άτομο λόγω των πόρων που χρειάζεται. Αλλά είναι ανεύθυνο να λέγεται ότι είναι απίθανο να συμβεί. Απλά φανταστείτε τι θα συνέβαινε εάν το bitcoin σταματούσε να επεξεργαζόταν συναλλαγές για μερικές μέρες.&quot;</p>
 						<p>Μιας και το δίκτυο του Peercoin έχει μεγαλώσει ουσιαστικά στον περασμένο χρόνο, τα σημεία ελέγχου σταδιακά θα καταργηθούν σε μία από τις επερχόμενες εκδόσεις, πιθανόν στο PPC 0.5.</p>";
 $locale_strings['it']['faq_q_desc_myth2'] = "
-						<p>I checkpoint sono una misura di sicurezza aggiuntiva e sono stati introdotti per proteggere la rete Peercoin da attacchi quando era nella sua infanzia. Re Sole spiega:</p>
-						<p>&quot;il rischio di attacco di tipo denial of service 51% sulla catena di blocco è reale, soprattutto per una piccola rete. In realtà non sarebbe escludere tale possibilità a bitcoin anche. Naturalmente tale attacco su bitcoin probabilmente non sarebbe venuto da un individuo a causa della risorsa richiesta. Ma è irresponsabile dire che non è possibile. Provate a immaginare cosa accadrebbe se bitcoin si arresta elaborazione transazioni per un paio di giorni. &quot;</p>
-						<p>Rete di Peercoin di come è cresciuto notevolmente negli ultimi anni, i checkpoint saranno essere ritrasferiti in una delle versioni successiva, probabilmente in PPC 0.5.</p>";
+						<p>I checkpoint sono una misura di protezione aggiuntiva e sono stati introdotti per proteggere la rete Peercoin da attacchi quando era appena nata. Chiarisce Sunny King:</p>
+						<p>&quot;il rischio di attacco di tipo denial of service di 51% sulla catena di blocchi è reale, soprattutto ad una piccola rete. In realtà non sarebbe da escludere una tale possibilità anche a bitcoin. Naturalmente tale attacco su bitcoin probabilmente non verrebbe da un singolo a causa delle risorse richieste. Ma è irresponsabile dire che non è possibile. Provate a immaginare cosa accadrebbe se bitcoin arrestasse le transazioni per qualche giorno. &quot;</p>
+						<p>Visto che la rete Peercoin è cresciuta sostanzialmente nell'ultimo anno, i checkpoint saranno eliminati in una delle prossime versioni, probabilmente in PPC 0.5.</p>";
 $locale_strings['cat']['faq_q_desc_myth2'] = "
 						<p>Els punts de control centralitzats són una mesura de seguretat adicional i van ser introduïts per protegir la xarxa Peercoin d'atacs mentre la xarxa està a la seva infancia. Sunny King ho explica:</p>
 						<p>&quot;El risc d'un atac de denegació de servei del 51% a la cadena de blocs és real, especialment a una xarxa petita. De fet, no excloeixo aquesta posibilitat fins i tot a la xarxa Bitcoin. Per suposat aquest atac a Bitcoin no vindria d'una persona individual degut a la quantitat de recursos necessaris per dur a terme tal atac. Però seria irresponsable dir que no és una possibilitat real. Tan sols cal imaginar qué pasaria si la xarxa deixara de processar transaccions durant uns pocos dies.&quot;</p>
@@ -529,7 +529,7 @@ $locale_strings['en']['faq_q_title_myth3'] = "Myth #3 - Peercoin is extremely in
 $locale_strings['fr']['faq_q_title_myth3'] = "Mythe #3 - Peercoin est extrèmement inflationniste par nature.";
 $locale_strings['es']['faq_q_title_myth3'] = "Mito #3 - Peercoin tiene una naturaleza extremadamente inflacionara.";
 $locale_strings['gr']['faq_q_title_myth3'] = "Μύθος #3 - Το Peercoin είναι εξαιρετικά πληθωριστικό στη φύση.";
-$locale_strings['it']['faq_q_title_myth3'] = "Mito #3 - Peercoin è estremamente inflazionistiche in natura.";
+$locale_strings['it']['faq_q_title_myth3'] = "Mito #3 - Peercoin ha una natura estremamente inflazionistica.";
 $locale_strings['cat']['faq_q_title_myth3'] = "Mite #3 - Peercoin té una naturalesa extremadament inflacionària.";
 $locale_strings['zh']['faq_q_title_myth3'] = "流言 #3 - 点点币在本质上是高通胀.";
 
@@ -550,9 +550,9 @@ $locale_strings['gr']['faq_q_desc_myth3'] = "
 						<p>Επιπροσθέτως, το Bitcoin αυτή τη στιγμή βιώνει <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>ένα ~10%</a> πληθωρισμό το χρόνο όσο πλησιάζει τη συνολική προσφορά των 21 εκατομμυρίων. <b>Ελπίζεται</b> ότι όταν φτάσει αυτό το ποσό τα κόστα συναλλαγής θα είναι αρκετά για την διατήρηση ενός ασφαλούς δικτύου.</p>
 						<p>Για τη διατήρηση ενός ασφαλούς δικτύου στο μέλλον, το Peercoin έχει 1% πληθωρισμό το χρόνο (ανταμοιβή της απόδειξης-της-συμμετοχής) για να διασφαλήσει ότι θα υπάρχει ένα ασφαλές δίκτυο, χωρίς να δίνει καμία σημασία στα τέλη συναλλαγών. Όπως προαναφέρθηκε αυτό μπορεί να γίνει αποπληθωριστικό, όπως στοχεύει και το Bitcoin να γίνει, κατά τη διάρκεια μεγάλου όγκου συναλλαγών.</p>";
 $locale_strings['it']['faq_q_desc_myth3'] = "
-						<p>Se Peercoin cresce rapidamente, rogo conio può temporaneamente diminuire come moneta giorni vengono persi quando le negoziazioni. Questo causa Peercoin diventare deflazionistica. La natura pianeggiante delle spese di transazione è destinata a contrastare questo diminuendo il volume totale delle transazioni. I fautori della Peercoin sostengono che questo diminuirà deflazione.</p>
-						<p>Inoltre, Bitcoin esperienze attualmente inflazione <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>un ~ 10%</a> all'anno, si avvicina la sua fornitura totale di 21 milioni. È <b>sperato</b> che al raggiungimento dell'alimentazione totale che le tasse le transazioni sarà sufficiente per sostenere una rete protetta.</p>
-						<p>Di mantenere una rete sicura in futuro, Peercoin ha un 1% un'inflazione di anno (prova-del-palo ricompensa) per assicurarsi che ci sarà una rete sicura, non importa le spese di transazione. Come dichiarato prima che questo può diventare deflazionistico, come Bitcoin mira ad essere, nel corso di elevati volumi di transazioni.</p>";
+						<p>No. Se Peercoin cresce rapidamente, il conio può temporaneamente diminuire poiché giorni di monete vengono persi durante gli scambi. Questo potrebbe far diventare Peercoin di tipo deflazionistico. La natura uniforme delle spese di transazione è destinata a contrastare questo diminuendo il volume totale delle transazioni. I fautori di Peercoin sostengono che questo diminuirà la deflazione.</p>
+						<p>Inoltre, Bitcoin attualmente subisce <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>un ~10%</a> di inflazione all'anno mentre si avvicina alla sua disponibilità totale di 21 milioni. Si <b>spera</b> che al raggiungimento della disponibilità totale le spese di transazione saranno sufficiente per sostenere una rete protetta.</p>
+						<p>Per mantenere una rete protetta in futuro, Peercoin ha un 1% di inflazione all'anno (guadagno del proof-of-stake) per assicurarsi che ci sarà una rete protetta, non considerando le spese di transazione. Come dichiarato prima, questo può diventare deflazionistico, come Bitcoin mira ad essere, nel corso di elevati volumi di transazioni.</p>";
 $locale_strings['cat']['faq_q_desc_myth3'] = "
 						<p>No. Si Peercoin creix ràpidament, l'encunyament mitjançant Stake es reduirà temporalment mentre els dies de moneda es perden degut al comerç d'aquestes. Això causaria que Peercoin fora deflacionària. La naturalesa de les tases de transacció fixes es va disenyar com a mesura de contrarestar això, reduint el volum del total de transaccions. Els defensors de Peercoin argumenten que això disminuirà la deflació.</p>
 						<p>Ademés, Bitcoin experimenta actualment <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>un ~10%</a> d'inflació anual mentre s'acosta al seu subministrament total de 21 milions de monedes. S'<b>espera</b> que quan s'arribi al subministrament total de monedes les tases de transacció seran suficients per mantenir una xarxa segura.</p>
@@ -566,7 +566,7 @@ $locale_strings['en']['convinced_you_header'] = "Convinced <b>you</b>?";
 $locale_strings['fr']['convinced_you_header'] = "<b>Convaincu</b>?";
 $locale_strings['es']['convinced_you_header'] = "¿<b>Convencido</b>?";
 $locale_strings['gr']['convinced_you_header'] = "<b>Σε</b> πείσαμε;";
-$locale_strings['it']['convinced_you_header'] = "Convinto <b>tu</b>?";
+$locale_strings['it']['convinced_you_header'] = "<b>Convinto</b>?";
 $locale_strings['cat']['convinced_you_header'] = "¿<b>Convençut</b>?";
 $locale_strings['zh']['convinced_you_header'] = "已使<b>你</b>信服?";
 
@@ -574,7 +574,7 @@ $locale_strings['en']['convinced_you_desc'] = "Time to download the client, and 
 $locale_strings['fr']['convinced_you_desc'] = "Il est temps de télécharger le client, et de l'essayer par vous-même. Si vous avez des questions, posez les sur le <a href='http://www.peercointalk.org/'>forum</a>, ou sur les réseaux sociaux ci-dessous.";
 $locale_strings['es']['convinced_you_desc'] = "Es hora de descargar el cliente y probarlo tú mismo. Si tienes alguna duda simplemente pregunta en el <a href='http://www.peercointalk.org/'>foro</a>, o los enlaces a redes sociales de más abajo.";
 $locale_strings['gr']['convinced_you_desc'] = "Ώρα να κατεβάσεις το πρόγραμμα, και να το δοκιμάσεις ο ίδιος. Εάν έχεις οποιαδήποτε ερώτηση απλά ρώτα στο <a href='http://www.peercointalk.org/'>φόρουμ</a>, ή στους σύνδεσμους κοινωνικών δίκτυων από κάτω.";
-$locale_strings['it']['convinced_you_desc'] = "Tempo per scaricare il client e provate voi stessi. Se avete domande basta chiedono sul <a href='http://www.peercointalk.org/'>forum</a>, o i sociali link qui sotto.";
+$locale_strings['it']['convinced_you_desc'] = "È tempo di scaricare il client e provare tu stesso. Se avete domande basta chiedere sul <a href='http://www.peercointalk.org/'>forum</a>, o sui sociali link qui sotto.";
 $locale_strings['cat']['convinced_you_desc'] = "Es l'hora de descarregar el client i probar-ho tu mateix. Si tens algun dubte simplement pregunta al <a href='http://www.peercointalk.org/'>forum</a>, o als enllaços de xarxes socials de més avall.";
 $locale_strings['zh']['convinced_you_desc'] = "是时候下载钱包客户端，自己尝试一下了。有任何问题可以到<a href='http://www.peercointalk.org/'>论坛</a>交流, 或下面社交媒体获取信息。";
 
@@ -582,7 +582,7 @@ $locale_strings['en']['tutorials'] = "Tutorials";
 $locale_strings['fr']['tutorials'] = "Tutoriels";
 $locale_strings['es']['tutorials'] = "Tutoriales";
 $locale_strings['gr']['tutorials'] = "Οδηγοί";
-$locale_strings['it']['tutorials'] = "Lezione";
+$locale_strings['it']['tutorials'] = "Tutorial";
 $locale_strings['cat']['tutorials'] = "Tutorials";
 $locale_strings['zh']['tutorials'] = "新手指导";
 
@@ -590,7 +590,7 @@ $locale_strings['en']['installing_wallet'] = "Installing a Wallet";
 $locale_strings['fr']['installing_wallet'] = "Installer le Portefeuille";
 $locale_strings['es']['installing_wallet'] = "Instalar monedero";
 $locale_strings['gr']['installing_wallet'] = "Εγκατάσταση Πορτοφολιού";
-$locale_strings['it']['installing_wallet'] = "L'installazione di un Portafoglio";
+$locale_strings['it']['installing_wallet'] = "Installare un Portafoglio";
 $locale_strings['cat']['installing_wallet'] = "Instal·lar moneder";
 $locale_strings['zh']['installing_wallet'] = "安装钱包";
 
@@ -598,7 +598,7 @@ $locale_strings['en']['setting_up_wallet'] = "Setting Up Wallet";
 $locale_strings['fr']['setting_up_wallet'] = "Configurer le Portefeuille";
 $locale_strings['es']['setting_up_wallet'] = "Configurar monedero";
 $locale_strings['gr']['setting_up_wallet'] = "Ρύθμιση Πορτοφολιού";
-$locale_strings['it']['setting_up_wallet'] = "Creazione di Portafogli";
+$locale_strings['it']['setting_up_wallet'] = "Creare un Portafoglio";
 $locale_strings['cat']['setting_up_wallet'] = "Configurar moneder";
 $locale_strings['zh']['setting_up_wallet'] = "设置钱包";
 
@@ -606,7 +606,7 @@ $locale_strings['en']['more_ellipsis'] = "More...";
 $locale_strings['fr']['more_ellipsis'] = "Plus...";
 $locale_strings['es']['more_ellipsis'] = "Más...";
 $locale_strings['gr']['more_ellipsis'] = "Περισσότερα...";
-$locale_strings['it']['more_ellipsis'] = "Più...";
+$locale_strings['it']['more_ellipsis'] = "Altro...";
 $locale_strings['cat']['more_ellipsis'] = "Més...";
 $locale_strings['zh']['more_ellipsis'] = "更多...";
 
@@ -616,7 +616,7 @@ $locale_strings['en']['links'] = "Links";
 $locale_strings['fr']['links'] = "Liens";
 $locale_strings['es']['links'] = "Enlaces";
 $locale_strings['gr']['links'] = "Σύνδεσμοι";
-$locale_strings['it']['links'] = "Collegamente";
+$locale_strings['it']['links'] = "Collegamenti";
 $locale_strings['cat']['links'] = "Enllaços";
 $locale_strings['zh']['links'] = "链接";
 
@@ -640,7 +640,7 @@ $locale_strings['en']['mining'] = "Mining";
 $locale_strings['fr']['mining'] = "Extraction";
 $locale_strings['es']['mining'] = "Minado";
 $locale_strings['gr']['mining'] = "Εξόρυξη";
-$locale_strings['it']['mining'] = "Minerario";
+$locale_strings['it']['mining'] = "Minare";
 $locale_strings['cat']['mining'] = "Minar";
 $locale_strings['zh']['mining'] = "挖矿";
 
