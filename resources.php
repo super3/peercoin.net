@@ -4,14 +4,14 @@
 
     <h2 class="maintitle">Getting Started With Peercoin</h2>
 
-    <p><strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong></p>
+    <p><strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin:</strong></p>
     
     <ul style="list-style-type: circle;">
       <li>
         <a href="https://www.youtube.com/watch?v=TjL2AgCQDJ0">What is Peercoin?</a> - YouTube Introduction into Peercoin; What makes it different from Bitcoin?
       </li>
       <li>
-        <a href="http://www.ppcointalk.org/">Peercoin Talk</a> - Official Peercoin Forum
+        <a href="http://www.peercointalk.org/">Peercoin Talk</a> - Official Peercoin Forum
       </li>
       <li>
         <a href="http://www.reddit.com/r/Peercoin">/r/Peercoin</a> - Reddit Peercoin Subreddit
@@ -25,15 +25,18 @@
     <h2 class="maintitle">Tools</h2>
     
     <p>
-      <strong>These tools provide statistics on the network, allow you to track payments or calculate mining returns.</strong>
+      <strong>These tools provide statistics on the network, allow you to track payments or calculate mining returns:</strong>
     </p>
     
     <ul style="list-style-type: circle;">
       <li>
-        <a href="http://blockexplorer.ppcointalk.org/">PPCoinTalk Explorer</a> -  Blockchain Viewer: View transactions on the blockchain
+        <a href="http://blockexplorer.peercointalk.org/">PeercoinTalk Explorer</a> -  Blockchain Viewer: View transactions on the blockchain
       </li>
       <li>
         <a href="http://ppc.cryptocoinexplorer.com/">CryptoCoinExplorer</a> -  Blockchain Explorer: View transactions by PPC address
+      </li>
+      <li>
+      <a href="http://peerchain.net/">peerchain.net</a> -  The Peercoin Blockchain
       </li>
       <li>
         <a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">BitInfoCharts Hashrate Comparison</a> -  Peercoin Network Statistics
@@ -75,7 +78,7 @@
     </ul>
 
     <p>
-      <strong>One can also mine PPC via multicoin pools</strong>
+      <strong>One can also mine PPC via multicoin pools:</strong>
     </p>
 
     <ul style="list-style-type: circle;">
@@ -138,11 +141,11 @@
     <h2 class="maintitle"> Shops, Retail product and Services accepting Peercoin</h2>
     
     <p>
-      <strong>Use your peercoins for to buy and trade, and help make Peercoin commonly used world wide</strong>
+      Use your peercoins for to buy and trade, and help make Peercoin commonly used world wide.
     </p>
     
     <p>
-      <strong>Physical goods</strong>
+      <strong>Physical goods:</strong>
     </p>
     
     <ul style="list-style-type: circle;">
