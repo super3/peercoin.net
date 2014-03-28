@@ -7,7 +7,7 @@ $locale_strings['cat']['links'] = "Enllaços";
 $locale_strings['es']['links'] = "Enlaces";
 $locale_strings['fr']['links'] = "Liens";
 $locale_strings['gr']['links'] = "Σύνδεσμοι";
-$locale_strings['it']['links'] = "Collegamente";
+$locale_strings['it']['links'] = "Collegamenti";
 $locale_strings['zh']['links'] = "链接";
 
 $locale_strings['en']['tools'] = "Tools";
@@ -31,7 +31,7 @@ $locale_strings['cat']['mining'] = "Minar";
 $locale_strings['es']['mining'] = "Minado";
 $locale_strings['fr']['mining'] = "Extraction";
 $locale_strings['gr']['mining'] = "Εξόρυξη";
-$locale_strings['it']['mining'] = "Minerario";
+$locale_strings['it']['mining'] = "Minare";
 $locale_strings['zh']['mining'] = "挖矿";
 
 $locale_strings['en']['languages'] = "Languages: ";
