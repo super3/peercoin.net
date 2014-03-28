@@ -3,54 +3,58 @@
   $Locale = new Loc();
 ?>
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
   <head>
-	<meta charset="UTF-8">
-	<!-- Title here -->
-	<title><?php echo $Locale->getText("homepage_title"); ?></title>
 
-	<!-- Description, Keywords and Author -->
-	<meta name="description" content="Secure and sustainable cryptocoin." />
-	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable, cryptocoin">
-	<meta name="author" content="Peercoin">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta charset="UTF-8">
+  	<!-- Title -->
+  	<title><?php echo $Locale->getText("homepage_title"); ?></title>
 
-	<!-- open graph tags -->
-	<meta property="og:title" content="Peercoin" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://peercoin.net" />
-	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png"/>
-	<meta property="og:description" content="Secure and sustainable cryptocoin." />
+  	<!-- Description, Keywords and Author -->
+  	<meta name="description" content="Secure and sustainable cryptocoin." />
+  	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable, cryptocoin">
+  	<meta name="author" content="Peercoin">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  	<!-- open graph tags -->
+  	<meta property="og:title" content="Peercoin" />
+  	<meta property="og:type" content="website" />
+  	<meta property="og:url" content="http://peercoin.net" />
+  	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png"/>
+  	<meta property="og:description" content="Secure and sustainable cryptocoin." />
 
- 	<!-- Bootstrap core CSS -->
- 	<link href="assets/css/bootstrap.css" rel="stylesheet">
- 	<link href="assets/css/flat-ui.css" rel="stylesheet">
+    <!-- Misc Meta -->
+  	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
+  	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
- 	<!-- Custom styles for this template -->
- 	<link href="assets/css/main.css" rel="stylesheet">
+   	<!-- Bootstrap core CSS -->
+   	<link href="assets/css/bootstrap.css" rel="stylesheet">
+   	<link href="assets/css/flat-ui.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="assets/css/revolution.css" media="screen"/>
-	<link rel="stylesheet" href="assets/css/media-slideshow.css" media="screen"/>
+   	<!-- Custom styles for this template -->
+   	<link href="assets/css/main.css" rel="stylesheet">
 
-    	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    	<!--[if lt IE 9]>
-      	<script src="assets/js/html5shiv.js"></script>
-      	<script src="assets/js/respond.min.js"></script>
-    	<![endif]-->
+  	<link rel="stylesheet" href="assets/css/revolution.css" media="screen"/>
+  	<link rel="stylesheet" href="assets/css/media-slideshow.css" media="screen"/>
 
-	<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-40768937-3', 'peercoin.net');
-	ga('send', 'pageview');
-	</script>
+  	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  	<!--[if lt IE 9]>
+    	<script src="assets/js/html5shiv.js"></script>
+    	<script src="assets/js/respond.min.js"></script>
+  	<![endif]-->
+
+  	<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
+  	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  	ga('create', 'UA-40768937-3', 'peercoin.net');
+  	ga('send', 'pageview');
+  	</script>
+
   </head>
 
   <body>
@@ -95,7 +99,7 @@
               <ul class="dropdown-menu">
 		            <li><a href="mining"><?php echo $Locale->getText("dropdown_peercoins_mine"); ?></a></li>
         		    <li><a href="minting"><?php echo $Locale->getText("dropdown_peercoins_mint"); ?></a></li>
-        		    <li><a href="buying"><?php echo $Locale->getText("dropdown_peercoins_buy"); ?></a></li>
+        		    <li><a href="resources#buying"><?php echo $Locale->getText("dropdown_peercoins_buy"); ?></a></li>
                 <li><a href="http://peer4commit.com">Peer4commit</a></li>
               </ul>
             </li>

@@ -2,10 +2,21 @@
 
   <div class="col-sm-12">
 
-    <h2 class="maintitle">Getting Started With Peercoin</h2>
+    <h2 class="maintitle">Table of Contents</h2>
+
+    <ul style="list-style-type: circle;">
+      <li><a href="#gettingstarted">Getting Started</a></li>
+      <li><a href="#buying">Buying Peercoin</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#pools">Mining Pools</a></li>
+      <li><a href="#exchanges">Exchanges</a></li>
+      <li><a href="#shops">Shopping with Peercoin</a></li>
+    </ul>
+
+    <h2 class="maintitle" id="gettingstarted">Getting Started With Peercoin</h2>
 
     <p><strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong></p>
-    
+
     <ul style="list-style-type: circle;">
       <li>
         <a href="https://www.youtube.com/watch?v=TjL2AgCQDJ0">What is Peercoin?</a> - YouTube Introduction into Peercoin; What makes it different from Bitcoin?
@@ -21,13 +32,29 @@
       </li>
     </ul>
 
+    <h2 class="maintitle" id="buying">Buying Peercoin</h2>
 
-    <h2 class="maintitle">Tools</h2>
-    
+    <p>
+      <strong>Peercoin can be bought at various online exchanges with fiat money or Bitcoin. Some popular exchanges are listed below.
+      However, it is not a good idea to store your Peercoin on an exchange, as there is more counterparty risk and your Peercoin 
+      is more vulnerable to theft than a properly-stored local wallet.</strong>
+    </p>
+
+    <ul style="list-style-type: circle;">
+      <li>
+        <a href="https://btc-e.com/">BTC-e</a> - Buy Peercoin with Bitcoin, USD, EUR or various other cryptocurrencies.
+      </li>
+      <li>
+        <a href="https://www.cryptsy.com/">Cryptsy</a> - Buy Peercoin with Bitcoin, Litecoin, Quarkcoin and other cryptocurrencies.
+      </li>
+    </ul>
+
+    <h2 class="maintitle" id="tools">Tools</h2>
+
     <p>
       <strong>These tools provide statistics on the network, allow you to track payments or calculate mining returns.</strong>
     </p>
-    
+
     <ul style="list-style-type: circle;">
       <li>
         <a href="http://blockexplorer.ppcointalk.org/">PPCoinTalk Explorer</a> -  Blockchain Viewer: View transactions on the blockchain
@@ -47,7 +74,7 @@
     </ul>  
 
 
-    <h2 class="maintitle">Mining Pools</h2>
+    <h2 class="maintitle" id="pools">Mining Pools</h2>
 
     <p>
       Peercoin is a Proof-Of-Work/Proof of Stake hybrid coin that is compatible with the same ASIC hardware used on the Bitcoin network. Initially the ratio of newly produced coins favored mined coins over minted coins.  However over time as more coins are generated, the ratio of newly produced coins shifts to favor ones produced via Proof-Of-Stake minting. With this, the increasing popularity of Peercoin, increasing minting rate, and the decreasing return on mining, competition for blocks becomes fiercer.
@@ -88,10 +115,10 @@
     </ul>
 
 
-    <h2 class="maintitle">Exchanges</h2>
+    <h2 class="maintitle" id="exchanges">Exchanges</h2>
 
     <p>
-      Exchanges are the trading websites where you can buy or sell Peercoin. Be careful not to place large sums of Peercoin on exchanges without adequate security measures such as a good password and 2-factor authentication.
+      Exchanges are the trading websites where you can buy or sell Peercoin. Be careful not to place large sums of Peercoin on exchanges without adequate security measures including a strong password and 2-factor authentication.
       Minting coins is also impossible on exchanges.
     </p>
     <br>
@@ -135,7 +162,7 @@
     </ul>
 
 
-    <h2 class="maintitle"> Shops, Retail product and Services accepting Peercoin</h2>
+    <h2 class="maintitle" id="shops"> Shops, Retail product and Services accepting Peercoin</h2>
     
     <p>
       <strong>Use your peercoins for to buy and trade, and help make Peercoin commonly used world wide</strong>
