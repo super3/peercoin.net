@@ -16,7 +16,7 @@
   	<meta name="description" content="Secure and sustainable cryptocoin." />
   	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable, cryptocoin">
   	<meta name="author" content="Peercoin">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   	<!-- open graph tags -->
   	<meta property="og:title" content="Peercoin" />
