@@ -56,7 +56,7 @@
   <body>
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -65,8 +65,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">
-            <img src="/assets/img/logos/Dark-Text-350.png" width="170" alt="Peercoin">
-            <span style="width=100%; font-size:12px; text-align:center;"><?php echo $Locale->getText("homepage_title"); ?></span>
+            <img src="/assets/img/logos/Dark-Text-350.png" class="peercoin-logo" alt="Peercoin">
+            <span class="peercoin-tagline"><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
         </div>
         <div class="navbar-collapse collapse">
@@ -113,7 +113,7 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </div>
+    </nav>
 <?php if($_SERVER['PHP_SELF'] != "/index.php") {echo ' 
   <div class="container content">
 ';} ?>

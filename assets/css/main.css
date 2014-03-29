@@ -174,6 +174,15 @@ a:hover {
 	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.70);
 }
 
+.peercoin-logo {
+	width:170px;
+}
+
+.peercoin-tagline {
+	font-size:12px;
+	text-align:center;
+}
+
 .marketcap {
 	text-align: center;
 	padding-top: 60px;
@@ -854,7 +863,12 @@ margin-top:3em;
 /* 3.1 Mobile Navigation */
 @media (max-width: 767px) {
 	.navbar-collapse.in {
-		padding-bottom: 30px;
+		padding-top: 20px;
+		overflow-y: inherit;
+	}
+
+	.nav.navbar-nav.pull-right {
+		width:100%;
 	}
 
 	.navbar .nav > li > a,
@@ -881,6 +895,7 @@ margin-top:3em;
 		right: 0;
 		height: auto;
 		margin-left: 0 !important;
+		padding: 10px 0;
 	}
 
 	.navbar-header button {
@@ -901,6 +916,16 @@ margin-top:3em;
 
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fff;
+	}
+
+
+	.navbar .nav li.dropdown .dropdown-menu > li > a {
+		padding: 10px 0px 10px 32px;
+		line-height: 30px;
+	}
+
+	.wallet {
+		height:100px;
 	}
 
 }
@@ -1019,7 +1044,7 @@ margin-top:3em;
 		}
 
 		.navbar .nav > li > a {
-			padding: 4px 20px !important;
+			padding: 10px 20px !important;
 		}
 
 		.content {
@@ -1030,6 +1055,17 @@ margin-top:3em;
 			padding-top: 0px;
 		}
 
+		.peercoin-logo {
+			width: 170px;
+			margin: 10px 0 20px 20px;
+		}
+
+		.peercoin-tagline {
+			font-size: 16px;
+			position: absolute;
+			top: 28px;
+			left: 220px;
+		}
 		.content .downloads ul li {
 			display: block;
 			margin: 0 30px 20px 30px;
@@ -1125,6 +1161,10 @@ margin-top:3em;
 
 		.cta h2 {
 			margin-bottom: 20px;
+		}
+
+		.navbar .nav > li > a {
+			padding: 22px 15px;
 		}
 	}
 
