@@ -7,5 +7,6 @@ $locale_languages = array(
 		'fr'	=>	'Français',
 		'gr'	=>	'Ελληνικά',
 		'it'    => 	'Italiano',
-		'zh'	=>	'中文'
+		'zh'	=>	'中文',
+		'no'	=>	'Norwegian'
 	);
