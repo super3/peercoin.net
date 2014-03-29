@@ -1119,7 +1119,7 @@ margin-top:3em;
 
 	@media (max-width: 999px) {
 		.content {
-			padding: 85px 0 70px 0;
+			padding: 85px 18px 70px 18px;
 		}
 
 		.content .downloads ul li {
@@ -1211,7 +1211,7 @@ margin-top:3em;
 		}
 
 		.content {
-			padding: 15px 0 70px 0;
+			padding: 15px 18px 70px 18px;
 		}
 
 		#headerwrap-2 {
