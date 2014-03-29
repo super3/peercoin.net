@@ -7,7 +7,7 @@ $locale_strings['cat']['homepage_title'] = "Criptomoneda Segura i Sostenible.";
 $locale_strings['es']['homepage_title'] = "Criptomoneda Segura y Sostenible.";
 $locale_strings['fr']['homepage_title'] = "Crypto-monnaie Fiable &amp; Durable.";
 $locale_strings['gr']['homepage_title'] = "ασφαλές &amp; Ανεκτό Κρυπτονόμισμα.";
-$locale_strings['it']['homepage_title'] = "Criptomoneta Sicuro e Sostenibile.";
+$locale_strings['it']['homepage_title'] = "Criptomoneta Sicura e Sostenibile.";
 $locale_strings['zh']['homepage_title'] = "安全 &amp; 可持续的加密货币.";
 
 //dropdown menu (header)
@@ -17,7 +17,7 @@ $locale_strings['cat']['dropdown_title_docs_and_press'] = "Documents";
 $locale_strings['es']['dropdown_title_docs_and_press'] = "Documentos";
 $locale_strings['fr']['dropdown_title_docs_and_press'] = "Documents";
 $locale_strings['gr']['dropdown_title_docs_and_press'] = "Έγγραφα";
-$locale_strings['it']['dropdown_title_docs_and_press'] = "Documenti";
+$locale_strings['it']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "文档";
 
 $locale_strings['en']['dropdown_docs_news'] = "News";
@@ -57,7 +57,7 @@ $locale_strings['cat']['dropdown_docs_and_press_kit'] = "Kit de premsa";
 $locale_strings['es']['dropdown_docs_and_press_kit'] = "Kit de prensa";
 $locale_strings['fr']['dropdown_docs_and_press_kit'] = "Kit de Presse";
 $locale_strings['gr']['dropdown_docs_and_press_kit'] = "Συλλογή Τύπου";
-$locale_strings['it']['dropdown_docs_and_press_kit'] = "Corredo Pressa";
+$locale_strings['it']['dropdown_docs_and_press_kit'] = "Cartella Stampa";
 $locale_strings['zh']['dropdown_docs_and_press_kit'] = "新闻资料";
 
 $locale_strings['en']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
@@ -65,7 +65,7 @@ $locale_strings['cat']['dropdown_docs_and_press_articles_interviews'] = "Article
 $locale_strings['es']['dropdown_docs_and_press_articles_interviews'] = "Artículos y entrevistas";
 $locale_strings['fr']['dropdown_docs_and_press_articles_interviews'] = "Articles et Interviews";
 $locale_strings['gr']['dropdown_docs_and_press_articles_interviews'] = "Άρθρα και Συνεντεύξεις";
-$locale_strings['it']['dropdown_docs_and_press_articles_interviews'] = "Articoli e Interviste";
+$locale_strings['it']['dropdown_docs_and_press_articles_interviews'] = "Articoli ed Interviste";
 $locale_strings['zh']['dropdown_docs_and_press_articles_interviews'] = "文章和访谈";
 
 $locale_strings['en']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
@@ -73,7 +73,7 @@ $locale_strings['cat']['dropdown_docs_and_press_sunny_king_interview'] = "Entrev
 $locale_strings['es']['dropdown_docs_and_press_sunny_king_interview'] = "Entrevista a Sunny King";
 $locale_strings['fr']['dropdown_docs_and_press_sunny_king_interview'] = "Interviewer Sunny King";
 $locale_strings['gr']['dropdown_docs_and_press_sunny_king_interview'] = "Πάρε συνέντευξη από τον Sunny King";
-$locale_strings['it']['dropdown_docs_and_press_sunny_king_interview'] = "Intervista con Sunny King";
+$locale_strings['it']['dropdown_docs_and_press_sunny_king_interview'] = "Intervista Sunny King";
 $locale_strings['zh']['dropdown_docs_and_press_sunny_king_interview'] = "Sunny King采访";
 
 $locale_strings['en']['dropdown_title_resources'] = "Resources";
@@ -81,7 +81,7 @@ $locale_strings['cat']['dropdown_title_resources'] = "Utilitza Peercoins";
 $locale_strings['es']['dropdown_title_resources'] = "Usa Peercoins";
 $locale_strings['fr']['dropdown_title_resources'] = "Ressources";
 $locale_strings['gr']['dropdown_title_resources'] = "Χρησιμοποίησε Peercoins";
-$locale_strings['it']['dropdown_title_resources'] = "Utilizzare Peercoins";
+$locale_strings['it']['dropdown_title_resources'] = "Risorse";
 $locale_strings['zh']['dropdown_title_resources'] = "使用点点币";
 
 $locale_strings['en']['dropdown_title_peercoins'] = "Get Peercoins";
@@ -97,7 +97,7 @@ $locale_strings['cat']['dropdown_peercoins_mine'] = "Mina Peercoins";
 $locale_strings['es']['dropdown_peercoins_mine'] = "Mina Peercoins";
 $locale_strings['fr']['dropdown_peercoins_mine'] = "Extraire des Peercoins";
 $locale_strings['gr']['dropdown_peercoins_mine'] = "Εξόρυξε Peercoins";
-$locale_strings['it']['dropdown_peercoins_mine'] = "Miniera Peercoins";
+$locale_strings['it']['dropdown_peercoins_mine'] = "Minare Peercoins";
 $locale_strings['zh']['dropdown_peercoins_mine'] = "点点币挖矿";
 
 $locale_strings['en']['dropdown_peercoins_mint'] = "Mint Peercoins";
@@ -153,7 +153,7 @@ $locale_strings['cat']['dropdown_contribute_projects'] = "Projects";
 $locale_strings['es']['dropdown_contribute_projects'] = "Projects";
 $locale_strings['fr']['dropdown_contribute_projects'] = "Projets";
 $locale_strings['gr']['dropdown_contribute_projects'] = "Projects";
-$locale_strings['it']['dropdown_contribute_projects'] = "Projects";
+$locale_strings['it']['dropdown_contribute_projects'] = "Progetti";
 $locale_strings['zh']['dropdown_contribute_projects'] = "Projects";
 
 $locale_strings['en']['dropdown_forum'] = "Forum";
