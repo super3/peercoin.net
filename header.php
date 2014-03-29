@@ -115,7 +115,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<?php if ($index) { ?>
+<?php if (isset($index) && ($index === true)) { ?>
   <!-- Headerwrap -->
   <header id="headerwrap-2">
 <?php }; ?>

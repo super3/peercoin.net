@@ -2,7 +2,7 @@
 
   <div class="col-lg-12">
 
-    <h2 class="maintitle">News</h2>
+    <h2 class="maintitle"><?php echo $Locale->getText("documents_news_title"); ?></h2>
 
     <div class="row">
 
@@ -23,7 +23,7 @@
             The thought alone is blasphemy to some. As crypto explodes and segregates into multiple camps - all touting the supposed superiority of their respective coins...
           </p>
 
-          <a href="http://cointrader.org/peercoin-proof-of-stake-and-bitcoin/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://cointrader.org/peercoin-proof-of-stake-and-bitcoin/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_news_read_more"); ?></a>
 
         </div>
       </div>
@@ -46,7 +46,7 @@
             By now, most people have heard of Bitcoin, the peer-to-peer currency whose value has soared over the past couple of years. 
           </p>
 
-          <a href="http://www.washingtonpost.com/blogs/the-switch/wp/2013/12/26/dogecoins-and-litecoins-and-peercoins-oh-my-what-you-need-to-know-about-bitcoin-alternatives/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.washingtonpost.com/blogs/the-switch/wp/2013/12/26/dogecoins-and-litecoins-and-peercoins-oh-my-what-you-need-to-know-about-bitcoin-alternatives/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_news_read_more"); ?></a>
 
         </div>
       </div>
@@ -71,7 +71,7 @@
             Bitcoin has spawned numerous spinoffs and imitators. Why the sudden proliferation of "altcoins" and what are the chances that any of them matter?
           </p>
 
-          <a href="http://finance.fortune.cnn.com/2013/12/24/bitcoin-altcoin-cryptocurrency/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://finance.fortune.cnn.com/2013/12/24/bitcoin-altcoin-cryptocurrency/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_news_read_more"); ?></a>
 
         </div>
       </div>
@@ -95,7 +95,7 @@
             A ban on the use of cryptocurrencies cannot be ruled out, although China's latest rulings are an acknowledges the growing use of digital currencies.
           </p>
 
-          <a href="http://www.cnbc.com/id/101251925" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.cnbc.com/id/101251925" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_news_read_more"); ?></a>
 
         </div>
       </div>
@@ -120,7 +120,7 @@
             Bitcoin is not alone. The virtual universe has spawned a few dozen alternatives, with varying reserves, computer mining requirements and privacy
           </p>
 
-          <a href="http://dealbook.nytimes.com/2013/11/24/in-bitcoins-orbit-rival-virtual-currencies-vie-for-acceptance/?_r=0" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://dealbook.nytimes.com/2013/11/24/in-bitcoins-orbit-rival-virtual-currencies-vie-for-acceptance/?_r=0" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_news_read_more"); ?></a>
 
         </div>
       </div>
@@ -143,7 +143,7 @@
             As the third largest cryptocurrency in the world, peercoin, will Peercoin shine brighter thanks to its new community development push?
           </p>
 
-          <a href="http://www.coindesk.com/peercoin-vault-of-satoshi-deal/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.coindesk.com/peercoin-vault-of-satoshi-deal/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_news_read_more"); ?></a>
 
         </div>
       </div>
@@ -168,7 +168,7 @@
             If you have been involved in Bitcoin for any significant length of time, you have probably at least heard of the idea of "proof of work".
           </p>
 
-          <a href="http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://bitcoinmagazine.com/6528/what-proof-of-stake-is-and-why-it-matters/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_news_read_more"); ?></a>
 
         </div>
       </div>

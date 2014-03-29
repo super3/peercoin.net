@@ -2,7 +2,7 @@
 
   <div class="col-lg-12">
 
-    <h2 class="maintitle">Events</h2>
+    <h2 class="maintitle"><?php echo $Locale->getText("documents_events_title"); ?></h2>
 
     <div class="row">
 
@@ -23,7 +23,7 @@
             Covering the business and scientific part of Bitcoin, currencies and their derivatives.
           </p>
 
-          <a href="http://bitcoinference.com/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://bitcoinference.com/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -45,7 +45,7 @@
             The day before the COMMERCISM conference, join 100+ commerce startups, e-retailers and thought leaders for the ultimate meet 'n' geek 
           </p>
 
-          <a href="http://commercism.co/bitcoin" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://commercism.co/bitcoin" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -71,7 +71,7 @@
             MoneyLab: Coining Alternatives aims to critically explore, map and probe the politics, inner-workings and governance of these alternative digital-economic forms. It is not enough to merely promote and further
           </p>
 
-          <a href="http://networkcultures.org/wpmu/moneylab/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://networkcultures.org/wpmu/moneylab/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -93,7 +93,7 @@
             CoinSummit San Francisco is a two day event connecting virtual currency entrepreneurs, angel and VC investors, hedge fund professionals and others who are looking to learn and network in the virtual
           </p>
 
-          <a href="http://www.coinsumm.it/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.coinsumm.it/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -119,7 +119,7 @@
             Underlying the commercial possibilities of Bitcoin are both a fascinating, innovative and complex technical architecture and an intricate balance of market forces, social norms, and group consensus.
           </p>
 
-          <a href="https://citp.princeton.edu/event/bitcoin/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="https://citp.princeton.edu/event/bitcoin/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -141,7 +141,7 @@
             Inside Bitcoins is a conference and expo that explores virtual currencies and cryptocurrencies.
           </p>
 
-          <a href="http://www.mediabistro.com/insidebitcoins/new-york/?c=bcoinnybcorg" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.mediabistro.com/insidebitcoins/new-york/?c=bcoinnybcorg" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -167,7 +167,7 @@
             The Crypto-Currency Convention is one of the key instruments for bringing Awareness and Acceptance while supporting collaborative Innovation within the Crypto-Currency Community. Regardless of previous Education or Exposure to Crypto Currency such as Bitcoin, The Crypto Currency Convention is the best place to get up to speed and promises to be an experience You will remember forever.
           </p>
 
-          <a href="http://www.cryptocurrencyconvention.com/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.cryptocurrencyconvention.com/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -189,7 +189,7 @@
             The Expo is a three-day event focused on Bitcoin community building, and will feature more than 50 prominent members of the international Bitcoin community.
           </p>
 
-          <a href="http://bitcoinexpo.ca/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://bitcoinexpo.ca/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -215,7 +215,7 @@
             Bitcoin Conference Russia is a unique event aimed at informing conference attendees of currency Bitcoin, latest trends in the world financial market, prospects and challenges of doing business with Bitcoin in Russia, technical issues and future of Bitcoin, as part of the global currency system.
           </p>
 
-          <a href="http://bitcoinconf.ru/ru" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://bitcoinconf.ru/ru" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -237,7 +237,7 @@
             The first global bitcoin conference in China will be held in Beijing. During the event,outstanding and knowledgeable experts in the Bitcoin world will bring the latest information in the industry. They will also shed light on Bitcoin future trends in China and abroad, explore how to consolidate or expand existing business, and discuss how to initiate new Bitcoin business.
           </p>
 
-          <a href="http://www.globalbtcsummit.com/en/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.globalbtcsummit.com/en/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -263,7 +263,7 @@
             Bitcoin 2014 is the annual international forum, exhibition and networking conference organised by the Bitcoin Foundation for the fintech industry.
           </p>
 
-          <a href="http://bitcoin2014.com/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://bitcoin2014.com/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -285,7 +285,7 @@
             Digital Money 2014 will address the opportunities and threats associated with cryptocurrencies on a global scale.
           </p>
 
-          <a href="http://www.digitalmoneysummit.com/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.digitalmoneysummit.com/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -311,7 +311,7 @@
             Into the dragon's den. Bitcoin is one of the most disruptive, revolutionary, and fascinating technologies ever seen. And Washington, DC will soon play host to one of the most comprehensive conferences on bitcoin to date.Â  Â  Â Â
           </p>
 
-          <a href="http://www.bitcoinbeltway.com/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.bitcoinbeltway.com/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -333,7 +333,7 @@
             Camp Bitcoin is proud to be the first Burning Man camp for crypto-currency industry professionals worldwide. Join us August 25th through September 1st for a fun-filled week of other-worldly revelry at Burning Man 2014!
           </p>
 
-          <a href="http://campbitcoin.hivewallet.com/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://campbitcoin.hivewallet.com/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -359,7 +359,7 @@
             It's more than a conference. It's a collection of wide-open possibilities. Join one of several tracks and stay on top of the most dynamic topic worldwide. Meet renowned experts and get answers to your questions. Get down to business and connect with founders and investors. Grab a drink or a snack from the complimentary buffet. Wander through rows of exhibitors and catch up on the hottest bitcoin innovations. Dive into one of the workshops and become a specialist. Stay connected with high-speed wi-fi. And when youâ€™re ready for the most important business talk of the week, step back from the crowd, pick one of the quiet spots, and enjoy the beautiful, contemporary and spacious location. Of course, with a conference this attractive, you might not want to leave at all.
           </p>
 
-          <a href="http://www.world-bitcoin-forum.com/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://www.world-bitcoin-forum.com/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -381,7 +381,7 @@
             Discover the future of Bitcoins and Crypto Currency with national and international industry specialists!
           </p>
 
-          <a href="http://insidebitcoins.co.uk/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://insidebitcoins.co.uk/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
@@ -407,7 +407,7 @@
             2014's Money2020 will be held on Nov. 2-6, 2014 and we expect more than 6,000 attendees, including 500+ CEOs, from 2,000+ companies and 50+ countries.
           </p>
 
-          <a href="http://money2020.com/" target="_blank"class="btn btn-primary btn-lg" role="button">Read More</a>
+          <a href="http://money2020.com/" target="_blank"class="btn btn-primary btn-lg" role="button"><?php echo $Locale->getText("documents_events_read_more"); ?></a>
 
         </div>
       </div>
