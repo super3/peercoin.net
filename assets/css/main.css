@@ -176,6 +176,7 @@ a:hover {
 
 .peercoin-logo {
 	width:170px;
+	height:37px;
 }
 
 .peercoin-tagline {
@@ -1057,6 +1058,7 @@ margin-top:3em;
 
 		.peercoin-logo {
 			width: 170px;
+			height: 37px;
 			margin: 10px 0 20px 20px;
 		}
 
@@ -1146,11 +1148,20 @@ margin-top:3em;
 	}
 
 	@media only screen and (max-width: 400px) {
-	#headerwrap-2 h1 {
-		font-size: 32px;
-		line-height: 42px;
-		margin-bottom: 40px;
+		#headerwrap-2 h1 {
+			font-size: 32px;
+			line-height: 42px;
+			margin-bottom: 40px;
+		}
 	}
+
+	@media only screen and (max-width: 480px) {
+		.peercoin-tagline {
+		    position: relative;
+		    top: -15px;
+		    left: 4px;
+		    margin-bottom: -10px;
+	    }	
 	}
 
 	@media only screen and (max-width: 1200px) {
