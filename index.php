@@ -1,36 +1,35 @@
 <?php include ('header.php'); ?>
 
   <!-- Headerwrap -->
-			<div class="row" style="max-width:100%; margin:0px;">
-        <h1 style="margin-top:90px;">
-		          <?php echo $Locale->getText("big_welcome_header"); ?>
-		        </h1>
-				<a href="#whypeercoin" class="btn btn-embossed btn-primary smoothScroll"><?php echo $Locale->getText("why_peercoin_button"); ?></a>
-		        <a href="downloads" target="_blank" class="btn btn-embossed btn-primary"><?php echo $Locale->getText("download_wallet"); ?>!</a>
+		<div class="row" style="max-width:100%; margin:0px;">
+    		<h1 style="margin-top:90px;">
+				<?php echo $Locale->getText("big_welcome_header"); ?>
+        	</h1>
+			<a href="#whypeercoin" class="btn btn-embossed btn-primary smoothScroll"><?php echo $Locale->getText("why_peercoin_button"); ?></a>
+	        <a href="downloads" target="_blank" class="btn btn-embossed btn-primary"><?php echo $Locale->getText("download_wallet"); ?>!</a>
 
-		        <div class="marketcap">
-			        <ul>
-				        <li>
-					        <span id="current-price"></span>
-				        	<span><?php echo $Locale->getText("price"); ?></span>
-				        </li>
-				        <li>
-					        <span id="market-cap"></span>
-					        <span><?php echo $Locale->getText("market_cap"); ?></span>
-				        </li>
-				        <li>
-					        <span id="total-supply"></span>
-					        <span><?php echo $Locale->getText("total_supply"); ?></span>
-				        </li>
-			        </ul>
-			        <div class="updated">
-				        <span><?php echo $Locale->getText("ticker_last_updated"); ?></span>
-	        	        <span id="seconds-since-update"><?php echo $Locale->getText("ticker_last_updated_never"); ?></span>
-			        </div>
+	        <div class="marketcap">
+		        <ul>
+			        <li>
+				        <span id="current-price"></span>
+			        	<span><?php echo $Locale->getText("price"); ?></span>
+			        </li>
+			        <li>
+				        <span id="market-cap"></span>
+				        <span><?php echo $Locale->getText("market_cap"); ?></span>
+			        </li>
+			        <li>
+				        <span id="total-supply"></span>
+				        <span><?php echo $Locale->getText("total_supply"); ?></span>
+			        </li>
+		        </ul>
+		        <div class="updated">
+			        <span><?php echo $Locale->getText("ticker_last_updated"); ?></span>
+        	        <span id="seconds-since-update"><?php echo $Locale->getText("ticker_last_updated_never"); ?></span>
 		        </div>
+	        </div>
 
-			</div>
-    	</div>
+		</div>
     </header>
 
     <!-- Call To Action -->
@@ -46,7 +45,7 @@
 	<!-- Services Section -->
 	<div class="container sinfo" style="padding-bottom:0px;">
 
-		<div class="services row svgicons centered">
+		<div class="services svgicons centered">
 
 			<div class="col-lg-4">
 				<img src="/assets/img/icons/rocket.svg" alt="Original Innovation">
@@ -87,7 +86,7 @@
 	<div class="cta">
 		<div class="container centered">
 			<h2 class="col-lg-4"><?php echo $Locale->getText("fund_peercoin"); ?></h2>
-			<p class="col-lg-8">
+			<p class="col-lg-8 cta-address">
 				<?php echo $Locale->getText("fund_peercoin_accepting_donations"); ?><br/>
 				<?php echo $Locale->getText("fund_peercoin_donations_btc"); ?> 1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i - 
 				<a href="http://blockr.io/address/info/1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i"><?php echo $Locale->getText("block_explorer"); ?></a><br/>
@@ -102,7 +101,7 @@
 
 <div class="faq container">
 		<h2 class="centered"><?php echo $Locale->getText("faq_header"); ?></h2>
-		<div class="row">
+		<div class="">
 			<div class="col-lg-8">
 				<div class="panel-group" id="accordion">
 				  <div class="panel panel-default">
@@ -199,13 +198,12 @@
 			    	<p><?php echo $Locale->getText("convinced_you_desc"); ?></p>
 			        <a href="downloads" class="btn btn-primary btn-large"><i class="fui-link"></i> <?php echo $Locale->getText("download_wallet"); ?>!</a>
 			        <div class="social">
-			<a href="https://www.facebook.com/Peercoin"><img src="/assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
-			<a href="http://www.reddit.com/r/peercoin"><img src="/assets/img/icons/social-reddit.png" alt="Reddit"></a>
-			<a href="https://twitter.com/PeercoinPPC"><img src="/assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
-			<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="/assets/img/icons/social-yt.png" alt="Watch videos on YouTube"></a>
-		   </div>
+						<a href="https://www.facebook.com/Peercoin"><img src="/assets/img/icons/social-fb.png" alt="Visit us on Facebook"></a>
+						<a href="http://www.reddit.com/r/peercoin"><img src="/assets/img/icons/social-reddit.png" alt="Reddit"></a>
+						<a href="https://twitter.com/PeercoinPPC"><img src="/assets/img/icons/social-twitter.png" alt="Follow us on Twitter"></a>
+						<a href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT"><img src="/assets/img/icons/social-yt.png" alt="Watch videos on YouTube"></a>
+		   			</div>
 			     </div>
-
 			</div>
 
 		</div>
@@ -214,7 +212,7 @@
 	<div class="tuts">
 	<!-- Portfolio Section -->
 	<div class="container">
-	<div class="row centered">
+	<div class="centered">
 		<h2><?php echo $Locale->getText("tutorials"); ?></h2>
 		<div class="ch-grid">
 			<div class="col-lg-4">
