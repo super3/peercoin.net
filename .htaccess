@@ -8,4 +8,4 @@ RewriteRule ^(.*)$ $1.php
 RewriteRule ^/?page/([^/d]+)/?$ single.php?doc=$1 [L,QSA]
 
 #Error Documents for pages that don't exist yet
-ErrorDocument 404 /404
+ErrorDocument 404 404

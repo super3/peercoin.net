@@ -110,7 +110,7 @@ a:hover {
 /* 1.3 Headerwrap */
 
 #headerwrap {
-	background: url(/assets/img/misc/header-bg.jpg) no-repeat center top;
+	background: url(../img/misc/header-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:160px;
 	text-align:center;
@@ -135,7 +135,7 @@ a:hover {
 }
 
 #headerwrap-2 {
-	background: url(/assets/img/misc/header2-bg.jpg) no-repeat center top;
+	background: url(../img/misc/header2-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top: 180px;
 	text-align:center;
@@ -407,15 +407,15 @@ a:hover {
 }
 
 .ch-img-1 {
-	background-image: url(/assets/img/home/1.jpg);
+	background-image: url(../img/home/1.jpg);
 }
 
 .ch-img-2 {
-	background-image: url(/assets/img/home/2.jpg);
+	background-image: url(../img/home/2.jpg);
 }
 
 .ch-img-3 {
-	background-image: url(/assets/img/home/3.jpg);
+	background-image: url(../img/home/3.jpg);
 }
 
 .ch-info {
@@ -829,18 +829,18 @@ margin-top:3em;
 	display: block;
 	height: 64px;
 	width: 64px;
-	background: url(/assets/img/downloads/windows.png) no-repeat 0 0 transparent;
+	background: url(../img/downloads/windows.png) no-repeat 0 0 transparent;
 	position: absolute;
 	top: 20px;
 	right: 20px;
 }
 
 .downloads li.mac span.icon {
-	background: url(/assets/img/downloads/mac.png) no-repeat 0 0 transparent;
+	background: url(../img/downloads/mac.png) no-repeat 0 0 transparent;
 }
 
 .downloads li.linux span.icon {
-	background: url(/assets/img/downloads/linux.png) no-repeat 0 0 transparent;
+	background: url(../img/downloads/linux.png) no-repeat 0 0 transparent;
 }
 
 .downloads a {
@@ -1133,7 +1133,7 @@ margin-top:3em;
 		}
 
 		.navbar {
-			background: url(/assets/img/misc/mobile-header-bg.png) repeat-x 0 100% #f8f8f8;
+			background: url(../img/misc/mobile-header-bg.png) repeat-x 0 100% #f8f8f8;
 		}
 
 		.navbar .container {
@@ -1361,7 +1361,7 @@ margin-top:3em;
 
 /***** About Wrap *****/
 #aboutwrap {
-	background: url(/assets/img/misc/about-bg.jpg) no-repeat center top;
+	background: url(../img/misc/about-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:80px;
 	text-align:center;
@@ -1387,7 +1387,7 @@ margin-top:3em;
 
 /***** Service Wrap *****/
 #servicewrap {
-	background: url(/assets/img/misc/service-bg.jpg) no-repeat center top;
+	background: url(../img/misc/service-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -1413,7 +1413,7 @@ margin-top:3em;
 
 /***** Testimonial Wrap *****/
 #testwrap {
-	background: url(/assets/img/misc/test-bg.jpg) no-repeat center top;
+	background: url(../img/misc/test-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -1444,7 +1444,7 @@ margin-top:3em;
 
 /***** Team Wrap *****/
 #teamwrap {
-	background: url(/assets/img/misc/team-bg.jpg) no-repeat center top;
+	background: url(../img/misc/team-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:100px;
 	text-align:center;
@@ -1470,7 +1470,7 @@ margin-top:3em;
 
 /***** Team Wrap *****/
 #faqwrap {
-	background: url(/assets/img/misc/faq-bg.jpg) no-repeat center top;
+	background: url(../img/misc/faq-bg.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:100px;
 	text-align:center;
