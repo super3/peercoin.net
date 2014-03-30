@@ -69,7 +69,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">
-            <img src="/assets/img/logos/Dark-Text-350.png" class="peercoin-logo" alt="Peercoin">
+            <img src="assets/img/logos/Dark-Text-350.png" class="peercoin-logo" alt="Peercoin">
             <span class="peercoin-tagline"><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
         </div>
@@ -80,8 +80,8 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_docs_and_press"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="whitepaper"><?php echo $Locale->getText("dropdown_docs_and_press_whitepaper"); ?></a></li>
-                <li><a href="http://peercoin.net/news"><?php echo $Locale->getText("dropdown_docs_news"); ?></a></li> 
-                <li><a href="http://peercoin.net/events"><?php echo $Locale->getText("dropdown_docs_events"); ?></a></li> 
+                <li><a href="news"><?php echo $Locale->getText("dropdown_docs_news"); ?></a></li> 
+                <li><a href="events"><?php echo $Locale->getText("dropdown_docs_events"); ?></a></li> 
                 <li><a href="http://www.peercointalk.org/index.php?topic=1616.0"><?php echo $Locale->getText("dropdown_docs_and_press_kit"); ?></a></li>
                 <li><a href="http://www.peercointalk.org/index.php?topic=2219.0"><?php echo $Locale->getText("dropdown_docs_and_press_articles_interviews"); ?></a></li>
                 <?php
@@ -93,7 +93,7 @@
                 <?php } ?>
               </ul>
             </li>
-            <li><a href="http://peercoin.net/resources"><?php echo $Locale->getText("dropdown_title_resources"); ?></a></li>
+            <li><a href="resources"><?php echo $Locale->getText("dropdown_title_resources"); ?></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_peercoins"); ?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
