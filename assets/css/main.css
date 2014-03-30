@@ -41,6 +41,7 @@ END of Table of Contents */
 
 body {
   padding-top: 75px;
+  overflow-x: hidden;
 }
 
 /* 1.2 Misc */
