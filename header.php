@@ -30,7 +30,7 @@
   	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
    	<!-- Bootstrap core CSS -->
-   	<link href="assets/css/bootstrap.css" rel="stylesheet">
+   	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
    	<link href="assets/css/flat-ui.css" rel="stylesheet">
 
    	<!-- Custom styles for this template -->
@@ -41,8 +41,8 @@
 
   	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   	<!--[if lt IE 9]>
-    	<script src="assets/js/html5shiv.js"></script>
-    	<script src="assets/js/respond.min.js"></script>
+    	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+    	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
   	<![endif]-->
 
   	<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
