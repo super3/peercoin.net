@@ -866,6 +866,7 @@ margin-top:3em;
 	.navbar-collapse.in {
 		padding-top: 20px;
 		overflow-y: inherit;
+		overflow-x: hidden;
 	}
 
 	.nav.navbar-nav.pull-right {
