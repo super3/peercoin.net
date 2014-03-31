@@ -68,7 +68,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href=".">
             <img src="assets/img/logos/Dark-Text-350.png" class="peercoin-logo" alt="Peercoin">
             <span class="peercoin-tagline"><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
@@ -119,11 +119,8 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<?php if($_SERVER['PHP_SELF'] != "/index.php") {echo ' 
-  <div class="container content">
-';} ?>
-<?php if($_SERVER['PHP_SELF'] == "/index.php") { echo ' 
- <!-- Headerwrap -->
+<?php if ($index) { ?>
+  <!-- Headerwrap -->
   <header id="headerwrap-2">
+<?php }; ?>
     <div class="container-content">
-';}?>

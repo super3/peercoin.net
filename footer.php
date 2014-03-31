@@ -62,16 +62,16 @@
 			<div class="row">
 				<div class="col-lg-12 social-icons">
 			        <a target="_blank" href="https://www.facebook.com/Peercoin">
-			              <img src="./assets/img/icons/social-fb.png" alt="Visit us on Facebook">
+			              <img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook">
 			        </a>
 			            <a target="_blank" href="http://www.reddit.com/r/peercoin">
-			              <img src="/assets/img/icons/social-reddit.png" alt="Reddit">
+			              <img src="assets/img/icons/social-reddit.png" alt="Reddit">
 			        </a>
 			            <a target="_blank" href="https://twitter.com/PeercoinPPC">
-			              <img src="/assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
+			              <img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
 			        </a>
 			            <a target="_blank" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
-			              <img src="/assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
+			              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
 			        </a>
 	          	</div>
           	</div><!-- /row -->
