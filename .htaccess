@@ -1,33 +1,11 @@
-# URL rewrites for ALL pages that end in php, saves time
+#URL rewrites for ALL pages that end in php, saves time
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
-# Pretty view rewrite rule for single page views of tabbed content. sytax will be.net/page/[param(which is the id of the php page we want]
+# pretty view rewrite rule for single page views of tabbed content. sytax will be.net/page/[param(which is the id of the php page we want]
 RewriteRule ^/?page/([^/d]+)/?$ single.php?doc=$1 [L,QSA]
 
-# Error Documents for pages that don't exist yet
+#Error Documents for pages that don't exist yet
 ErrorDocument 404 /404
-
-# Caching Setup
-
-# 4 WEEKS
-<FilesMatch "\.(ico|pdf|flv)$">
-Header set Cache-Control "max-age=2419200, public"
-</FilesMatch>
- 
-# 1 WEEK
-<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
-Header set Cache-Control "max-age=604800, public"
-</FilesMatch>
- 
-# 2 DAYS
-<FilesMatch "\.(xml|txt|css|js)$">
-Header set Cache-Control "max-age=172800, public, must-revalidate"
-</FilesMatch>
- 
-# 1 MIN
-<FilesMatch "\.(html|htm|php)$">
-Header set Cache-Control "max-age=60, private, public, must-revalidate"
-</FilesMatch>
