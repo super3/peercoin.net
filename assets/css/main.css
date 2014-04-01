@@ -14,15 +14,14 @@
 	1.4 Footer
 	1.5 Content elements (subpages)
 2. Elements
-	2.1 Slideshow Stylesheet
-	2.2 SVG Icons Configuration
-	2.3 Image Hover Effect
-	2.4 Call To Action
-	2.5 Services Boxes and Video
-	2.6 FAQ
-	2.7 Tutorials
-	2.8 Videocontainer
-	2.9 Wallet Download
+	2.1 SVG Icons Configuration
+	2.2 Image Hover Effect
+	2.3 Call To Action
+	2.4 Services Boxes and Video
+	2.5 FAQ
+	2.6 Tutorials
+	2.7 Videocontainer
+	2.8 Wallet Download
 3. Custom Media Queries
 	3.1 Mobile Navigation
 	3.2 FAQ
@@ -324,27 +323,7 @@ a:hover {
 2. Elements Styling
 */
 
-/* 2.1 Slideshow Styling */
-
-#slideshow-container {
-	width:100% !important;
-	max-height:463px;
-	background:#e4e6e6;
-	position:relative;
-	overflow:hidden;
-	padding:0;
-}
-
-.banner {
-	width:100%;
-	max-height:463px !important;
-	position:relative;
-	overflow:hidden;
-	margin:0 auto;
-}
-
-
-/* 2.2 SVG Icons Configuration */
+/* 2.1 SVG Icons Configuration */
 
 .svgicons img {
 	display: inline-block;
@@ -355,7 +334,7 @@ a:hover {
 }
 
 
-/* 2.3 Image Hover Effect */
+/* 2.2 Image Hover Effect */
 
 .ch-grid {
 	margin: 20px 0 0 0;
@@ -508,7 +487,7 @@ a:hover {
 }
 
 
-/* 2.4 Call To Action */
+/* 2.3 Call To Action */
 
 .cta {
 	background-color: #2b3135;
@@ -535,7 +514,7 @@ a:hover {
 }
 
 
-/* 2.5 Services Boxes and Video */
+/* 2.4 Services Boxes and Video */
 
 .sinfo {
 	padding-top: 60px;
@@ -573,7 +552,7 @@ a:hover {
 }
 
 
-/* 2.6 FAQ */
+/* 2.5 FAQ */
 
 .faq {
 	padding: 80px 0
@@ -632,7 +611,7 @@ a:hover {
 }
 
 
-/* 2.7 Tutorials */
+/* 2.6 Tutorials */
 
 .tuts {
 	background: #20262b;
@@ -674,7 +653,7 @@ a:hover {
 	height: 220px;
 }
 
-/**** 2.8 social icons ***/
+/**** 2.7 social icons ***/
 
 .social-icons{
 margin-top:3em;
