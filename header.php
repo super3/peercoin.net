@@ -13,31 +13,28 @@
   	<title><?php echo $Locale->getText("homepage_title"); ?></title>
 
   	<!-- Description, Keywords and Author -->
-  	<meta name="description" content="Secure and sustainable cryptocoin." />
+  	<meta name="description" content="Secure and sustainable cryptocoin.">
   	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable, cryptocoin">
   	<meta name="author" content="Peercoin">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   	<!-- open graph tags -->
-  	<meta property="og:title" content="Peercoin" />
-  	<meta property="og:type" content="website" />
-  	<meta property="og:url" content="http://peercoin.net" />
-  	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png"/>
-  	<meta property="og:description" content="Secure and sustainable cryptocoin." />
+  	<meta property="og:title" content="Peercoin">
+  	<meta property="og:type" content="website">
+  	<meta property="og:url" content="http://peercoin.net">
+  	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png">
+  	<meta property="og:description" content="Secure and sustainable cryptocoin.">
 
     <!-- Misc Meta -->
-  	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8" />
+  	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8">
   	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
    	<!-- Bootstrap core CSS -->
    	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-   	<link href="assets/css/flat-ui.css" rel="stylesheet">
+   	<link rel="stylesheet" href="assets/css/flat-ui.css">
 
    	<!-- Custom styles for this template -->
    	<link href="assets/css/main.css" rel="stylesheet">
-
-  	<link rel="stylesheet" href="assets/css/revolution.css" media="screen"/>
-  	<link rel="stylesheet" href="assets/css/media-slideshow.css" media="screen"/>
 
   	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   	<!--[if lt IE 9]>
