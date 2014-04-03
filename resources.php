@@ -77,6 +77,9 @@
       <li>
         <a href="https://www.btc38.com/">Btc38 exchange</a> - Chinese exchange
       </li>
+      <li>
+        <a href="https://holytransaction.com/">HolyTransaction</a> - Consumer-oriented multi-currency wallet with exchange
+      </li>
     </ul>
 
     <h2 class="maintitle" id="tools">Tools</h2>
