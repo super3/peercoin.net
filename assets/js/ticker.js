@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // config
-    var tickerPath = "/tickerinfo.php"; // Where the JSON comes from
+    var tickerPath = "tickerinfo"; // Where the JSON comes from
     var updateInterval = 90; // In seconds
     // end config
     

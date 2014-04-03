@@ -9,7 +9,7 @@ Content requests, bugs, etc. are all handled through [Github Issues](https://git
 ### Pull Requests
 If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site with the push of a button, which makes everything easier. We are currently using [Tip4Commit](http://tip4commit.com/projects/222) and [Peer4Commit](http://peer4commit.com/projects/2) to reward commiters. Fluff commits will be rejected. 
 
-[![tip for next commit](http://tip4commit.com/projects/222.svg)](http://tip4commit.com/projects/222) [![tip for next commit](http://peer4commit.com/projects/2.svg)](http://peer4commit.com/projects/2)
+[![tip for next commit](http://tip4commit.com/projects/222.svg)](http://tip4commit.com/projects/222) [![tip for next commit](http://peer4commit.com/projects/50.svg)](http://peer4commit.com/projects/50)
 
 If don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/). 
 
