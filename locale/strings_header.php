@@ -181,5 +181,5 @@ $locale_strings['es']['dropdown_forum'] = "Foro";
 $locale_strings['fr']['dropdown_forum'] = "Forum";
 $locale_strings['gr']['dropdown_forum'] = "Forum";
 $locale_strings['it']['dropdown_forum'] = "Forum";
-$locale_strings['en']['dropdown_forum'] = "Форум";
+$locale_strings['ru']['dropdown_forum'] = "Форум";
 $locale_strings['zh']['dropdown_forum'] = "论坛";

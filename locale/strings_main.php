@@ -205,7 +205,7 @@ $locale_strings['es']['faq_header'] = "<span>Preguntas</span> frecuentes";
 $locale_strings['fr']['faq_header'] = "<span>Questions</span> fréquemment posées";
 $locale_strings['gr']['faq_header'] = "Συχνά <span>ερωτήματα</span>";
 $locale_strings['it']['faq_header'] = "<span>Domande</span> frequenti";
-$locale_strings['en']['faq_header'] = "Часто <span>задаваемые вопросы</span>";
+$locale_strings['ru']['faq_header'] = "Часто <span>задаваемые вопросы</span>";
 $locale_strings['zh']['faq_header'] = "常见 <span>问题</span>";
 
 $locale_strings['en']['faq_q_title_innovation'] = "Tell me more about Original Innovation.";
@@ -519,7 +519,7 @@ $locale_strings['es']['second_ago'] = "segundo";
 $locale_strings['fr']['second_ago'] = "seconde";
 $locale_strings['gr']['second_ago'] = "δευτερόλεπτο πριν";
 $locale_strings['it']['second_ago'] = "secondo fa";
-$locale_strings['en']['second_ago'] = "секунду назад";
+$locale_strings['ru']['second_ago'] = "секунду назад";
 $locale_strings['zh']['second_ago'] = "秒前";
 
 $locale_strings['en']['seconds_ago'] = "seconds ago";
@@ -528,5 +528,5 @@ $locale_strings['es']['seconds_ago'] = "segundos";
 $locale_strings['fr']['seconds_ago'] = "secondes";
 $locale_strings['gr']['seconds_ago'] = "δευτερόλεπτα πριν";
 $locale_strings['it']['seconds_ago'] = "secondi fa";
-$locale_strings['en']['seconds_ago'] = "секунд назад";
+$locale_strings['ru']['seconds_ago'] = "секунд назад";
 $locale_strings['zh']['seconds_ago'] = "秒前";
