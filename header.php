@@ -119,4 +119,4 @@
   <!-- Headerwrap -->
   <header id="headerwrap-2">
 <?php }; ?>
-    <div class="container-content">
+    <div class="container content">
