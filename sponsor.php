@@ -17,16 +17,16 @@
 	</div><!-- row -->
 
 	<div class="row sinfo">
-		<div class="col-lg-6">
+		<div class="col-lg-4 col-lg-offset-2">
 			<p>
 				This is permanent sponsorship for large donations to the Peercoin development and outreach effort. Donators have
-				investors choice, and are able to earmark certain projects that fit both their intrests and the intrests of the
+				investors choice, and are able to earmark certain projects that fit both their interests and the interests of the
 				Peercoin community.
 			</p> 
 						
 		</div><!-- col-lg-3 -->
 	
-		<div class="col-lg-6">
+		<div class="col-lg-4">
 			<p>
 			   We recommend this to exchanges and large merchants, who would like to see Peercoin grow, but also would like
 			   official visibility of their service or product. Tri-Leaf sponsors get first choice on the website, and
@@ -54,21 +54,16 @@
 	</div><!-- row -->
 
 	<div class="row sinfo">
-		<div class="col-lg-4">
+		<div class="col-lg-4 col-lg-offset-2">
 			<p>
 				Show off the official Peercoin leaf next to your Peercoin product or service. You can earn the Peercoin leaf
 				by making a small donation to the development fund, or by having our community gift it to you.
-			</p> 
-						
-		</div><!-- col-lg-3 -->
-	
-		<div class="col-lg-4">
-			<p>
-				Leaf sponsorships are valid for a year, or with continued contributions. Leaf sponsors get priority listings
+				Leaf sponsorships are valid for a year, or with continued contributions. Leaf sponsors also get priority listings
 				on the website, and promotional material listings.
 			</p>
-		</div>
-		
+
+		</div><!-- col-lg-3 -->
+
 		<div class="col-lg-4">
 			<h6>Current Leaf Sponsors</h6>
 			<ul>
