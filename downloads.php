@@ -10,7 +10,7 @@
                     <div class="inner">
                         <span class="icon"></span>
                         <h2>Windows</h2>
-                        <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-win32-setup.exe/download">Download Windows Wallet</a>
+                        <a href="http://downloads.sourceforge.net/project/ppcoin/0.4.0/ppcoin-0.4.0-win32-setup.exe">Download Windows Wallet</a>
                     </div>
                 </li>
                 <li class="col-lg-3 mac">
@@ -24,7 +24,7 @@
                     <div class="inner">
                         <span class="icon"></span>
                         <h2>Linux</h2>
-                        <a href="http://sourceforge.net/projects/ppcoin/files/0.3.0/ppcoin-0.3.0-linux.tar.gz/download">Download Linux Wallet</a>
+                        <a href="http://downloads.sourceforge.net/project/ppcoin/0.4.0/ppcoin-0.4.0-linux.tar.gz">Download Linux Wallet</a>
                     </div>
                 </li>
                 <li class="col-lg-3">
@@ -56,16 +56,16 @@
                                     <th>SHA-256</th>
                                 </tr>
                                 <tr>
-                                    <td><code>ppcoin-0.3.0-win32-setup.exe</code></td>
-                                    <td>47ede22cce02b77566258ced1131ce91a6c7fe872af9a10c8bd5034678fd7d07</td>
+                                    <td><code>ppcoin-0.4.0-win32-setup.exe</code></td>
+                                    <td>27bf05e1e36e2a8c82901b89fdfc227291b1bdace89e42685bf0b3d0fee7c738</td>
                                 </tr>
                                 <tr>
                                     <td><code>PPcoin-Qt.dmg</code></td>
                                     <td>ca9d89439a915ff222d4792617aa34f6be5c62a2b36dfaf2a3298c5cf70cee2a</td>
                                 </tr>
                                 <tr>
-                                    <td><code>ppcoin-0.3.0-linux.tar.gz</code></td>
-                                    <td>919bb1c60eeebdd173ddcd4c83264f745bbf2af29410ded062f6c6bfce44f694</td>
+                                    <td><code>ppcoin-0.4.0-linux.tar.gz</code></td>
+                                    <td>561076e8d4e82085d577eb717b9f8b52571556fea2b8181fa8eb6039218d3f06</td>
                                 </tr>
                             </table>
                         </div>
