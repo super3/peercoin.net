@@ -2,20 +2,19 @@
 
   <div class="col-sm-12">
 
-    <h2 class="maintitle">Table of Contents</h2>
+    <h2 class="maintitle"><?php echo $Locale->getText("resources_table_contents"); ?></h2>
 
     <ul style="list-style-type: circle;">
-      <li><a href="#gettingstarted">Getting Started</a></li>
-      <li><a href="#buying">Buying Peercoin</a></li>
-      <li><a href="#tools">Tools</a></li>
-      <li><a href="#pools">Mining Pools</a></li>
-      <li><a href="#exchanges">Exchanges</a></li>
-      <li><a href="#shops">Shopping with Peercoin</a></li>
+      <li><a href="#gettingstarted"><?php echo $Locale->getText("resources_table_contents_start"); ?></a></li>
+      <li><a href="#buying"><?php echo $Locale->getText("resources_table_contents_buying"); ?></a></li>
+      <li><a href="#tools"><?php echo $Locale->getText("resources_table_contents_tools"); ?></a></li>
+      <li><a href="#pools"><?php echo $Locale->getText("resources_table_contents_pools"); ?></a></li>
+      <li><a href="#shops"><?php echo $Locale->getText("resources_table_contents_shops"); ?></a></li>
     </ul>
 
-    <h2 class="maintitle" id="gettingstarted">Getting Started With Peercoin</h2>
+    <h2 class="maintitle" id="gettingstarted"><?php echo $Locale->getText("resources_start"); ?></h2>
 
-    <p><strong>Here are some tutorials that can help you out if you are new to cryptocurrencies as Peercoin.</strong></p>
+    <p><strong><?php echo $Locale->getText("resources_start_tutorials"); ?></strong></p>
 
     <ul style="list-style-type: circle;">
       <li>
@@ -32,16 +31,14 @@
       </li>
     </ul>
 
-    <h2 class="maintitle" id="buying">Buying Peercoin &amp; Exchanges</h2>
+    <h2 class="maintitle" id="buying"><?php echo $Locale->getText("resources_buying"); ?></h2>
 
     <p>
-      <strong>Peercoin can be bought at various online exchanges with fiat money or Bitcoin. Some popular exchanges are listed below.
-      However, it is not a good idea to store your Peercoin on an exchange, as there is more counterparty risk and your Peercoin 
-      is more vulnerable to theft than a properly-stored local wallet.</strong>
+      <strong><?php echo $Locale->getText("resources_buying_desc"); ?></strong>
     </p>
     <br>
     <p>
-      <strong>Buying with Fiat Money (e.g. Dollar or Euro):</strong>
+      <strong><?php echo $Locale->getText("resources_buying_fiat"); ?></strong>
     </p>
     <ul style="list-style-type: circle;">
       <li>
@@ -62,7 +59,7 @@
     </ul>
 
     <p>
-      <strong>Buying with cryptocurrency:</strong>
+      <strong><?php echo $Locale->getText("resources_buying_crypto"); ?></strong>
     </p>
     <ul style="list-style-type: circle;">
       <li>
@@ -82,10 +79,10 @@
       </li>
     </ul>
 
-    <h2 class="maintitle" id="tools">Tools</h2>
+    <h2 class="maintitle" id="tools"><?php echo $Locale->getText("resources_tools"); ?></h2>
 
     <p>
-      <strong>These tools provide statistics on the network, allow you to track payments or calculate mining returns.</strong>
+      <strong><?php echo $Locale->getText("resources_tools_desc"); ?></strong>
     </p>
 
     <ul style="list-style-type: circle;">
@@ -102,20 +99,22 @@
         <a href="http://bitinfocharts.com/">BitInfoCharts</a> -  Compare Peercoin statistics to other cryptocurrencies
       </li>
       <li>
+        <a href="http://poscalculator.peercointalk.org/">POS Calculator</a> -  Calculate expected return on PPC minting
+      </li>
+      <li>
         <a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator">Coinwarz Mining Calculator</a> -  Calculate expected return on PPC mining
       </li>
     </ul>  
 
 
-    <h2 class="maintitle" id="pools">Mining Pools</h2>
+    <h2 class="maintitle" id="pools"><?php echo $Locale->getText("resources_pools"); ?></h2>
 
     <p>
-      Peercoin is a Proof-Of-Work/Proof of Stake hybrid coin that is compatible with the same ASIC hardware used on the Bitcoin network. Initially the ratio of newly produced coins favored mined coins over minted coins.  However over time as more coins are generated, the ratio of newly produced coins shifts to favor ones produced via Proof-Of-Stake minting. With this, the increasing popularity of Peercoin, increasing minting rate, and the decreasing return on mining, competition for blocks becomes fiercer.
-      Even with powerful hardware it is difficult to mine alone.  Mining pools combine the power of all participants to find blocks and share the reward based on shares. Read the instructions of each pool carefully as connection protocols and software use can change between pools.
+      <?php echo $Locale->getText("resources_pools_desc"); ?>
     </p>
 
     <p>
-      <strong>This is a list of pools dedicated for mining PPC:</strong>
+      <strong><?php echo $Locale->getText("resources_pools_dedicated"); ?></strong>
     </p>
     
     <ul style="list-style-type: circle;">
@@ -135,7 +134,7 @@
     </ul>
 
     <p>
-      <strong>One can also mine PPC via multicoin pools</strong>
+      <strong><?php echo $Locale->getText("resources_pools_multi"); ?></strong>
     </p>
 
     <ul style="list-style-type: circle;">
@@ -147,14 +146,14 @@
       </li>
     </ul>
 
-    <h2 class="maintitle" id="shops"> Shops, Retail product and Services accepting Peercoin</h2>
+    <h2 class="maintitle" id="shops"><?php echo $Locale->getText("resources_shops"); ?></h2>
     
     <p>
-      <strong>Use your peercoins for to buy and trade, and help make Peercoin commonly used world wide</strong>
+      <strong><?php echo $Locale->getText("resources_shops_desc"); ?></strong>
     </p>
     
     <p>
-      <strong>Physical goods</strong>
+      <strong><?php echo $Locale->getText("resources_shops_physical_goods"); ?></strong>
     </p>
     
     <ul style="list-style-type: circle;">

@@ -5,9 +5,9 @@
 		<br>
 		<br>
 		<div class="col-lg-8 col-lg-offset-2">
-			<h3>Tri-Leaf Sponsorship</h3>
+			<h3><?php echo $Locale->getText("contribute_sponsor_tri_leaf"); ?></h3>
 			<p class="lead">
-				Reserved for major businesses or persons making large donations toward Peercoin development and outreach.  
+				<?php echo $Locale->getText("contribute_sponsor_tri_leaf_desc1"); ?>
 			</p>
 		</div><!-- col-lg-8 -->
 		<br>
@@ -19,19 +19,15 @@
 	<div class="row sinfo">
 		<div class="col-lg-4 col-lg-offset-2">
 			<p>
-				This is permanent sponsorship for large donations to the Peercoin development and outreach effort. Donators have
-				investors choice, and are able to earmark certain projects that fit both their interests and the interests of the
-				Peercoin community.
+				<?php echo $Locale->getText("contribute_sponsor_tri_leaf_desc2"); ?>
 			</p> 
 						
 		</div><!-- col-lg-3 -->
 	
 		<div class="col-lg-4">
 			<p>
-			   We recommend this to exchanges and large merchants, who would like to see Peercoin grow, but also would like
-			   official visibility of their service or product. Tri-Leaf sponsors get first choice on the website, and
-			    promotional 
-			   material listings. </p>
+				<?php echo $Locale->getText("contribute_sponsor_tri_leaf_desc3"); ?>
+			</p>
 		</div>
 
 	</div><!-- row -->
@@ -41,9 +37,9 @@
 		<br>
 		<br>
 		<div class="col-lg-8 col-lg-offset-2">
-			<h3>Leaf Sponsorship</h3>
+			<h3><?php echo $Locale->getText("contribute_sponsor_leaf"); ?></h3>
 			<p class="lead">
-				Recomended sponsorship for most Peercoin accepting businesses and services. May be gifted by the community.
+				<?php echo $Locale->getText("contribute_sponsor_leaf_desc1"); ?>
 			</p>
 		</div><!-- col-lg-8 -->
 		<br>
@@ -56,16 +52,13 @@
 	<div class="row sinfo">
 		<div class="col-lg-4 col-lg-offset-2">
 			<p>
-				Show off the official Peercoin leaf next to your Peercoin product or service. You can earn the Peercoin leaf
-				by making a small donation to the development fund, or by having our community gift it to you.
-				Leaf sponsorships are valid for a year, or with continued contributions. Leaf sponsors also get priority listings
-				on the website, and promotional material listings.
+				<?php echo $Locale->getText("contribute_sponsor_leaf_desc2"); ?>
 			</p>
 
 		</div><!-- col-lg-3 -->
 
 		<div class="col-lg-4">
-			<h6>Current Leaf Sponsors</h6>
+			<h6><?php echo $Locale->getText("contribute_sponsor_leaf_sponsors"); ?></h6>
 			<ul>
 				<li><a href="https://peercoin.blockmines.com/">Blockmines</a> - Donates 5% of Pool Fee</li>
 			</ul>
