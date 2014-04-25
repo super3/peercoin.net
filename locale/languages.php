@@ -10,4 +10,5 @@ $locale_languages = array(
 	'ru'    => 	'Русский',
 	'zh'	=>	'中文',
 	'no'	=>	'Norwegian'
+	'pl'    =>      'Polski'
 );
