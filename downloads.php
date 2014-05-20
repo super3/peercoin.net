@@ -17,7 +17,7 @@
                     <div class="inner">
                         <span class="icon"></span>
                         <h2>Mac</h2>
-                        <a href="https://mega.co.nz/#!gQwxGTJC!B6D6f1RWbFRBTp-4U0KYYAmAfzEz-myKVzyIPEppHfk">Download Mac Wallet</a>
+                        <a href="https://dl.dropboxusercontent.com/u/4111133/Peercoin/Distributions/PeercoinReference/PPCoin-Qt-v0_4_0.dmg">Download Mac Wallet</a>
                     </div>
                 </li>
                 <li class="col-lg-3 linux">
