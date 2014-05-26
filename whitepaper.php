@@ -20,7 +20,7 @@
                 </li>
                 <li class="col-lg-3 pdf">
                     <div class="inner">
-                        <h2>Chinese/中文</h2><a href="assets/papers/peercoin-paper-cn.pdf"
+                        <h2>Chinese/中文</h2><a href="assets/paper/peercoin-paper-cn.pdf"
                         target="_blank">Download PDF</a>
                     </div>
                 </li>
