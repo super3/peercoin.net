@@ -67,11 +67,15 @@ function fetch_cmc_market_info() {
     return $info;
 }
 
-// Just return the price from BTC-e
-function fetch_btce_market_price() {
-    $ppc_usd_json = file_get_contents('https://btc-e.com/api/2/ppc_usd/ticker');
-    $ppc_usd = json_decode($ppc_usd_json)->last;
+// Just return the price from Vircurex
+function fetch_vircurex_market_price() {
+    $btc_usd_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=BTC&alt=USD');
+    $btc_usd = json_decode($btc_usd_json)->value;
 
+    $ppc_btc_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=PPC&alt=BTC');
+    $ppc_btc = json_decode($ppc_btc_json)->value;
+
+    $ppc_usd = $btc_usd * $ppc_btc;
     return round($ppc_usd, 2);
 }
 
@@ -86,7 +90,7 @@ function fetch_total_circulation() {
 
 function fetch_alternative_market_info() {
     $total_supply = fetch_total_circulation();
-    $price = fetch_btce_market_price();
+    $price = fetch_vircurex_market_price();
     $market_cap = $price * $total_supply;
 
     $info = array(
