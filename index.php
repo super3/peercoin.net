@@ -15,15 +15,73 @@
 		        <ul>
 			        <li>
 				        <span id="current-price"></span>
-			        	<span><?php echo $Locale->getText("price"); ?></span>
+			        	<span>
+			        	
+<?php
+
+header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
+header('Pragma: no-cache'); // HTTP 1.0.
+header('Expires: 0'); // Proxies.
+
+// Get PPC price
+$data = file_get_contents('https://btc-e.com/api/2/ppc_usd/ticker');
+$data = json_decode($data, true);
+$ppc_usd = $data['ticker']['last'];
+
+echo '$'$ppc_usd' USD/PPC<br>Price';
+
+?>
+			        	
+			        	</span>
 			        </li>
 			        <li>
 				        <span id="market-cap"></span>
-				        <span><?php echo $Locale->getText("market_cap"); ?></span>
+				        <span>
+				        
+<?php
+
+header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
+header('Pragma: no-cache'); // HTTP 1.0.
+header('Expires: 0'); // Proxies.
+
+// Get PPC price to calculate market cap
+$data = file_get_contents('https://btc-e.com/api/2/ppc_usd/ticker');
+$data = json_decode($data, true);
+$ppc_usd = $data['ticker']['last'];
+
+// Get the total circulation from blockr.io to calculate market cap
+$data = file_get_contents('http://ppc.blockr.io/api/v1/coin/info');
+$data = json_decode($data, true);
+$total_ppc = $data['data']['volume']['current'];
+
+$market_cap = $ppc_usd * $total_ppc;
+
+echo '$'$market_cap' USD<br>Market Cap';
+
+?>				        
+				        
+				        </span>
 			        </li>
 			        <li>
 				        <span id="total-supply"></span>
-				        <span><?php echo $Locale->getText("total_supply"); ?></span>
+				        <span>
+				        
+<?php
+
+header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
+header('Pragma: no-cache'); // HTTP 1.0.
+header('Expires: 0'); // Proxies.
+
+// Get the total circulation from blockr.io
+$data = file_get_contents('http://ppc.blockr.io/api/v1/coin/info');
+$data = json_decode($data, true);
+$total_ppc = $data['data']['volume']['current'];
+
+echo '$total_ppc PPC<br>Total Supply';
+
+?>				        
+				        
+				        </span>
 			        </li>
 		        </ul>
 		        <div class="updated">
