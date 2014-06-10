@@ -79,10 +79,13 @@ function fetch_vircurex_market_price() {
     return round($ppc_usd, 2);
 }
 
-// Get the total circulation from CCE to calculate market cap without CoinMarketCap
+
+// Get the total circulation from blockr.io to calculate market cap without CoinMarketCap
 function fetch_total_circulation() {
-    $total_ppc = floatval(file_get_contents('http://ppc.cryptocoinexplorer.com/chain/PPCoin/q/totalbc'));
-    return $total_ppc;
+    $total_ppc_json = file_get_contents('http://ppc.blockr.io/api/v1/coin/info');
+    $total_ppc = json_decode($total_ppc_json)->current;
+
+    return round($ppc_usd, 0);
 }
 
 function fetch_alternative_market_info() {
