@@ -67,27 +67,25 @@ function fetch_cmc_market_info() {
     return $info;
 }
 
-// Just return the price from Vircurex
-function fetch_vircurex_market_price() {
-    $btc_usd_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=BTC&alt=USD');
-    $btc_usd = json_decode($btc_usd_json)->value;
-
-    $ppc_btc_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=PPC&alt=BTC');
-    $ppc_btc = json_decode($ppc_btc_json)->value;
-
-    $ppc_usd = $btc_usd * $ppc_btc;
+// Get PPC price from BTC-e
+function fetch_btce_market_price() {
+    $data = file_get_contents('https://btc-e.com/api/2/ppc_usd/ticker');
+    $data = json_decode($data, true);
+    $ppc_usd = $data['ticker']['last'];
     return round($ppc_usd, 2);
 }
 
-// Get the total circulation from CCE to calculate market cap without CoinMarketCap
+// Get the total circulation from blockr.io
 function fetch_total_circulation() {
-    $total_ppc = floatval(file_get_contents('http://ppc.cryptocoinexplorer.com/chain/PPCoin/q/totalbc'));
-    return $total_ppc;
+    $data = file_get_contents('http://ppc.blockr.io/api/v1/coin/info');
+    $data = json_decode($data, true);
+    $total_ppc = $data['data']['volume']['current'];
+    return round($total_ppc, 0);
 }
 
 function fetch_alternative_market_info() {
     $total_supply = fetch_total_circulation();
-    $price = fetch_vircurex_market_price();
+    $price = fetch_btce_market_price();
     $market_cap = $price * $total_supply;
 
     $info = array(
