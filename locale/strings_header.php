@@ -2,15 +2,15 @@
 
 //title
 
-$locale_strings['en']['homepage_title'] = "Secure &amp; Sustainable Cryptocoin.";
-$locale_strings['cat']['homepage_title'] = "Criptomoneda Segura i Sostenible.";
-$locale_strings['es']['homepage_title'] = "Criptomoneda Segura y Sostenible.";
-$locale_strings['fr']['homepage_title'] = "Crypto-monnaie Fiable &amp; Durable.";
-$locale_strings['gr']['homepage_title'] = "ασφαλές &amp; Ανεκτό Κρυπτονόμισμα.";
-$locale_strings['it']['homepage_title'] = "Criptomoneta Sicura e Sostenibile.";
-$locale_strings['ru']['homepage_title'] = "Безопасная и Надёжная Криптовалюта.";
-$locale_strings['zh']['homepage_title'] = "安全 &amp; 可持续的加密货币.";
-$locale_strings['no']['homepage_title'] = "Sikker &amp; Bærekraftig Kryptomynt.";
+$locale_strings['en']['homepage_title'] = "Peercoin - Secure &amp; Sustainable Cryptocoin.";
+$locale_strings['cat']['homepage_title'] = "Peercoin - Criptomoneda Segura i Sostenible.";
+$locale_strings['es']['homepage_title'] = "Peercoin - Criptomoneda Segura y Sostenible.";
+$locale_strings['fr']['homepage_title'] = "Peercoin - Crypto-monnaie Fiable &amp; Durable.";
+$locale_strings['gr']['homepage_title'] = "Peercoin - ασφαλές &amp; Ανεκτό Κρυπτονόμισμα.";
+$locale_strings['it']['homepage_title'] = "Peercoin - Criptomoneta Sicura e Sostenibile.";
+$locale_strings['ru']['homepage_title'] = "Peercoin - Безопасная и Надёжная Криптовалюта.";
+$locale_strings['zh']['homepage_title'] = "Peercoin - 安全 &amp; 可持续的加密货币.";
+$locale_strings['no']['homepage_title'] = "Peercoin - Sikker &amp; Bærekraftig Kryptomynt.";
 
 //dropdown menu (header)
 
