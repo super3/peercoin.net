@@ -131,7 +131,7 @@
 
                         <ul>
                             <li>Install
-                            <code>ppcoin-0.3.0-win32-setup.exe</code> (<a href=
+                            <code>ppcoin-0.4.0-win32-setup.exe</code> (<a href=
                             "http://cryptocurrencynews.wordpress.com/2013/04/19/getting-started-with-ppcoin/">guide</a>)</li>
 
                             <li>Default installation directory is
@@ -199,7 +199,7 @@
 
                         <ul>
                             <li>Unpack
-                            <code>ppcoin-0.3.0-linux.tar.gz</code></li>
+                            <code>ppcoin-0.4.0-linux.tar.gz</code></li>
 
                             <li>Run <code>bin/32/ppcoin-qt</code> <em>(requires
                             libqt4-gui)</em></li>
