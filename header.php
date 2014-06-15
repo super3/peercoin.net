@@ -118,5 +118,7 @@
 <?php if ($index) { ?>
   <!-- Headerwrap -->
   <header id="headerwrap-2">
-<?php }; ?>
+    <div class="container">
+<?php } else { ?>
     <div class="container content">
+<?php }?>
