@@ -65,7 +65,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href=".">
-            <img src="assets/img/logos/Dark-Text-350.png" class="peercoin-logo" alt="Peercoin">
+            <img src="assets/img/logos/logo-dark-text.png" class="peercoin-logo" alt="Peercoin">
             <span class="peercoin-tagline"><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
         </div>
