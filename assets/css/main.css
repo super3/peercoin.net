@@ -134,13 +134,13 @@ a:hover {
 }
 
 #headerwrap-2 {
-	background: #2b3135 url(../img/logos/logo-small.png) no-repeat center top;
+	background: url(../img/misc/header2-bg.jpg) no-repeat center top;
 	margin-top: 0px;
-	padding-top: 70px;
+	padding-top: 180px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 300px;
+	min-height: 600px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -148,10 +148,10 @@ a:hover {
     -o-background-size: 100%;
     background-size: 100%;
 
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #headerwrap-2 h1 {
@@ -1168,7 +1168,7 @@ margin-top:3em;
 		}
 
 		#headerwrap-2 {
-		margin-top: 100px;
+		padding-top: 100px;
 			}
 
 	}
@@ -1178,7 +1178,7 @@ margin-top:3em;
 		  }
 	  
 	  #headerwrap-2 {
-		margin-top: 60px;
+		padding-top: 60px;
 			}
 			
 		}
@@ -1201,7 +1201,7 @@ margin-top:3em;
 		}
 
 		#headerwrap-2 {
-			margin-top: 0px;
+			padding-top: 0px;
 		}
 
 		.peercoin-logo {
@@ -1246,7 +1246,7 @@ margin-top:3em;
 
 	@media (min-width: 992px) {
 		#headerwrap-2 {
-			margin-top: 70px;
+			padding-top: 70px;
 		}
 		.top_social
 		{
@@ -1263,7 +1263,7 @@ margin-top:3em;
 	}
 	@media (min-width: 1200px) {
 		#headerwrap-2 {
-			margin-top: 30px;
+			padding-top: 30px;
 		}
 		.top_social
 		{
@@ -1281,7 +1281,7 @@ margin-top:3em;
 	@media only screen and (max-width: 530px) {
 		#headerwrap-2 {
 			min-height: 460px;
-            margin-top: 0px;
+            padding-top: 0px;
 		}
 
 		#headerwrap-2 h1 {
