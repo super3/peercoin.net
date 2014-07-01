@@ -12,7 +12,56 @@ $locale_strings['ru']['homepage_title'] = "Peercoin - Безопасная и Н
 $locale_strings['zh']['homepage_title'] = "Peercoin - 安全 &amp; 可持续的加密货币.";
 $locale_strings['no']['homepage_title'] = "Peercoin - Sikker &amp; Bærekraftig Kryptomynt.";
 
+// Languages tooltip
+$locale_strings['en']['languages'] = "Languages";
+$locale_strings['cat']['languages'] = "Idiomes";
+$locale_strings['es']['languages'] = "Idiomas";
+$locale_strings['fr']['languages'] = "Langues";
+$locale_strings['gr']['languages'] = "Γλώσσες";
+$locale_strings['it']['languages'] = "Lingue";
+$locale_strings['ru']['languages'] = "Языки";
+$locale_strings['zh']['languages'] = "语言";
+$locale_strings['no']['languages'] = "Språk";
+
 //dropdown menu (header)
+// Get Started
+
+// Learn
+$locale_strings['en']['header_learn_title'] = "Learn";
+
+$locale_strings['en']['peercoin_whitepaper'] = "Peercoin Whitepaper";
+$locale_strings['cat']['peercoin_whitepaper'] = "Llibre Blanc Peercoin";
+$locale_strings['es']['peercoin_whitepaper'] = "Libro Blanco Peercoin";
+$locale_strings['fr']['peercoin_whitepaper'] = "Livre Blanc Peercoin";
+$locale_strings['gr']['peercoin_whitepaper'] = "Το Whitepaper του Peercoin";
+$locale_strings['it']['peercoin_whitepaper'] = "Libro Bianco Peercoin";
+$locale_strings['ru']['peercoin_whitepaper'] = "Документация Peercoin";
+$locale_strings['zh']['peercoin_whitepaper'] = "点点币白皮书";
+$locale_strings['no']['peercoin_whitepaper'] = "Peercoin Whitepaper";
+
+$locale_strings['en']['peercoins_mine'] = "Mine Peercoins";
+$locale_strings['cat']['peercoins_mine'] = "Mina Peercoins";
+$locale_strings['es']['peercoins_mine'] = "Mina Peercoins";
+$locale_strings['fr']['peercoins_mine'] = "Extraire des Peercoins";
+$locale_strings['gr']['peercoins_mine'] = "Εξόρυξε Peercoins";
+$locale_strings['it']['peercoins_mine'] = "Minare Peercoins";
+$locale_strings['ru']['peercoins_mine'] = "Майнинг Peercoin";
+$locale_strings['zh']['peercoins_mine'] = "点点币挖矿";
+$locale_strings['no']['peercoins_mine'] = "Gruvedrift etter Peercoins";
+
+$locale_strings['en']['peercoins_mint'] = "Mint Peercoins";
+$locale_strings['cat']['peercoins_mint'] = "Encunya Peercoins";
+$locale_strings['es']['peercoins_mint'] = "Acuña Peercoins";
+$locale_strings['fr']['peercoins_mint'] = "Frapper des Peercoins";
+$locale_strings['gr']['peercoins_mint'] = "Κόψε Peercoins";
+$locale_strings['it']['peercoins_mint'] = "Coniare Peercoins";
+$locale_strings['ru']['peercoins_mint'] = "Получение с Proof-of-Stake";
+$locale_strings['zh']['peercoins_mint'] = "点点币POS铸币";
+$locale_strings['no']['peercoins_mint'] = "Preging (slå mynt) av Peercoins";
+
+$locale_strings['en']['header_contribute_title'] = "Contribute";
+
+$locale_strings['en']['header_community_title'] = "Community";
 
 $locale_strings['en']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['cat']['dropdown_title_docs_and_press'] = "Documents";
@@ -43,16 +92,6 @@ $locale_strings['it']['dropdown_docs_events'] = "Eventi";
 $locale_strings['ru']['dropdown_docs_events'] = "События";
 $locale_strings['zh']['dropdown_docs_events'] = "活动";
 $locale_strings['no']['dropdown_docs_events'] = "Arrangementer";
-
-$locale_strings['en']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
-$locale_strings['cat']['dropdown_docs_and_press_whitepaper'] = "Llibre Blanc Peercoin";
-$locale_strings['es']['dropdown_docs_and_press_whitepaper'] = "Libro Blanco Peercoin";
-$locale_strings['fr']['dropdown_docs_and_press_whitepaper'] = "Livre Blanc Peercoin";
-$locale_strings['gr']['dropdown_docs_and_press_whitepaper'] = "Το Whitepaper του Peercoin";
-$locale_strings['it']['dropdown_docs_and_press_whitepaper'] = "Libro Bianco Peercoin";
-$locale_strings['ru']['dropdown_docs_and_press_whitepaper'] = "Документация Peercoin";
-$locale_strings['zh']['dropdown_docs_and_press_whitepaper'] = "点点币白皮书";
-$locale_strings['no']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 
 $locale_strings['en']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['cat']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
@@ -114,25 +153,6 @@ $locale_strings['ru']['dropdown_title_peercoins'] = "Получить Peercoin";
 $locale_strings['zh']['dropdown_title_peercoins'] = "获取点点币";
 $locale_strings['no']['dropdown_title_peercoins'] = "Få tak i Peercoins";
 
-$locale_strings['en']['dropdown_peercoins_mine'] = "Mine Peercoins";
-$locale_strings['cat']['dropdown_peercoins_mine'] = "Mina Peercoins";
-$locale_strings['es']['dropdown_peercoins_mine'] = "Mina Peercoins";
-$locale_strings['fr']['dropdown_peercoins_mine'] = "Extraire des Peercoins";
-$locale_strings['gr']['dropdown_peercoins_mine'] = "Εξόρυξε Peercoins";
-$locale_strings['it']['dropdown_peercoins_mine'] = "Minare Peercoins";
-$locale_strings['ru']['dropdown_peercoins_mine'] = "Майнинг Peercoin";
-$locale_strings['zh']['dropdown_peercoins_mine'] = "点点币挖矿";
-$locale_strings['no']['dropdown_peercoins_mine'] = "Gruvedrift etter Peercoins";
-
-$locale_strings['en']['dropdown_peercoins_mint'] = "Mint Peercoins";
-$locale_strings['cat']['dropdown_peercoins_mint'] = "Encunya Peercoins";
-$locale_strings['es']['dropdown_peercoins_mint'] = "Acuña Peercoins";
-$locale_strings['fr']['dropdown_peercoins_mint'] = "Frapper des Peercoins";
-$locale_strings['gr']['dropdown_peercoins_mint'] = "Κόψε Peercoins";
-$locale_strings['it']['dropdown_peercoins_mint'] = "Coniare Peercoins";
-$locale_strings['ru']['dropdown_peercoins_mint'] = "Получение с Proof-of-Stake";
-$locale_strings['zh']['dropdown_peercoins_mint'] = "点点币POS铸币";
-$locale_strings['no']['dropdown_peercoins_mint'] = "Preging (slå mynt) av Peercoins";
 
 $locale_strings['en']['dropdown_peercoins_buy'] = "Buy Peercoins";
 $locale_strings['cat']['dropdown_peercoins_buy'] = "Compra Peercoins";

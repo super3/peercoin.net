@@ -41,13 +41,3 @@ $locale_strings['it']['mining'] = "Minare";
 $locale_strings['ru']['mining'] = "Майнинг";
 $locale_strings['zh']['mining'] = "挖矿";
 $locale_strings['no']['mining'] = "Gruvedrift";
-
-$locale_strings['en']['languages'] = "Languages: ";
-$locale_strings['cat']['languages'] = "Idiomes: ";
-$locale_strings['es']['languages'] = "Idiomas: ";
-$locale_strings['fr']['languages'] = "Langues: ";
-$locale_strings['gr']['languages'] = "Γλώσσες: ";
-$locale_strings['it']['languages'] = "Lingue: ";
-$locale_strings['ru']['languages'] = "Языки: ";
-$locale_strings['zh']['languages'] = "语言: ";
-$locale_strings['no']['languages'] = "Språk: ";

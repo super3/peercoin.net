@@ -1,6 +1,48 @@
 <?php
+/*
+$locale_strings['en'][''] = "";
+$locale_strings['cat'][''] = "";
+$locale_strings['es'][''] = "";
+$locale_strings['fr'][''] = "";
+$locale_strings['gr'][''] = "";
+$locale_strings['it'][''] = "";
+$locale_strings['ru'][''] = "";
+$locale_strings['zh'][''] = "";
+$locale_strings['no'][''] = "";
+*/
 
-//main body
+// Global
+$locale_strings['en']['get_started'] = "Get started";
+
+$locale_strings['en']['newsletter'] ="Newsletter";
+
+// INDEX - 3-point Peercoin explanation
+$locale_strings['en']['instant_transactions'] = "<b>Digital</b> Cryptocurrency";
+
+$locale_strings['en']['instant_transactions_desc'] = "Peercoin is based on peer-to-peer technology which is controlled completely by it's users.";
+
+$locale_strings['en']['low_fees'] = "<b>Fast & Low Cost</b> Transactions";
+
+$locale_strings['en']['low_fees_desc'] = "Make instant worldwide payments with low to non-existent transaction fees.";
+
+$locale_strings['en']['decentralized_currency'] = "Available <b>24/7</b>";
+
+$locale_strings['en']['decentralized_currency_desc'] = "Use it anytime, anywhere, without the need to give your personal information away.";
+
+// Types of people
+$locale_strings['en']['individual'] = "Individual";
+$locale_strings['en']['individual_desc'] = "Want to start sending money online with Peercoin? Feel free to read our simple guides that will show you everything you need to know to get started in just several minutes.";
+
+$locale_strings['en']['merchant'] = "Merchant";
+$locale_strings['en']['merchant_desc'] = "Own a online or a brick and mortar store and are looking to cut down on unnecessary fees and join the revolution? We will teach you all you need to know.";
+
+$locale_strings['en']['developer'] = "Developer";
+$locale_strings['en']['developer_desc'] = "How does it work? Want to learn more about Peercoin on a technical level? Peercoin makes everyone important, you can become a big part of the Peercoin future right now.";
+
+$locale_strings['en']['miner'] = "Miner";
+$locale_strings['en']['miner_desc'] = "Want to start mining Peercoin? Check out this cherry picked section just for you and get started as soon as possible to maximize your profits.";
+
+
 
 $locale_strings['en']['download_wallet'] = "Download Wallet";
 $locale_strings['cat']['download_wallet'] = "Descarregar Moneder";
@@ -162,7 +204,7 @@ $locale_strings['ru']['why_peercoin_title'] = "Почему <span>Peercoin</span
 $locale_strings['zh']['why_peercoin_title'] = "为什么选择<span>点点币</span>?";
 $locale_strings['no']['why_peercoin_title'] = "Hvorfor <span>Peercoin</span>?";
 
-$locale_strings['en']['why_peercoin_desc'] = "Peercoin is a crypto-currency, a decentralized network allowing peer-to-peer financial transactions worldwide over the internet. Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.";
+$locale_strings['en']['why_peercoin_desc'] = "Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.";
 $locale_strings['cat']['why_peercoin_desc'] = "Mitjançant un innovatiu algoritme d'encunyament, la xarxa Peercoin consumeix molta menys energia, té una seguretat més forta i recompensa els seus usuaris d'una forma més sostenible que altres criptomonedes.";
 $locale_strings['es']['why_peercoin_desc'] = "Mediante un innovativo algoritmo de acuñado, la red Peercoin consume mucha menos energía, tiene una seguridad más fuerte, y recompensa a sus usuarios de una manera más sostenible que otras criptomonedas.";
 $locale_strings['fr']['why_peercoin_desc'] = "Peercoin est une crypto-monnaie, un réseau décentralisé permettant de réaliser des transactions financières de pair à pair dans le monde entier par internet. Grâce à un algorithme innovant de création de monnaie, le réseau Peercoin consomme bien moins d'énergie, maintient une meilleure sécurité, et récompense les utilisateurs d'une manière plus durable que les autres crypto-monnaies.";

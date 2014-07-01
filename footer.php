@@ -47,21 +47,6 @@
 			</div><!-- /row -->
 
 			<div class="row">
-				<div id="footer-language-bar" class="col-lg-12">
-	            	<span><?php echo $Locale->getText("languages"); ?></span>
-
-	            	<?php
-		            	foreach($Locale->getLanguages() as $language_code => $language_text):
-			            	if($Locale->locale_code!=$language_code){
-			            		$url_loc = substr($_SERVER['PHP_SELF'], 0, strpos($_SERVER['PHP_SELF'], '.php')+4);
-			            		echo "<a href=\"".$url_loc."?locale=".$language_code."\">".$language_text."</a>";
-			            	}
-		            	endforeach;
-	            	?>
-	        	</div>
-			</div><!-- /row -->
-
-			<div class="row">
 				<div class="col-lg-12 social-icons">
 			        <a target="_blank" href="https://www.facebook.com/Peercoin">
 			              <img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook">
