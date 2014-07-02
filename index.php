@@ -10,7 +10,7 @@
 			</div>
 			<div id="header-right">
 				<div>
-					<img src="assets/img/logos/peercoin_ltext.svg" alt="peercoin" />
+					<img src="assets/img/logos/peercoin_ltext.png" alt="peercoin" />
 					<br><br>
 					<a href="" class="btn btn-primary"><?php echo $Locale->getText("why_peercoin_title"); ?></a>
 					<a href="" class="btn btn-primary"><?php echo $Locale->getText("download_wallet"); ?></a>
