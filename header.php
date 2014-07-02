@@ -119,7 +119,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<?php if ($index) { ?>
+<?php if (isset($index)) { ?>
   <!-- Headerwrap -->
   <header id="headerwrap-2">
     <div class="container">

@@ -1137,7 +1137,7 @@ margin-top:3em;
 
 		.content {
 			padding: 85px 18px 70px 18px;
-			margin-top:40px;
+			margin-top:10px;
 		}
 
 		.content .downloads ul li {
@@ -1302,7 +1302,7 @@ margin-top:3em;
 		}
 		.content
 		{
-			margin-top:80px;
+			margin-top: 0px;
 		}
 	}
 	@media (min-width: 1200px) {
@@ -1319,7 +1319,7 @@ margin-top:3em;
 		}
 		.content
 		{
-		margin-top:80px;
+		margin-top: 0px;
 		}
 	}
 	@media only screen and (max-width: 530px) {
