@@ -4071,7 +4071,7 @@
 
 					Q.validate();
 					if (!ECDSA.verifyRaw(e, r, s, Q)) {
-						throw "Pubkey recovery unsuccessful";
+						throw "Public key recovery unsuccessful!";
 					}
 
 					var pubKey = new Bitcoin.ECKey();
