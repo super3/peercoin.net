@@ -48,8 +48,6 @@
 
 			<div class="row">
 				<div id="footer-language-bar" class="col-lg-12">
-	            	<span><?php echo $Locale->getText("languages"); ?></span>
-
 	            	<?php
 		            	foreach($Locale->getLanguages() as $language_code => $language_text):
 			            	if($Locale->locale_code!=$language_code){
