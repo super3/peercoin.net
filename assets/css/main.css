@@ -43,6 +43,18 @@ body {
 }
 
 /* 1.2 Misc */
+.page-title {
+	font-weight: 400;
+	text-align: center;
+	font-size: 50px !important;
+}
+
+.page-subtitle {
+	font-weight: 400px;
+	text-align: center;
+	font-size: 40 !important;
+}
+
 a:hover {
 	color: gray;
 }
@@ -796,67 +808,71 @@ margin-top:3em;
 }
 
 .whitepapers a:hover {
-	background-color: #13856f;
+	background-color: #36994b;
 	color: #fff;
 }
 
 /* 2.9b Wallet downloads */
-.downloads {}
-.downloads ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
 
-.content .downloads ul li {
-	margin: 50px 0px 0px 0px;
-	display: inline-block;
-	position: relative;
-}
-
-.downloads li:last-child {
-	margin-right: 0;
-}
-
-.downloads li .inner {
-	padding: 30px;
-	background-color: #36994b;
-	color: #fff;
-	border-radius: 3px;
-}
-
-.downloads h2 {
-	font-size: 26px;
-	margin-bottom: 35px;
+.downloads {
+	font-size: 30px;
+	color: #929292;
 }
 
 .downloads span.icon {
 	display: block;
-	height: 64px;
-	width: 64px;
+	height: 50px;
+	width: 50px;
 	background: url(../img/downloads/windows.png) no-repeat 0 0 transparent;
 	position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 5px;
+	left: 10px;
+}
+.downloads > div.main-os {
+	width: 280px;
+	margin-top: 20px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #929292;
+	font-size: 15px;
+}
+.downloads > div.main-os > a {
+	height: 60px;
+	font-size: 40px;
+	line-height: 35px;
+	text-align: right;
+	display: block;
 }
 
-.downloads li.mac span.icon {
+.downloads > div.second-os {
+	margin-top: 5px;
+	display: inline-block;
+	width: 70px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.downloads > div.second-os > a {
+	height: 60px;
+	display: block;
+}
+
+.downloads .mac span.icon {
 	background: url(../img/downloads/mac.png) no-repeat 0 0 transparent;
 }
 
-.downloads li.linux span.icon {
+.downloads .linux span.icon {
 	background: url(../img/downloads/linux.png) no-repeat 0 0 transparent;
 }
 
 .downloads a {
-	display: block;
-	background-color: #fff;
 	padding: 10px 10px;
-	border-radius: 3px;
 }
 
 .downloads a:hover {
-	background-color: #13856f;
+	background-color: #36994b;
 	color: #fff;
 }
 
@@ -1807,3 +1823,5 @@ margin-top:3em;
 	-moz-border-radius: 5px; 
 	border-radius: 5px; 
 }
+
+/* Dowloads page */
