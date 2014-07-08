@@ -1,30 +1,36 @@
 <?php include ('header.php'); ?>
-<?php
-    $OSList = array
-    (
-            // Match user agent string with operating systems
-            'win' => '(Windows 95)|(Win95)|(Windows_95)|(Win16)|(Windows 98)|(Win98)|(Windows NT 5.0)|(Windows 2000)|(Windows NT 5.1)|(Windows XP)|(Windows NT 5.2)|(Windows NT 6.0)|(Windows NT 7.0)|(Windows NT 4.0)|(WinNT4.0)|(WinNT)|(Windows NT)|(Windows ME)|(Win32)',
-            'lin' => '(Linux)|(X11)',
-            'osx' => '(Mac_PowerPC)|(Macintosh)',
-    );
-     
-    // Loop through the array of user agents and matching operating systems
-    foreach($OSList as $CurrOS=>$Match)
-    {
-            // Find a match
-            if (eregi($Match, $_SERVER['HTTP_USER_AGENT']))
-            {
-                    // We found the correct match
-                    break;
-            }
-    }
-    //echo $CurrOS;
-?>
-<h1 class="page-title">Peercoin-QT - The Official Peercoin Wallet</h1>
+<h1 class="page-title">Wallet</h1>
 <div class="row">
-    <div class="col-md-6"><img src="assets/img/downloads/wallet_ss.png" style="width:100%" /></div>
-    <div class="col-md-6"></div>
+    <div class="col-md-3 col-md-offset-2"><img src="assets/img/downloads/wallet.png" style="width:100%" /></div>
+    <div class="col-md-2"><img src="assets/img/downloads/transaction.png" style="width:100%" /></div>
+    <div class="col-md-3"><img src="assets/img/downloads/wallet.png" style="width:100%" /></div>
 </div>
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <p style="font-size: 18px"><b>Peercoin wallet</b> is an application which is used to store and transact Peercoins with other users. You can choose between many different wallets, for many different platforms (desktop, mobile, web), whatever suits your need the best.</p>
+        <br>
+        <p class="alert alert-warning"><b>Disclamer:</b> The only official Peercoin wallet is <a href="download">Peercoin-QT</a>! Wallets created by 3rd parties can contain malware or use unsecure methods of storing your coins.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3 col-md-offset-3">
+        <div class="tile text-center">
+            <img src="assets\img\logos\logo.png" height="100px" width="100px" alt="" class="tile-image big-illustration">
+            <h3 class="tile-title">Peercoin-QT</h3>
+            <span class="label label-success download-label">Official</span>
+            <a class="btn btn-primary btn-large btn-block" href="download">Download</a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="tile text-center">
+            <img src="assets\img\logos\peerunity.png" height="100px" width="100px" alt="" class="tile-image big-illustration">
+            <h3 class="tile-title">Peerunity</h3>
+            <span class="label label-warning download-label">3rd Party</span>
+            <a class="btn btn-primary btn-large btn-block" href="download">Download</a>
+        </div>
+    </div>
+</div>
+
 
 </div>
 <?php include ('footer.php'); ?>
