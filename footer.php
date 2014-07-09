@@ -103,6 +103,9 @@
 			}).on('hidden.bs.collapse', function() {
 				$(this).parent().find(".glyphicon-up").removeClass("glyphicon-up").addClass("glyphicon-down");
 			});
+		});
+
+		$(window).load(function() {
 			$('.wallet-entry').responsiveEqualHeightGrid();
 			setTimeout(function() { $('.wallet-entry > div').addClass('wallet-entry-bottom'); }, 500);
 		});
