@@ -1831,3 +1831,13 @@ margin-top:3em;
 	font-size: 13px;
 	margin-top: 5px;
 }
+
+.wallet-entry {
+	position: relative;
+}
+
+.wallet-entry-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

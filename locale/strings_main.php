@@ -16,6 +16,8 @@ $locale_strings['en']['get_started'] = "Get started";
 
 $locale_strings['en']['newsletter'] ="Newsletter";
 
+$locale_strings['en']['download'] = "Download";
+
 // INDEX - 3-point Peercoin explanation
 $locale_strings['en']['instant_transactions'] = "<b>Digital</b> Cryptocurrency";
 
@@ -42,6 +44,18 @@ $locale_strings['en']['developer_desc'] = "How does it work? Want to learn more 
 $locale_strings['en']['miner'] = "Miner";
 $locale_strings['en']['miner_desc'] = "Want to start mining Peercoin? Check out this cherry picked section just for you and get started as soon as possible to maximize your profits.";
 
+// Wallet selection page
+$locale_strings['en']['wallet'] = "Wallet";
+
+$locale_strings['en']['wallet_desc'] = "<b>Peercoin wallet</b> is an application which is used to store and transact Peercoins with other users. You can choose between many different wallets, for many different platforms (desktop, mobile, web), whatever suits your need the best.";
+
+$locale_strings['en']['wallet_disclaimer'] ="<b>Disclaimer:</b> The official <a href=\"download\">Peercoin-QT</a> client and the Peerunity community client are the only wallets developed and maintained by the Peercoin community. Any other 3rd party wallets were developed outside the community and could contain malware or use insecure methods of storing your coins. Please be cautious and do your own research when selecting a wallet.";
+
+$locale_strings['en']['peercoin-qt-desc'] = "Developed and maintained by Peercoin developer Sunny King. Although it is the most secure Peercoin wallet, it receives only high-priority updates, so it lacks extra features and visual appeal.";
+$locale_strings['en']['peerunity-desc'] = "A wallet developed and maintained by the Peercoin community. It includes many extra features that the official wallet lacks, such as coin control. Future releases will contain a redesigned theme, Peershares integration, and a Minting tab.";
+
+$locale_strings['en']['official_wallet'] = "Official Wallet";
+$locale_strings['en']['community_wallet'] = "Community Wallet";
 
 
 $locale_strings['en']['download_wallet'] = "Download Wallet";

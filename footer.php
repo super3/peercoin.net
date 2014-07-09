@@ -93,6 +93,7 @@
     </script>
     <script src="assets/js/ticker.js"></script>
 	<script src="assets/js/peercoin.js"></script>
+	<script src="assets/js/grids.min.js"></script>
 
 	<!-- Drop down menu in minting -->
 	<script type='text/javascript'>
@@ -102,6 +103,14 @@
 			}).on('hidden.bs.collapse', function() {
 				$(this).parent().find(".glyphicon-up").removeClass("glyphicon-up").addClass("glyphicon-down");
 			});
+			$('.wallet-entry').responsiveEqualHeightGrid();
+			setTimeout(function() { $('.wallet-entry > div').addClass('wallet-entry-bottom'); }, 500);
+		});
+
+		$(window).resize(function() {
+			$('.wallet-entry > div').removeClass('wallet-entry-bottom');
+			$('.wallet-entry').responsiveEqualHeightGrid();
+			setTimeout(function() { $('.wallet-entry > div').addClass('wallet-entry-bottom'); }, 500);
 		});
 	</script>
 
