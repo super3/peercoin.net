@@ -7,7 +7,7 @@ The static html files for [Peercoin.net](http://peercoin.net). The website is au
 Content requests, bugs, etc. are all handled through [Github Issues](https://github.com/super3/Peercoin.net/issues). We will try to get to your issue as soon as possible.
 
 ### Pull Requests
-If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site with the push of a button, which makes everything easier. We are currently using [Tip4Commit](http://tip4commit.com/projects/222) and [Peer4Commit](http://peer4commit.com/projects/2) to reward commiters. Fluff commits will be rejected. 
+If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site just by accepting the pull, which makes everything easier. We are currently using [Tip4Commit](http://tip4commit.com/projects/222) and [Peer4Commit](http://peer4commit.com/projects/2) to reward commiters. Fluff commits will be rejected. 
 
 [![tip for next commit](http://tip4commit.com/projects/222.svg)](http://tip4commit.com/projects/222) [![tip for next commit](http://peer4commit.com/projects/50.svg)](http://peer4commit.com/projects/50)
 
