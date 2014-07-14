@@ -91,6 +91,7 @@
                 <li><a href="mint"><?php echo $Locale->getText("peercoins_mint"); ?></a></li>
               </ul>
             </li>
+            <li><a href="wallet"><?php echo $Locale->getText("wallet"); ?></a></li>
             <li><a href="contribute"><?php echo $Locale->getText("header_contribute_title"); ?></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header_community_title"); ?><b class="caret"></b></a>
