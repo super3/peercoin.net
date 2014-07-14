@@ -57,6 +57,9 @@ $locale_strings['en']['peerunity-desc'] = "A wallet developed and maintained by 
 $locale_strings['en']['official_wallet'] = "Official Wallet";
 $locale_strings['en']['community_wallet'] = "Community Wallet";
 
+// Exchanges page
+$locale_strings['en']['exchanges'] = "Exchanges";
+
 
 $locale_strings['en']['download_wallet'] = "Download Wallet";
 $locale_strings['cat']['download_wallet'] = "Descarregar Moneder";
