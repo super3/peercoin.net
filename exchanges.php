@@ -73,66 +73,54 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-2">
-			<div class="tile">
-	            <img src="assets/img/exchanges/logos/coinomat.png" alt="Coinomat" class="tile-image big-illustration">
-	            <h3 class="tile-title">Coinomat</h3>
-	            <p>Quick & Easy. No registration required.</p>
-	            <a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinomat.com/">Visit</a>
-	          </div>
+		<div class="col-md-12 text-center">
+			<a href="#" class="exchange-button active" data-toggle="tooltip" data-placement="top" title="Coinomat" data-exchange="coinomat"><img src="assets/img/exchanges/logos/coinomat.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Vault of Satoshi" data-exchange="vault-of-satoshi"><img src="assets/img/exchanges/logos/vault-of-satoshi.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTCe" data-exchange="btce"><img src="assets/img/exchanges/logos/btce.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BitTrex" data-exchange="bittrex"><img src="assets/img/exchanges/logos/bittrex.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="The Rock" data-exchange="therock"><img src="assets/img/exchanges/logos/therock.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bittylicious" data-exchange="bittylicious"><img src="assets/img/exchanges/logos/bittylicious.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTC38" data-exchange="btc38"><img src="assets/img/exchanges/logos/btc38.png"></a>
 		</div>
-		<div class="col-md-2">
-			<div class="tile">
-	            <img src="assets/img/exchanges/logos/vault-of-satoshi.png" alt="Vault of Satoshi" class="tile-image big-illustration">
-	            <h3 class="tile-title">Vault of Satoshi</h3>
-	            <p>Well designed, large exchange.</p>
-	            <a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.vaultofsatoshi.com/">Visit</a>
-	          </div>
-		</div>
-		<div class="col-md-2">
-			<div class="tile">
-	            <img src="assets/img/exchanges/logos/btce.png" alt="Btc-e" class="tile-image big-illustration">
-	            <h3 class="tile-title">BTCe</h3>
-	            <p>WARNING: 3-day withdraw delay for new users</p>
-	            <a class="btn btn-primary btn-large btn-block" target="_blank" href="https://btc-e.com/">Visit</a>
-	          </div>
-		</div>
-		<div class="col-md-2">
-			<div class="tile">
-	            <img src="assets/img/exchanges/logos/bittrex.png" alt="BitTrex" class="tile-image big-illustration">
-	            <h3 class="tile-title">BitTrex</h3>
-	            <p>US based exchange.</p>
-	            <a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bittrex.com/">Visit</a>
-	          </div>
-		</div>
-		<div class="col-md-2">
-			<div class="tile">
-	            <img src="assets/img/exchanges/logos/therock.png" alt="The Rock" class="tile-image big-illustration">
-	            <h3 class="tile-title">The Rock</h3>
-	            <p>On the scene for more then 7 years.</p>
-	            <a class="btn btn-primary btn-large btn-block" target="_blank" href="http://www.therocktrading.com/">Visit</a>
-	          </div>
-		</div>
-		<div class="col-md-2">
-			<div class="tile">
-	            <img src="assets/img/exchanges/logos/bittylicious.png" alt="" class="tile-image big-illustration">
-	            <h3 class="tile-title">Bittylicious</h3>
-	            <p>Simple to use, no registration.</p>
-	            <a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bittylicious.com/">Visit</a>
-	          </div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-2">
-			<div class="tile">
-	            <img src="assets/img/exchanges/logos/btc38.png" alt="BTC38" class="tile-image big-illustration">
-	            <h3 class="tile-title">BTC38</h3>
-	            <p>Chineese exchange</p>
-	            <a class="btn btn-primary btn-large btn-block" target="_blank" href="http://www.btc38.com/trade.html?btc38_trade_coin_name=ppc">Visit</a>
-	          </div>
+		<div class="col-md-12">
+			<div id="exchange-coinomat" class="exchange-info active">
+				<h3>Coinomat</h3>
+				<p>Quick & Easy. No registration required.</p>
+				<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinomat.com/">Visit</a>
+			</div>
+			<div id="exchange-vault-of-satoshi" class="exchange-info">
+				<h3>Vault of Satoshi</h3>
+				<p>Well designed, large exchange.</p>
+				<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.vaultofsatoshi.com/">Visit</a>
+			</div>
+			<div id="exchange-btce" class="exchange-info">
+				<h3>BTCe</h3>
+				<p>WARNING: 3-day withdraw delay for new users</p>
+				<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://btc-e.com/">Visit</a>
+			</div>
+			<div id="exchange-bittrex" class="exchange-info">
+				<h3>BitTrex</h3>
+				<p>US based exchange.</p>
+				<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bittrex.com/">Visit</a>
+			</div>
+			<div id="exchange-therock" class="exchange-info">
+				<h3>The Rock</h3>
+				<p>On the scene for more then 7 years.</p>
+				<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://www.therocktrading.com/">Visit</a>
+			</div>
+			<div id="exchange-bittylicious" class="exchange-info">
+				<h3>Bittylicious</h3>
+				<p>Simple to use, no registration.</p>
+				<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bittylicious.com/">Visit</a>
+			</div>
+			<div id="exchange-btc38" class="exchange-info">
+				<h3>BTC38</h3>
+				<p>Chineese exchange</p>
+				<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://www.btc38.com/trade.html?btc38_trade_coin_name=ppc">Visit</a>
+			</div>
 		</div>
 	</div>
 </section>
 
 </div>
-<?php include ('footer.php'); ?>
+<?php $exchange_page = true; include ('footer.php'); ?>

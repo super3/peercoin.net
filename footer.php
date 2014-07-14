@@ -117,5 +117,21 @@
 		});
 	</script>
 
+	<!-- Only for the exchange page -->
+	<?php if(isset($exchange_page)) { ?>
+	<script>
+		$(document).ready(function() {
+			$(".exchange-button").tooltip();
+			$(".exchange-button").click(function(e) {
+				e.preventDefault();
+				$(".exchange-button").removeClass("active");
+				$(this).addClass("active");
+				$(".exchange-info").removeClass("active");
+				$("#exchange-"+$(this).data("exchange")).addClass("active");
+			});
+		});
+	</script>
+	<?php } ?>
+
   </body>
 </html>

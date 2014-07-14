@@ -1847,14 +1847,39 @@ margin-top:3em;
 }
 
 /* Exchange page */
-#exchange-list .tile {
+#exchange-list a.exchange-button {
+	padding: 15px 15px 15px 15px;
+	height: 80px;
+	width: 80px;
+	display: inline-block;
 	background-color: #eff0f2;
 	border-radius: 6px;
 	padding: 14px;
 	position: relative;
 	text-align: center;
+	margin-left: 10px;
+	margin-top: 5px;
 }
-#exchange-list .tile > img {
-	max-height: 50px;
-	max-width: 100%;
+
+#exchange-list a.exchange-button > img {
+	height: 50px;
+	width: 50px;
+}
+
+#exchange-list a.exchange-button.active {
+	background-color: #5E955A;
+}
+
+#exchange-list a.exchange-button:hover {
+	background-color: #CCC;
+}
+
+#exchange-list div.exchange-info {
+	display: none;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#exchange-list div.exchange-info.active {
+	display: block;
 }
