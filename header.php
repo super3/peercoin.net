@@ -124,6 +124,8 @@
   <!-- Headerwrap -->
   <header id="headerwrap-2">
     <div class="container">
+<?php } else if(isset($no_container)) { ?>
+    <div class="content">
 <?php } else { ?>
     <div class="container content">
 <?php }?>
