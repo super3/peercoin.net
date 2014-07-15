@@ -66,9 +66,6 @@
 
 		<div class="col-lg-4">
 			<h6>Current Leaf Sponsors</h6>
-			<ul>
-				<li><a href="https://peercoin.blockmines.com/">Blockmines</a> - Donates 5% of Pool Fee</li>
-			</ul>
 		</div>
 	</div><!-- row -->
 </div><!-- container -->

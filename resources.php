@@ -119,7 +119,6 @@
     </p>
     
     <ul style="list-style-type: circle;">
-      <li><a href="https://peercoin.blockmines.com/">Blockmines</a></li>
       <li>
         <a href="https://peercoin.ecoining.com/">Ecoining</a> -  1% fee, Dynamic PPLNS Payment System
       </li>
