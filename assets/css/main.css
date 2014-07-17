@@ -1901,3 +1901,15 @@ margin-top:3em;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
+/* SVG control */
+.svg-quickstart {
+	height: 100px;
+	width: 560px;
+}
+.svg-fullwidth {
+	width: 100%;
+}
+.svg-200 {
+	max-height: 200px;
+	max-width: 200px;
+}
