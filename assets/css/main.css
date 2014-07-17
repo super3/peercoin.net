@@ -1841,3 +1841,17 @@ margin-top:3em;
 	bottom: 0;
 	width: 100%;
 }
+
+/* SVG control */
+.svg-quickstart {
+	height: 100px;
+	width: 560px;
+}
+
+.svg-fullwidth {
+	width: 100%;
+}
+.svg-200 {
+	max-height: 200px;
+	max-width: 200px;
+}
