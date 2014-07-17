@@ -37,8 +37,7 @@
 		<div class="col-md-8 vcenter">
 			<h3>Security</h3>
 			<p>
-				In a proof-of-work system, the network is thought to be secure as long as no single party controls more than 51% of mining power. To perform an attack, a single attacker must be able to outpace the rest of the network in block generation. This may seem unlikely, but Bitcoin mining pools have approached 51% of the network hashrate in the past. At the time of writing, two mining pools control more than 51% of the Bitcoin network; an attack could be performed by coercing just two people (the pool operators) to collude.
-			</p>
+				In Peercoin's proof-of-stake system, an attacker must possess 51% of all minting coins, which makes any attack much more difficult. This is also a natural deterrent, since an attack would cause the value of the currency to drop. A party that possesses a large number of the coins is naturally motivated to not crash their value in an attack.			</p>
 			<p>
 				In a hybrid proof-of-work/proof-of-stake system, an attacker must possess 51% of mining power <em>and</em> 51% of all minting Peercoins, which makes any attack much more difficult. This is also a natural deterrent, since an attack would cause the value of the currency to drop. A party that possesses a majority of the coins is naturally motivated to not crash their value in an attack.
 			</p>
