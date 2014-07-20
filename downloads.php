@@ -30,7 +30,7 @@
                 <li class="col-lg-3">
                     <div class="inner">
                         <h2>Source Code</h2>
-                        <a href="https://github.com/ppcoin/ppcoin">Go to Github</a>
+                        <a href="https://github.com/ppcoin/ppcoin">Go to GitHub</a>
                     </div>
                 </li>
             </ul>
