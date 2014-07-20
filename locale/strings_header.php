@@ -24,7 +24,7 @@ $locale_strings['it']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['ru']['dropdown_title_docs_and_press'] = "Документы";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "文档";
 $locale_strings['no']['dropdown_title_docs_and_press'] = "Dokumenter";
-$locale_strings['sv']['dropdown_title_docs_and_press'] = "Dokument";
+$locale_strings['sv']['dropdown_title_docs_and_press'] = "Dokumentation";
 
 $locale_strings['en']['dropdown_docs_news'] = "News";
 $locale_strings['cat']['dropdown_docs_news'] = "Noticies sobre Peercoin";
