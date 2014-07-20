@@ -59,16 +59,16 @@ $locale_strings['zh']['dropdown_docs_and_press_whitepaper'] = "点点币白皮�
 $locale_strings['no']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 $locale_strings['sv']['dropdown_docs_and_press_whitepaper'] = "Peercoin Vitbok";
 
-$locale_strings['en']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['cat']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['es']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['fr']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['gr']['dropdown_docs_and_press_wiki'] = "Βίκι (Github)";
-$locale_strings['it']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['ru']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['zh']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['no']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['sv']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
+$locale_strings['en']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
+$locale_strings['cat']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
+$locale_strings['es']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
+$locale_strings['fr']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
+$locale_strings['gr']['dropdown_docs_and_press_wiki'] = "Βίκι (GitHub)";
+$locale_strings['it']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
+$locale_strings['ru']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
+$locale_strings['zh']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
+$locale_strings['no']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
+$locale_strings['sv']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
 
 $locale_strings['en']['dropdown_docs_and_press_kit'] = "Press Kit";
 $locale_strings['cat']['dropdown_docs_and_press_kit'] = "Kit de premsa";
