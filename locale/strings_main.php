@@ -142,7 +142,7 @@ $locale_strings['gr']['why_peercoin_header_efficiency'] = "Ενεργειακή 
 $locale_strings['it']['why_peercoin_header_efficiency'] = "<b>Efficienza</b> di Energia e Costi";
 $locale_strings['ru']['why_peercoin_header_efficiency'] = "<b>Экономичность</b>";
 $locale_strings['zh']['why_peercoin_header_efficiency'] = "低<b>能耗</b>";
-$locale_strings['no']['why_peercoin_header_efficiency'] = "Energi and <b>Kosteffektivitet</b>";
+$locale_strings['no']['why_peercoin_header_efficiency'] = "Energi og <b>Kosteffektivitet</b>";
 $locale_strings['sv']['why_peercoin_header_efficiency'] = "Energi- och Kostnads<b>effektivitet</b>";
 
 $locale_strings['en']['why_peercoin_desc_efficiency'] = "Maintaining the network requires far less energy than generating hardware-intensive proof-of-work hashes. Proof-of-stake also does away with the <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'> ~$1 billion \"tax\"</a> on the Bitcoin network through proof-of-work blocks.";
