@@ -99,7 +99,7 @@ $locale_strings['it']['ticker_last_updated_never'] = "mai";
 $locale_strings['ru']['ticker_last_updated_never'] = "никогда";
 $locale_strings['zh']['ticker_last_updated_never'] = "从未";
 $locale_strings['no']['ticker_last_updated_never'] = "aldri";
-$locale_strings['no']['ticker_last_updated_never'] = "aldrig";
+$locale_strings['sv']['ticker_last_updated_never'] = "aldrig";
 
 $locale_strings['en']['why_peercoin_desc_innovation'] = "Peercoin's original innovation is the <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work hybrid</a> system. Like other <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>cryptocurrencies</a>, initial coins can be mined, but the core network is maintained by coin holders, rather than the fastest <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pool</a>.";
 $locale_strings['cat']['why_peercoin_desc_innovation'] = "L'innovació original de Peercoin és el sistema <a href='/bin/peercoin-paper-es.pdf'>híbrid proof-of-stake/proof-of-work</a>. Com en d'altres <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>criptomonedes</a>, les monedes inicials poden ser minades, però la xarxa principal és mantenida pels propietaris de monedes, en lloc dels <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pools</a> més ràpids.";
