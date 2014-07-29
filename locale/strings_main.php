@@ -11,6 +11,7 @@ $locale_strings['it']['download_wallet'] = "Scaricare il Portafoglio";
 $locale_strings['ru']['download_wallet'] = "Скачать Кошелёк";
 $locale_strings['zh']['download_wallet'] = "下载钱包";
 $locale_strings['no']['download_wallet'] = "Last ned Lommebok";
+$locale_strings['da']['download_wallet'] = "Download tegnebog";
 
 $locale_strings['en']['big_welcome_header'] = "Secure. Sustainable. <span><strong>Peercoin</strong> is here.</span>";
 $locale_strings['cat']['big_welcome_header'] = "Segur. Sostenible. <span><strong>Peercoin</strong> és aquí.</span>";
@@ -21,6 +22,7 @@ $locale_strings['it']['big_welcome_header'] = "Sicura. Sostenibile. <span><stron
 $locale_strings['ru']['big_welcome_header'] = "Безопасный. Надёжный. <span>Это <strong>Peercoin</strong>.</span>";
 $locale_strings['zh']['big_welcome_header'] = "安全的. 可持续的. <span><strong>点点币</strong> 就在这里.</span>";
 $locale_strings['no']['big_welcome_header'] = "Sikker. Bærekraftig. <span><strong>Peercoin</strong> er her.</span>";
+$locale_strings['no']['big_welcome_header'] = "Sikker. Bæredygtig. <span><strong>Peercoin</strong> er her.</span>";
 
 $locale_strings['en']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 $locale_strings['cat']['big_404'] = "<span><strong>404</strong> Pàgina no trovada. </span> Si us plau, utilitza el menú superior i prova una altra pàgina.";
@@ -31,6 +33,7 @@ $locale_strings['ru']['big_404'] = "<span><strong>404</strong> Страница 
 $locale_strings['it']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 $locale_strings['zh']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 $locale_strings['no']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Vennligst prøv en annen side i toppmenyen.";
+$locale_strings['da']['big_404'] = "<span><strong>404</strong> Siden blev ikke fundet. </span> Brug venligst topmenuen for at prøve en anden side.";
 
 $locale_strings['en']['why_peercoin_header_innovation'] = "Original <b>Innovation</b>";
 $locale_strings['cat']['why_peercoin_header_innovation'] = "<b>Innovació</b> original";
@@ -41,6 +44,7 @@ $locale_strings['it']['why_peercoin_header_innovation'] = "<b>Innovazione</b> Or
 $locale_strings['ru']['why_peercoin_header_innovation'] = "<b>Инновационный</b> алгоритм";
 $locale_strings['zh']['why_peercoin_header_innovation'] = "原创 <b>革新</b>";
 $locale_strings['no']['why_peercoin_header_innovation'] = "Original <b>Oppfinnelse</b>";
+$locale_strings['da']['why_peercoin_header_innovation'] = "Original <b>opfindelse</b>";
 
 $locale_strings['en']['price'] = "Price";
 $locale_strings['cat']['price'] = "Preu";
@@ -51,6 +55,7 @@ $locale_strings['it']['price'] = "Prezzo";
 $locale_strings['ru']['price'] = "Цена";
 $locale_strings['zh']['price'] = "价格";
 $locale_strings['no']['price'] = "Pris";
+$locale_strings['da']['price'] = "Pris";
 
 $locale_strings['en']['market_cap'] = "Market Cap";
 $locale_strings['cat']['market_cap'] = "Capitalització total";
@@ -61,6 +66,7 @@ $locale_strings['it']['market_cap'] = "Capitalizzazione";
 $locale_strings['ru']['market_cap'] = "Капитализация";
 $locale_strings['zh']['market_cap'] = "市值";
 $locale_strings['no']['market_cap'] = "Markedsverdi";
+$locale_strings['da']['market_cap'] = "Markedsværdi";
 
 $locale_strings['en']['total_supply'] = "Total Supply";
 $locale_strings['cat']['total_supply'] = "Subministrament total";
@@ -71,6 +77,7 @@ $locale_strings['it']['total_supply'] = "Disponibilità Totale";
 $locale_strings['ru']['total_supply'] = "Общий объём";
 $locale_strings['zh']['total_supply'] = "供应量";
 $locale_strings['no']['total_supply'] = "Total beholdning";
+$locale_strings['da']['total_supply'] = "Total beholdning";
 
 $locale_strings['en']['ticker_last_updated'] = "Last updated: ";
 $locale_strings['cat']['ticker_last_updated'] = "Darrera actualització: ";
@@ -81,6 +88,7 @@ $locale_strings['it']['ticker_last_updated'] = "Ultimo aggiornamento: ";
 $locale_strings['ru']['ticker_last_updated'] = "Последнее обновление: ";
 $locale_strings['zh']['ticker_last_updated'] = "最后更新: ";
 $locale_strings['no']['ticker_last_updated'] = "Sist oppdatert: ";
+$locale_strings['da']['ticker_last_updated'] = "Senest opdateret: ";
 
 $locale_strings['en']['ticker_last_updated_never'] = "never";
 $locale_strings['cat']['ticker_last_updated_never'] = "mai";
@@ -91,6 +99,7 @@ $locale_strings['it']['ticker_last_updated_never'] = "mai";
 $locale_strings['ru']['ticker_last_updated_never'] = "никогда";
 $locale_strings['zh']['ticker_last_updated_never'] = "从未";
 $locale_strings['no']['ticker_last_updated_never'] = "aldri";
+$locale_strings['da']['ticker_last_updated_never'] = "aldrig";
 
 $locale_strings['en']['why_peercoin_desc_innovation'] = "Peercoin's original innovation is the <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work hybrid</a> system. Like other <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>cryptocurrencies</a>, initial coins can be mined, but the core network is maintained by coin holders, rather than the fastest <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pool</a>.";
 $locale_strings['cat']['why_peercoin_desc_innovation'] = "L'innovació original de Peercoin és el sistema <a href='/bin/peercoin-paper-es.pdf'>híbrid proof-of-stake/proof-of-work</a>. Com en d'altres <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>criptomonedes</a>, les monedes inicials poden ser minades, però la xarxa principal és mantenida pels propietaris de monedes, en lloc dels <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pools</a> més ràpids.";
@@ -101,6 +110,7 @@ $locale_strings['it']['why_peercoin_desc_innovation'] = "L'innovazione originale
 $locale_strings['ru']['why_peercoin_desc_innovation'] = "Peercoin впервые представил миру <a href='/bin/peercoin-paper.pdf'>гибридную roof-of-stake/proof-of-work систему</a>. Как в других <a href='https://ru.wikipedia.org/wiki/Криптовалюта'>криптовалютах</a>, монеты можно майнить, но работу ядра сети обеспечивают держатели валюты, а не самый мощный <a href='https://ru.bitcoin.it/wiki/Майнинг_в_пулах'>пул</a>.";
 $locale_strings['zh']['why_peercoin_desc_innovation'] = "点点币的原创<a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work(权益证明/工作量证明)混合</a>系统.就像其它<a href='https://en.wikipedia.org/wiki/Cryptocurrency'>加密货币</a>一样, 货币可以通过挖矿产生, 但是,整个网络是被持币者维护的，而不是计算能力强大的<a href='https://en.bitcoin.it/wiki/Pooled_mining'>矿池</a>.";
 $locale_strings['no']['why_peercoin_desc_innovation'] = "Peercoin sin originale oppfinnelse er <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work</a> hybridsystemet. Som andre <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>kryptovalutaer</a> blir de første myntene skapt ved gruvedrift, men nettverket blir sikret av de som holder myntene i stedet for den raskeste <a href='https://en.bitcoin.it/wiki/Pooled_mining'>gruvepoolen</a>.";
+$locale_strings['da']['why_peercoin_desc_innovation'] = "Peercoins oprindelige opfindelse er <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work</a> hybridsystemet. Ligesom ved andre <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>kryptovalutaer</a> bliver de første coins skabt ved mining, men kernenetværket sikres af de, der holder coins, frem for den hurtigste <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pool</a>.";
 
 $locale_strings['en']['why_peercoin_header_security'] = "Increased <b>Security</b>";
 $locale_strings['cat']['why_peercoin_header_security'] = "Més <b>Segur</b>";
@@ -111,6 +121,7 @@ $locale_strings['it']['why_peercoin_header_security'] = "Maggiore <b>Protezione<
 $locale_strings['ru']['why_peercoin_header_security'] = "Улучшенная <b>Безопасность</b>";
 $locale_strings['zh']['why_peercoin_header_security'] = "更强的<b>安全性</b>";
 $locale_strings['no']['why_peercoin_header_security'] = "Økt <b>Sikkerhet</b>";
+$locale_strings['da']['why_peercoin_header_security'] = "Øget <b>sikkerhed</b>";
 
 $locale_strings['en']['why_peercoin_desc_security'] = "Maintaining the network through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'> Selfish-Miner Flaw</a>, <a href='https://en.bitcoin.it/wiki/Weaknesses'>51% attacks</a>, and the block bloating that have been used to exploit other currencies.";
 $locale_strings['cat']['why_peercoin_desc_security'] = "Mantenint la xarxa a través de l'algoritme híbrid proof-of-work/proof-of-stake, es redueix el risc d'aprofitament del <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'> defecte del Miner Egoista</a>, els <a href='https://en.bitcoin.it/wiki/Weaknesses'>atacs del 51%</a>, i l'inflat de monedes que s'ha utilitzat per atacar a d'altres monedes.";
@@ -121,6 +132,7 @@ $locale_strings['it']['why_peercoin_desc_security'] = "Gestire la rete attravers
 $locale_strings['ru']['why_peercoin_desc_security'] = "Работая по гибридному алгоритму proof-of-work/proof-of-stake, сеть лучше защищена от <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'>Проблемы Эгоистичного Майнера</a>, <a href='https://en.bitcoin.it/wiki/Weaknesses'>Атаки 51%</a> и раздувания размера блоков, &ndash; проблем, которые использовались для атак на другие криптовалюты.";
 $locale_strings['zh']['why_peercoin_desc_security'] = "使用权益证明/工作量证明混合算法维护网络，减少了<a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'>自私矿工攻击</a>, 和<a href='https://en.bitcoin.it/wiki/Weaknesses'>51%攻击</a>, 而且不易于像其他货币一样被不法之徒危害。";
 $locale_strings['no']['why_peercoin_desc_security'] = "Sikring av nettverket gjennom hybriden proof-of-work/proof-of-stake algoritmen reduserer risikoen for <a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'>Selfish-Miner svakheten</a>, <a href='https://en.bitcoin.it/wiki/Weaknesses'>51% angrep</a> og oppblåsingen av blokker som har blitt brukt for å utnytte andre kryptovalutaer.";
+$locale_strings['da']['why_peercoin_desc_security'] = "Sikring af netværket gennem hybridalgoritmen proof-of-work/proof-of-stake reducerer risikoen for &quot;<a href='http://www.pcworld.com/article/2060840/selfish-miner-attack-could-devastate-bitcoin-researchers-say.html'>Selfish-Miner-svagheden</a>&quot;, <a href='https://en.bitcoin.it/wiki/Weaknesses'>51%-angreb</a> samt den opblæsning af blokke, som er blevet brugt til at udnytte andre valutaer.";
 
 $locale_strings['en']['why_peercoin_header_efficiency'] = "Energy and Cost <b>Efficiency</b>";
 $locale_strings['cat']['why_peercoin_header_efficiency'] = "<b>Eficiència</b> i reducció del cost energètic";
@@ -131,6 +143,7 @@ $locale_strings['it']['why_peercoin_header_efficiency'] = "<b>Efficienza</b> di 
 $locale_strings['ru']['why_peercoin_header_efficiency'] = "<b>Экономичность</b>";
 $locale_strings['zh']['why_peercoin_header_efficiency'] = "低<b>能耗</b>";
 $locale_strings['no']['why_peercoin_header_efficiency'] = "Energi and <b>Kosteffektivitet</b>";
+$locale_strings['da']['why_peercoin_header_efficiency'] = "Energi og <b>omkostningseffektivitet</b>";
 
 $locale_strings['en']['why_peercoin_desc_efficiency'] = "Maintaining the network requires far less energy than generating hardware-intensive proof-of-work hashes. Proof-of-stake also does away with the <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'> ~$1 billion \"tax\"</a> on the Bitcoin network through proof-of-work blocks.";
 $locale_strings['cat']['why_peercoin_desc_efficiency'] = "El manteniment de la xarxa requereix molta menys energia que la generació de hashes proof-of-work mitjançant hardware especialitzat. El Proof-of-stake també es desfà de <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'> l'\"impost\"de ~$1000 milions </a> de la xarxa Bitcoin mitjançant els blocs proof-of-work.";
@@ -141,6 +154,7 @@ $locale_strings['it']['why_peercoin_desc_efficiency'] = "Gestire la rete richied
 $locale_strings['ru']['why_peercoin_desc_efficiency'] = "Поддержка работы сети требует гораздо меньше энергии, чем интенсивная генерация хешей в proof-of-work сетях. Proof-of-stake избавляет от проблемы чрезмерных расходов на обеспечение безопасности сети, от которой <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>страдает Bitcoin</a> из-за использования алгоритма proof-of-work.";
 $locale_strings['zh']['why_peercoin_desc_efficiency'] = "点点币比那些需求大量硬件进行哈希运算的货币要节能环保.权益证明不会出现比特币的<a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>十亿美元税金</a>事件";
 $locale_strings['no']['why_peercoin_desc_efficiency'] = "Sikring av nettverket krever langt mindre energi enn å generere proof-of-work hasher med mye hardware. Proof-of-stake kvitter seg også med <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>~ $1 milliard \"skatten\"</a> på Bitcoin sitt nettverk gjennom proof-of-work blokker.";
+$locale_strings['da']['why_peercoin_desc_efficiency'] = "Sikring af netværket kræver langt mindre energi end at generere proof-of-work-hashes med store mængder hardware. Proof-of-stake afskaffer også <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'> ~$1-milliard-&quot;skatten&quot;</a> på Bitcoin-netværket gennem proof-of-work-blokke.";
 
 $locale_strings['en']['why_peercoin_button'] = "Why Peercoin?";
 $locale_strings['cat']['why_peercoin_button'] = "¿Per què Peercoin?";
@@ -151,6 +165,7 @@ $locale_strings['it']['why_peercoin_button'] = "Perché i Peercoin?";
 $locale_strings['ru']['why_peercoin_button'] = "Почему Peercoin?";
 $locale_strings['zh']['why_peercoin_button'] = "为什么选择点点币?";
 $locale_strings['no']['why_peercoin_button'] = "Hvorfor Peercoin?";
+$locale_strings['da']['why_peercoin_button'] = "Hvorfor Peercoin?";
 
 $locale_strings['en']['why_peercoin_title'] = "Why <span>Peercoin</span>?";
 $locale_strings['cat']['why_peercoin_title'] = "¿Per què <span>Peercoin</span>?";
@@ -161,6 +176,7 @@ $locale_strings['it']['why_peercoin_title'] = "Perché i <span>Peercoin</span>?"
 $locale_strings['ru']['why_peercoin_title'] = "Почему <span>Peercoin</span>?";
 $locale_strings['zh']['why_peercoin_title'] = "为什么选择<span>点点币</span>?";
 $locale_strings['no']['why_peercoin_title'] = "Hvorfor <span>Peercoin</span>?";
+$locale_strings['da']['why_peercoin_title'] = "Hvorfor <span>Peercoin</span>?";
 
 $locale_strings['en']['why_peercoin_desc'] = "Peercoin is a crypto-currency, a decentralized network allowing peer-to-peer financial transactions worldwide over the internet. Through an innovative minting algorithm, the Peercoin network consumes far less energy, maintains stronger security, and rewards users in more sustainable ways than other cryptocurrencies.";
 $locale_strings['cat']['why_peercoin_desc'] = "Mitjançant un innovatiu algoritme d'encunyament, la xarxa Peercoin consumeix molta menys energia, té una seguretat més forta i recompensa els seus usuaris d'una forma més sostenible que altres criptomonedes.";
@@ -171,6 +187,7 @@ $locale_strings['it']['why_peercoin_desc'] = "Attraverso un innovativo algoritmo
 $locale_strings['ru']['why_peercoin_desc'] = "Peercoin &ndash; это криптовалюта, децентрализованная сеть, позволяющая совершать финансовые транзакции напрямую по всему миру через Интернет. С инновационным алгоритмом генерации монет сеть Peercoin потребляет гораздо меньше энергии, обеспечивает большую безопасность и более надёжную награду пользователям, чем другие криптовалюты.";
 $locale_strings['zh']['why_peercoin_desc'] = "点点币网络通过使用优秀的创新算法，在消耗更少的能源的同时, 提供更好的安全加密。比其他加密货币更能公平的回报用户。";
 $locale_strings['no']['why_peercoin_desc'] = "Gjennom en innovativ myntpreging algoritme bruker Peercoin sitt nettverk langt mindre strøm, sørger for ett mer sikkert nettverk og belønner brukere på mer bærekraftige måter enn andre kryptovalutaer.";
+$locale_strings['da']['why_peercoin_desc'] = "Peercoin er en kryptovaluta, et decentraliseret netværk, der tillader financielle transaktioner fra bruger til bruger over hele verden gennem Internet. Gennem en innovativ algoritme for møntprægning bruger Peercoin-netværket langt mindre energi, opretholder større sikkerhed og belønner brugere på mere bæredygtige måder end andre kryptovalutaer.";
 
 $locale_strings['en']['fund_peercoin'] = "Fund <span>Peercoin.</span>";
 $locale_strings['cat']['fund_peercoin'] = "Financia <span>Peercoin.</span>";
@@ -181,6 +198,7 @@ $locale_strings['it']['fund_peercoin'] = "Finanzia <span>Peercoin.</span>";
 $locale_strings['ru']['fund_peercoin'] = "Поддержите <span>Peercoin.</span>";
 $locale_strings['zh']['fund_peercoin'] = "支持 <span>点点币.</span>";
 $locale_strings['no']['fund_peercoin'] = "Støtt <span>Peercoin.</span>";
+$locale_strings['da']['fund_peercoin'] = "Støt <span>Peercoin.</span>";
 
 $locale_strings['en']['fund_peercoin_accepting_donations'] = "We are now accepting donations towards the Peercoin Development and Web Fund.";
 $locale_strings['cat']['fund_peercoin_accepting_donations'] = " Aceptem donacions per al dessenvolupament de Peercoin i la plana web.";
@@ -191,6 +209,7 @@ $locale_strings['it']['fund_peercoin_accepting_donations'] = "Adesso accettiamo 
 $locale_strings['ru']['fund_peercoin_accepting_donations'] = "Теперь мы принимаем пожертвования на развитие Peercoin.";
 $locale_strings['zh']['fund_peercoin_accepting_donations'] = "我们现在接受捐赠用于点点币的开发和Web基金.";
 $locale_strings['no']['fund_peercoin_accepting_donations'] = "Vi aksepterer nå donasjoner til Peercoin sitt utviklings- og webfond.";
+$locale_strings['da']['fund_peercoin_accepting_donations'] = "Vi modtager nu donationer til Peercoins udviklings- og webfond.";
 
 $locale_strings['en']['fund_peercoin_donations_btc'] = "BTC Donations: ";
 $locale_strings['cat']['fund_peercoin_donations_btc'] = "Donacions amb BTC: ";
@@ -201,6 +220,7 @@ $locale_strings['it']['fund_peercoin_donations_btc'] = "Donazioni BTC: ";
 $locale_strings['ru']['fund_peercoin_donations_btc'] = "Пожертвовать BTC: ";
 $locale_strings['zh']['fund_peercoin_donations_btc'] = "BTC 捐赠: ";
 $locale_strings['no']['fund_peercoin_donations_btc'] = "Donasjoner i BTC: ";
+$locale_strings['da']['fund_peercoin_donations_btc'] = "Donationer i BTC: ";
 
 $locale_strings['en']['fund_peercoin_donations_ppc'] = "PPC Donations: ";
 $locale_strings['cat']['fund_peercoin_donations_ppc'] = "Donacions amb PPC: ";
@@ -211,6 +231,7 @@ $locale_strings['it']['fund_peercoin_donations_ppc'] = "Donazioni PPC : ";
 $locale_strings['ru']['fund_peercoin_donations_ppc'] = "Пожертвовать PPC: ";
 $locale_strings['zh']['fund_peercoin_donations_ppc'] = "PPC 捐赠: ";
 $locale_strings['no']['fund_peercoin_donations_ppc'] = "Donasjoner i PPC: ";
+$locale_strings['da']['fund_peercoin_donations_ppc'] = "Donationer i PPC: ";
 
 $locale_strings['en']['block_explorer'] = "Block Explorer";
 $locale_strings['cat']['block_explorer'] = "Explorador de blocs";
@@ -221,6 +242,7 @@ $locale_strings['it']['block_explorer'] = "Block Explorer";
 $locale_strings['ru']['block_explorer'] = "Обозреватель блоков";
 $locale_strings['zh']['block_explorer'] = "区块浏览";
 $locale_strings['no']['block_explorer'] = "Blokkutforsker";
+$locale_strings['da']['block_explorer'] = "Blokudforsker";
 
 $locale_strings['en']['faq_header'] = "Frequently <span>asked questions</span>";
 $locale_strings['cat']['faq_header'] = "<span>Preguntes</span> freqüents";
@@ -231,6 +253,7 @@ $locale_strings['it']['faq_header'] = "<span>Domande</span> frequenti";
 $locale_strings['ru']['faq_header'] = "Часто <span>задаваемые вопросы</span>";
 $locale_strings['zh']['faq_header'] = "常见 <span>问题</span>";
 $locale_strings['no']['faq_header'] = "Ofte <span>stilte spørsmål</span>";
+$locale_strings['da']['faq_header'] = "Ofte <span>stillede spørgsmål</span>";
 
 $locale_strings['en']['faq_q_title_innovation'] = "Tell me more about Original Innovation.";
 $locale_strings['cat']['faq_q_title_innovation'] = "Explica'm més sobre l'Innovació Original.";
@@ -241,6 +264,7 @@ $locale_strings['it']['faq_q_title_innovation'] = "Saperne di più sull'Innovazi
 $locale_strings['ru']['faq_q_title_innovation'] = "Расскажите больше об инновационном алгоритме.";
 $locale_strings['zh']['faq_q_title_innovation'] = "说说你们的创新之处.";
 $locale_strings['no']['faq_q_title_innovation'] = "Fortell meg mer om den originale oppfinnelsen.";
+$locale_strings['da']['faq_q_title_innovation'] = "Fortæl mig mere om den oprindelige opfindelse.";
 
 $locale_strings['en']['faq_q_desc_innovation'] = "
 						<p>Peercoin's original and noteworthy innovation is the proof-of-stake/proof-of-work hybrid system.</p>
@@ -277,6 +301,10 @@ $locale_strings['no']['faq_q_desc_innovation'] = "
 						<p>Peercoin sin originale og bemerkelsesverdige oppfinnelse er proof-of-stake/proof-of-work hybridsystemet.</p>
 						<p>Som andre kryptovalutaer blir de første myntene skapt ved gruvedrift gjennom den vanlige proof-of-work prosessen populært kalt hashing. Men i motsetning til andre kryptovalutaer, ettersom vanskelighetsgraden på hashingen øker over tid, blir brukerene belønnet med mynter generert av den ekstra proof-of-stake algoritmen. Alle som holder 1% av valutaen vil bli kompensert med 1% av alle blokkene produsert ved hjelp av proof-of-stake.</p>
 						<p>I tillegg til økt sikkerhet og bedre energieffektivitet, vil proof-of-work/proof-of-stake hybridalgoritmen motvirker den deflatoriske tendensen som kryptovalutaer kan lide av på grunn av deres satte tak på antall mynter.</p>";
+$locale_strings['da']['faq_q_desc_innovation'] = "
+						<p>Peercoins originale og bemærkelsesværdige opfindelse er proof-of-stake/proof-of-work hybridsystemet.</p>
+						<p>Ligesom med andre kryptovalutaer kan de første coins udvindes via mining gennem den mere udbredte proof-of-work hashing-proces. Til forskel fra andre coins bliver brugere fortsat belønnet, efterhånden som sværhedsgraden øges over tid, med coins der genereres af den ekstra proof-of-stake algoritme. Enhver, der holder 1% af valutaen vil kompenseres med 1% af alle proof-of-stake coin-blokke.</p>
+						<p>Ud over øget sikkerhed og øget energieffektivitet modvirker hybridalgoritmen proof-of-work/proof-of-stake den deflationære tendens, som kryptovalutaer kan lide af på grund af deres på forhånd fastsatte loft for antal coins.</p>";
 
 $locale_strings['en']['faq_q_title_security'] = "Tell me more about Increased Security.";
 $locale_strings['cat']['faq_q_title_security'] = "Explica'm més sobre la Seguretat Millorada.";
@@ -287,6 +315,7 @@ $locale_strings['it']['faq_q_title_security'] = "Saperne di più sulla Maggiore 
 $locale_strings['ru']['faq_q_title_security'] = "Расскажите больше об улучшенной безопасности.";
 $locale_strings['zh']['faq_q_title_security'] = "说说你们更强的安全性.";
 $locale_strings['no']['faq_q_title_security'] = "Fortell meg mer om den økte sikkerheten.";
+$locale_strings['da']['faq_q_title_security'] = "Fortæl mig mere om den øgede sikkerhed.";
 
 $locale_strings['en']['faq_q_desc_security'] = "
 						<p>Generating blocks through the hybrid proof-of-work/proof-of-stake algorithm reduces the risk of the Selfish-Miner Cornell Flaw, \">50%\" attacks, and the block bloating that have been used to exploit other currencies.</p>
@@ -323,6 +352,10 @@ $locale_strings['no']['faq_q_desc_security'] = "
 						<p>Generering av blokker gjennom proof-of-work/proof-of-stake hybridalgoritmen reduserer risikoen for Selfish-Miner Cornell Flaw, \">50%\" angrep og oppblåsingen av blokker som har blitt brukt for å utnytte andre kryptovalutaer.</p>
 						<p>Proof-of-stake delen av algoritmen er selve kjernen i sikkerheten siden den drastisk øker kostnaden ved ett angrep. Å få tilgang på 51% av alle eksisterende mynter krever mer innsats og ressurser enn å få tilgang på 51% av all datakraften brukt til gruvedrift. Videre, i et \">50%\" stakeangrep, vil angriperen sin investering i majoriteten av myntene sørge for at han taper investeringen sin hvis han lykkes med angrepet. Denne risikoen for tap reduserer intensivet til å prøve seg på slikt ett angrep i utganspunktet.</p>
 						<p>Peercoin har også andre avanserte sikkerhetsmekanismer, slik som håndhevete transaksjonskostnader i protokollen for å forvare seg mot angrep som blåser opp størrelsen på blokker.</p>";
+$locale_strings['da']['faq_q_desc_security'] = "
+						<p>Generering af blokke gennem hybridalgoritmen proof-of-work/proof-of-stake reducerer risikoen for Selfish-Miner Cornell-svagheden, \">50%\"-angreb og opblæsning af blokke, som er brugt til at udnytte andre valutaer.</p>
+						<p>Proof-of-stake-delen af algoritmen står i centrum af denne sikkerhed, fordi den drastisk forhøjer omkostningen ved et angreb. Det at anskaffe sig 51% af alle eksisterende coins kræver mere indsats og ressourcer, end det gør at anskaffe sig 51% af al mining-kraft. I et \">50%\"-angreb vil en angribers investering der ud over være – pr. definition – i stor risiko for tab, da en angriber vil holde størstedelen af de coins, vedkommende angriber. Denne tabsrisiko reducerer intensivet til at forsøge et sådant angreb som udgangspunkt.</p>
+						<p>Peercoin har også andre avancerede sikkerhedsfunktioner, som fx gennemtrumfning af gebyrer på protokolniveau som et forsvar imod angreb med blok-opblæsning.</p>";
 
 $locale_strings['en']['faq_q_title_efficiency'] = "Tell me more about Energy and Cost Efficiency.";
 $locale_strings['cat']['faq_q_title_efficiency'] = "Explica'm més sobre l'eficiència energética.";
@@ -527,6 +560,7 @@ $locale_strings['it']['convinced_you_header'] = "<b>Convinto</b>?";
 $locale_strings['ru']['convinced_you_header'] = "Убедили <b>вас</b>?";
 $locale_strings['zh']['convinced_you_header'] = "已使<b>你</b>信服?";
 $locale_strings['no']['convinced_you_header'] = "Er <b>du</b> overbevist?";
+$locale_strings['da']['convinced_you_header'] = "Er <b>du</b> overbevist?";
 
 $locale_strings['en']['convinced_you_desc'] = "Time to download the client, and try it yourself. If you have any questions just ask on the <a href='http://www.peercointalk.org/'>forum</a>, or the social links below.";
 $locale_strings['cat']['convinced_you_desc'] = "Es l'hora de descarregar el client i probar-ho tu mateix. Si tens algun dubte simplement pregunta al <a href='http://www.peercointalk.org/'>forum</a>, o als enllaços de xarxes socials de més avall.";
@@ -537,6 +571,7 @@ $locale_strings['it']['convinced_you_desc'] = "È tempo di scaricare il client e
 $locale_strings['ru']['convinced_you_desc'] = "Время скачать клиент и попробовать. Если у вас возникли какие-либо вопросы, обращайтесь на <a href='http://www.peercointalk.org/'>форум</a> или по ссылкам на социальные сети ниже.";
 $locale_strings['zh']['convinced_you_desc'] = "是时候下载钱包客户端，自己尝试一下了。有任何问题可以到<a href='http://www.peercointalk.org/'>论坛</a>交流, 或下面社交媒体获取信息。";
 $locale_strings['no']['convinced_you_desc'] = "Tid for å laste ned klienten og prøve selv. Hvis du har noen spørsmål er det bare å spørre på <a href='http://www.peercointalk.org/'>forumet</a>, eller på sosiale medier som du finner på lenkene nedenfor.";
+$locale_strings['da']['convinced_you_desc'] = "Tid til at downloade klienten og prøve den selv. Hvis du har spørgsmål, kan du blot spørge på <a href='http://www.peercointalk.org/'>forumet</a> eller via links til sociale medier herunder.";
 
 $locale_strings['en']['tutorials'] = "Tutorials";
 $locale_strings['cat']['tutorials'] = "Tutorials";
@@ -547,6 +582,7 @@ $locale_strings['it']['tutorials'] = "Tutorial";
 $locale_strings['ru']['tutorials'] = "Руководства";
 $locale_strings['zh']['tutorials'] = "新手指导";
 $locale_strings['no']['tutorials'] = "Guider";
+$locale_strings['da']['tutorials'] = "Vejledninger";
 
 $locale_strings['en']['installing_wallet'] = "Installing a Wallet";
 $locale_strings['cat']['installing_wallet'] = "Instal·lar moneder";
@@ -557,6 +593,7 @@ $locale_strings['it']['installing_wallet'] = "Installare un Portafoglio";
 $locale_strings['ru']['installing_wallet'] = "Установка кошелька";
 $locale_strings['zh']['installing_wallet'] = "安装钱包";
 $locale_strings['no']['installing_wallet'] = "Installere en Lommebok";
+$locale_strings['da']['installing_wallet'] = "Installering af en tegnebog";
 
 $locale_strings['en']['setting_up_wallet'] = "Setting Up Wallet";
 $locale_strings['cat']['setting_up_wallet'] = "Configurar moneder";
@@ -567,6 +604,7 @@ $locale_strings['it']['setting_up_wallet'] = "Creare un Portafoglio";
 $locale_strings['ru']['setting_up_wallet'] = "Настройка кошелька";
 $locale_strings['zh']['setting_up_wallet'] = "设置钱包";
 $locale_strings['no']['setting_up_wallet'] = "Sette opp en Lommebok";
+$locale_strings['da']['setting_up_wallet'] = "Opsætning af tegnebog";
 
 $locale_strings['en']['more_ellipsis'] = "More...";
 $locale_strings['cat']['more_ellipsis'] = "Més...";
@@ -577,6 +615,7 @@ $locale_strings['it']['more_ellipsis'] = "Altro...";
 $locale_strings['ru']['more_ellipsis'] = "Другое...";
 $locale_strings['zh']['more_ellipsis'] = "更多...";
 $locale_strings['no']['more_ellipsis'] = "Mer...";
+$locale_strings['da']['more_ellipsis'] = "Mere …";
 
 //javascript
 
@@ -589,6 +628,7 @@ $locale_strings['it']['second_ago'] = "secondo fa";
 $locale_strings['ru']['second_ago'] = "секунду назад";
 $locale_strings['zh']['second_ago'] = "秒前";
 $locale_strings['no']['second_ago'] = "sekunder siden";
+$locale_strings['da']['second_ago'] = "sekund siden";
 
 $locale_strings['en']['seconds_ago'] = "seconds ago";
 $locale_strings['cat']['seconds_ago'] = "segons";
@@ -599,3 +639,5 @@ $locale_strings['it']['seconds_ago'] = "secondi fa";
 $locale_strings['ru']['seconds_ago'] = "секунд назад";
 $locale_strings['zh']['seconds_ago'] = "秒前";
 $locale_strings['no']['seconds_ago'] = "sekunder siden";
+$locale_strings['da']['seconds_ago'] = "sekunder siden";
+

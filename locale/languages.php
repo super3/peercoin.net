@@ -3,6 +3,7 @@
 $locale_languages = array(
 	'en'	=>	'English',
 	'cat'	=>	'Català',
+	'da'	=>	'Dansk',
 	'es'	=>	'Español',
 	'fr'	=>	'Français',
 	'gr'	=>	'Ελληνικά',
