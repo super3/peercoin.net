@@ -366,6 +366,7 @@ $locale_strings['it']['faq_q_title_efficiency'] = "Saperne di più sull'Efficien
 $locale_strings['ru']['faq_q_title_efficiency'] = "Расскажите больше об экономичности.";
 $locale_strings['zh']['faq_q_title_efficiency'] = "说说你们的低能耗.";
 $locale_strings['no']['faq_q_title_efficiency'] = "Fortell meg mer om energi og kosteffektivitet";
+$locale_strings['da']['faq_q_title_efficiency'] = "Fortæl mig mere om energi og omkostningseffektivitet";
 
 $locale_strings['en']['faq_q_desc_efficiency'] = "
 							<p>Generating proof-of-stake blocks requires far less energy than generating hardware-intensive proof-of-work hashes. This means that over time, the Peercoin network will consume less energy as proof-of-work blocks become less rewarding and blocks are generated instead by the proof-of-stake portion of the algorithm.</p>
@@ -394,6 +395,9 @@ $locale_strings['zh']['faq_q_desc_efficiency'] = "
 $locale_strings['no']['faq_q_desc_efficiency'] = "
 							<p>Generering av proof-of-stake blokker krever mye mindre strøm enn proof-of-work hashing med mye hardware. Dette betyr at over tid vil Peercoin sitt nettverk konsumere mindre strøm siden proof-of-work blokker blir mindre lønnsomme, og nye blokker blir i større grad generert av proof-of-stake delen av algoritmen.</p>
 							<p>Proof-of-stake kvitter seg også med ~$1 milliard 'skatten' på Bitcoin sitt nettverk gjennom proof-of-work blokker. Du kan lese mer om dette <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>her</a>.</p>";
+$locale_strings['da']['faq_q_desc_efficiency'] = "
+							<p>Generering af proof-of-stake blokke kræver meget mindre strøm end proof-of-work hashing med store mængder hardware. Dette betyder, at Peercoin-netværket vil over tid forbruge mindre energi, efterhånden som proof-of-work blokke bliver mindre lønsomme, og blokke i stedet bliver genereret af proof-of-stake-delen af algoritmen.</p>
+							<p>Proof-of-stake gør også op med ~$1 milliard-&quot;skatten&quot; fra Bitcoin-netværket gennem proof-of-work blokke. Du kan læse mere om dette <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>her</a>.</p>";
 
 $locale_strings['en']['faq_q_title_myth1'] = "Myth #1 - Peercoin is just a clone of Bitcoin.";
 $locale_strings['cat']['faq_q_title_myth1'] = "Mite #1 - Peercoin és només un clon de Bitcoin.";
@@ -404,6 +408,7 @@ $locale_strings['it']['faq_q_title_myth1'] = "Mito #1 - Peercoin è solo un clon
 $locale_strings['ru']['faq_q_title_myth1'] = "Миф №1 - Peercoin это очередной клон Bitcoin.";
 $locale_strings['zh']['faq_q_title_myth1'] = "流言 #1 - 点点币只是比特币的一个克隆.";
 $locale_strings['no']['faq_q_title_myth1'] = "Myte #1 - Peercoin er bare en klone av Bitcoin.";
+$locale_strings['da']['faq_q_title_myth1'] = "Myte nr. 1 - Peercoin er bare en klon af Bitcoin.";
 
 $locale_strings['en']['faq_q_desc_myth1'] = "
 						<p>Peercoin is one of the truly unique coins that are not just a clone of the original Bitcoin code.
@@ -454,6 +459,12 @@ $locale_strings['no']['faq_q_desc_myth1'] = "
 						<p>Peercoin er en av de unike kryptovalutaene som ikke bare er en klone av Bitcoin sin originale kode.
 						Peercoin er den første kryptovalutaen som introduserte en proof-of-stake/proof-of-work kombinasjon sammen med andre energi besparende mekanismer. Faktisk har mange kryptovalutaer integrert Peercoin sin proof-of-stake inn i sin egene kodebaser.
 				          	<br/> <br/>
+						Kilde: <a href='http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features'>http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
+						</p>";
+$locale_strings['da']['faq_q_desc_myth1'] = "
+						<p>Peercoin er en af de unikke coins, som ikke bare er en klon af den oprindelige Bitcoin-kode.
+						Peercoin er den første coin som introducerede en kombination af proof-of-stake/proof-of-work sammen med andre energieffektive mekanismer. Faktisk integrerer mange altcoint nu Peercoins proof-of-stake i deres kode.
+						<br/> <br/>
 						Kilde: <a href='http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features'>http://en.wikipedia.org/wiki/PPCoin#Distinguishing_features</a>
 						</p>";
 
