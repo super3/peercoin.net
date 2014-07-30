@@ -22,7 +22,7 @@ $locale_strings['it']['big_welcome_header'] = "Sicura. Sostenibile. <span><stron
 $locale_strings['ru']['big_welcome_header'] = "Безопасный. Надёжный. <span>Это <strong>Peercoin</strong>.</span>";
 $locale_strings['zh']['big_welcome_header'] = "安全的. 可持续的. <span><strong>点点币</strong> 就在这里.</span>";
 $locale_strings['no']['big_welcome_header'] = "Sikker. Bærekraftig. <span><strong>Peercoin</strong> er her.</span>";
-$locale_strings['no']['big_welcome_header'] = "Sikker. Bæredygtig. <span><strong>Peercoin</strong> er her.</span>";
+$locale_strings['da']['big_welcome_header'] = "Sikker. Bæredygtig. <span><strong>Peercoin</strong> er her.</span>";
 
 $locale_strings['en']['big_404'] = "<span><strong>404</strong> Page Not Found. </span> Please use top menu to try another page.";
 $locale_strings['cat']['big_404'] = "<span><strong>404</strong> Pàgina no trovada. </span> Si us plau, utilitza el menú superior i prova una altra pàgina.";
@@ -477,6 +477,7 @@ $locale_strings['it']['faq_q_title_myth2'] = "Mito #2 - Peercoin è una moneta c
 $locale_strings['ru']['faq_q_title_myth2'] = "Миф №2 - Peercoin &ndash; централизованная валюта из-за использования контрольных точек.";
 $locale_strings['zh']['faq_q_title_myth2'] = "流言 #2 - 因为有检查点所以点点币不是分布式货币.";
 $locale_strings['no']['faq_q_title_myth2'] = "Myte #2 - Peercoin er en sentralisert kryptovaluta på grunn av sjekkpunkter.";
+$locale_strings['da']['faq_q_title_myth2'] = "Myte nr. 2 - Peercoin er en centraliseret kryptovaluta på grund af checkpoints.";
 
 $locale_strings['en']['faq_q_desc_myth2'] = "
 						<p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in its infancy. Sunny King explains:</p>
@@ -514,6 +515,10 @@ $locale_strings['no']['faq_q_desc_myth2'] = "
 						<p>Sjekkpunkter er en ekstra sikkerhetsmekanisme og ble introdusert for å beskytte Peercoin sitt nettverk mot angrep i sin barndom. Sunny King forklarer:</p>
 						<p>&quot;Risikoen for ett 51% denial-of-service angrep på blokkjeden er reell, spesielt for et mindre nettverk. Faktisk vil jeg ikke ha ekskludert en slik mulighet til og med for Bitcoin. Selvfølgelig vil et slikt angrep på Bitcoin mest sannsyneligvis ikke komme fra ett individ på grunn av ressursene som kreves, men det er uansvarlig å si at det ikke er mulig. Bare forestill deg hva som ville skjedd om Bitcoin stoppet å behandle transaksjoner for noen få dager.&quot;</p>
 						<p>Siden Peercoin sitt nettverk har vokst mye det siste året, vil nok sjekkpunkter bli faset ut i en av de neste versjonene. Mest sannsynelig i PPC 0.5.</p>";
+$locale_strings['da']['faq_q_desc_myth2'] = "
+						<p>Checkpoints er en ekstra sikkerhedsmekanisme, som blev introduceret for at beskytte Peercoin-netværket imod angreb i dets spæde begyndelse. Sunny King forklarer:</p>
+						<p>&quot;Risikoen for et 51% denial-of-service angreb på blokkæden er reel, specielt for et mindre netværk. Faktisk ville jeg ikke udelukke sådan en mulighed, selv for Bitcoin. Selvfølgelig ville et sådant angreb på Bitcoin sandsynligvis ikke komme fra et enkelt individ på grund af de ressourcer, som kræves. Men det er uansvarligt at sige, at det ikke er muligt. Forestil dig blot, hvad der ville ske, hvis Bitcoin stoppede med at behandle transaktioner i nogle få dage.&quot;</p>
+						<p>Da Peercoins netværk er vokset betydeligt det senesete år, vil checkpoints blive udfaset i en af de næste versioner, sandsynligvis i PPC 0.5.</p>";
 
 $locale_strings['en']['faq_q_title_myth3'] = "Myth #3 - Peercoin is extremely inflationary in nature.";
 $locale_strings['cat']['faq_q_title_myth3'] = "Mite #3 - Peercoin té una naturalesa extremadament inflacionària.";
@@ -524,6 +529,7 @@ $locale_strings['it']['faq_q_title_myth3'] = "Mito #3 - Peercoin ha una natura e
 $locale_strings['ru']['faq_q_title_myth3'] = "Миф №3 - Peercoin чрезвычайно инфляционный по своей природе.";
 $locale_strings['zh']['faq_q_title_myth3'] = "流言 #3 - 点点币在本质上是高通胀.";
 $locale_strings['no']['faq_q_title_myth3'] = "Myte #3 - Peercoin er utsatt for ekstrem inflasjon.";
+$locale_strings['da']['faq_q_title_myth3'] = "Myte nr. 3 - Peercoin er udsat for ekstrem inflation.";
 
 $locale_strings['en']['faq_q_desc_myth3'] = "
 						<p>Nope. If Peercoin grows rapidly, stake minting may temporarily decrease as coin days are lost when trading. This would cause Peercoin to become deflationary. The flat nature of the transaction fees is intended to counter this by decreasing total transaction volume. Proponents of Peercoin argue that this will decrease deflation.</p>
@@ -561,6 +567,10 @@ $locale_strings['no']['faq_q_desc_myth3'] = "
 						<p>Nei. Hvis Peercoin vokser fort vil proof-of-stake preging muligens temporært minke, siden myntdager går tapt ved handling. Dette vil gi en deflatorisk effekt i Peercoin. Den flate strukturen til transaksjonsgebyrene er planlagt som motvekt ved å redusere det totale volumet av transaksjoner. Tilhengere av Peercoin argumenterer med at dette vil minke deflasjonen.</p>
 						<p>Videre, for øyeblikket opplever Bitcoin <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>en ~10%</a> inflasjon per år mens den nærmer seg total beholdningen på 21 millioner. Det man <b>håper</b> er at når den totale beholdningen blir nådd, vil transaksjonsgebyrene være nok for å sikre nettverket.</p>
 						<p>For å sikre et sikkert nettverk i fremtiden, har Peercoin en 1% inflasjon per år (proof-of-stake belønning). Dette for å være sikker på at nettverket vil være sikkert uansett hva transaksjonsgebyrene er. Som sagt tidligere vil dette muligens gi deflasjon, på samme måte som med Bitcoin, under perioder med høyt volum på transaksjoner.</p>";
+$locale_strings['da']['faq_q_desc_myth3'] = "
+						<p>Niks. Hvis Peercoin vokser hurtigt, vil proof-of-stake-prægning muligvis midlertidigt mindskes, da coindage går tabt under handel. Dette vil påvirke Peercoin deflatorisk. Den flade struktur i transaktionsgebyrerne er beregnet som modvægt ved at reducere den totale volumen af transaktioner. Tilhængere af Peercoin argumenterer for, at dette vil mindske deflationen.</p>
+						<p>Der ud over oplever Bitcoin i øjeblikket <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'>en ~10%</a> inflation pr. år, efterhånden som den nærmer sig sin totalbeholdning på 21 millioner. Det man <b>håber</b> er, at når den totale beholdning er nået, vil transaktionsgebyrerne være nok til at opretholde et sikkert netværk.</p>
+						<p>For at opretholde et sikkert netværk i fremtiden har Peercoin en 1% inflation om året (proof-of-stake belønning) for at være sikker på, at netværket vil forblive sikkert, uanset hvad transaktionsgebyrerne er. Som nævnt tidligere vil dette muligvis give deflation, ligesom Bitcoin sigter efter at være, under perioder med store mængder transaktioner.</p>";
 
 $locale_strings['en']['convinced_you_header'] = "Convinced <b>you</b>?";
 $locale_strings['cat']['convinced_you_header'] = "¿<b>Convençut</b>?";
