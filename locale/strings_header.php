@@ -11,7 +11,7 @@ $locale_strings['it']['homepage_title'] = "Peercoin - Criptomoneta Sicura e Sost
 $locale_strings['ru']['homepage_title'] = "Peercoin - Безопасная и Надёжная Криптовалюта.";
 $locale_strings['zh']['homepage_title'] = "Peercoin - 安全 &amp; 可持续的加密货币.";
 $locale_strings['no']['homepage_title'] = "Peercoin - Sikker &amp; Bærekraftig Kryptomynt.";
-$locale_strings['da']['homepage_title'] = "Peercoin – Sikker &amp; bæredygtig kryptomønt";
+$locale_strings['da']['homepage_title'] = "Peercoin – sikker &amp; bæredygtig kryptomønt";
 
 //dropdown menu (header)
 
@@ -68,7 +68,7 @@ $locale_strings['it']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['ru']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['zh']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['no']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
-$locale_strings['da']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
+$locale_strings['da']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
 
 $locale_strings['en']['dropdown_docs_and_press_kit'] = "Press Kit";
 $locale_strings['cat']['dropdown_docs_and_press_kit'] = "Kit de premsa";
@@ -123,7 +123,7 @@ $locale_strings['it']['dropdown_title_peercoins'] = "Ottenere Peercoins";
 $locale_strings['ru']['dropdown_title_peercoins'] = "Получить Peercoin";
 $locale_strings['zh']['dropdown_title_peercoins'] = "获取点点币";
 $locale_strings['no']['dropdown_title_peercoins'] = "Få tak i Peercoins";
-$locale_strings['da']['dropdown_title_peercoins'] = "Få Peercoins";
+$locale_strings['da']['dropdown_title_peercoins'] = "Anskaf Peercoins";
 
 $locale_strings['en']['dropdown_peercoins_mine'] = "Mine Peercoins";
 $locale_strings['cat']['dropdown_peercoins_mine'] = "Mina Peercoins";
@@ -200,7 +200,7 @@ $locale_strings['it']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['ru']['dropdown_contribute_sponsor'] = "Спонсорство";
 $locale_strings['zh']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['no']['dropdown_contribute_sponsor'] = "Sponsor";
-$locale_strings['da']['dropdown_contribute_sponsor'] = "Sponsor";
+$locale_strings['da']['dropdown_contribute_sponsor'] = "Sponsorér";
 
 $locale_strings['en']['dropdown_contribute_projects'] = "Projects";
 $locale_strings['cat']['dropdown_contribute_projects'] = "Projects";
