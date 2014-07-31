@@ -110,7 +110,7 @@ $locale_strings['it']['why_peercoin_desc_innovation'] = "L'innovazione originale
 $locale_strings['ru']['why_peercoin_desc_innovation'] = "Peercoin впервые представил миру <a href='/bin/peercoin-paper.pdf'>гибридную roof-of-stake/proof-of-work систему</a>. Как в других <a href='https://ru.wikipedia.org/wiki/Криптовалюта'>криптовалютах</a>, монеты можно майнить, но работу ядра сети обеспечивают держатели валюты, а не самый мощный <a href='https://ru.bitcoin.it/wiki/Майнинг_в_пулах'>пул</a>.";
 $locale_strings['zh']['why_peercoin_desc_innovation'] = "点点币的原创<a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work(权益证明/工作量证明)混合</a>系统.就像其它<a href='https://en.wikipedia.org/wiki/Cryptocurrency'>加密货币</a>一样, 货币可以通过挖矿产生, 但是,整个网络是被持币者维护的，而不是计算能力强大的<a href='https://en.bitcoin.it/wiki/Pooled_mining'>矿池</a>.";
 $locale_strings['no']['why_peercoin_desc_innovation'] = "Peercoin sin originale oppfinnelse er <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work</a> hybridsystemet. Som andre <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>kryptovalutaer</a> blir de første myntene skapt ved gruvedrift, men nettverket blir sikret av de som holder myntene i stedet for den raskeste <a href='https://en.bitcoin.it/wiki/Pooled_mining'>gruvepoolen</a>.";
-$locale_strings['da']['why_peercoin_desc_innovation'] = "Peercoins oprindelige opfindelse er <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work</a> hybridsystemet. Ligesom ved andre <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>kryptovalutaer</a> bliver de første coins skabt ved mining, men kernenetværket sikres af de, der holder coins, frem for den hurtigste <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pool</a>.";
+$locale_strings['da']['why_peercoin_desc_innovation'] = "Peercoins originale opfindelse er <a href='/bin/peercoin-paper.pdf'>proof-of-stake/proof-of-work</a> hybridsystemet. Ligesom ved andre <a href='https://en.wikipedia.org/wiki/Cryptocurrency'>kryptovalutaer</a> bliver de første coins skabt ved mining, men kernenetværket sikres af de, der holder coins, frem for den hurtigste <a href='https://en.bitcoin.it/wiki/Pooled_mining'>pool</a>.";
 
 $locale_strings['en']['why_peercoin_header_security'] = "Increased <b>Security</b>";
 $locale_strings['cat']['why_peercoin_header_security'] = "Més <b>Segur</b>";
@@ -143,7 +143,7 @@ $locale_strings['it']['why_peercoin_header_efficiency'] = "<b>Efficienza</b> di 
 $locale_strings['ru']['why_peercoin_header_efficiency'] = "<b>Экономичность</b>";
 $locale_strings['zh']['why_peercoin_header_efficiency'] = "低<b>能耗</b>";
 $locale_strings['no']['why_peercoin_header_efficiency'] = "Energi and <b>Kosteffektivitet</b>";
-$locale_strings['da']['why_peercoin_header_efficiency'] = "Energi og <b>omkostningseffektivitet</b>";
+$locale_strings['da']['why_peercoin_header_efficiency'] = "Energi- og <b>omkostningseffektivitet</b>";
 
 $locale_strings['en']['why_peercoin_desc_efficiency'] = "Maintaining the network requires far less energy than generating hardware-intensive proof-of-work hashes. Proof-of-stake also does away with the <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'> ~$1 billion \"tax\"</a> on the Bitcoin network through proof-of-work blocks.";
 $locale_strings['cat']['why_peercoin_desc_efficiency'] = "El manteniment de la xarxa requereix molta menys energia que la generació de hashes proof-of-work mitjançant hardware especialitzat. El Proof-of-stake també es desfà de <a href='http://letstalkbitcoin.com/is-bitcoin-overpaying-for-false-security/'> l'\"impost\"de ~$1000 milions </a> de la xarxa Bitcoin mitjançant els blocs proof-of-work.";
@@ -187,7 +187,7 @@ $locale_strings['it']['why_peercoin_desc'] = "Attraverso un innovativo algoritmo
 $locale_strings['ru']['why_peercoin_desc'] = "Peercoin &ndash; это криптовалюта, децентрализованная сеть, позволяющая совершать финансовые транзакции напрямую по всему миру через Интернет. С инновационным алгоритмом генерации монет сеть Peercoin потребляет гораздо меньше энергии, обеспечивает большую безопасность и более надёжную награду пользователям, чем другие криптовалюты.";
 $locale_strings['zh']['why_peercoin_desc'] = "点点币网络通过使用优秀的创新算法，在消耗更少的能源的同时, 提供更好的安全加密。比其他加密货币更能公平的回报用户。";
 $locale_strings['no']['why_peercoin_desc'] = "Gjennom en innovativ myntpreging algoritme bruker Peercoin sitt nettverk langt mindre strøm, sørger for ett mer sikkert nettverk og belønner brukere på mer bærekraftige måter enn andre kryptovalutaer.";
-$locale_strings['da']['why_peercoin_desc'] = "Peercoin er en kryptovaluta, et decentraliseret netværk, der tillader financielle transaktioner fra bruger til bruger over hele verden gennem Internet. Gennem en innovativ algoritme for møntprægning bruger Peercoin-netværket langt mindre energi, opretholder større sikkerhed og belønner brugere på mere bæredygtige måder end andre kryptovalutaer.";
+$locale_strings['da']['why_peercoin_desc'] = "Peercoin er en kryptovaluta – et decentraliseret netværk, der tillader financielle transaktioner fra bruger til bruger over hele verden gennem Internet. Gennem en innovativ algoritme for møntprægning bruger Peercoin-netværket langt mindre energi, opretholder større sikkerhed og belønner brugere på mere bæredygtige måder end andre kryptovalutaer.";
 
 $locale_strings['en']['fund_peercoin'] = "Fund <span>Peercoin.</span>";
 $locale_strings['cat']['fund_peercoin'] = "Financia <span>Peercoin.</span>";
@@ -198,7 +198,7 @@ $locale_strings['it']['fund_peercoin'] = "Finanzia <span>Peercoin.</span>";
 $locale_strings['ru']['fund_peercoin'] = "Поддержите <span>Peercoin.</span>";
 $locale_strings['zh']['fund_peercoin'] = "支持 <span>点点币.</span>";
 $locale_strings['no']['fund_peercoin'] = "Støtt <span>Peercoin.</span>";
-$locale_strings['da']['fund_peercoin'] = "Støt <span>Peercoin.</span>";
+$locale_strings['da']['fund_peercoin'] = "Støt <span>Peercoin</span>";
 
 $locale_strings['en']['fund_peercoin_accepting_donations'] = "We are now accepting donations towards the Peercoin Development and Web Fund.";
 $locale_strings['cat']['fund_peercoin_accepting_donations'] = " Aceptem donacions per al dessenvolupament de Peercoin i la plana web.";
@@ -264,7 +264,7 @@ $locale_strings['it']['faq_q_title_innovation'] = "Saperne di più sull'Innovazi
 $locale_strings['ru']['faq_q_title_innovation'] = "Расскажите больше об инновационном алгоритме.";
 $locale_strings['zh']['faq_q_title_innovation'] = "说说你们的创新之处.";
 $locale_strings['no']['faq_q_title_innovation'] = "Fortell meg mer om den originale oppfinnelsen.";
-$locale_strings['da']['faq_q_title_innovation'] = "Fortæl mig mere om den oprindelige opfindelse.";
+$locale_strings['da']['faq_q_title_innovation'] = "Fortæl mig mere om den originale opfindelse.";
 
 $locale_strings['en']['faq_q_desc_innovation'] = "
 						<p>Peercoin's original and noteworthy innovation is the proof-of-stake/proof-of-work hybrid system.</p>
@@ -366,7 +366,7 @@ $locale_strings['it']['faq_q_title_efficiency'] = "Saperne di più sull'Efficien
 $locale_strings['ru']['faq_q_title_efficiency'] = "Расскажите больше об экономичности.";
 $locale_strings['zh']['faq_q_title_efficiency'] = "说说你们的低能耗.";
 $locale_strings['no']['faq_q_title_efficiency'] = "Fortell meg mer om energi og kosteffektivitet";
-$locale_strings['da']['faq_q_title_efficiency'] = "Fortæl mig mere om energi og omkostningseffektivitet";
+$locale_strings['da']['faq_q_title_efficiency'] = "Fortæl mig mere om energi- og omkostningseffektivitet";
 
 $locale_strings['en']['faq_q_desc_efficiency'] = "
 							<p>Generating proof-of-stake blocks requires far less energy than generating hardware-intensive proof-of-work hashes. This means that over time, the Peercoin network will consume less energy as proof-of-work blocks become less rewarding and blocks are generated instead by the proof-of-stake portion of the algorithm.</p>
@@ -408,7 +408,7 @@ $locale_strings['it']['faq_q_title_myth1'] = "Mito #1 - Peercoin è solo un clon
 $locale_strings['ru']['faq_q_title_myth1'] = "Миф №1 - Peercoin это очередной клон Bitcoin.";
 $locale_strings['zh']['faq_q_title_myth1'] = "流言 #1 - 点点币只是比特币的一个克隆.";
 $locale_strings['no']['faq_q_title_myth1'] = "Myte #1 - Peercoin er bare en klone av Bitcoin.";
-$locale_strings['da']['faq_q_title_myth1'] = "Myte nr. 1 - Peercoin er bare en klon af Bitcoin.";
+$locale_strings['da']['faq_q_title_myth1'] = "Myte nr. 1 – Peercoin er bare en klon af Bitcoin.";
 
 $locale_strings['en']['faq_q_desc_myth1'] = "
 						<p>Peercoin is one of the truly unique coins that are not just a clone of the original Bitcoin code.
@@ -477,7 +477,7 @@ $locale_strings['it']['faq_q_title_myth2'] = "Mito #2 - Peercoin è una moneta c
 $locale_strings['ru']['faq_q_title_myth2'] = "Миф №2 - Peercoin &ndash; централизованная валюта из-за использования контрольных точек.";
 $locale_strings['zh']['faq_q_title_myth2'] = "流言 #2 - 因为有检查点所以点点币不是分布式货币.";
 $locale_strings['no']['faq_q_title_myth2'] = "Myte #2 - Peercoin er en sentralisert kryptovaluta på grunn av sjekkpunkter.";
-$locale_strings['da']['faq_q_title_myth2'] = "Myte nr. 2 - Peercoin er en centraliseret kryptovaluta på grund af checkpoints.";
+$locale_strings['da']['faq_q_title_myth2'] = "Myte nr. 2 – Peercoin er en centraliseret kryptovaluta på grund af checkpoints.";
 
 $locale_strings['en']['faq_q_desc_myth2'] = "
 						<p>Checkpoints are an additional security measure and were introduced to protect the Peercoin network from attacks when it was in its infancy. Sunny King explains:</p>
@@ -529,7 +529,7 @@ $locale_strings['it']['faq_q_title_myth3'] = "Mito #3 - Peercoin ha una natura e
 $locale_strings['ru']['faq_q_title_myth3'] = "Миф №3 - Peercoin чрезвычайно инфляционный по своей природе.";
 $locale_strings['zh']['faq_q_title_myth3'] = "流言 #3 - 点点币在本质上是高通胀.";
 $locale_strings['no']['faq_q_title_myth3'] = "Myte #3 - Peercoin er utsatt for ekstrem inflasjon.";
-$locale_strings['da']['faq_q_title_myth3'] = "Myte nr. 3 - Peercoin er udsat for ekstrem inflation.";
+$locale_strings['da']['faq_q_title_myth3'] = "Myte nr. 3 – Peercoin er udsat for ekstrem inflation.";
 
 $locale_strings['en']['faq_q_desc_myth3'] = "
 						<p>Nope. If Peercoin grows rapidly, stake minting may temporarily decrease as coin days are lost when trading. This would cause Peercoin to become deflationary. The flat nature of the transaction fees is intended to counter this by decreasing total transaction volume. Proponents of Peercoin argue that this will decrease deflation.</p>
