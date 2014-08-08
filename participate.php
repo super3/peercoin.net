@@ -18,6 +18,16 @@
 				<h2 class="maintitle"><a href="resources">Trade with Peercoin</a></h2>
 				<p>Using Peercoin for trading goods helps more businesses to accept it and makes Peercoin widely accepted. By buying and selling services and goods with Peercoin you expose many people to Peercoin and participate in the Peercoin economy.</p>
 	        </div>
+	        <div class="item">
+	        
+	        <h2 class="maintitle"><a href="resources">Donate Peercoins</a></h2>
+			<p>You can support the development of peercoin.net and the peercoin project by donating Peercoins (P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN) and Bitcoins (1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i).</p>
+			<p>You may also donate to other non-profits with peercoins through <a href="http://peercoin.link/">Peercoin Link</a>
+			
+	        
+	        
+	        
+	        </div>
 
 	        <div class="item">
 		        <h2 class="maintitle"><a href="mining">Mine</a> and <a href="minting">Mint</a></h2>
