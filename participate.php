@@ -23,6 +23,17 @@
 		        <h2 class="maintitle"><a href="mining">Mine</a> and <a href="minting">Mint</a></h2>
 				<p>Minting and mining peercoins generates more Peercoins and makes the Peercoin network faster and more reliable.</p><br>
 	        </div>
+	        
+	        <div class="item">
+	        
+	        <h2 class="maintitle">Donate Peercoins</h2>
+			<p>You can support the development of peercoin.net and the Peercoin Project by donating Peercoins (P9ZveNqMmSSB5RApp3dcpDYXYXmKYUG7mN) and Bitcoins (1MKMndP5iXKtdDd5M6bcsxVmLAirHW1j7i).</p>
+			<p>You may also donate to other non-profits with peercoins through <a href="http://peercoin.link/">Peercoin Link</a>.
+			
+	        
+	        
+	        
+	        </p></div>
 
 
 	      
