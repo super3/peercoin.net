@@ -86,9 +86,10 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header_learn_title"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="why_peercoin"><?php echo $Locale->getText("why_peercoin_button"); ?></a></li>
-                <li><a href="whitepaper"><?php echo $Locale->getText("peercoin_whitepaper"); ?></a></li> 
+                <li><a href="whitepaper"><?php echo $Locale->getText("peercoin_whitepaper"); ?></a></li>
+                <li><a href="exchanges"><?php echo $Locale->getText("exchanges"); ?></a></li> 
                 <li><a href="mine"><?php echo $Locale->getText("peercoins_mine"); ?></a></li> 
-                <li><a href="mint"><?php echo $Locale->getText("peercoins_mint"); ?></a></li>
+                <li><a href="minting"><?php echo $Locale->getText("peercoins_mint"); ?></a></li>
               </ul>
             </li>
             <li><a href="wallet"><?php echo $Locale->getText("wallet"); ?></a></li>

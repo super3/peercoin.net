@@ -203,19 +203,19 @@ a:hover {
 }
 
 #header-left {
-	width: 40%;
+	width: 45%;
 	float:left;
 }
 
 #header-left img {
 	float: right;
-	height: 250px;
+	height: 150px;
 }
 
 #header-right {
 	padding-left: 40px;
-	width: 60%;
-	height: 200px;
+	width: 55%;
+	height: 140px;
 	float: right;
 	text-align: left;
 	display: table;
@@ -227,8 +227,8 @@ a:hover {
 }
 
 #header-right img {
-	height: 110px;
-	width: 390px;
+	height: 70px;
+	width: 248px;
 }
 
 .peercoin-logo {
@@ -238,11 +238,12 @@ a:hover {
 
 .marketcap {
 	text-align: center;
-	font-size: 26px;
+	font-size: 16px;
+	color: #D8D8D8;
 }
 
 .marketcap .updated {
-	font-size: 14px;
+	font-size: 10px;
 	font-weight: 300;
 	padding-top: 15px;
 	color: #A5A5A5;
@@ -1131,7 +1132,7 @@ margin-top:3em;
 		}
 
 		.marketcap {
-			font-size: 20px;
+			font-size: 16px;
 		}
 
 		.marketcap li span:last-child {
@@ -1912,4 +1913,30 @@ margin-top:3em;
 .svg-200 {
 	max-height: 200px;
 	max-width: 200px;
+}
+
+/* Leaflist */
+.leafList {
+	text-align: left;
+}
+
+.leafList > .item {
+	margin: 20px 0px;
+}
+
+.leafList > .item > img {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.leafList > .item > .text {
+	display: inline-block;
+}
+
+.leafList > .item > .text > .name {
+	display: inline-block;
+	font-size: 24px;
 }

@@ -14,6 +14,8 @@ $locale_strings['no'][''] = "";
 // Global
 $locale_strings['en']['get_started'] = "Get started";
 
+$locale_strings['en']['learn_more'] = "Learn More";
+
 $locale_strings['en']['newsletter'] ="Newsletter";
 
 $locale_strings['en']['download'] = "Download";
@@ -32,17 +34,20 @@ $locale_strings['en']['decentralized_currency'] = "Available <b>24/7</b>";
 $locale_strings['en']['decentralized_currency_desc'] = "Use it anytime, anywhere, without the need to give your personal information away.";
 
 // Types of people
-$locale_strings['en']['individual'] = "Individual";
-$locale_strings['en']['individual_desc'] = "Want to start sending money online with Peercoin? Feel free to read our simple guides that will show you everything you need to know to get started in just several minutes.";
+$locale_strings['en']['consumer'] = "Consumers";
+$locale_strings['en']['consumer_desc'] = "Learn how to buy, sell, spend, and store Peercoin.";
 
-$locale_strings['en']['merchant'] = "Merchant";
-$locale_strings['en']['merchant_desc'] = "Own a online or a brick and mortar store and are looking to cut down on unnecessary fees and join the revolution? We will teach you all you need to know.";
+$locale_strings['en']['investor'] = "Investors";
+$locale_strings['en']['investor_desc'] = "Minting yields a guaranteed 1% reward.";
 
-$locale_strings['en']['developer'] = "Developer";
-$locale_strings['en']['developer_desc'] = "How does it work? Want to learn more about Peercoin on a technical level? Peercoin makes everyone important, you can become a big part of the Peercoin future right now.";
+$locale_strings['en']['merchant'] = "Merchants";
+$locale_strings['en']['merchant_desc'] = "It's time to cut down on transaction fees.";
 
-$locale_strings['en']['miner'] = "Miner";
-$locale_strings['en']['miner_desc'] = "Want to start mining Peercoin? Check out this cherry picked section just for you and get started as soon as possible to maximize your profits.";
+$locale_strings['en']['developer'] = "Developers";
+$locale_strings['en']['developer_desc'] = "Take a look at some innovations in the pipeline.";
+
+$locale_strings['en']['miner'] = "Miners";
+$locale_strings['en']['miner_desc'] = "Put your mining equipment to good use.";
 
 // Wallet selection page
 $locale_strings['en']['wallet'] = "Wallet";
