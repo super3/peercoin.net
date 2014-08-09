@@ -26,7 +26,7 @@
 		<div class="col-sm-3 text-center vcenter">
 			<img class="svg-200" src="assets/img/minting/efficiency.svg">
 		</div>
-		<div class="col-sm-9 vcenter">
+		<div class="col-sm-8 vcenter">
 			<h3>Efficiency</h3>
 			<p>
 				Proof-of-work security is based on hashing power, and consumes a large amount of energy to solve blocks. This means that mining is much too difficult for those that do not have access to powerful hardware. As the Peercoin network shifts towards proof-of-stake security over time, minting proof-of-stake blocks provides security in a sustainable and environmentally-friendly way without requiring consuming large amounts of energy.
@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-8 vcenter">
+		<div class="col-md-7 vcenter">
 			<h3>Security</h3>
 			<p>
 				In Peercoin's proof-of-stake system, an attacker must possess 51% of all minting coins, which makes any attack much more difficult. This is also a natural deterrent, since an attack would cause the value of the currency to drop. A party that possesses a large number of the coins is naturally motivated to not crash their value in an attack.			</p>
@@ -50,7 +50,7 @@
 		<div class="col-md-4 vcenter">
 			<img class="svg-fullwidth" src="assets/img/minting/closeup.svg">
 		</div>
-		<div class="col-md-8 vcenter">
+		<div class="col-md-7 vcenter">
 			<h3>How exactly does it work?</h3>
 			<p>
 				All coins in the Peercoin network collect coin age since the last transaction. Your stake is calculated from this coin age, multiplied by the number of coins you control (time * coins). Transferred coins lose their age and start a new "life" as fresh coins. After you keep coins for 30 days without moving or spending them, they are old enough to start the minting process. From that moment, the software tests the "search space" given by the coin age, and the limited options are tested to see if they "solve the puzzle" like in Bitcoin mining. You can simply think of this by comparing it with a raffle, but it is a raffle that lets you keep the tickets every time you do not win a round. Over time, the chance of producing a valid solution of the next puzzle increases. More coins equals more raffle tickets. So, 100 coins at an age of 30 days are twice as likely to solve the "puzzle" as 50 coins with 30 age days. The maximum age a coin can have is 90 days, after this the coin does not age further. When a puzzle is solved, your coins mint additional coins, based on 1% per year growth, and you "consume" your built-up coin age. Proof-of-stake minting requires significantly less power than proof-of-work mining, because miners test against a limited number of raffle tickets (the "limited search space"). More information can be found in the Peercoin <a href="/whitepaper">whitepaper</a>.
@@ -58,7 +58,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-9 vcenter">
+		<div class="col-md-8 vcenter">
 			<h3>Minting Rewards</h3>
 			<p>
 				Statistically, you will get 1% interest on average on your coins per year. You can only mint when your wallet is open, but this will not slow down your computer or waste much power. During this time, your wallet is unlocked, but you will still need your passphrase for transactions. An alternative strategy is to wait with your coins for about 90 days, until you have a lot of coin age and have a higher chance of minting a block quickly. However, your return will be slightly less compared with constant minting, due to compounding interest.
