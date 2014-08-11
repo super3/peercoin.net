@@ -9,5 +9,6 @@ $locale_languages = array(
 	'it'    => 	'Italiano',
 	'no'	=>	'Norsk',	
 	'ru'    => 	'Русский',
+        'sv'    =>      'Svenska',
 	'zh'	=>	'中文'
 );

@@ -7,7 +7,7 @@
 				<div class="col-lg-3">
 					<h2><?php echo $Locale->getText("links"); ?></h2>
 					<ul>
-						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a></li>
+						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (GitHub)</a></li>
 						<li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
 						<li><a href="http://www.peercointalk.org/">Forum</a></li>
 						<li><a href="http://peercoinmyths.com/">Myths</a></li>
