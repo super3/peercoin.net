@@ -11,6 +11,7 @@ $locale_strings['it']['homepage_title'] = "Peercoin - Criptomoneta Sicura e Sost
 $locale_strings['ru']['homepage_title'] = "Peercoin - Безопасная и Надёжная Криптовалюта.";
 $locale_strings['zh']['homepage_title'] = "Peercoin - 安全 &amp; 可持续的加密货币.";
 $locale_strings['no']['homepage_title'] = "Peercoin - Sikker &amp; Bærekraftig Kryptomynt.";
+$locale_strings['da']['homepage_title'] = "Peercoin – sikker &amp; bæredygtig kryptomønt";
 
 //dropdown menu (header)
 
@@ -23,6 +24,7 @@ $locale_strings['it']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['ru']['dropdown_title_docs_and_press'] = "Документы";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "文档";
 $locale_strings['no']['dropdown_title_docs_and_press'] = "Dokumenter";
+$locale_strings['da']['dropdown_title_docs_and_press'] = "Dokumenter";
 
 $locale_strings['en']['dropdown_docs_news'] = "News";
 $locale_strings['cat']['dropdown_docs_news'] = "Noticies sobre Peercoin";
@@ -33,6 +35,7 @@ $locale_strings['it']['dropdown_docs_news'] = "Notizie su Peercoin";
 $locale_strings['ru']['dropdown_docs_news'] = "Новости";
 $locale_strings['zh']['dropdown_docs_news'] = "新闻和事件";
 $locale_strings['no']['dropdown_docs_news'] = "Nyheter";
+$locale_strings['da']['dropdown_docs_news'] = "Nyheder";
 
 $locale_strings['en']['dropdown_docs_events'] = "Events";
 $locale_strings['cat']['dropdown_docs_events'] = "Esdeveniments";
@@ -43,6 +46,7 @@ $locale_strings['it']['dropdown_docs_events'] = "Eventi";
 $locale_strings['ru']['dropdown_docs_events'] = "События";
 $locale_strings['zh']['dropdown_docs_events'] = "活动";
 $locale_strings['no']['dropdown_docs_events'] = "Arrangementer";
+$locale_strings['da']['dropdown_docs_events'] = "Arrangementer";
 
 $locale_strings['en']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 $locale_strings['cat']['dropdown_docs_and_press_whitepaper'] = "Llibre Blanc Peercoin";
@@ -53,6 +57,7 @@ $locale_strings['it']['dropdown_docs_and_press_whitepaper'] = "Libro Bianco Peer
 $locale_strings['ru']['dropdown_docs_and_press_whitepaper'] = "Документация Peercoin";
 $locale_strings['zh']['dropdown_docs_and_press_whitepaper'] = "点点币白皮书";
 $locale_strings['no']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
+$locale_strings['da']['dropdown_docs_and_press_whitepaper'] = "Peercoin-hvidbog";
 
 $locale_strings['en']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['cat']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
@@ -63,6 +68,7 @@ $locale_strings['it']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['ru']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['zh']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['no']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
+$locale_strings['da']['dropdown_docs_and_press_wiki'] = "Wiki (GitHub)";
 
 $locale_strings['en']['dropdown_docs_and_press_kit'] = "Press Kit";
 $locale_strings['cat']['dropdown_docs_and_press_kit'] = "Kit de premsa";
@@ -73,6 +79,7 @@ $locale_strings['it']['dropdown_docs_and_press_kit'] = "Cartella Stampa";
 $locale_strings['ru']['dropdown_docs_and_press_kit'] = "Пресс-кит";
 $locale_strings['zh']['dropdown_docs_and_press_kit'] = "新闻资料";
 $locale_strings['no']['dropdown_docs_and_press_kit'] = "Presseinformasjon";
+$locale_strings['da']['dropdown_docs_and_press_kit'] = "Presseinformation";
 
 $locale_strings['en']['dropdown_docs_and_press_articles_interviews'] = "Articles and Interviews";
 $locale_strings['cat']['dropdown_docs_and_press_articles_interviews'] = "Articles i entrevistes";
@@ -83,6 +90,7 @@ $locale_strings['it']['dropdown_docs_and_press_articles_interviews'] = "Articoli
 $locale_strings['ru']['dropdown_docs_and_press_articles_interviews'] = "Статьи и Интервью";
 $locale_strings['zh']['dropdown_docs_and_press_articles_interviews'] = "文章和访谈";
 $locale_strings['no']['dropdown_docs_and_press_articles_interviews'] = "Artikler og Intervjuer";
+$locale_strings['da']['dropdown_docs_and_press_articles_interviews'] = "Artikler og interviews";
 
 $locale_strings['en']['dropdown_docs_and_press_sunny_king_interview'] = "Interview Sunny King";
 $locale_strings['cat']['dropdown_docs_and_press_sunny_king_interview'] = "Entrevista a Sunny King";
@@ -93,6 +101,7 @@ $locale_strings['it']['dropdown_docs_and_press_sunny_king_interview'] = "Intervi
 $locale_strings['ru']['dropdown_docs_and_press_sunny_king_interview'] = "Взять интервью у Sunny King";
 $locale_strings['zh']['dropdown_docs_and_press_sunny_king_interview'] = "Sunny King采访";
 $locale_strings['no']['dropdown_docs_and_press_sunny_king_interview'] = "Intervju med Sunny King";
+$locale_strings['da']['dropdown_docs_and_press_sunny_king_interview'] = "Interview med Sunny King";
 
 $locale_strings['en']['dropdown_title_resources'] = "Resources";
 $locale_strings['cat']['dropdown_title_resources'] = "Utilitza Peercoins";
@@ -103,6 +112,7 @@ $locale_strings['it']['dropdown_title_resources'] = "Risorse";
 $locale_strings['ru']['dropdown_title_resources'] = "Ресурсы";
 $locale_strings['zh']['dropdown_title_resources'] = "使用点点币";
 $locale_strings['no']['dropdown_title_resources'] = "Ressurser";
+$locale_strings['da']['dropdown_title_resources'] = "Ressourcer";
 
 $locale_strings['en']['dropdown_title_peercoins'] = "Get Peercoins";
 $locale_strings['cat']['dropdown_title_peercoins'] = "Obtindre Peercoins";
@@ -113,6 +123,7 @@ $locale_strings['it']['dropdown_title_peercoins'] = "Ottenere Peercoins";
 $locale_strings['ru']['dropdown_title_peercoins'] = "Получить Peercoin";
 $locale_strings['zh']['dropdown_title_peercoins'] = "获取点点币";
 $locale_strings['no']['dropdown_title_peercoins'] = "Få tak i Peercoins";
+$locale_strings['da']['dropdown_title_peercoins'] = "Anskaf Peercoins";
 
 $locale_strings['en']['dropdown_peercoins_mine'] = "Mine Peercoins";
 $locale_strings['cat']['dropdown_peercoins_mine'] = "Mina Peercoins";
@@ -123,6 +134,7 @@ $locale_strings['it']['dropdown_peercoins_mine'] = "Minare Peercoins";
 $locale_strings['ru']['dropdown_peercoins_mine'] = "Майнинг Peercoin";
 $locale_strings['zh']['dropdown_peercoins_mine'] = "点点币挖矿";
 $locale_strings['no']['dropdown_peercoins_mine'] = "Gruvedrift etter Peercoins";
+$locale_strings['da']['dropdown_peercoins_mine'] = "Peercoin-mining";
 
 $locale_strings['en']['dropdown_peercoins_mint'] = "Mint Peercoins";
 $locale_strings['cat']['dropdown_peercoins_mint'] = "Encunya Peercoins";
@@ -133,6 +145,7 @@ $locale_strings['it']['dropdown_peercoins_mint'] = "Coniare Peercoins";
 $locale_strings['ru']['dropdown_peercoins_mint'] = "Получение с Proof-of-Stake";
 $locale_strings['zh']['dropdown_peercoins_mint'] = "点点币POS铸币";
 $locale_strings['no']['dropdown_peercoins_mint'] = "Preging (slå mynt) av Peercoins";
+$locale_strings['da']['dropdown_peercoins_mint'] = "Møntprægning af Peercoins";
 
 $locale_strings['en']['dropdown_peercoins_buy'] = "Buy Peercoins";
 $locale_strings['cat']['dropdown_peercoins_buy'] = "Compra Peercoins";
@@ -143,6 +156,7 @@ $locale_strings['it']['dropdown_peercoins_buy'] = "Acquistare Peercoins";
 $locale_strings['ru']['dropdown_peercoins_buy'] = "Купить Peercoin";
 $locale_strings['zh']['dropdown_peercoins_buy'] = "购买点点币";
 $locale_strings['no']['dropdown_peercoins_buy'] = "Kjøp Peercoins";
+$locale_strings['da']['dropdown_peercoins_buy'] = "Køb Peercoins";
 
 $locale_strings['en']['dropdown_title_contribute'] = "Contribute";
 $locale_strings['cat']['dropdown_title_contribute'] = "Contribueix";
@@ -153,6 +167,7 @@ $locale_strings['it']['dropdown_title_contribute'] = "Contribuire";
 $locale_strings['ru']['dropdown_title_contribute'] = "Помочь";
 $locale_strings['zh']['dropdown_title_contribute'] = "贡献";
 $locale_strings['no']['dropdown_title_contribute'] = "Bidra";
+$locale_strings['da']['dropdown_title_contribute'] = "Bidrag";
 
 $locale_strings['en']['dropdown_contribute_volunteer'] = "Volunteer";
 $locale_strings['cat']['dropdown_contribute_volunteer'] = "Voluntaris";
@@ -163,6 +178,7 @@ $locale_strings['it']['dropdown_contribute_volunteer'] = "Volontariato";
 $locale_strings['ru']['dropdown_contribute_volunteer'] = "Волонтёрство";
 $locale_strings['zh']['dropdown_contribute_volunteer'] = "志愿者";
 $locale_strings['no']['dropdown_contribute_volunteer'] = "Dugnad";
+$locale_strings['da']['dropdown_contribute_volunteer'] = "Vær frivillig";
 
 $locale_strings['en']['dropdown_contribute_participate'] = "Participate";
 $locale_strings['cat']['dropdown_contribute_participate'] = "Participa";
@@ -173,6 +189,7 @@ $locale_strings['it']['dropdown_contribute_participate'] = "Partecipare";
 $locale_strings['ru']['dropdown_contribute_participate'] = "Участие";
 $locale_strings['zh']['dropdown_contribute_participate'] = "参与";
 $locale_strings['no']['dropdown_contribute_participate'] = "Delta";
+$locale_strings['da']['dropdown_contribute_participate'] = "Deltag";
 
 $locale_strings['en']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['cat']['dropdown_contribute_sponsor'] = "Sponsor";
@@ -183,6 +200,7 @@ $locale_strings['it']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['ru']['dropdown_contribute_sponsor'] = "Спонсорство";
 $locale_strings['zh']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['no']['dropdown_contribute_sponsor'] = "Sponsor";
+$locale_strings['da']['dropdown_contribute_sponsor'] = "Sponsorér";
 
 $locale_strings['en']['dropdown_contribute_projects'] = "Projects";
 $locale_strings['cat']['dropdown_contribute_projects'] = "Projects";
@@ -193,6 +211,7 @@ $locale_strings['it']['dropdown_contribute_projects'] = "Progetti";
 $locale_strings['ru']['dropdown_contribute_projects'] = "Проекты";
 $locale_strings['zh']['dropdown_contribute_projects'] = "Projects";
 $locale_strings['no']['dropdown_contribute_projects'] = "Prosjekter";
+$locale_strings['da']['dropdown_contribute_projects'] = "Projekter";
 
 $locale_strings['en']['dropdown_forum'] = "Forum";
 $locale_strings['cat']['dropdown_forum'] = "Fòrum";
@@ -203,3 +222,5 @@ $locale_strings['it']['dropdown_forum'] = "Forum";
 $locale_strings['ru']['dropdown_forum'] = "Форум";
 $locale_strings['zh']['dropdown_forum'] = "论坛";
 $locale_strings['no']['dropdown_forum'] = "Forum";
+$locale_strings['da']['dropdown_forum'] = "Forum";
+
