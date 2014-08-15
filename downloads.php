@@ -248,12 +248,12 @@
                         without setting it you will get a computer generated
                         password.</p>
                         <pre>
-<code># ppcoin.conf configuration file. Lines beginning with # are comments.
+<code># ppcoin.conf configuration file. Lines beginning with # are comments.  To use them, remove the #, or they will not work.
 
 ### Network-related settings
 
-# Run on the test network instead of the production PPCoin network
-#testnet=0
+# Run on the test network instead of the production PPCoin network (1=Testnet 0=Mainnet)
+#testnet=1
 
 # Connect via a SOCKS4 proxy (default: none)
 #proxy=127.0.0.1:9050
@@ -293,13 +293,21 @@
 # Use as many addnode= settings as you like to connect to specific peers
 #addnode=69.164.218.197
 #addnode=10.0.0.2:8333
+#addnode=66.90.146.146
+#addnode=91.156.102.128
+#addnode=110.174.124.20
+#addnode=67.14.164.114
 
 # ... or use as many connect= settings as you like to ONLY connect
 # to specific peers:
 #connect=69.164.218.197
 #connect=10.0.0.1:8333
+#connect=66.90.146.146
+#connect=91.156.102.128
+#connect=110.174.124.20
+#connect=67.14.164.114
 
-# Maximum number of inbound+outbound connections
+# Maximum number of inbound+outbound connections (default: 125)
 #maxconnections=
 
 
