@@ -72,7 +72,7 @@
 			            <a target="_blank" href="https://twitter.com/PeercoinPPC">
 			              <img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
 			        </a>
-			            <a target="_blank" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
+			            <a target="_blank" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonl1BpJGFhO5j7NgFBoJljxb">
 			              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
 			        </a>
 	          	</div>
