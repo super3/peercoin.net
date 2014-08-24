@@ -9,6 +9,7 @@ $locale_strings['fr']['homepage_title'] = "Peercoin - Crypto-monnaie Fiable &amp
 $locale_strings['gr']['homepage_title'] = "Peercoin - ασφαλές &amp; Ανεκτό Κρυπτονόμισμα.";
 $locale_strings['it']['homepage_title'] = "Peercoin - Criptomoneta Sicura e Sostenibile.";
 $locale_strings['ru']['homepage_title'] = "Peercoin - Безопасная и Надёжная Криптовалюта.";
+$locale_strings['pl']['homepage_title'] = "Peercoin - Bezpieczna i Zrównoważona Kryptowaluta.";
 $locale_strings['zh']['homepage_title'] = "Peercoin - 安全 &amp; 可持续的加密货币.";
 $locale_strings['no']['homepage_title'] = "Peercoin - Sikker &amp; Bærekraftig Kryptomynt.";
 
@@ -21,6 +22,7 @@ $locale_strings['fr']['dropdown_title_docs_and_press'] = "Documents";
 $locale_strings['gr']['dropdown_title_docs_and_press'] = "Έγγραφα";
 $locale_strings['it']['dropdown_title_docs_and_press'] = "Docs";
 $locale_strings['ru']['dropdown_title_docs_and_press'] = "Документы";
+$locale_strings['pl']['dropdown_title_docs_and_press'] = "Dokumenty";
 $locale_strings['zh']['dropdown_title_docs_and_press'] = "文档";
 $locale_strings['no']['dropdown_title_docs_and_press'] = "Dokumenter";
 
@@ -31,6 +33,7 @@ $locale_strings['fr']['dropdown_docs_news'] = "Actualités";
 $locale_strings['gr']['dropdown_docs_news'] = "Έγγραφα";
 $locale_strings['it']['dropdown_docs_news'] = "Notizie su Peercoin";
 $locale_strings['ru']['dropdown_docs_news'] = "Новости";
+$locale_strings['pl']['dropdown_docs_news'] = "Aktualności";
 $locale_strings['zh']['dropdown_docs_news'] = "新闻和事件";
 $locale_strings['no']['dropdown_docs_news'] = "Nyheter";
 
@@ -41,6 +44,7 @@ $locale_strings['fr']['dropdown_docs_events'] = "Événements";
 $locale_strings['gr']['dropdown_docs_events'] = "Εκδηλώσεις";
 $locale_strings['it']['dropdown_docs_events'] = "Eventi";
 $locale_strings['ru']['dropdown_docs_events'] = "События";
+$locale_strings['pl']['dropdown_docs_events'] = "Wydarzenia";
 $locale_strings['zh']['dropdown_docs_events'] = "活动";
 $locale_strings['no']['dropdown_docs_events'] = "Arrangementer";
 
@@ -51,6 +55,7 @@ $locale_strings['fr']['dropdown_docs_and_press_whitepaper'] = "Livre Blanc Peerc
 $locale_strings['gr']['dropdown_docs_and_press_whitepaper'] = "Το Whitepaper του Peercoin";
 $locale_strings['it']['dropdown_docs_and_press_whitepaper'] = "Libro Bianco Peercoin";
 $locale_strings['ru']['dropdown_docs_and_press_whitepaper'] = "Документация Peercoin";
+$locale_strings['pl']['dropdown_docs_and_press_whitepaper'] = "Biała księga Peercoin";
 $locale_strings['zh']['dropdown_docs_and_press_whitepaper'] = "点点币白皮书";
 $locale_strings['no']['dropdown_docs_and_press_whitepaper'] = "Peercoin Whitepaper";
 
@@ -61,6 +66,7 @@ $locale_strings['fr']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['gr']['dropdown_docs_and_press_wiki'] = "Βίκι (Github)";
 $locale_strings['it']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['ru']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
+$locale_strings['pl']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['zh']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 $locale_strings['no']['dropdown_docs_and_press_wiki'] = "Wiki (Github)";
 
@@ -71,6 +77,7 @@ $locale_strings['fr']['dropdown_docs_and_press_kit'] = "Kit de Presse";
 $locale_strings['gr']['dropdown_docs_and_press_kit'] = "Συλλογή Τύπου";
 $locale_strings['it']['dropdown_docs_and_press_kit'] = "Cartella Stampa";
 $locale_strings['ru']['dropdown_docs_and_press_kit'] = "Пресс-кит";
+$locale_strings['pl']['dropdown_docs_and_press_kit'] = "Materiały Prasowe";
 $locale_strings['zh']['dropdown_docs_and_press_kit'] = "新闻资料";
 $locale_strings['no']['dropdown_docs_and_press_kit'] = "Presseinformasjon";
 
@@ -81,6 +88,7 @@ $locale_strings['fr']['dropdown_docs_and_press_articles_interviews'] = "Articles
 $locale_strings['gr']['dropdown_docs_and_press_articles_interviews'] = "Άρθρα και Συνεντεύξεις";
 $locale_strings['it']['dropdown_docs_and_press_articles_interviews'] = "Articoli ed Interviste";
 $locale_strings['ru']['dropdown_docs_and_press_articles_interviews'] = "Статьи и Интервью";
+$locale_strings['pl']['dropdown_docs_and_press_articles_interviews'] = "Artykuły i Wywiady";
 $locale_strings['zh']['dropdown_docs_and_press_articles_interviews'] = "文章和访谈";
 $locale_strings['no']['dropdown_docs_and_press_articles_interviews'] = "Artikler og Intervjuer";
 
@@ -101,6 +109,7 @@ $locale_strings['fr']['dropdown_title_resources'] = "Ressources";
 $locale_strings['gr']['dropdown_title_resources'] = "Χρησιμοποίησε Peercoins";
 $locale_strings['it']['dropdown_title_resources'] = "Risorse";
 $locale_strings['ru']['dropdown_title_resources'] = "Ресурсы";
+$locale_strings['pl']['dropdown_title_resources'] = "Materiały";
 $locale_strings['zh']['dropdown_title_resources'] = "使用点点币";
 $locale_strings['no']['dropdown_title_resources'] = "Ressurser";
 
@@ -111,6 +120,7 @@ $locale_strings['fr']['dropdown_title_peercoins'] = "Obtenir des Peercoins";
 $locale_strings['gr']['dropdown_title_peercoins'] = "Πάρε Peercoins";
 $locale_strings['it']['dropdown_title_peercoins'] = "Ottenere Peercoins";
 $locale_strings['ru']['dropdown_title_peercoins'] = "Получить Peercoin";
+$locale_strings['pl']['dropdown_title_peercoins'] = "Zdobądź Peercoiny";
 $locale_strings['zh']['dropdown_title_peercoins'] = "获取点点币";
 $locale_strings['no']['dropdown_title_peercoins'] = "Få tak i Peercoins";
 
@@ -121,6 +131,7 @@ $locale_strings['fr']['dropdown_peercoins_mine'] = "Extraire des Peercoins";
 $locale_strings['gr']['dropdown_peercoins_mine'] = "Εξόρυξε Peercoins";
 $locale_strings['it']['dropdown_peercoins_mine'] = "Minare Peercoins";
 $locale_strings['ru']['dropdown_peercoins_mine'] = "Майнинг Peercoin";
+$locale_strings['pl']['dropdown_peercoins_mine'] = "Wykop Peercoiny";
 $locale_strings['zh']['dropdown_peercoins_mine'] = "点点币挖矿";
 $locale_strings['no']['dropdown_peercoins_mine'] = "Gruvedrift etter Peercoins";
 
@@ -131,6 +142,7 @@ $locale_strings['fr']['dropdown_peercoins_mint'] = "Frapper des Peercoins";
 $locale_strings['gr']['dropdown_peercoins_mint'] = "Κόψε Peercoins";
 $locale_strings['it']['dropdown_peercoins_mint'] = "Coniare Peercoins";
 $locale_strings['ru']['dropdown_peercoins_mint'] = "Получение с Proof-of-Stake";
+$locale_strings['pl']['dropdown_peercoins_mint'] = "Wybij Peercoiny";
 $locale_strings['zh']['dropdown_peercoins_mint'] = "点点币POS铸币";
 $locale_strings['no']['dropdown_peercoins_mint'] = "Preging (slå mynt) av Peercoins";
 
@@ -141,6 +153,7 @@ $locale_strings['fr']['dropdown_peercoins_buy'] = "Acheter des Peercoins";
 $locale_strings['gr']['dropdown_peercoins_buy'] = "Αγόρασε Peercoins";
 $locale_strings['it']['dropdown_peercoins_buy'] = "Acquistare Peercoins";
 $locale_strings['ru']['dropdown_peercoins_buy'] = "Купить Peercoin";
+$locale_strings['pl']['dropdown_peercoins_buy'] = "Kup Peercoiny";
 $locale_strings['zh']['dropdown_peercoins_buy'] = "购买点点币";
 $locale_strings['no']['dropdown_peercoins_buy'] = "Kjøp Peercoins";
 
@@ -151,6 +164,7 @@ $locale_strings['fr']['dropdown_title_contribute'] = "Contribuer";
 $locale_strings['gr']['dropdown_title_contribute'] = "Συνέβαλε";
 $locale_strings['it']['dropdown_title_contribute'] = "Contribuire";
 $locale_strings['ru']['dropdown_title_contribute'] = "Помочь";
+$locale_strings['pl']['dropdown_title_contribute'] = "Wspomóż";
 $locale_strings['zh']['dropdown_title_contribute'] = "贡献";
 $locale_strings['no']['dropdown_title_contribute'] = "Bidra";
 
@@ -161,6 +175,7 @@ $locale_strings['fr']['dropdown_contribute_volunteer'] = "Se porter Volontaire";
 $locale_strings['gr']['dropdown_contribute_volunteer'] = "Εθελοντική Εργασία";
 $locale_strings['it']['dropdown_contribute_volunteer'] = "Volontariato";
 $locale_strings['ru']['dropdown_contribute_volunteer'] = "Волонтёрство";
+$locale_strings['pl']['dropdown_contribute_volunteer'] = "Służ";
 $locale_strings['zh']['dropdown_contribute_volunteer'] = "志愿者";
 $locale_strings['no']['dropdown_contribute_volunteer'] = "Dugnad";
 
@@ -171,6 +186,7 @@ $locale_strings['fr']['dropdown_contribute_participate'] = "Participer";
 $locale_strings['gr']['dropdown_contribute_participate'] = "Συμμετοχή";
 $locale_strings['it']['dropdown_contribute_participate'] = "Partecipare";
 $locale_strings['ru']['dropdown_contribute_participate'] = "Участие";
+$locale_strings['pl']['dropdown_contribute_participate'] = "Uczestnicz";
 $locale_strings['zh']['dropdown_contribute_participate'] = "参与";
 $locale_strings['no']['dropdown_contribute_participate'] = "Delta";
 
@@ -181,6 +197,7 @@ $locale_strings['fr']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['gr']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['it']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['ru']['dropdown_contribute_sponsor'] = "Спонсорство";
+$locale_strings['pl']['dropdown_contribute_sponsor'] = "Sponsoruj";
 $locale_strings['zh']['dropdown_contribute_sponsor'] = "Sponsor";
 $locale_strings['no']['dropdown_contribute_sponsor'] = "Sponsor";
 
@@ -191,6 +208,7 @@ $locale_strings['fr']['dropdown_contribute_projects'] = "Projets";
 $locale_strings['gr']['dropdown_contribute_projects'] = "Projects";
 $locale_strings['it']['dropdown_contribute_projects'] = "Progetti";
 $locale_strings['ru']['dropdown_contribute_projects'] = "Проекты";
+$locale_strings['pl']['dropdown_contribute_projects'] = "Projekty";
 $locale_strings['zh']['dropdown_contribute_projects'] = "Projects";
 $locale_strings['no']['dropdown_contribute_projects'] = "Prosjekter";
 
@@ -201,5 +219,6 @@ $locale_strings['fr']['dropdown_forum'] = "Forum";
 $locale_strings['gr']['dropdown_forum'] = "Forum";
 $locale_strings['it']['dropdown_forum'] = "Forum";
 $locale_strings['ru']['dropdown_forum'] = "Форум";
+$locale_strings['pl']['dropdown_forum'] = "Forum";
 $locale_strings['zh']['dropdown_forum'] = "论坛";
 $locale_strings['no']['dropdown_forum'] = "Forum";
