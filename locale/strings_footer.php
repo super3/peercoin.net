@@ -9,6 +9,7 @@ $locale_strings['fr']['links'] = "Liens";
 $locale_strings['gr']['links'] = "Σύνδεσμοι";
 $locale_strings['it']['links'] = "Collegamenti";
 $locale_strings['ru']['links'] = "Ссылки";
+$locale_strings['pl']['links'] = "Linki";
 $locale_strings['zh']['links'] = "链接";
 $locale_strings['no']['links'] = "Lenker";
 
@@ -19,6 +20,7 @@ $locale_strings['fr']['tools'] = "Outils";
 $locale_strings['gr']['tools'] = "Εργαλεία";
 $locale_strings['it']['tools'] = "Strumenti";
 $locale_strings['ru']['tools'] = "Инструменты";
+$locale_strings['pl']['tools'] = "Narzędzia";
 $locale_strings['zh']['tools'] = "工具";
 $locale_strings['no']['tools'] = "Verktøy";
 
@@ -29,6 +31,7 @@ $locale_strings['fr']['exchanges'] = "Échanges";
 $locale_strings['gr']['exchanges'] = "Ανταλλαγές";
 $locale_strings['it']['exchanges'] = "Scambi";
 $locale_strings['ru']['exchanges'] = "Биржи";
+$locale_strings['pl']['exchanges'] = "Giełdy";
 $locale_strings['zh']['exchanges'] = "交易";
 $locale_strings['no']['exchanges'] = "Børser";
 
@@ -39,6 +42,7 @@ $locale_strings['fr']['mining'] = "Extraction";
 $locale_strings['gr']['mining'] = "Εξόρυξη";
 $locale_strings['it']['mining'] = "Minare";
 $locale_strings['ru']['mining'] = "Майнинг";
+$locale_strings['pl']['mining'] = "Kopalnie";
 $locale_strings['zh']['mining'] = "挖矿";
 $locale_strings['no']['mining'] = "Gruvedrift";
 
@@ -49,5 +53,6 @@ $locale_strings['fr']['languages'] = "Langues: ";
 $locale_strings['gr']['languages'] = "Γλώσσες: ";
 $locale_strings['it']['languages'] = "Lingue: ";
 $locale_strings['ru']['languages'] = "Языки: ";
+$locale_strings['pl']['languages'] = "Języki: ";
 $locale_strings['zh']['languages'] = "语言: ";
 $locale_strings['no']['languages'] = "Språk: ";
