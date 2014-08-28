@@ -5,14 +5,6 @@
 			<img src="assets/img/types/newcomer/newcomer.svg" class="svg-fullwidth" />
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
-			<div class="videoWrapper">
-			    <!-- Copy & Pasted from YouTube -->
-			    <iframe width="560" height="315" src="//www.youtube.com/embed/7tra0vmparI" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
 	<div class="col-md-8 col-md-offset-1">
 		<h1><?php echo $Locale->getText("newcomers.getting_started"); ?></h1>
 	</div>
@@ -50,6 +42,14 @@
 			<p>
 				<?php echo $Locale->getText("newcomers.learn_more_desc"); ?>
 			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="videoWrapper">
+			    <!-- Copy & Pasted from YouTube -->
+			    <iframe width="560" height="315" src="//www.youtube.com/embed/7tra0vmparI" frameborder="0" allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
 </div>
