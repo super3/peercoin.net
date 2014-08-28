@@ -63,6 +63,10 @@ a:hover {
 	text-align: center;
 }
 
+.content .h-smargin {
+	margin-bottom: 10px;
+}
+
 .content {
 	padding: 70px 0 70px 0;
 }
@@ -135,6 +139,10 @@ a:hover {
 	vertical-align: middle;
 	float: none;
 }
+
+.content .row.row-nomargin {
+	margin-bottom: 0;
+}
 /* 1.3 Headerwrap */
 
 #headerwrap {
@@ -202,53 +210,57 @@ a:hover {
 	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.70);
 }
 
-#header-left {
-	width: 45%;
-	float:left;
+#header-banner a.btn {
+	font-size: 14px;
+	padding: 8px;
 }
 
-#header-left img {
-	float: right;
-	height: 150px;
+#header-banner .plogo {
+	height: 130px;
+	width: 130px;
 }
 
-#header-right {
-	padding-left: 40px;
-	width: 55%;
-	height: 140px;
-	float: right;
-	text-align: left;
-	display: table;
-}
-
-#header-right > div {
-	vertical-align: middle;
-	display: table-cell;
-}
-
-#header-right img {
+#header-banner .pltext {
 	height: 70px;
-	width: 248px;
+	width: 234px;
 }
 
 .peercoin-logo {
-	width: 227px;
-	height: 50px;
+	margin-top: 10px;
+	width: 159px;
+	height: 35px;
 }
 
 .marketcap {
+	margin-top: 7px;
 	text-align: center;
-	font-size: 16px;
-	color: #D8D8D8;
+	font-size: 14px;
+	color: #D3D3D3;
 }
 
-.marketcap .updated {
+.marketcap span {
+	color: #FFF;
+}
+
+.updated {
 	font-size: 10px;
 	font-weight: 300;
-	padding-top: 15px;
-	color: #A5A5A5;
+	padding-top: 10px;
+	color: #D3D3d3;
+	margin-bottom: 5px;
 }
 
+#whypeercoin p {
+	line-height: 60px;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 1199px) {
+	#whypeercoin p {
+		line-height: normal;
+		margin-bottom: 10px;
+	}
+}
 
 /* 1.4 Footer */
 
@@ -362,6 +374,10 @@ a:hover {
 	max-width: 100px;
 	vertical-align: middle;
 	padding-top: 15px;
+}
+
+.svgicons > div > h3 {
+	font-size: 36px;
 }
 
 .svgicons > div > div {
@@ -956,6 +972,10 @@ margin-top:3em;
 		height:100px;
 	}
 
+	#header-banner > div {
+		text-align: center;
+	}
+
 }
 
 /* 3.3 Misc */
@@ -1132,7 +1152,7 @@ margin-top:3em;
 		}
 
 		.marketcap {
-			font-size: 16px;
+			font-size: 14px;
 		}
 
 		.marketcap li span:last-child {
@@ -1236,7 +1256,7 @@ margin-top:3em;
 		}
 	  
 	  	#headerwrap-2 {
-			margin-top: 55px;
+			margin-top: 45px;
 		}
 	}
 
@@ -1311,7 +1331,7 @@ margin-top:3em;
 
 	@media (min-width: 992px) {
 		#headerwrap-2 {
-			margin-top: 55px;
+			margin-top: 45px;
 		}
 		.top_social
 		{
@@ -1797,10 +1817,7 @@ margin-top:3em;
 	padding-bottom: 20px;
 }
 
-.newsletter table {
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
+.newsletter form {
 	margin-top: 10px;
 }
 
@@ -1809,9 +1826,9 @@ margin-top:3em;
 	background-color: #FFF;
 	font-size: 25px;
 	height: 50px;
-	min-width: 400px;
 	width: 100%;
 	padding: 10px 10px 10px 10px;
+	margin-bottom: 5px;
 }
 
 .newsletter input[type=submit] {
@@ -1819,8 +1836,6 @@ margin-top:3em;
 	background-color: rgba(0, 0, 0, 0.05);
 	font-size: 25px;
 	height: 50px;
-	min-width: 150px;
-	margin-left: 10px;
 	width: 100%;
 	color: #474747;
 	padding: 10px 10px 10px 10px;
@@ -1910,9 +1925,25 @@ margin-top:3em;
 .svg-fullwidth {
 	width: 100%;
 }
+.svg-threeq {
+	width: 75%;
+}
+.svg-halfwidth {
+	width: 50%;
+}
+.svg-oneq {
+	width: 25%;
+}
+.svg-third {
+	width: 33%;
+}
 .svg-200 {
 	max-height: 200px;
 	max-width: 200px;
+}
+.svg-100 {
+	max-width: 100px;
+	max-height: 100px;
 }
 
 /* Leaflist */
@@ -1939,4 +1970,50 @@ margin-top:3em;
 .leafList > .item > .text > .name {
 	display: inline-block;
 	font-size: 24px;
+}
+
+@media screen and (max-width: 992px) {
+	.leafList {
+		padding-left: 20px;
+	}
+}
+
+/* Steps */
+.svg-90p {
+	width: 90%;
+}
+.svg-90p {
+	width: 90%;
+}
+.step {
+	background-color: #F8F8F8;
+	border-radius: 8px;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.step > span {
+	font-size: 28px;
+	font-weight: 700;
+}
+.step > .number {
+	font-weight: 700;
+	color: #34994B;
+	margin-right: 10px;
+}
+.step img {
+	margin-top: 15px;
+}
+.step p {
+	margin-top: 15px;
+	text-align: left;
+	font-size: 17px;
+}
+
+/* Ordered Lists */
+ol {
+	font-size: 18px;
+}
+ol > li:not(:first-child) {
+	margin-top: 30px;
 }

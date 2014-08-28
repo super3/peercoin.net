@@ -1,4 +1,4 @@
-﻿<?php include ('header.php'); ?>
+﻿<?php $page_title = "Wallet Download"; include ('header.php'); ?>
 <?php
     // Download link list:
     $download_links = array(
@@ -39,22 +39,22 @@
             break;
     }
 ?>
-<h1 class="page-title">Peercoin-QT - The Official Peercoin Wallet</h1>
+<h1 class="page-title"><?php echo $Locale->getText("waldownload.qt_title"); ?></h1>
 <div class="row">
     <div class="col-md-6"><img src="assets/img/downloads/wallet_ss_<?php echo $CurrOS; ?>.png" style="width:100%" /></div>
     <div class="col-md-6 downloads">
         <div class="main-os">
             <a href="<?php echo $download_links[$CurrOS]; ?>" class="btn btn-primary btn-lg <?php echo $CurrOS; ?>">
                 <span class="icon"></span>
-                Download
+                <?php echo $Locale->getText("waldownload.download"); ?>
             </a>
             <p><?php echo substr($download_links[$CurrOS], strrpos($download_links[$CurrOS], '/')+1); ?></p>
             <p>
-                <a href="https://github.com/ppcoin/ppcoin">Source Code</a>
-                <a href="#" data-toggle="modal" data-target="#license">License</a>
+                <a href="https://github.com/ppcoin/ppcoin"><?php echo $Locale->getText("waldownload.source"); ?></a>
+                <a href="#" data-toggle="modal" data-target="#license"><?php echo $Locale->getText("waldownload.license"); ?></a>
             </p>
         </div>
-        Other platforms:
+        <?php echo $Locale->getText("waldownload.other_platforms"); ?>:
         <br>
         <div class="second-os">
             <a href="<?php echo $download_links[$remaining_os[0]]; ?>" class="btn btn-primary btn-lg <?php echo $remaining_os[0]; ?>">
@@ -73,7 +73,7 @@
                     <h4 class="panel-title"><a class=
                     "accordion-toggle collapsed" data-parent="#accordion"
                     data-toggle="collapse" href=
-                    "#collapseSignatures"><span class="fui-plus"></span> Signatures</a></h4>
+                    "#collapseSignatures"><span class="fui-plus"></span> <?php echo $Locale->getText("waldownload.signatures"); ?></a></h4>
                 </div>
 
                 <div class="panel-collapse collapse" id="collapseSignatures">
