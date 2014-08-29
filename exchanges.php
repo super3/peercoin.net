@@ -1,31 +1,19 @@
 <?php  $page_title = "Exchanges"; include ('header.php'); ?>
 <div class="row">
-	<div class="col-md-6 vcenter">
-		<img src="assets/img/exchanges/exchange.svg" />
-	</div><!--
-	--><div class="col-md-5 col-md-offset-1 vcenter">
+	<div class="col-lg-5 col-md-6 col-lg-offset-1 vcenter">
 		<h2><?php echo $Locale->getText("exchanges.what_are"); ?></h2>
 		<p><?php echo $Locale->getText("exchanges.what_are_desc"); ?></p>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-md-5 col-md-offset-1 vcenter">
-		<h2><?php echo $Locale->getText("exchanges.how_work"); ?></h2>
-		<p>
-			<?php echo $Locale->getText("exchanges.how_work_desc"); ?>
-		</p>
 	</div><!--
-	--><div class="col-md-6 vcenter">
-		<img src="assets/img/exchanges/balance.svg" />
+	--><div class="col-lg-5 col-md-6 vcenter">
+		<img src="assets/img/exchanges/exchange.svg" />
 	</div>
 </div>
 
 <div class="row">
-	<div class="col-md-6 vcenter">
+	<div class="col-lg-6 col-md-6 vcenter">
 		<img src="assets/img/exchanges/buy-sell-orders.svg" />
 	</div><!--
-	--><div class="col-md-5 vcenter">
+	--><div class="col-lg-5 col-md-6 vcenter">
 		<h2><?php echo $Locale->getText("exchanges.buy_sell"); ?></h2>
 		<p>
 			<?php echo $Locale->getText("exchanges.buy_sell_desc"); ?>
@@ -37,16 +25,13 @@
 </div>
 
 <div class="row">
-	<div class="col-md-5 col-md-offset-1 vcenter">
+	<div class="col-lg-5 col-md-6 col-lg-offset-1 vcenter">
 		<h2><?php echo $Locale->getText("exchanges.fees"); ?></h2>
 		<p>
 			<?php echo $Locale->getText("exchanges.fees_desc"); ?>
 		</p>
-		<p>
-			<?php echo $Locale->getText("exchanges.fees_desc2"); ?>
-		</p>
 	</div><!--
-	--><div class="col-md-6 vcenter">
+	--><div class="col-lg-6 col-md-6 vcenter">
 		<img src="assets/img/exchanges/fees.svg" />
 	</div>
 </div>
@@ -54,14 +39,14 @@
 <section id="exchange-list">
 	<div class="row text-center">
 		<h2><?php echo $Locale->getText("exchanges.choosing"); ?></h2>
-		<div class="col-md-12">
+		<div class="col-lg-12">
 			<div class="alert alert-info text-center">
 				<p><b><?php echo $Locale->getText("exchanges.disclaimer"); ?></b></p>
 			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12 text-center">
+		<div class="col-lg-12 text-center">
 			<a href="#" class="exchange-button active" data-toggle="tooltip" data-placement="top" title="Vault of Satoshi" data-exchange="vault-of-satoshi"><img src="assets/img/exchanges/logos/vault-of-satoshi.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTCe" data-exchange="btce"><img src="assets/img/exchanges/logos/btce.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinomat" data-exchange="coinomat"><img src="assets/img/exchanges/logos/coinomat.png"></a>
@@ -71,7 +56,7 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bittylicious" data-exchange="bittylicious"><img src="assets/img/exchanges/logos/bittylicious.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTC38" data-exchange="btc38"><img src="assets/img/exchanges/logos/btc38.png"></a>
 		</div>
-		<div class="col-md-12">
+		<div class="col-lg-12">
 			<div id="exchange-coinomat" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/coinomat.png"> Coinomat</b></h3>
