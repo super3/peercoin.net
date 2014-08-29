@@ -86,11 +86,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.learn"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="faq">Frequently Asked Questions</a></li>
-                <li><a href="whitepaper"><?php echo $Locale->getText("header.peercoin_whitepaper"); ?></a></li>
                 <li><a href="exchanges"><?php echo $Locale->getText("header.exchanges"); ?></a></li> 
-                <li><a href="mining"><?php echo $Locale->getText("header.mine_peercoins"); ?></a></li> 
                 <li><a href="minting"><?php echo $Locale->getText("header.mint_peercoins"); ?></a></li>
+                <li><a href="mining"><?php echo $Locale->getText("header.mine_peercoins"); ?></a></li> 
+                <li><a href="whitepaper"><?php echo $Locale->getText("header.peercoin_whitepaper"); ?></a></li>
+                <li><a href="faq"><?php echo $Locale->getText("header.frequently_asked_questions"); ?></a></li>
               </ul>
             </li>
             <li><a href="wallet"><?php echo $Locale->getText("header.wallet"); ?></a></li>
