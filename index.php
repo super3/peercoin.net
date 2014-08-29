@@ -72,15 +72,15 @@
 					<div class="item">
 						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
 						<div class="text">
-							<div class="name"><?php echo $Locale->getText("index.transparent_protocol"); ?></div>
-							<div class="description"><?php echo $Locale->getText("index.transparent_protocol_desc"); ?></div>
+							<div class="name"><?php echo $Locale->getText("index.energy_efficient"); ?></div>
+							<div class="description"><?php echo $Locale->getText("index.energy_efficient_desc"); ?></div>
 						</div>
 					</div>
 					<div class="item">
 						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
 						<div class="text">
-							<div class="name"><?php echo $Locale->getText("index.energy_efficient"); ?></div>
-							<div class="description"><?php echo $Locale->getText("index.energy_efficient_desc"); ?></div>
+							<div class="name"><?php echo $Locale->getText("index.transparent_protocol"); ?></div>
+							<div class="description"><?php echo $Locale->getText("index.transparent_protocol_desc"); ?></div>
 						</div>
 					</div>
 					<a href="investors" style="margin-left:60px;" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.learn_more"); ?></a>
