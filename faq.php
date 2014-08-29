@@ -10,7 +10,7 @@
 		<div class="col-md-6">
 			<h2><?php echo $Locale->getText("faq.q1"); ?></h2>
 			<p>
-				<strong><?php echo $Locale->getText("faq.yes"); ?>:</strong>  <?php echo $Locale->getText("faq.q1_ans"); ?>
+				<strong><?php echo $Locale->getText("faq.yes"); ?>.</strong>  <?php echo $Locale->getText("faq.q1_ans"); ?>
 			</p>
 			<p>
 				<strong><?php echo $Locale->getText("faq.sources"); ?>:</strong><br>
@@ -30,13 +30,13 @@
 		<div class="col-md-6">
 			<h2><?php echo $Locale->getText("faq.q3"); ?></h2>
 			<p>
-				<strong><?php echo $Locale->getText("faq.no"); ?>:</strong>  <?php echo $Locale->getText("faq.q3_ans"); ?>
+				<strong><?php echo $Locale->getText("faq.no"); ?>.</strong>  <?php echo $Locale->getText("faq.q3_ans"); ?>
 			</p>
 		</div>
 		<div class="col-md-6">
 			<h2><?php echo $Locale->getText("faq.q4"); ?></h2>
 			<p>
-				<strong><?php echo $Locale->getText("faq.no"); ?>:</strong>  <?php echo $Locale->getText("faq.q4_ans"); ?>
+				<strong><?php echo $Locale->getText("faq.no"); ?>.</strong>  <?php echo $Locale->getText("faq.q4_ans"); ?>
 			</p>
 		</div>
 	</div>
@@ -44,7 +44,7 @@
 		<div class="col-md-6">
 			<h2><?php echo $Locale->getText("faq.q5"); ?></h2>
 			<p>
-				<strong><?php echo $Locale->getText("faq.yes"); ?>:</strong> <?php echo $Locale->getText("faq.q5_ans"); ?>
+				<strong><?php echo $Locale->getText("faq.yes"); ?>.</strong> <?php echo $Locale->getText("faq.q5_ans"); ?>
 			</p>
 		</div>
 		<div class="col-md-6">
