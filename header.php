@@ -79,8 +79,8 @@
               <li><a href="newcomers"><?php echo $Locale->getText("header.newcomers"); ?></a></li>
                 <li><a href="investors"><?php echo $Locale->getText("header.investors"); ?></a></li>
                 <li><a href="merchants"><?php echo $Locale->getText("header.merchants"); ?></a></li> 
-                <li><a href="developers"><?php echo $Locale->getText("header.developers"); ?></a></li> 
                 <li><a href="mining"><?php echo $Locale->getText("header.miners"); ?></a></li>
+                <li><a href="developers"><?php echo $Locale->getText("header.developers"); ?></a></li> 
               </ul>
             </li>
             <li class="dropdown">
