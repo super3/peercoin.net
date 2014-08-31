@@ -18,9 +18,6 @@
 		<p>
 			<?php echo $Locale->getText("exchanges.buy_sell_desc"); ?>
 		</p>
-		<p>
-			<?php echo $Locale->getText("exchanges.buy_sell_desc2"); ?>
-		</p>
 	</div>
 </div>
 

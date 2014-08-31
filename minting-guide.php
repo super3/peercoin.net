@@ -10,6 +10,14 @@
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="videoWrapper">
+			    <!-- Copy & Pasted from YouTube -->
+			    <iframe width="560" height="315" src="//www.youtube.com/embed/7tra0vmparI" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<div class="row">
 		<div class="col-md-6">
 			<h1>Peercoin Client v0.4</h1>
 			<ol>
@@ -21,8 +29,6 @@
 		</div>
 		<div class="col-md-6">
 			<h1 class="h-smargin">Peerunity Client</h1>
-			<div class="text-center"><a href="www.youtube.com"><img src="assets/img/misc/video-guide.svg" class="svg-halfwidth" /></a></div>
-			<br>
 			<p><?php echo $Locale->getText("mintguide.peerunity"); ?></p>
 			<ol>
 				<li><?php echo $Locale->getText("mintguide.peerunity_step1"); ?></li>
