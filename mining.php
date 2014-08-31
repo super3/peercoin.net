@@ -1,7 +1,7 @@
 ﻿<?php  $page_title = "Mining"; $no_container = true; include ('header.php'); ?>
 	<div class="container">
 	    <div class="row" style="margin-bottom: 0px;">
-			<div class="col-sm-10 col-sm-offset-1">
+			<div class="col-md-10 col-md-offset-1">
 				<img class="svg-fullwidth" src="assets/img/mining/mining-banner.svg">
 			</div>
 		</div>
@@ -10,10 +10,10 @@
 		<br><br><br>
 	    <div class="container">
 			<div class="row">
-				<div class="col-sm-3 col-sm-offset-1 text-center vcenter">
-					<img class="svg-full-width" src="assets/img/mining/compatibility.svg">
-				</div>
-				<div class="col-sm-4 vcenter">
+				<div class="col-md-3 col-md-offset-1 col-sm-4 text-center vcenter svg-container">
+					<img class="svg-fullwidth" src="assets/img/mining/compatibility.svg">
+				</div><!--
+				--><div class="col-md-4 col-sm-7 vcenter">
 					<h3><?php echo $Locale->getText("mining.compatible_with_bitcoin"); ?></h3>
 					<p>
 						<?php echo $Locale->getText("mining.compatible_with_bitcoin_desc"); ?>
@@ -21,21 +21,21 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-5 col-sm-offset-3 vcenter">
+				<div class="col-md-5 col-md-offset-3 col-sm-8 col-sm-offset-1 vcenter">
 					<h3><?php echo $Locale->getText("mining.fair_distribution"); ?></h3>
 					<p>
 						<?php echo $Locale->getText("mining.fair_distribution_desc"); ?>
 					</p>
-				</div>
-				<div class="col-sm-3 text-center vcenter">
-					<img class="svg-full-width" src="assets/img/mining/fairness.svg">
+				</div><!--
+				--><div class="col-md-3 col-sm-3 text-center vcenter svg-container">
+					<img class="svg-fullwidth" src="assets/img/mining/fairness.svg">
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-3 col-sm-offset-1 text-center vcenter">
-					<img class="svg-full-width" src="assets/img/mining/sustainable.svg">
-				</div>
-				<div class="col-sm-5 vcenter">
+				<div class="col-md-3 col-md-offset-1 col-sm-4 text-center vcenter svg-container">
+					<img class="svg-fullwidth" src="assets/img/mining/sustainable.svg">
+				</div><!--
+				--><div class="col-md-4 col-sm-7 vcenter">
 					<h3><?php echo $Locale->getText("mining.sustainable_reward"); ?></h3>
 					<p>
 						<?php echo $Locale->getText("mining.sustainable_reward_desc"); ?>

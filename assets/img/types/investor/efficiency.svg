@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
-<svg version="1.1" baseProfile="basic" id="Layer_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 139.718 162.415" xml:space="preserve">
-<linearGradient id="path6486_1_" gradientUnits="userSpaceOnUse" x1="158.269" y1="2494.1782" x2="77.923" y2="2685.8062" gradientTransform="matrix(0.7706 0 0 -0.7706 -22.3665 2084.8113)">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="69.873 0 860.261 1000" enable-background="new 69.873 0 860.261 1000"
+	 xml:space="preserve">
+<linearGradient id="path6486_1_" gradientUnits="userSpaceOnUse" x1="116.0374" y1="-1510.468" x2="35.691" y2="-1702.0967" gradientTransform="matrix(4.7446 0 0 4.7446 132.6893 8168.9141)">
 	<stop  offset="0" style="stop-color:#205E2F"/>
 	<stop  offset="0.5" style="stop-color:#329445"/>
 	<stop  offset="1" style="stop-color:#86C440"/>
 </linearGradient>
-<path id="path6486" fill="url(#path6486_1_)" d="
-	M0,0c112.642,4.037,156.078,69.531,134.271,127.977c-6.178,16.262-12.74,25.164-26.551,34.438c0.567-2.34,1.141-4.695,1.583-7.098
-	c8.168-45.602-7.309-100.467-83.007-130.773c60.227,34.723,84.532,96.501,56.446,136.38C34.938,168.208,0,128.658,0,83.096V0z"/>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<path id="path6486" fill="url(#path6486_1_)" d="M69.873,0c693.544,24.856,960.982,428.107,826.716,787.964
+	C858.55,888.09,818.148,942.899,733.113,1000c3.491-14.407,7.025-28.907,9.746-43.702
+	c50.291-280.774-45.002-618.583-511.079-805.179C602.601,364.911,752.248,745.282,579.322,990.82
+	C284.99,1035.668,69.873,792.156,69.873,511.628V0z"/>
 </svg>

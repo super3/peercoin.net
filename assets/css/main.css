@@ -391,7 +391,6 @@ a:hover {
 	margin-right: auto;
 }
 
-
 /* 2.2 Image Hover Effect */
 
 .ch-grid {
@@ -959,7 +958,7 @@ margin-top:3em;
 	}
 
 	.navbar-default .navbar-toggle:hover {
-		background-color: #17a488 !important;
+		background-color: #2B7A3C !important;
 	}
 
 	.navbar-default .navbar-toggle .icon-bar {
@@ -1858,6 +1857,7 @@ margin-top:3em;
 
 .wallet-entry {
 	position: relative;
+	margin-top: 15px;
 }
 
 .wallet-entry-bottom {
@@ -1923,8 +1923,8 @@ margin-top:3em;
 }
 /* SVG control */
 .svg-quickstart {
-	height: 100px;
-	width: 560px;
+	max-width: 560px;
+	width: 100%;
 }
 .svg-fullwidth {
 	width: 100%;
@@ -1948,6 +1948,16 @@ margin-top:3em;
 .svg-100 {
 	max-width: 100px;
 	max-height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+	.svg-container {
+		width: 100%;
+	}
+	.svg-container > img {
+		max-width: 200px;
+		max-height: 15%;
+	}
 }
 
 /* Leaflist */

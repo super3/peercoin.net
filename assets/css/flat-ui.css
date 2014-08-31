@@ -1352,7 +1352,7 @@ address {
   margin-left: 10px;
 }
 .navbar .nav li.dropdown .dropdown-menu {
-  background-color: #34495e;
+  background-color: #48C700;
   opacity: 0;
   padding: 0;
   visibility: hidden;
@@ -1362,7 +1362,7 @@ address {
   display: none;
 }
 .navbar .nav li.dropdown .dropdown-menu:after {
-  border-bottom-color: #34495e;
+  border-bottom-color: #48C700;
 }
 .navbar .nav li.dropdown .dropdown-menu > li > a {
   border-radius :0;
@@ -1370,7 +1370,7 @@ address {
   padding: 6px 8px 8px;
 }
 .navbar .nav li.dropdown .dropdown-menu .divider {
-  background-color: #2c3e50;
+  background-color: #48C700;
   border-bottom: none;
   margin: 2px 0 5px;
   padding: 0;

@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-lg-12 whitepapers">
                 <ul>
-                     <li class="col-lg-3 pdf">
+                    <li class="col-lg-3 pdf">
                         <div class="inner">
                             <h2>English</h2><a href="assets/paper/peercoin-paper.pdf"
                             target="_blank"><?php echo $Locale->getText("whitepaper.download_pdf"); ?></a>

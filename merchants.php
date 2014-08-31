@@ -6,10 +6,10 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-3 col-sm-offset-1 text-center vcenter">
-			<img class="svg-full-width" src="assets/img/types/merchant/instant.svg">
-		</div>
-		<div class="col-sm-4 vcenter">
+		<div class="col-md-3 col-md-offset-1 col-sm-4 text-center vcenter svg-container">
+			<img class="svg-fullwidth" src="assets/img/types/merchant/instant.svg">
+		</div><!--
+		--><div class="col-md-4 col-sm-7 vcenter">
 			<h3><?php echo $Locale->getText("merchants.instant"); ?></h3>
 			<p>
 				<?php echo $Locale->getText("merchants.instant_desc"); ?>.
@@ -17,21 +17,21 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-5 col-sm-offset-3 vcenter">
+		<div class="col-md-5 col-md-offset-3 col-sm-7 col-sm-offset-2 vcenter">
 			<h3><?php echo $Locale->getText("merchants.no_chargebacks"); ?></h3>
 			<p>
 				<?php echo $Locale->getText("merchants.no_chargebacks_desc"); ?>
 			</p>
-		</div>
-		<div class="col-sm-2 text-center vcenter">
-			<img class="svg-full-width" src="assets/img/types/merchant/chargebacks.svg">
+		</div><!--
+		--><div class="col-md-2 col-sm-3 text-center vcenter svg-container">
+			<img class="svg-fullwidth" src="assets/img/types/merchant/chargebacks.svg">
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-2 col-sm-offset-2 text-center vcenter">
-			<img class="svg-full-width" src="assets/img/types/merchant/fees.svg">
-		</div>
-		<div class="col-sm-5 vcenter">
+		<div class="col-md-2 col-md-offset-2 col-sm-3 text-center vcenter svg-container">
+			<img class="svg-fullwidth" src="assets/img/types/merchant/fees.svg">
+		</div><!--
+		--><div class="col-md-5 col-sm-8 vcenter">
 			<h3><?php echo $Locale->getText("merchants.no_transaction_fees"); ?></h3>
 			<p>
 				<?php echo $Locale->getText("merchants.no_transaction_fees_desc"); ?>

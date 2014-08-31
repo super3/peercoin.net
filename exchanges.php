@@ -5,13 +5,13 @@
 		<p><?php echo $Locale->getText("exchanges.what_are_desc"); ?></p>
 	</div><!--
 	--><div class="col-lg-5 col-md-6 vcenter">
-		<img src="assets/img/exchanges/exchange.svg" />
+		<img src="assets/img/exchanges/exchange.svg" class="svg-fullwidth" />
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-lg-6 col-md-6 vcenter">
-		<img src="assets/img/exchanges/buy-sell-orders.svg" />
+		<img src="assets/img/exchanges/buy-sell-orders.svg" class="svg-fullwidth" />
 	</div><!--
 	--><div class="col-lg-5 col-md-6 vcenter">
 		<h2><?php echo $Locale->getText("exchanges.buy_sell"); ?></h2>
@@ -32,7 +32,7 @@
 		</p>
 	</div><!--
 	--><div class="col-lg-6 col-md-6 vcenter">
-		<img src="assets/img/exchanges/fees.svg" />
+		<img src="assets/img/exchanges/fees.svg" class="svg-fullwidth" />
 	</div>
 </div>
 
