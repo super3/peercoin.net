@@ -2,7 +2,7 @@
 
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<img class="svg-full-width" src="assets/img/faq/banner.svg" alt="Frequently Asked Questions">
+			<img class="svg-fullwidth" src="assets/img/faq/banner.svg" alt="Frequently Asked Questions">
 		</div>
 	</div>
 

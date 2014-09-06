@@ -11,24 +11,25 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-md-3 col-md-offset-1 col-sm-4 text-center vcenter svg-container">
-					<img class="svg-fullwidth" src="assets/img/mining/compatibility.svg">
+					<img class="svg-fullwidth" src="assets/img/mining/fairness.svg">
 				</div><!--
 				--><div class="col-md-4 col-sm-7 vcenter">
-					<h3><?php echo $Locale->getText("mining.compatible_with_bitcoin"); ?></h3>
-					<p>
-						<?php echo $Locale->getText("mining.compatible_with_bitcoin_desc"); ?>
-					</p>
+					<h3><?php echo $Locale->getText("mining.fair_distribution"); ?></h3>
+         <p>
+           <?php echo $Locale->getText("mining.fair_distribution_desc"); ?>
+         </p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-md-offset-3 col-sm-8 col-sm-offset-1 vcenter">
-					<h3><?php echo $Locale->getText("mining.fair_distribution"); ?></h3>
-					<p>
-						<?php echo $Locale->getText("mining.fair_distribution_desc"); ?>
-					</p>
+          <h3><?php echo $Locale->getText("mining.compatible_with_bitcoin"); ?></h3>
+          <p>
+            <?php echo $Locale->getText("mining.compatible_with_bitcoin_desc"); ?>
+          </p>
 				</div><!--
 				--><div class="col-md-3 col-sm-3 text-center vcenter svg-container">
-					<img class="svg-fullwidth" src="assets/img/mining/fairness.svg">
+          <img class="svg-fullwidth" src="assets/img/mining/compatibility.svg">
+
 				</div>
 			</div>
 			<div class="row">

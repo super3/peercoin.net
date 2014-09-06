@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row" style="margin-bottom: 0px;">
         <div class="col-lg-8 col-lg-offset-2">
-            <img src="assets/img/whitepaper/banner.svg">
+            <img src="assets/img/whitepaper/banner.svg" class="svg-fullwidth">
         </div>
     </div>
 </div>

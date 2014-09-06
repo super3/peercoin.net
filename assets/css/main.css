@@ -255,13 +255,14 @@ a:hover {
 }
 
 #whypeercoin p {
-	line-height: 60px;
+	line-height: normal;
+  margin-top: 10px;
 	margin-bottom: 0;
 }
 
 @media screen and (max-width: 1199px) {
 	#whypeercoin p {
-		line-height: normal;
+    margin-top: 0px;
 		margin-bottom: 10px;
 	}
 }
@@ -1257,7 +1258,7 @@ margin-top:3em;
 		.top_social{
         	margin-top:15px;
 		}
-	  
+
 	  	#headerwrap-2 {
 			margin-top: 45px;
 		}
@@ -1397,7 +1398,7 @@ margin-top:3em;
 		    top: -15px;
 		    left: 4px;
 		    margin-bottom: -10px;
-	    }	
+	    }
 
 	    .cta-address {
 	    	font-size:12px;
@@ -1842,9 +1843,9 @@ margin-top:3em;
 	width: 100%;
 	color: #474747;
 	padding: 10px 10px 10px 10px;
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 /* Dowloads page */

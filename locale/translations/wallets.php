@@ -3,7 +3,7 @@
 $lang['en'] += array(
 	// Wallet
 	'wallet.title' => 'Wallets',
-	'wallet.desc' => 'A Peercoin wallet is an application which is used to store and transact Peercoins with other users. For more information on how to use your wallet software, visit the <a href="newcomer">Newcomers page</a>.',
+	'wallet.desc' => 'A Peercoin wallet is an application used to store and transact Peercoins with other users. Peercoin has two desktop wallets: Peerunity and Peercoin-QT. We recommend Peerunity for most users. For more information on how to use your wallet software, visit the <a href="newcomer">Newcomers page</a>.',
 	'wallet.peerunity' => 'Peerunity (recommended)',
 	'wallet.peerunity_desc' => 'Peerunity is developed by the Peercoin community. It includes features beyond the core protocol wallet, such as one-click minting and coin control. Future releases will contain a redesigned control panel, Peershares integration, and a dedicated Minting tab.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(core protocol)',
