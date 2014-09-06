@@ -49,7 +49,7 @@
 				</li>
 				<li>
 					<b>Sign up with the pool</b><br>
-					Follow the instructions on the pool website. Below are tutorials for a few specific pools.
+					Follow the instructions on the pool website.
 				</li>
 			</ol>
 		</div>
