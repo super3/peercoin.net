@@ -6,8 +6,8 @@ $lang['en'] += array(
 	'waldownload.license' => 'License',
 	'waldownload.other_platforms' => 'Other platforms',
 	'waldownload.signatures' => 'Signatures',
-	'waldownload.qt_title' => 'Peercoin-QT - The Official Peercoin Wallet',
-	'waldownload.peerunity_title' => 'Peerunity - The Peercoin Community Wallet',	
+	'waldownload.qt_title' => 'Peercoin-QT',
+	'waldownload.peerunity_title' => 'Peerunity',	
 );
 
 ?>
