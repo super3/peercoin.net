@@ -13,7 +13,7 @@
 		<div class="col-md-6 col-md-offset-3">
 			<div class="videoWrapper">
 			    <!-- Copy & Pasted from YouTube -->
-			    <iframe width="560" height="315" src="//www.youtube.com/embed/7tra0vmparI" frameborder="0" allowfullscreen></iframe>
+			    <iframe width="560" height="315" src="//www.youtube.com/embed/k7WU8JM8Dy0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>

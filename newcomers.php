@@ -32,7 +32,7 @@
 			<br>
 			<a href="wallet"><img src="assets/img/types/newcomer/withdraw-coins.svg" class="svg-threeq" /></a>
 			<p>
-				<?php echo $Locale->getText("newcomers.withdraw_coins_desc"); ?>	
+				<?php echo $Locale->getText("newcomers.withdraw_coins_desc"); ?>
 			</p>
 		</div>
 		<div class="col-md-4 col-md-offset-1 step">
@@ -48,7 +48,7 @@
 		<div class="col-md-6 col-md-offset-3">
 			<div class="videoWrapper">
 			    <!-- Copy & Pasted from YouTube -->
-			    <iframe width="560" height="315" src="//www.youtube.com/embed/7tra0vmparI" frameborder="0" allowfullscreen></iframe>
+			    <iframe width="560" height="315" src="//www.youtube.com/embed/wOhSFb7QFFo" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
