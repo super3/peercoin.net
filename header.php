@@ -78,17 +78,16 @@
               <ul class="dropdown-menu">
               <li><a href="newcomers"><?php echo $Locale->getText("header.newcomers"); ?></a></li>
                 <li><a href="investors"><?php echo $Locale->getText("header.investors"); ?></a></li>
-                <li><a href="merchants"><?php echo $Locale->getText("header.merchants"); ?></a></li> 
+                <li><a href="merchants"><?php echo $Locale->getText("header.merchants"); ?></a></li>
                 <li><a href="mining"><?php echo $Locale->getText("header.miners"); ?></a></li>
-                <li><a href="developers"><?php echo $Locale->getText("header.developers"); ?></a></li> 
+                <li><a href="developers"><?php echo $Locale->getText("header.developers"); ?></a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.learn"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="exchanges"><?php echo $Locale->getText("header.exchanges"); ?></a></li> 
+                <li><a href="exchanges"><?php echo $Locale->getText("header.exchanges"); ?></a></li>
                 <li><a href="minting"><?php echo $Locale->getText("header.mint_peercoins"); ?></a></li>
-                <li><a href="mining"><?php echo $Locale->getText("header.mine_peercoins"); ?></a></li> 
                 <li><a href="whitepaper"><?php echo $Locale->getText("header.peercoin_whitepaper"); ?></a></li>
                 <li><a href="faq"><?php echo $Locale->getText("header.frequently_asked_questions"); ?></a></li>
               </ul>
@@ -98,9 +97,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.community"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="http://www.peercointalk.org/">Peercointalk Forum</a></li>
-                <li><a target="_blank" href="http://www.reddit.com/r/peercoin">Reddit</a></li> 
+                <li><a target="_blank" href="http://www.reddit.com/r/peercoin">Reddit</a></li>
                 <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
-                <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li> 
+                <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/peercoin">YouTube</a></li>
               </ul>
             </li>

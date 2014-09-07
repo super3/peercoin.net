@@ -12,7 +12,7 @@
 		--><div class="col-md-4 col-sm-7 vcenter">
 			<h3><?php echo $Locale->getText("merchants.instant"); ?></h3>
 			<p>
-				<?php echo $Locale->getText("merchants.instant_desc"); ?>.
+				<?php echo $Locale->getText("merchants.instant_desc"); ?>
 			</p>
 		</div>
 	</div>

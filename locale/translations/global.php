@@ -6,6 +6,9 @@ $lang['en'] += array(
 
 	'second_ago' => 'second ago',
 	'seconds_ago' => 'seconds ago',
+
+	'website' => 'Website',
+	'forum' => 'Forum',
 );
 
 ?>

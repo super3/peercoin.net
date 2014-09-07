@@ -42,13 +42,14 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-3 col-lg-offset-1 col-md-4 text-center vcenter">
-			<img src="assets/img/types/developer/peerunity.svg" class="svg-halfwidth" />
+			<img src="assets\img\logos\peerunity.svg" class="svg-halfwidth" />
 		</div>
 		<div class="col-lg-7 col-md-8 vcenter">
 			<h1 class="h-smargin">Peerunity</h1>
 			<p>
 				<?php echo $Locale->getText("developers.peerunity_desc"); ?>
 			</p>
+			<a href="http://www.peercointalk.org/index.php?board=64.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
 		</div>
 	</div>
 	<div class="row">
@@ -60,6 +61,8 @@
 			<p>
 				<?php echo $Locale->getText("developers.peershares_desc"); ?>
 			</p>
+			<a href="http://www.peershares.net/" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("website"); ?></a>
+			<a href="http://www.peercointalk.org/index.php?board=61.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
 		</div>
 	</div>
 	<div class="row">
@@ -71,6 +74,8 @@
 			<p>
 				<?php echo $Locale->getText("developers.peerbox_desc"); ?>
 			</p>
+			<a href="http://www.peerbox.me/" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("website"); ?></a>
+			<a href="http://www.peercointalk.org/index.php?board=68.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
 		</div>
 	</div>
 	<div class="row">
@@ -82,6 +87,8 @@
 			<p>
 				<?php echo $Locale->getText("developers.nubits_desc"); ?>
 			</p>
+			<a href="http://www.nubits.com/" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("website"); ?></a>
+			<a href="http://www.peercointalk.org/index.php?board=61.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
 		</div>
 	</div>
 </div>

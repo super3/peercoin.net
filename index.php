@@ -1,4 +1,4 @@
-<?php 
+<?php
 	$index = true;
 	include ('header.php');
 ?>
@@ -83,8 +83,7 @@
 							<div class="description"><?php echo $Locale->getText("index.transparent_protocol_desc"); ?></div>
 						</div>
 					</div>
-					<a href="investors" style="margin-left:60px;" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.learn_more"); ?></a>
-				</div>
+					</div>
 				<br><br>
 			</div>
 			<div class="col-lg-6 col-md-7 col-sm-6">
@@ -93,7 +92,7 @@
 				    <iframe width="560" height="315" src="//www.youtube.com/embed/7tra0vmparI" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 
