@@ -1,11 +1,11 @@
 <!-- Grey Wrap / Site Stats -->
 	<!-- FOOTER -->
-	<footer class="footer">
+	<footer class="footer" style="padding: 0px 0 10px;">
 		<div class="container">
-
+<!--
 			<div class="row">
 				<div class="col-lg-3">
-					<h2><?php echo $Locale->getText("links"); ?></h2>
+					<h2><?php echo $Locale->getText("footer.links"); ?></h2>
 					<ul>
 						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a></li>
 						<li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
@@ -14,7 +14,7 @@
 					</ul>
 				</div>
 				<div class="col-lg-3">
-					<h2><?php echo $Locale->getText("tools"); ?></h2>
+					<h2><?php echo $Locale->getText("footer.tools"); ?></h2>
 					<ul>
 						<li><a href="http://wallet.peercointalk.org/">Wallet Generator (Beta!)</a></li>
 						<li><a href="http://ppc.blockr.io/">Blockr.io - Block Explorer</a></li>
@@ -25,7 +25,7 @@
 				</div>
 
 				<div class="col-lg-3">
-					<h2><?php echo $Locale->getText("exchanges"); ?></h2>
+					<h2><?php echo $Locale->getText("footer.exchanges"); ?></h2>
 					<ul>
 						<li><a href="http://www.btc38.com/trade.html?btc38_trade_coin_name=ppc">BTC38</a></li>
 						<li><a href="https://btc-e.com/exchange/ppc_btc/">BTC-E</a></li>
@@ -36,7 +36,7 @@
 				</div>
 
 				<div class="col-lg-3">
-					<h2><?php echo $Locale->getText("mining"); ?></h2>
+					<h2><?php echo $Locale->getText("footer.mining"); ?></h2>
 					<ul>
 						<li><a href="https://peercoin.blockmines.com/">Blockmines</a></li>
 						<li><a href="https://peercoin.ecoining.com/">Ecoining Pool</a></li>
@@ -47,9 +47,24 @@
 			</div><!-- /row -->
 
 			<div class="row">
-				<div id="footer-language-bar" class="col-lg-12">
-	            	<span><?php echo $Locale->getText("languages"); ?></span>
+				<div class="col-lg-12 social-icons" style="margin:1em 0">
+			        <a target="_blank" href="https://www.facebook.com/Peercoin">
+			              <img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook">
+			        </a>
+			            <a target="_blank" href="http://www.reddit.com/r/peercoin">
+			              <img src="assets/img/icons/social-reddit.png" alt="Reddit">
+			        </a>
+			            <a target="_blank" href="https://twitter.com/PeercoinPPC">
+			              <img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
+			        </a>
+			            <a target="_blank" href="https://www.youtube.com/user/peercoin">
+			              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
+			        </a>
+	          	</div>
+          	</div><!-- /row -->
 
+			<div class="row">
+				<div id="footer-language-bar" class="col-lg-12">
 	            	<?php
 		            	foreach($Locale->getLanguages() as $language_code => $language_text):
 			            	if($Locale->locale_code!=$language_code){
@@ -61,23 +76,6 @@
 	        	</div>
 			</div><!-- /row -->
 
-			<div class="row">
-				<div class="col-lg-12 social-icons">
-			        <a target="_blank" href="https://www.facebook.com/Peercoin">
-			              <img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook">
-			        </a>
-			            <a target="_blank" href="http://www.reddit.com/r/peercoin">
-			              <img src="assets/img/icons/social-reddit.png" alt="Reddit">
-			        </a>
-			            <a target="_blank" href="https://twitter.com/PeercoinPPC">
-			              <img src="assets/img/icons/social-twitter.png" alt="Follow us on Twitter">
-			        </a>
-			            <a target="_blank" href="https://www.youtube.com/playlist?list=PLBt4zAxcWonnA8-InWGUEw-UZofHdUIeT">
-			              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
-			        </a>
-	          	</div>
-          	</div><!-- /row -->
-
 		</div><!-- /container -->
 	</footer>
 
@@ -88,13 +86,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/retina.js/1.0.1/retina.min.js"></script>
     <script type="text/javascript">
         var secondText = "<?php echo $Locale->getText("second_ago"); ?>";
         var secondsText = "<?php echo $Locale->getText("seconds_ago"); ?>";
     </script>
     <script src="assets/js/ticker.js"></script>
 	<script src="assets/js/peercoin.js"></script>
+	<script src="assets/js/grids.min.js"></script>
 
 	<!-- Drop down menu in minting -->
 	<script type='text/javascript'>
@@ -105,7 +103,34 @@
 				$(this).parent().find(".glyphicon-up").removeClass("glyphicon-up").addClass("glyphicon-down");
 			});
 		});
+
+		$(window).load(function() {
+			$('.wallet-entry').responsiveEqualHeightGrid();
+			setTimeout(function() { $('.wallet-entry > div').addClass('wallet-entry-bottom'); }, 500);
+		});
+
+		$(window).resize(function() {
+			$('.wallet-entry > div').removeClass('wallet-entry-bottom');
+			$('.wallet-entry').responsiveEqualHeightGrid();
+			setTimeout(function() { $('.wallet-entry > div').addClass('wallet-entry-bottom'); }, 500);
+		});
 	</script>
+
+	<!-- Only for the exchange page -->
+	<?php if(isset($exchange_page)) { ?>
+	<script>
+		$(document).ready(function() {
+			$(".exchange-button").tooltip();
+			$(".exchange-button").click(function(e) {
+				e.preventDefault();
+				$(".exchange-button").removeClass("active");
+				$(this).addClass("active");
+				$(".exchange-info").removeClass("active");
+				$("#exchange-"+$(this).data("exchange")).addClass("active");
+			});
+		});
+	</script>
+	<?php } ?>
 
   </body>
 </html>

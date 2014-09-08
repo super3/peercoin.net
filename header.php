@@ -10,7 +10,7 @@
 
   	<meta charset="UTF-8">
   	<!-- Title -->
-  	<title><?php echo $Locale->getText("homepage_title"); ?></title>
+  	<title><?php if(isset($page_title)) echo $page_title . ' - '; echo $Locale->getText("homepage_title"); ?></title>
 
   	<!-- Description, Keywords and Author -->
   	<meta name="description" content="Secure and sustainable cryptocoin.">
@@ -32,6 +32,9 @@
    	<!-- Bootstrap core CSS -->
    	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
    	<link rel="stylesheet" href="assets/css/flat-ui.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 
    	<!-- Custom styles for this template -->
    	<link href="assets/css/main.css" rel="stylesheet">
@@ -66,57 +69,63 @@
           </button>
           <a class="navbar-brand" href=".">
             <img src="assets/img/logos/Dark-Text-350.png" class="peercoin-logo" alt="Peercoin">
-            <span class="peercoin-tagline"><?php echo $Locale->getText("homepage_title"); ?></span>
           </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
-
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_docs_and_press"); ?><b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.get_started"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="whitepaper"><?php echo $Locale->getText("dropdown_docs_and_press_whitepaper"); ?></a></li>
-                <li><a href="news"><?php echo $Locale->getText("dropdown_docs_news"); ?></a></li> 
-                <li><a href="events"><?php echo $Locale->getText("dropdown_docs_events"); ?></a></li> 
-                <li><a href="http://www.peercointalk.org/index.php?topic=1616.0"><?php echo $Locale->getText("dropdown_docs_and_press_kit"); ?></a></li>
-                <li><a href="http://www.peercointalk.org/index.php?topic=2219.0"><?php echo $Locale->getText("dropdown_docs_and_press_articles_interviews"); ?></a></li>
+              <li><a href="newcomers"><?php echo $Locale->getText("header.newcomers"); ?></a></li>
+                <li><a href="investors"><?php echo $Locale->getText("header.investors"); ?></a></li>
+                <li><a href="merchants"><?php echo $Locale->getText("header.merchants"); ?></a></li>
+                <li><a href="mining"><?php echo $Locale->getText("header.miners"); ?></a></li>
+                <li><a href="developers"><?php echo $Locale->getText("header.developers"); ?></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.learn"); ?><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="exchanges"><?php echo $Locale->getText("header.exchanges"); ?></a></li>
+                <li><a href="minting"><?php echo $Locale->getText("header.mint_peercoins"); ?></a></li>
+                <li><a href="whitepaper"><?php echo $Locale->getText("header.peercoin_whitepaper"); ?></a></li>
+                <li><a href="faq"><?php echo $Locale->getText("header.frequently_asked_questions"); ?></a></li>
+              </ul>
+            </li>
+            <li><a href="wallet"><?php echo $Locale->getText("header.wallet"); ?></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.community"); ?><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.peercointalk.org/">Peercointalk Forum</a></li>
+                <li><a target="_blank" href="http://www.reddit.com/r/peercoin">Reddit</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
+                <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/user/peercoin">YouTube</a></li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-language">
+              <a href="#" id="lang-tooltip" class="dropdown-toggle" data-toggle="dropdown" data-placement="left" title="<?php echo $Locale->getText("header.languages"); ?>"><i class="fa fa-language fa-3x"></i></a>
+              <ul class="dropdown-menu">
                 <?php
-                if (!file_exists('include/recaptcha_keys.php')) {
+                  foreach($Locale->getLanguages() as $language_code => $language_text):
+                    if($Locale->locale_code!=$language_code){
+                      $url_loc = substr($_SERVER['PHP_SELF'], 0, strpos($_SERVER['PHP_SELF'], '.php')+4);
+                      echo "<li><a href=\"".$url_loc."?locale=".$language_code."\">".$language_text."</a></li>";
+                    }
+                  endforeach;
                 ?>
-                 <li><a href="mailto:sunnyking9999@gmail.com?cc=john.manglaviti@gmail.com&amp;subject=Sunny%20King%20Interview%20Request"><?php echo $Locale->getText("dropdown_docs_and_press_sunny_king_interview"); ?></a></li>
-                <?php } else { ?>
-                <li><a href="interview"><?php echo $Locale->getText("dropdown_docs_and_press_sunny_king_interview"); ?></a></li>
-                <?php } ?>
               </ul>
             </li>
-            <li><a href="resources"><?php echo $Locale->getText("dropdown_title_resources"); ?></a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_peercoins"); ?> <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-		            <li><a href="mining"><?php echo $Locale->getText("dropdown_peercoins_mine"); ?></a></li>
-        		    <li><a href="minting"><?php echo $Locale->getText("dropdown_peercoins_mint"); ?></a></li>
-        		    <li><a href="resources#buying"><?php echo $Locale->getText("dropdown_peercoins_buy"); ?></a></li>
-                <li><a href="http://peer4commit.com">Peer4commit</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("dropdown_title_contribute"); ?> <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://docs.google.com/forms/d/1uJbNEJThRc3TqnwbVVrd__UQWVUOOr4QSEMbMIIF--s/viewform"><?php echo $Locale->getText("dropdown_contribute_volunteer"); ?></a></li>
-                <li><a href="participate"><?php echo $Locale->getText("dropdown_contribute_participate"); ?></a></li>
-                <li><a href="sponsor"><?php echo $Locale->getText("dropdown_contribute_sponsor"); ?></a></li>
-                <li><a href="projects"><?php echo $Locale->getText("dropdown_contribute_projects"); ?></a></li>
-                <!-- TODO: add more ways to contribute and support the Peercoin community -->
-              </ul>
-            </li>
-            <li><a href="http://www.peercointalk.org/"><?php echo $Locale->getText("dropdown_forum"); ?></a></li>
-            <li class="wallet"><a class="btn btn-primary btn-lg" role="button" href="downloads"><?php echo $Locale->getText("download_wallet"); ?>!</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<?php if ($index) { ?>
+<?php if (isset($index)) { ?>
   <!-- Headerwrap -->
   <header id="headerwrap-2">
-<?php }; ?>
+    <div class="container">
+<?php } else if(isset($no_container)) { ?>
+    <div class="content">
+<?php } else { ?>
     <div class="container content">
+<?php }?>

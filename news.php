@@ -1,4 +1,4 @@
-﻿<?php include ('header.php'); ?>
+﻿<?php $page_title = "News"; include ('header.php'); ?>
 
   <div class="col-lg-12">
 
