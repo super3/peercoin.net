@@ -11,7 +11,7 @@
 <div class="row">
     <div class="col-md-4">
         <div class="tile text-center wallet-entry">
-            <img src="assets\img\logos\peerunity.svg" alt="" class="tile-image big-illustration svg-100">
+            <img src="assets/img/logos/peerunity.svg" alt="" class="tile-image big-illustration svg-100">
             <h3 class="tile-title"><?php echo $Locale->getText("wallet.peerunity"); ?></h3>
             <p>
                 <?php echo $Locale->getText("wallet.peerunity_desc"); ?>
@@ -23,7 +23,7 @@
     </div>
     <div class="col-md-4">
         <div class="tile text-center wallet-entry">
-            <img src="assets\img\logos\peercoin.svg" alt="" class="tile-image big-illustration svg-100">
+            <img src="assets/img/logos/peercoin.svg" alt="" class="tile-image big-illustration svg-100">
             <h3 class="tile-title"><?php echo $Locale->getText("wallet.peercoinqt"); ?></h3>
             <p>
                 <?php echo $Locale->getText("wallet.peercoinqt_desc"); ?>
@@ -35,7 +35,7 @@
     </div>
     <div class="col-md-4">
         <div class="tile text-center wallet-entry">
-            <img src="assets\img\logos\paper-wallet.png" height="100px" width="100px" alt="" class="tile-image big-illustration">
+            <img src="assets/img/logos/paper-wallet.png" height="100px" width="100px" alt="" class="tile-image big-illustration">
             <h3 class="tile-title"><?php echo $Locale->getText("wallet.paper_wallet"); ?></h3>
             <p>
                 <?php echo $Locale->getText("wallet.paper_wallet_desc"); ?>
