@@ -129,14 +129,14 @@ class Loc
 
 
 		// Check if the text_id exists for the current language
-		if(isset($locale_strings[$use_locale][$text_id]))
+		if(isset($lang[$use_locale][$text_id]))
 		{
-			$retrieved_text = $locale_strings[$use_locale][$text_id];
+			$retrieved_text = $lang[$use_locale][$text_id];
 		}
 		else
 		{
 			// Return English string on missing locale text for provided $text_id
-			$retrieved_text = $locale_strings["en"][$text_id];
+			$retrieved_text = $lang["en"][$text_id];
 		}
 
 

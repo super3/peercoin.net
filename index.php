@@ -1,119 +1,143 @@
-<?php 
+<?php
 	$index = true;
 	include ('header.php');
 ?>
 
   <!-- Headerwrap -->
-		<div class="row" style="max-width:100%; margin:0px;">
-			<div id="header-left">
-				<img src="assets/img/logos/logo_shadow_large.png" alt="peercoin" />
+		<div class="container" id="header-banner">
+			<div class="col-sm-4 col-sm-offset-1 text-right">
+				<img src="assets/img/logos/logo.png" class="plogo" alt="peercoin" />
 			</div>
-			<div id="header-right">
+			<div class="col-sm-6 text-left" style="padding-left: 30px;">
 				<div>
-					<img src="assets/img/logos/peercoin_ltext.png" alt="peercoin" />
+					<img src="assets/img/logos/peercoin_ltext.png" class="pltext" alt="peercoin" />
 					<br><br>
-					<a href="" class="btn btn-primary"><?php echo $Locale->getText("why_peercoin_title"); ?></a>
-					<a href="wallet" class="btn btn-primary"><?php echo $Locale->getText("download_wallet"); ?></a>
+					<a href="investors" class="btn btn-primary"><?php echo $Locale->getText("index.why_peercoin"); ?></a>
+					<a href="wallet" class="btn btn-primary"><?php echo $Locale->getText("index.download_wallet"); ?></a>
 				</div>
 	    	</div>
 		</div>
+		<div class="container centered marketcap">
+				<div class="col-sm-2 col-sm-offset-3">
+					<b><span id="current-price"></span></b>
+					<br>
+				    <?php echo $Locale->getText("index.price"); ?>
+				</div>
+				<div class="col-sm-2">
+					<b><span id="market-cap"></span></b>
+					<br>
+					<?php echo $Locale->getText("index.market_cap"); ?>
+				</div>
+				<div class="col-sm-2">
+					<b><span id="total-supply"></span></b>
+					<br>
+					<?php echo $Locale->getText("index.total_supply"); ?>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="updated">
+			        <span><?php echo $Locale->getText("index.last_updated"); ?></span>
+	    	        <span id="seconds-since-update"><?php echo $Locale->getText("index.last_updated_never"); ?></span>
+		        </div>
+			</div>
+		</div><!-- /container -->
 	</header>
 
     <!-- Call To Action -->
 	<div class="cta" id="whypeercoin">
 		<div class="container centered">
-			<h2 class="col-lg-4"><?php echo $Locale->getText("why_peercoin_title"); ?></h2>
-			<p class="col-lg-8"><?php echo $Locale->getText("why_peercoin_desc"); ?></p>
+			<h2 class="col-lg-4"><?php echo $Locale->getText("index.why_peercoin_q"); ?></h2>
+			<p class="col-lg-8"><?php echo $Locale->getText("index.why_peercoin_desc"); ?></p>
 		</div><!-- /container -->
 	</div><!-- /cta -->
 
-	<!-- Services Section -->
-	<div class="container sinfo container-spacer">
-
-		<div class="services svgicons centered">
-			<div class="col-lg-4">
-				<img src="assets/img/icons/macbook.svg" alt="Digital Cryptocurrency">
-				<h4><?php echo $Locale->getText("instant_transactions"); ?></h4>
-				<p><?php echo $Locale->getText("instant_transactions_desc"); ?></p>
-			</div><!-- col-lg-4 -->
-
-			<div class="col-lg-4">
-				<img src="assets/img/icons/money.svg" alt="Fast & Cheap Transactions">
-				<h4><?php echo $Locale->getText("low_fees"); ?></h4>
-				<p><?php echo $Locale->getText("low_fees_desc"); ?></p>
-			</div><!-- col-lg-4 -->
-
-			<div class="col-lg-4">
-				<img src="assets/img/icons/clocks.svg" alt="Available 24/7">
-				<h4><?php echo $Locale->getText("decentralized_currency"); ?></h4>
-				<p><?php echo $Locale->getText("decentralized_currency_desc"); ?></p>
-			</div><!-- col-lg-4 -->
-
-		</div><!-- /row -->
-	</div><!-- /container -->
-
-    <!-- Call To Action -->
-	<div class="cta">
-		<div class="container centered marketcap">
-			<div class="row">
-				<div class="col-md-2 col-md-offset-3">
-					<b><span id="current-price"></span></b>
-					<br>
-				    <span><?php echo $Locale->getText("price"); ?></span>
-				</div>
-				<div class="col-md-2">
-					<b><span id="market-cap"></span></b>
-					<br>
-					<span><?php echo $Locale->getText("market_cap"); ?></span>
-				</div>
-				<div class="col-md-2">
-					<b><span id="total-supply"></span></b>
-					<br>
-					<span><?php echo $Locale->getText("total_supply"); ?></span>
+    <div class="container centered container-spacer" style="padding-bottom:30px;">
+		<div class="row">
+			<div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-6 text-left">
+				<div class="leafList">
+					<div class="item">
+						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
+						<div class="text">
+							<div class="name"><?php echo $Locale->getText("index.built_to_last"); ?></div>
+							<div class="description"><?php echo $Locale->getText("index.built_to_last_desc"); ?></div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
+						<div class="text">
+							<div class="name"><?php echo $Locale->getText("index.fair_distribution"); ?></div>
+							<div class="description"><?php echo $Locale->getText("index.fair_distribution_desc"); ?></div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
+						<div class="text">
+							<div class="name"><?php echo $Locale->getText("index.energy_efficient"); ?></div>
+							<div class="description"><?php echo $Locale->getText("index.energy_efficient_desc"); ?></div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
+						<div class="text">
+							<div class="name"><?php echo $Locale->getText("index.transparent_protocol"); ?></div>
+							<div class="description"><?php echo $Locale->getText("index.transparent_protocol_desc"); ?></div>
+						</div>
+					</div>
+					</div>
+				<br><br>
+			</div>
+			<div class="col-lg-6 col-md-7 col-sm-6">
+				<div class="videoWrapper">
+				    <!-- Copy & Pasted from YouTube -->
+				    <iframe width="560" height="315" src="//www.youtube.com/embed/7tra0vmparI" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
-			<div class="col-md-12">
-				<div class="updated">
-			        <span><?php echo $Locale->getText("ticker_last_updated"); ?></span>
-	    	        <span id="seconds-since-update"><?php echo $Locale->getText("ticker_last_updated_never"); ?></span>
-		        </div>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /cta -->
+
+		</div>
+	</div>
+
 
 	<div class="container centered container-spacer" style="padding-bottom:30px;">
 		<div class="svgicons">
-			<div class="col-lg-3">
-				<div><img src="assets/img/icons/card.svg" alt="Individual" /></div>
-				<br>
-				<h2><?php echo $Locale->getText("individual"); ?></h2>
-				<?php echo $Locale->getText("individual_desc"); ?>
+			<div class="col-lg-2 col-lg-offset-1 col-md-6">
+				<!--<div><img src="assets/img/icons/card.svg" alt="Individual" /></div>
+				<br>-->
+				<h3><?php echo $Locale->getText("index.newcomers"); ?></h3>
+				<?php echo $Locale->getText("index.newcomers_desc"); ?>
 				<br><br>
-				<a href="" class="btn btn-primary btn-lg"><?php echo $Locale->getText("get_started"); ?></a>
+				<a href="newcomers" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
 			</div>
-			<div class="col-lg-3">
-				<div><img src="assets/img/icons/basket.svg" alt="Merchant" /></div>
-				<br>
-				<h2><?php echo $Locale->getText("merchant"); ?></h2>
-				<?php echo $Locale->getText("merchant_desc"); ?>
+			<div class="col-lg-2 col-md-6">
+				<!--<div><img src="assets/img/icons/basket.svg" alt="Merchant" /></div>
+				<br>-->
+				<h3><?php echo $Locale->getText("index.investors"); ?></h3>
+				<?php echo $Locale->getText("index.investors_desc"); ?>
 				<br><br>
-				<a href="" class="btn btn-primary btn-lg"><?php echo $Locale->getText("get_started"); ?></a>
+				<a href="investors" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
 			</div>
-			<div class="col-lg-3">
-				<div style="padding-top:10px;"><img src="assets/img/icons/pc.svg" alt="Developer" /></div>
-				<br>
-				<h2><?php echo $Locale->getText("developer"); ?></h2>
-				<?php echo $Locale->getText("developer_desc"); ?>
+			<div class="col-lg-2 col-md-6">
+				<!--<div><img src="assets/img/icons/basket.svg" alt="Merchant" /></div>
+				<br>-->
+				<h3><?php echo $Locale->getText("index.merchants"); ?></h3>
+				<?php echo $Locale->getText("index.merchants_desc"); ?>
 				<br><br>
-				<a href="" class="btn btn-primary btn-lg"><?php echo $Locale->getText("get_started"); ?></a>
+				<a href="merchants" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
 			</div>
-			<div class="col-lg-3">
-				<div style="padding-top:10px;"><img src="assets/img/icons/dynamite.svg" alt="Miner" /></div>
-				<br>
-				<h2><?php echo $Locale->getText("miner"); ?></h2>
-				<?php echo $Locale->getText("miner_desc"); ?>
+			<div class="col-lg-2 col-md-6">
+				<!--<div style="padding-top:10px;"><img src="assets/img/icons/dynamite.svg" alt="Miner" /></div>
+				<br>-->
+				<h3><?php echo $Locale->getText("index.miners"); ?></h3>
+				<?php echo $Locale->getText("index.miners_desc"); ?>
 				<br><br>
-				<a href="" class="btn btn-primary btn-lg"><?php echo $Locale->getText("get_started"); ?></a>
+				<a href="mining" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
+			</div>
+			<div class="col-lg-2 col-lg-offset-0 col-md-6 col-md-offset-3">
+				<!--<div style="padding-top:10px;"><img src="assets/img/icons/pc.svg" alt="Developer" /></div>
+				<br>-->
+				<h3><?php echo $Locale->getText("index.developers"); ?></h3>
+				<?php echo $Locale->getText("index.developers_desc"); ?>
+				<br><br>
+				<a href="developers" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
 			</div>
 		</div>
 	</div>
@@ -121,18 +145,16 @@
     <!-- Newsletter -->
 	<div class="newsletter">
 		<div class="container centered">
-			<h2 class="col-lg-4"><?php echo $Locale->getText("newsletter"); ?></h2>
+			<h2 class="col-md-4"><?php echo $Locale->getText("index.newsletter"); ?></h2>
 			<form>
-				<table class="col-lg-8">
-					<tr>
-						<td>
-							<input type="text" name="email" placeholder="Enter your e-mail address..." />
-						</td>
-						<td>
-							<input type="submit" value="Sign me up!" />
-						</td>
-					</tr>
-				</table>
+				<div class="col-md-8">
+					<div class="col-sm-8">
+						<input type="text" name="email" placeholder="<?php echo $Locale->getText("index.newsletter_placeholder"); ?>" />
+					</div>
+					<div class="col-sm-4">
+						<input type="submit" value="<?php echo $Locale->getText("index.newsletter_submit"); ?>" />
+					</div>
+				</div>
 			</form>
 		</div><!-- /container -->
 	</div><!-- /newesletter -->
