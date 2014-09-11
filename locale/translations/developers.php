@@ -10,7 +10,7 @@ $lang['en'] += array(
 	'developers.optional_checkpointing' => 'Optional Checkpointing',
 	'developers.optional_checkpointing_desc' => 'Today, the network uses centralized checkpointing to protect against attacks. The need for this security decreases as the network grows, so the next version will make these checkpoints optional. A future version will turn off checkpoints by default.',
 	'developers.peercoin_ecosystem' => 'Peercoin Ecosystem',
-	'developers.peer4commit' => 'Would you like to be paid to get involved in Peercoin development <strong>and</strong> get paid for it? Here’s your chance! <a href="http://peer4commit.com/">Peer4commit</a> provides a central hub for development. You can:',
+	'developers.peer4commit' => 'Would you like to get involved in Peercoin development <strong>and</strong> get paid for it? Here’s your chance! <a href="http://peer4commit.com/">Peer4commit</a> provides a central hub for development. You can:',
 	'developers.peer4commit.1' => 'Select a project on the site, work on it, and receive peercoins as a reward.',
 	'developers.peer4commit.2' => 'Pick a project you’d like to support, and contribute peercoins toward it.',
 	'developers.peer4commit.3' => 'Think up a new project, submit it, and receive donations towards its development.',
