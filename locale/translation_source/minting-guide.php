@@ -1,5 +1,4 @@
 <?php
-
 $lang['en'] += array(
 	'mintguide.title' => 'Follow the guide corresponding to your Peercoin client to start minting!',
 	'mintguide.qt_step1' => 'Ensure your wallet is encrypted with a good passphrase. Write this down and keep it somewhere safe; if you forget the passphrase you will lose your coins. The wallet encryption option can be found under the settings tab in the Peercoin-Qt wallet program.',
@@ -12,5 +11,3 @@ $lang['en'] += array(
 	'mintguide.peerunity_step3' => 'You can check you are minting by looking at the little padlock in the bottom right corner of the client. After a few moments it should become unlocked. If you hover your mouse over it, it should say "Wallet is encypted and currently unlocked for block minting only".',
 
 );
-
-?>

@@ -18,7 +18,6 @@
 				<li><?php echo $Locale->getText("pig.step4"); ?></li>
 				<li><?php echo $Locale->getText("pig.step5"); ?></li>
 				<li><?php echo $Locale->getText("pig.step6"); ?></li>
-				<li><?php echo $Locale->getText("pig.step7"); ?></li>
 			</ol>
 		</div>
 	</div>
