@@ -26,25 +26,25 @@ $lang['de'] += array(
 
 $lang['de'] += array(
 	//Exchanges
-	'exchanges.what_are' => 'What is an Exchange?',
-	'exchanges.what_are_desc' => '<b>Exchanges</b> enable you to trade your government-backed currency, such as US Dollars or Euros, in order to buy and sell Peercoins. Exchanges also facilitate trade between peercoins and other cryptocurrencies, such as Bitcoin.',
-	'exchanges.buy_sell' => 'Placing an Order',
-	'exchanges.buy_sell_desc' => 'Trades begin by the placing of buy and sell orders. Create a <b>Buy order</b> to request a certain amount of Peercoins for a specific price. Create a <b>Sell order</b> to offer to sell Peercoins. When different orders overlap in price, the trade is automatically completed, and the accounts of both parties are credited with the currencies they traded. A <b>Market Order</b> will trade immediately at the price currently available.',
-	'exchanges.fees' => 'Fees',
-	'exchanges.fees_desc' => 'Each time a trade occurs, a small percentage is taken by the exchange for facilitating the transaction. This is known as a <b>Trading Fee</b>. Some exchanges also charge a <b>Withdrawal Fee</b> when you withdraw your new currency from the exchange.',
-	'exchanges.choosing' => 'Select an exchange',
-	'exchanges.disclaimer' => 'Reminder: Be sure to withdraw your Peercoins from the exchange after you purchase them. Storing coins in your own wallet is more secure, and makes you eligible for Peercoin’s 1&#37; minting reward.',
-	'exchanges.location' => 'Location',
-	'exchanges.notes' => 'Notes',
-	'exchanges.visit' => 'Visit',
+	'exchanges.what_are' => 'Was ist ein Handelsplatz?',
+	'exchanges.what_are_desc' => 'Ein <b>Handelsplatz</b> ermöglicht es dir von Regierungen geschtüzte Währungen, wie zum Beispiel US Dollar oder Euro gegen Peercoins zu tauschen. Weiterhin ermöglichen Handelsplätze den Tausch von Peercoins gegen andere Kryptowährungen wie zum Beispiel Bitcoin.',
+	'exchanges.buy_sell' => 'Einen Auftrag platzieren',
+	'exchanges.buy_sell_desc' => 'Ein Handel beginnt durch die Platzierung eines Auftrag zum Kauf oder Verkauf von Geld in einer Währungseinheit. Erstelle einen <b>Kaufauftrag</b> um eine Bestimmte Anzahl an Peercoins zu einem bestimmten Preis zu erhalten. Erstelle einen <b>Verkaufsauftrag</b> um Peercoins zu verkaufen. Sobald zwei Aufträge sich preislich überschneiden wird der Handel automatisch durchgeführt und die Konten beider Parteien werden entsprechend belastet. Ein <b>Auftrag zum Marktpreis</b> wird sofort ausgeführt wobei der aktuelle Marktpreis für die entsprechende Menge angewandt wird.',
+	'exchanges.fees' => 'Gebühren',
+	'exchanges.fees_desc' => 'Jedes Mal wenn ein Handel durchgeführt wird, wird ein kleiner Prozentbetrag des Handelsvolumens an den Handelsplatz gezahlt um ihn für seine Dienstleistung zu entlohnen. Diesen Betrag nennt man <b>Handelsgebühr</b>. Manche Handelsplätze erheben auch <b>Abhebegebühren</b> wenn du deine neuen Peercoins vom Handelsplatz in deine lokale Geldbörse transferierst.',
+	'exchanges.choosing' => 'Wähle einen Handelsplatz',
+	'exchanges.disclaimer' => 'Mahnung: Stell sicher das du deine Peercoins vom Handelsplatz abziehst nachdem du sie gekauft hast. Peercoins in deiner eigenen Geldbörse zu verwahren ist sicherer und berechtigt dich darüber hinaus dazu die 1&#37; Belohnung für das Prägen weiter Peercoins einzustreichen.',
+	'exchanges.location' => 'Ort',
+	'exchanges.notes' => 'Anmerkung',
+	'exchanges.visit' => 'Besuchen',
 );
 
 
 $lang['de'] += array(
 	'footer.links' => 'Links',
-	'footer.tools' => 'Tools',
-	'footer.exchanges' => 'Exchanges',
-	'footer.mining' => 'Mining',
+	'footer.tools' => 'Werkzeuge',
+	'footer.exchanges' => 'Handelsplätze',
+	'footer.mining' => 'Prägen',
 );
 
 $lang['de'] += array(
