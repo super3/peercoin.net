@@ -176,32 +176,32 @@ $lang['de'] += array(
 	'mining.fair_distribution' => 'Faire Verteilung',
 	'mining.fair_distribution_desc' => 'Proof-of-Work Mining wird verwendet um die Verteilung der Peercoins sicherzustellen. Die Netzwerksicherheit wird ausschließlich über Proof-of-Stake gewährleistet. Dies bedeutet das Probleme wie Selfish-Mining sie unter Bitcoin verursacht für die Sicherheit von Peercoin nicht relevant sind.',
 	'mining.sustainable_reward' => 'Nachhaltige Entlohnung',
-	'mining.sustainable_reward_desc' => 'Die Entlohnung pro erzeugtem Block reduziert sich schrittweise solange die für das Mining verwendete Rechenleistung steigt. Im Laufe der Zeit wird Mining eine immer geringere Rolle im Bezug auf die Geldmenge haben.',
+	'mining.sustainable_reward_desc' => 'Die Entlohnung pro erzeugtem Block reduziert sich schrittweise solange die für das Mining verwendete Rechenleistung steigt. Im Laufe der Zeit wird Mining eine immer geringere Rolle im Bezug auf die Geldmenge spielen.',
 );
 
 
 $lang['de'] += array(
-	'mintguide.title' => 'Follow the guide corresponding to your Peercoin client to start minting!',
-	'mintguide.qt_step1' => 'Ensure your wallet is encrypted with a good passphrase. Write this down and keep it somewhere safe; if you forget the passphrase you will lose your coins. The wallet encryption option can be found under the settings tab in the Peercoin-Qt wallet program.',
-	'mintguide.qt_step2' => 'To start minting go to help -> debug window -> console and enter: <br><kbd>walletpassphrase abc 999999 true</kbd><br> where "abc" is your passphrase and "999999" is the time you want to mint for in seconds. You can change the amount of time to whatever you like, but it is usually easiest just to set it at a very high number. If your passphrase has spaces then enclose it in quotation marks.',
-	'mintguide.qt_step3' => 'Clear your passphrase by pressing Ctrl-L.',
-	'mintguide.qt_step4' => 'You can check you are minting by looking at the little padlock in the bottom right corner of the client. After a few moments it should become unlocked. If you hover your mouse over it, it should say "Wallet is encypted and currently unlocked for block minting only".',
-	'mintguide.peerunity' => 'Peerunity is a client developed by the Peercoin community. It has more features than the standard Peercoin v0.4 client, and also has an easier method for minting. It is available for Windows, Linux, and OS X. You can download it here and view the launch thread <a href="http://www.peercointalk.org/index.php?topic=2902.0">here</a>.',
-	'mintguide.peerunity_step1' => 'Ensure your wallet is encrypted with a good passphrase. Write this down and keep it somewhere safe; if you forget the passphrase you will lose your coins. The wallet encryption option can be found under the settings tab in Peerunity.',
-	'mintguide.peerunity_step2' => 'To start minting, simply press the "Unlock Wallet for Minting Only" button, enter your passphrase and press OK.',
-	'mintguide.peerunity_step3' => 'You can check you are minting by looking at the little padlock in the bottom right corner of the client. After a few moments it should become unlocked. If you hover your mouse over it, it should say "Wallet is encypted and currently unlocked for block minting only".',
+	'mintguide.title' => 'Folge der Anleitung deiner Peercoin Software um mit dem Prägen neuer Münzen zu beginnen!',
+	'mintguide.qt_step1' => 'Stelle sicher das deine Geldbörse mit einer guten Passphrase gesichert ist. Schreibe sie auf und bewahre sie sicher auf. Wenn du deine Passphrase vergisst verlierst du deine Coins. Die Verschlüsselungsfunktion findest du im Peercoin-Qt Client unter "Einstellungen".',
+	'mintguide.qt_step2' => 'Um mit dem Prägen zu beginnen gehe zu "Help" -> "Debug Window" -> "Console" und gib folgendes ein: <br><kbd>walletpassphrase abc 999999 true</kbd><br> "abc" ersetzt du mit deiner Passphrase und "999999" ist die Zeit in Sekunden die du mit Prägen verbringen möchtest. Du kannst den Zeitraum variieren doch normalerweise ist es das einfachste einen möglichst langen Zeitraum zu wählen. Wenn deine Passphrase Leerzeichen enthält setze sie in Anführungszeichen.',
+	'mintguide.qt_step3' => 'Lösche deine Passphrase indem du Ctrl-L gleichzeitig drückst.',
+	'mintguide.qt_step4' => 'Du kannst überprüfen ob du gerade Münzen prägst indem auf das kleine Vorhängeschloss in der unteren rechten Ecke deines Clients schaust. Nach ein paar Augenblicken sollte es aufschnappen. Wenn du deine Maus darüber bewegst sollte so etwas wie "Wallet is encypted and currently unlocked for block minting only" angezeigt werden.',
+	'mintguide.peerunity' => 'Peerunity ist ein Client der von der Peercoin Gemeinschaft entwickelt wird. Er hat mehr Funktionen als der Standard Peercoin v0.4 Client und hat ausserdem eine einfachere Funktion um das Prägen neuer Münzen zu aktivieren. Peerunity ist verfügbar für Windows, Linux, und OS X. Du kannst ihn über seinen <a href="http://www.peercointalk.org/index.php?topic=2902.0">Veröffentlichungs-Thread</a> herunterladen.',
+	'mintguide.peerunity_step1' => 'Stelle sicher das deine Geldbörse mit einer guten Passphrase gesichert ist. Schreibe sie auf und bewahre sie sicher auf. Wenn du deine Passphrase vergisst verlierst du deine Coins. Die Verschlüsselungsfunktion findest du im Peerunity Client unter "Einstellungen".',
+	'mintguide.peerunity_step2' => 'Um mit dem Prägen neuer Münzen zu beginnen klicke einfach auf den "Unlock Wallet for Minting Only" Knopf, gib deine Passphrase ein und drücke OK.',
+	'mintguide.peerunity_step3' => 'Du kannst überprüfen ob du gerade Münzen prägst indem auf das kleine Vorhängeschloss in der unteren rechten Ecke deines Clients schaust. Nach ein paar Augenblicken sollte es aufschnappen. Wenn du deine Maus darüber bewegst sollte so etwas wie "Wallet is encypted and currently unlocked for block minting only" angezeigt werden.',
 
 );
 
 
 $lang['de'] += array(
 	// minting
-	'minting.mint_anywhere' => 'Mint Anywhere',
-	'minting.mint_anywhere_desc' => 'Most cryptocoin mining requires specialized hardware, but Peercoin minting can be done on any computer. Minting is energy-efficient, because it is based on the Peercoins you hold, rather than on your processing power.',
-	'minting.secure_the_network' => 'Secure the Network',
-	'minting.secure_the_network_desc' => 'Each time your minting generates a block, your coins help guard the network. To reliably attack the Peercoin network, a malicious user must control the majority of all minting coins, which could even end up harming his own investment.',
-	'minting.earn_reward' => 'Earn a Reward',
-	'minting.earn_reward_desc' => 'Minting earns you 1&#37; annually. Coins are first eligible to mint 30 days after they have been transferred, and after 90 days, their chance of success is maximized. If you mint more often, your earnings will compound!',
+	'minting.mint_anywhere' => 'Präge überall',
+	'minting.mint_anywhere_desc' => 'Die meisten Kryptowährungen erfordern dafür spezielle Hardware, doch Peercoins können auf jedem Gerät geprägt werden auf dem Peercoin Software läuft. Prägen ist energieeffizient da keine Rechenleistung sondern nur bereits existierende Peercoins benötigt werden.',
+	'minting.secure_the_network' => 'Sichere das Netzwerk',
+	'minting.secure_the_network_desc' => 'Jedes Mal wenn du über den Prägeprozess einen Block generierst hilfst du dabei das Netzwerk zu sichern. Um das Peercoin Netzwerk angreifen zu können muss ein Angreifer die Kontrolle über die Mehrheit aller im Prägungsprozess befindlichen Peercoins gewinnen. Sollte er dies schaffen und einen Angriff ausführen würde er dabei vor allem seinem eigenen Vermögen empfindlich schaden.',
+	'minting.earn_reward' => 'Verdiene dir eine Belohnung',
+	'minting.earn_reward_desc' => 'Durch den Prägunsprozess gewinnst du jährlich 1&#37; dazu. Peercoins können erstmalig 30 Tage nach ihrer letzten Transaktion zum Prägen neuer Coins verwendet werden. Nach 90 Tagen erhöht sich ihre Prägungseffizienz auf das Maximum. Wenn du den Prägungsprozess häufiger anstößt wird sich deine Entlohnung aufsummieren.',
 
 );
 
