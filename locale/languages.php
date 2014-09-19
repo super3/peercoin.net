@@ -6,4 +6,5 @@ $locale_languages = array(
 	'hi'	=>  'Hindi',
 	'it'    => 	'Italiano',
 	'no'	=>	'Norsk',
+	'de'	=>	'German',
 );
