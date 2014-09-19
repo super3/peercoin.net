@@ -49,37 +49,37 @@ $lang['de'] += array(
 
 $lang['de'] += array(
 	// FAQ
-	'faq.yes' => 'Yes',
-	'faq.no' => 'No',
-	'faq.sources' => 'Sources',
-	'faq.q1' => 'Was Peercoin fairly launched?',
-	'faq.q1_ans' => 'Sunny King announced the planned release of Peercoin 9 days before the release. There were no blocks mined prior to launch. One forum member wrote, “[Sunny King] released a link to the source in the other thread at the promised time (5 min before 18:00 UTC). There was no premine. By the time I had built from source and got things running, there were 5 blocks mined.”',
-	'faq.q2' => 'What is the purpose of checkpointing?',
-	'faq.q2_ans' => 'As of version 0.2, centrally-broadcasted checkpointing is no longer a critical part of the protocol. Its purpose is to defend the network during the initial growth period, and to help ensure a smooth upgrade path. Central checkpointing is now being gradually weakened, and will be eventually removed, to achieve a similar decentralization level to Bitcoin. The checkpoints exist solely as a security measure: if something terrible were to happen, we have the checkpoints as a backup.',
-	'faq.q3' => 'Is Peercoin a clone of Bitcoin?',
-	'faq.q3_ans' => 'Peercoin is one of the truly unique alternative coins. Although its code is based on Bitcoin, Peercoin is the first coin to introduce Proof of Stake to secure the network. Proof of Work is also used in Peercoin, to promote fair coin distribution, but is not necessary for the security of the network.',
-	'faq.q4' => 'Is Peercoin a pump-and-dump coin?',
-	'faq.q4_ans' => 'Peercoin brings innovative features, active developers and significant community involvement. As of August 1, 2014, Peercoin is nearly two years old, and has a market cap of over $20 million USD.',
-	'faq.q5' => 'Is the 1&#37; minting reward fair for all users?',
-	'faq.q5_ans' => 'When the entire money supply grows due to the minting process, all Peercoin holders who participate in minting maintain their relative share of the network. Although large stakeholders generate a higher total number of Peercoins, they cannot, in percentage terms, pull ahead of other minters.',
-	'faq.q6' => 'Is Peercoin inflationary?',
-	'faq.q6_ans' => 'The change of PPC money supply is determined by:',
-	'faq.q6_l1' => 'Proof of Work mining (increases supply)',
-	'faq.q6_l2' => 'Number of transactions (decreases supply by 0.01 PPC per transaction)',
-	'faq.q6_l3' => 'Proof of Stake minting (increases supply at a rate up to 1&#37; per year)',
-	'faq.q6_ans2' => 'Thanks to increased mining participation, Peercoin inflation rate has consistently remained below 5&#37; for the first half of 2014. At the current adoption rate, this rate will decline further over time, making Peercoin less inflationary and more sustainable than most other cryptocoins.',
+	'faq.yes' => 'Ja',
+	'faq.no' => 'Nein',
+	'faq.sources' => 'Quellen',
+	'faq.q1' => 'Wurde Peercoin fair veröffentlicht?',
+	'faq.q1_ans' => 'Sunny King hat die Veröffentlichung von Peercoin 9 Tage vorab bekanntgegeben. Es wurden keine Blöcke und damit auch keine Peercoins vorab erzeugt. Ein Forenmitglied schrieb: “[Sunny King] released a link to the source in the other thread at the promised time (5 min before 18:00 UTC). There was no premine. By the time I had built from source and got things running, there were 5 blocks mined.”',
+	'faq.q2' => 'Was soll mit dem zentral gesteuerten Checkpoints bezweckt werden?',
+	'faq.q2_ans' => 'Seit Version 0.2 ist das zentralisierte Checkpointing-System kein kritischer Teil des Protokolls mehr. Sein Zweck ist das Netzwerk in seiner ersten Wachstumsphase zu schützen und Netzwerkweite Updates zu erleichtern. Das System wird nun schritt für schritt abgeschwächt und wird letztendlich entfernt. Sobald es entfernt ist wird Peercoin genauso dezentral organisiert sein wie Bitcoin. Die Checkpoints existieren ausschließlich als Sicherheit und Backup um das Netzwerk retten zu können sollte etwas unvorhergesehen katastrophales geschehen.',
+	'faq.q3' => 'Ist Peercoin ein Bitcoin Klon?',
+	'faq.q3_ans' => 'Peercoin ist einer der wenigen wirklich echten alternativen Coins. Seine Codebasis stammt zwar von Bitcoin doch führte er als erster Coin das Proof-of-Stake Konzept zur Netzwerksicherung ein. Proof-of-Work findet zwar auch Anwendung im Peercoin Protkoll, allerdings nur um die fairere Verteilung der Coins sicherzustellen. Zur Sicherung des Netzwerkes wird Proof-of-Work nicht benötigt.',
+	'faq.q4' => 'Ist Peercoin ein pump-and-dump Coin?',
+	'faq.q4_ans' => 'Peercoin bietet innovative Funktionen, aktive Entwickler und einen hohen Beteiligungsgrad der Peercoin-Gemeinschaft. Seit August 2014 ist Peercoin zwei Jahre alt und weist eine Marktkapitalisierung von $20 Millionen auf.',
+	'faq.q5' => 'Sind die 1&#37; Vergütung für die Prägung neuer Coins gerecht für alle Nutzer?',
+	'faq.q5_ans' => 'Durch den Prägungsprozess wächst die gesamte Geldmenge an. Da jeder, der sich an der Prägung beteiligt, 1&#37; neue Coins erhält behält jeder seinen relativen Anteil an der Gesamtgeldmenge bei. Auch wenn Besitzer großer Mengen Peercoins dadurch in absoluten Zahlen mehr Coins generieren können steigt dadurch ihr relativer Anteil an der Gesamtmenge nicht an.',
+	'faq.q6' => 'Ist Peercoin inflationär?',
+	'faq.q6_ans' => 'Die Änderung der Geldmenge wird bestimmt durch:',
+	'faq.q6_l1' => 'Proof-of-Work Mining (erhöht die Geldmenge)',
+	'faq.q6_l2' => 'Die Anzahl an Transaktionen (vermindert die Geldmenge um 0.01 PPC pro Transaktion)',
+	'faq.q6_l3' => 'Proof-of-Stake Prägungsprozess (erhöht die Geldmenge um bis zu 1&#37; pro Jahr)',
+	'faq.q6_ans2' => 'Dank sich erhöhender Beteiligung am Mining lag die Inflationsrate von Peercoin beständig unter 5&#37; für die erste Hälfte des Jahres 2014. Bei gleichbleibender Entwicklung wird die Inflationsrate noch weiter sinken und Peercoin zu einer der nachhaltigsten Kryptowährungen weltweit machen.',
 
 );
 
 
 $lang['de'] += array(
 	// Global
-	'homepage_title' => '﻿Peercoin - Secure & Sustainable Cryptocoin.',
+	'homepage_title' => '﻿Peercoin - Sicher & nachhaltige Kryptowährung.',
 
-	'second_ago' => 'second ago',
-	'seconds_ago' => 'seconds ago',
+	'second_ago' => 'Sekunde vergangen',
+	'seconds_ago' => 'Sekunden vergangen',
 
-	'website' => 'Website',
+	'website' => 'Webseite',
 	'forum' => 'Forum',
 );
 
