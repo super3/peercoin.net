@@ -248,7 +248,7 @@ $lang['fr'] += array(
 $lang['fr'] += array(
 	// Wallet
 	'wallet.title' => 'Portefeuilles',
-	'wallet.desc' => 'Un portefeuille Peercoin est une application utilisée pour conserver des peercoins et en transférer aux autres utilisateurs. Peercoin a deux portefeuilles pour les ordinateurs de bureau : Peerunity et Peercoin-QT. Nous recommandons Peerunity pour la plupart des utilisateurs. Pour plus d\'informations sur comment utiliser votre logiciel portefeuille, visitez la <a href="newcomer">page Nouveaux venus</a>.',
+	'wallet.desc' => 'Un portefeuille Peercoin est une application utilisée pour conserver des peercoins et en transférer aux autres utilisateurs. Peercoin a deux portefeuilles pour les ordinateurs de bureau : Peerunity et Peercoin-QT. Nous recommandons Peerunity pour la plupart des utilisateurs. Pour plus d\'informations sur comment utiliser votre logiciel portefeuille, visitez la <a href="newcomers">page Nouveaux venus</a>.',
 	'wallet.peerunity' => 'Peerunity (recommandé)',
 	'wallet.peerunity_desc' => 'Peerunity est développé par la communauté Peercoin. Il inclut plus de fonctionnalités que le portefeuille de base, comme la frappe en un clic et le contrôle des pièces. Les futures versions contiendront un panneau de contrôle redessiné, l\'intégration de Peershares, et un tableau dédié à la frappe de monnaie.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(coeur du protocole)',
