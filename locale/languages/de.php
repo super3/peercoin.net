@@ -145,38 +145,38 @@ $lang['de'] += array(
 
 $lang['de'] += array(
 	//Investors
-	'investors.established_network' => 'Established Network',
-	'investors.established_network_desc' => 'Peercoin was launched in 2012, making it one of the oldest and most reliable cryptocoin networks in existence.',
-	'investors.limited_supply' => 'Limited Supply',
-	'investors.limited_supply_desc' => 'Peercoin’s annual inflation rate has averaged below 5&#37; during the year 2014, and continues to fall. See <a href="http://peerchain.net/charts.html">peerchain.net</a> for detailed historic data.',
-	'investors.efficient_security' => 'Efficient Security',
-	'investors.efficient_security_desc' => 'Peercoin is the first proof-of-stake coin, which means it doesn’t require massive computing power to secure the network. Get into the nitty-gritty with the <a href="whitepaper">Peercoin whitepaper</a>.',
-	'investors.guaranteed_returns' => 'Guaranteed Returns',
-	'investors.guaranteed_returns_desc' => 'After Peercoins are held for 30 days, they are eligible to earn a 1&#37; annualized reward. <a href="minting">Click here to learn more</a>.',
+	'investors.established_network' => 'Etabliertes Netzwerk',
+	'investors.established_network_desc' => 'Peercoin wurde 2012 veröffentlich was es weltweit zu einem der ältesten und bewährtesten Netzwerken macht.',
+	'investors.limited_supply' => 'Limitierte Geldmenge',
+	'investors.limited_supply_desc' => 'Peercoins jährliche Inflationsrate betrug im Jahr 2014 durchschnittlich unter 5&#37; und fällt weiter. Siehe <a href="http://peerchain.net/charts.html">peerchain.net</a> für detaillierte historische Daten.',
+	'investors.efficient_security' => 'Effiziente Sicherheit',
+	'investors.efficient_security_desc' => 'Peercoin ist der erste Proof-of-Stake Coin. Im Gegensatz zu Proof-of-Work Coins benötigt er keine großen Mengen an Rechenleistung um sein Netzwerk zu sichern. Du willst tiefergehende Informationen? Schau dir das <a href="whitepaper">Peercoin whitepaper</a> an.',
+	'investors.guaranteed_returns' => 'Garantierter Gewinn',
+	'investors.guaranteed_returns_desc' => 'Sobald du deine Peercoins mindestens 30 Tage gehalten hast darfst du mit ihnen 1&#37; pro Jahr durch das Prägen weiterer Coins zu verdienen. <a href="minting">Erfahre mehr</a>.',
 
 );
 
 
 $lang['de'] += array(
 	//Merchants
-	'merchants.instant' => 'Get paid instantly',
-	'merchants.instant_desc' => 'Transactions are processed almost immediately via Peercoin’s blockchain technology. A block explorer instantly verifies an incoming payment.',
-	'merchants.no_chargebacks' => 'Avoid chargebacks',
-	'merchants.no_chargebacks_desc' => 'Once a payment has been confirmed by the network, it is secured by world-class cryptography, making it impossible for the customer to reverse.',
-	'merchants.no_transaction_fees' => 'Cut out transaction fees',
-	'merchants.no_transaction_fees_desc' => 'To make a payment, each sender pays a fee of just 0.01 Peercoin. As a merchant, you pay absolutely nothing.',
+	'merchants.instant' => 'Erhalte dein Geld sofort',
+	'merchants.instant_desc' => 'Transaktionen werden dank Peercoin Blockchain Technologie sehr zeitnah durchgeführt. Zusätzlich kann ein Blockexplorer dazu benutzt werden Überweisungen sofort zu verifizieren.',
+	'merchants.no_chargebacks' => 'Vermeide Chargebacks',
+	'merchants.no_chargebacks_desc' => 'Sobald eine Überweisung vom Netzwerk bestätigt wurde, ist sie durch Weltklasse Kryptografie gesichert und kann von Kunden nicht mehr rückgängig gemacht werden.',
+	'merchants.no_transaction_fees' => 'Spare Transaktionsgebühren',
+	'merchants.no_transaction_fees_desc' => 'Um eine Bezahlung durchzuführen muss vom Kunden eine Transaktionsgebühr von gerademal 0.01 Peercoin gezahlt werden. Als Händler und damit Empfänger des Geldes zahlst du nichts.',
 
 );
 
 
 $lang['de'] += array(
 	// Mining
-	'mining.compatible_with_bitcoin' => 'Compatible with Bitcoin',
-	'mining.compatible_with_bitcoin_desc' => 'Peercoin uses the same mining algorithm as Bitcoin, known as SHA-256. Any hardware that works on the Bitcoin network can also be used to mine Peercoins.',
-	'mining.fair_distribution' => 'Fair Distribution',
-	'mining.fair_distribution_desc' => 'Proof of Work mining is used to spread the distribution of new coins, while the security of the network is maintained entirely by Proof of Stake minting. This means that Bitcoin mining vulnerabilities such as Selfish Mining do not impact Peercoin security.',
-	'mining.sustainable_reward' => 'Sustainable Reward',
-	'mining.sustainable_reward_desc' => 'The reward for mining a block gradually declines as the computing power of the network grows. Over time, mining will have an ever-decreasing impact on the growth of the money supply.',
+	'mining.compatible_with_bitcoin' => 'Kompatibel zu Bitcoin',
+	'mining.compatible_with_bitcoin_desc' => 'Peercoin nutzt genauso wie Bitcoin SHA-256 als Mining-Algorithmus. Hardware die zum Bitcoin Mining eingesetzt werden kann lässt sich auch zum Peercoin Mining verwenden.',
+	'mining.fair_distribution' => 'Faire Verteilung',
+	'mining.fair_distribution_desc' => 'Proof-of-Work Mining wird verwendet um die Verteilung der Peercoins sicherzustellen. Die Netzwerksicherheit wird ausschließlich über Proof-of-Stake gewährleistet. Dies bedeutet das Probleme wie Selfish-Mining sie unter Bitcoin verursacht für die Sicherheit von Peercoin nicht relevant sind.',
+	'mining.sustainable_reward' => 'Nachhaltige Entlohnung',
+	'mining.sustainable_reward_desc' => 'Die Entlohnung pro erzeugtem Block reduziert sich schrittweise solange die für das Mining verwendete Rechenleistung steigt. Im Laufe der Zeit wird Mining eine immer geringere Rolle im Bezug auf die Geldmenge haben.',
 );
 
 
