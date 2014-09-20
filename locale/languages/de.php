@@ -22,6 +22,7 @@ $lang['de'] += array(
 	'developers.peershares_desc' => '<b>Peershares</b> ist ein kostengünstiges und dezentrales Bestandsbuch das von Unternehmen genutzt werden kann um Anteilsscheine auszugeben, zurückzuverfolgen wer wie viele Anteile besitzt und automatisch Dividenden an Anteilseigner auszuzahlen. Jedes Unternehmen das Peershares nutzt bekommt seine eigene Blockchain und wird kostengünstig über das Proof-of-Stake System von Peercoin gesichert.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> ist ein aktiv in Entwicklung befindliches, sicheres Betriebssystem um darauf Peercoins Knoten laufen zu lassen und neue Peercoins zu prägen. Sein Fokus liegt auf günstigen, energieeffizienten Geräten wie dem Raspberry Pi, welche dazu geeignet sich dem Ziel einer energieeffizienten Kryptowährung näher zu kommen. Wenn ASIC ein Begriff für dezidiertes und energieeffizientes Mining ist, dann ist Peerbox ASIC für Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> ist ein noch unveröffentlichtes Projekt des Peershares Entwickler Jordan Lee und wird die erste Implementierung auf Basis von Peershares sein. Das Ziel von NuBits ist das Problem der starken Wertschwankungen von Kryptowährungen zu lösen.',
+	
 );
 
 $lang['de'] += array(
@@ -37,6 +38,7 @@ $lang['de'] += array(
 	'exchanges.location' => 'Ort',
 	'exchanges.notes' => 'Anmerkung',
 	'exchanges.visit' => 'Besuchen',
+	
 );
 
 
@@ -45,6 +47,7 @@ $lang['de'] += array(
 	'footer.tools' => 'Werkzeuge',
 	'footer.exchanges' => 'Handelsplätze',
 	'footer.mining' => 'Prägen',
+	
 );
 
 $lang['de'] += array(
@@ -75,10 +78,8 @@ $lang['de'] += array(
 $lang['de'] += array(
 	// Global
 	'homepage_title' => '﻿Peercoin - Sicher & nachhaltige Kryptowährung.',
-
 	'second_ago' => 'Sekunde her',
 	'seconds_ago' => 'Sekunden her',
-
 	'website' => 'Webseite',
 	'forum' => 'Forum',
 );
@@ -92,18 +93,15 @@ $lang['de'] += array(
 	'header.merchants' => 'Händler',
 	'header.miners' => 'Miner',
 	'header.developers' => 'Entwickler',
-
 	'header.learn' => 'Lernen',
 	'header.frequently_asked_questions' => 'Häufig gestellte Fragen',
 	'header.peercoin_whitepaper' => 'Peercoin Whitepaper',
 	'header.exchanges' => 'Handelsplätze',
 	'header.mint_peercoins' => 'Präge Peercoins',
-
 	'header.wallet' => 'Geldbörse',
-
 	'header.community' => 'Gemeinschaft',
-
 	'header.languages' => 'Sprachen',
+	
 );
 
 $lang['de'] += array(
@@ -140,6 +138,7 @@ $lang['de'] += array(
 	'index.newsletter' => 'Newsletter',
 	'index.newsletter_placeholder' => 'E-Mailadresse eingeben...',
 	'index.newsletter_submit' => 'Trag mich ein!',
+	
 );
 
 
@@ -174,9 +173,10 @@ $lang['de'] += array(
 	'mining.compatible_with_bitcoin' => 'Kompatibel zu Bitcoin',
 	'mining.compatible_with_bitcoin_desc' => 'Peercoin nutzt genauso wie Bitcoin SHA-256 als Mining-Algorithmus. Hardware die zum Bitcoin Mining eingesetzt werden kann lässt sich auch zum Peercoin Mining verwenden.',
 	'mining.fair_distribution' => 'Faire Verteilung',
-	'mining.fair_distribution_desc' => 'Proof-of-Work Mining wird verwendet um die Verteilung der Peercoins sicherzustellen. Die Netzwerksicherheit wird ausschließlich über Proof-of-Stake gewährleistet. Dies bedeutet das Probleme wie Selfish-Mining sie unter Bitcoin verursacht für die Sicherheit von Peercoin nicht relevant sind.',
+	'mining.fair_distribution_desc' => 'Proof-of-Work Mining wird verwendet um die Verteilung der Peercoins sicherzustellen. Die Netzwerksicherheit wird ausschließlich über Proof-of-Stake gewährleistet. Dies bedeutet das Probleme, wie sie z.B. Selfish-Mining sie unter Bitcoin verursacht, für die Sicherheit von Peercoin nicht relevant sind.',
 	'mining.sustainable_reward' => 'Nachhaltige Entlohnung',
-	'mining.sustainable_reward_desc' => 'Die Entlohnung pro erzeugtem Block reduziert sich schrittweise solange die für das Mining verwendete Rechenleistung steigt. Im Laufe der Zeit wird Mining eine immer geringere Rolle im Bezug auf die Geldmenge spielen.',
+	'mining.sustainable_reward_desc' => 'Die Entlohnung pro erzeugtem Block wird schrittweise reduziert solange die für das Mining aufgewendete Rechenleistung ansteigt. Dadurch wird Mining im Laufe der Zeit eine immer geringere Rolle für das Anwachsen der Geldmenge spielen.',
+	
 );
 
 
@@ -208,37 +208,37 @@ $lang['de'] += array(
 
 $lang['de'] += array(
 	//Newcomers
-	'newcomers.getting_started' => 'Getting Started with Peercoin',
-	'newcomers.downlaod_wallet' => 'Download wallet software',
-	'newcomers.download_wallet_desc' => 'Head on over to the <a href="wallet">download page</a>, where you can grab the program you’ll need to store and manage your new coins.',
-	'newcomers.buy_from_exchange' => 'Buy from an exchange',
-	'newcomers.buy_from_exchange_desc' => 'Send your money to a <a href="exchanges">Peercoin exchange</a>, where you’ll be able to buy from other traders in the open market.',
-	'newcomers.withdraw_coins' => 'Withdraw your coins',
-	'newcomers.withdraw_coins_desc' => 'Take possession of your peercoins by sending them to an address generated by the wallet software. This will protect you in the event that the exchange closes its doors while your money is inside.',
-	'newcomers.learn_more' => 'Learn More',
-	'newcomers.learn_more_desc' => 'Now that you have coins in your wallet, it’s time to learn how to grow your investment with <a href="minting">Peercoin Minting</a>.',
+	'newcomers.getting_started' => 'Lege los mit Peercoin',
+	'newcomers.downlaod_wallet' => 'Geldbörsen-Software herunterladen',
+	'newcomers.download_wallet_desc' => 'Gehe zur <a href="wallet">Download Seite</a> um dir deine Peercoin Geldbörsen-Software herunterzuladen.',
+	'newcomers.buy_from_exchange' => 'Kaufe von einem Handelsplatz',
+	'newcomers.buy_from_exchange_desc' => 'Überweise dein Geld zu einem offenem <a href="exchanges">Peercoin Handelsplatz</a> auf dem du von Händlern Peercoins kaufen kannst.',
+	'newcomers.withdraw_coins' => 'Buche deine Peercoins ab',
+	'newcomers.withdraw_coins_desc' => 'Bringe deine Peercoins unter deine Kontrolle indem du sie an eine von deiner Peercoin Geldbörse generierte Adresse überweist. Damit sind deine Coins selbst dann sicher, wenn der Handelsplatz von heute auf morgen seine Tore schließen sollte.',
+	'newcomers.learn_more' => 'Lerne dazu',
+	'newcomers.learn_more_desc' => 'Nachdem du nun Peercoins in deiner Geldbörse hast ist es Zeit zu lernen wie du dein investiertes Geld durch das <a href="minting">Prägen neuer Coins</a> weiter wachsen lassen kannst.',
 
 );
 
 
 $lang['de'] += array(
-	'pig.title' => 'Use the following steps to accept Peercoins on your website:',
-	'pig.step1' => 'Use the Bulk Wallet tab at <a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> to pre-generate a large number of Peercoin addresses. Copy and paste the generated comma separated values (CSV) list to a secure text file on your computer. Back up the file to a secure location.',
-	'pig.step2' => 'Import the public peercoin addresses into a database table on your web server. Do not import the private keys, but instead keep them offline in order to protect them from hackers.',
-	'pig.step3' => 'Provide an option on your website shopping cart for your customer to pay in Peercoin. When this option is selected, display one of the addresses from your database to the customer as a payment address, and save it with the shopping cart order.',
-	'pig.step4' => 'Use a block explorer to detect the incoming payment. One such service can be found at <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
-	'pig.step5' => 'Peercoins sent to the imported addresses are secured by their private keys. To spend them, use the original wallet file generated in step 1.',
-	'pig.step6' => 'If you encounter any issues, feel free to post in the <a href="http://peercointalk.org">community forums</a>.',
+	'pig.title' => 'Befolge die folgenden Schritte um Peercoins auf deiner Webseite zu akzeptieren:',
+	'pig.step1' => 'Verwende den "Bulk Wallet" Reiter auf <a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> um eine große Anzahl von Peercoin Adressen zu generieren. Kopiere die CSV formatierte Adressliste in ein vor Zugriffen Dritter gesichertes Textfile auf deinem Computer. Erstelle ein Backup des Textfiles und verwahre es an einem sicheren Ort.',
+	'pig.step2' => 'Importiere die öffentlichen Peercoin Adressen in eine Datenbank auf deinem Webserver. Vergewissere dich noch einmal das du nur die öffentlichen Peercoin Adressen (zweite Spalte) und nicht die privaten Schlüssel (dritte Spalte) importiert hast. Letzteres würde einem Hacker ermöglichen deine Peercoins von deiner Seite zu stehlen.',
+	'pig.step3' => 'Erzeuge eine Möglichkeit für deine Kunden über dein Shopsystem mit Peercoins zu bezahlen. Wenn die entsprechende Bezahlmöglichkeit ausgewählt wurde, sollte eine deiner in der Datenbank hinterlegten Peercoin Adressen angezeigt werden. Speichere diese Adresse gemeinsam mit der Bestellung des Kunden ab.',
+	'pig.step4' => 'Nutze einen Block Explorer Service um zu überprüfen ob eine Peercoin Überweisung eingetroffen ist. Du findest einen solchen Service z.B. unter <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
+	'pig.step5' => 'Peercoins die an eine deiner Adressen gesendet wurden sind durch ihren privaten Schlüssel gesichert. Um sie auszugeben importiere die in Schritt 1 generierte Addressliste in eine Peercoin Geldbrösen-Software.',
+	'pig.step6' => 'Wenn du auf Probleme triffst, schreibe ruhig einen Beitrag in unserem <a href="http://peercointalk.org">Community Forum</a>.',
 	
 );
 
 
 $lang['de'] += array(
-	'waldownload.download' => 'Download',
-	'waldownload.source' => 'Source Code',
-	'waldownload.license' => 'License',
-	'waldownload.other_platforms' => 'Other platforms',
-	'waldownload.signatures' => 'Signatures',
+	'waldownload.download' => 'Herunterladen',
+	'waldownload.source' => 'Quelltext',
+	'waldownload.license' => 'Lizenz',
+	'waldownload.other_platforms' => 'Andere Plattformen',
+	'waldownload.signatures' => 'Signaturen',
 	'waldownload.qt_title' => 'Peercoin-QT',
 	'waldownload.peerunity_title' => 'Peerunity',	
 );
@@ -246,21 +246,21 @@ $lang['de'] += array(
 
 $lang['de'] += array(
 	// Wallet
-	'wallet.title' => 'Wallets',
-	'wallet.desc' => 'A Peercoin wallet is an application used to store and transact Peercoins with other users. Peercoin has two desktop wallets: Peerunity and Peercoin-QT. We recommend Peerunity for most users. For more information on how to use your wallet software, visit the <a href="newcomers">Newcomers page</a>.',
-	'wallet.peerunity' => 'Peerunity (recommended)',
-	'wallet.peerunity_desc' => 'Peerunity is developed by the Peercoin community. It includes features beyond the core protocol wallet, such as one-click minting and coin control. Future releases will contain a redesigned control panel, Peershares integration, and a dedicated Minting tab.',
-	'wallet.peercoinqt' => 'Peercoin-QT<br>(core protocol)',
-	'wallet.peercoinqt_desc' => 'Peercoin-QT is Peercoin’s core protocol, built and maintained by Peercoin developer Sunny King. It receives only high-priority updates.',
-	'wallet.paper_wallet' => 'Paper Wallet',
-	'wallet.paper_wallet_desc' => 'A paper wallet stays completely offline, printed onto on a piece of paper for safekeeping. Use a paper wallet if you want to limit access to your Peercoins, and plan to store them for a long period of time.',
-	'wallet.download' => 'Download',
+	'wallet.title' => 'Geldbörsen',
+	'wallet.desc' => 'Eine Peercoin Geldbörse ist eine Software mit der man Peercoins senden, empfangen und verwahren kann. Peercoin hat zwei Desktop Implementierungen: Peerunity und Peercoin-QT. Peerunity ist dank seiner einfacheren Bedienung für die meisten Nutzer die bessere Wahl. Für weitere Informationen darüber wie du deine Peercoin Geldbörse verwenden kannst schaue einfach <a href="newcomers">Einsteiger</a> Seite vorbei.',
+	'wallet.peerunity' => 'Peerunity (empfohlen)',
+	'wallet.peerunity_desc' => 'Peerunity ist eine Geldbörsen-Software die von der Peercoin Gemeinschaft entwickelt wird. Sie enthält viele zusätzliche Funktionen die der offiziellen Geldbörsen-Software fehlen wie zum beispiel CoinControl und Ein-Klick-Peercoin-Prägung. Zukünftige Veröffentlichungen werden eine überarbeitete Oberfläche, die Integration von Peershares und einen Reiter für das Prägen weiterer Peercoins beinhalten.',
+	'wallet.peercoinqt' => 'Peercoin-QT<br>(Hauptimplementierung)',
+	'wallet.peercoinqt_desc' => 'Peercoin-QT ist Peercoin’s Hauptimplementierung, die von Sunny King entwickelt und verwaltet wird. Sie erhält nur wichtige Updates.',
+	'wallet.paper_wallet' => 'Papier-Geldbörsen',
+	'wallet.paper_wallet_desc' => 'Eine Papier-Geldbörse bietet dir die Möglichkeit komplett offline zu bleiben. Wie der Name schon sagt wird sie auf Papier gedruckt und dient zur sicheren Verwahrung von Peercoins. Nutze sie um deine Peercoins vor Zugriff Dritter zu schützen und sie z.B. in einem Safe zu hinterlegen.',
+	'wallet.download' => 'Herunterladen',
 );
 
 
 $lang['de'] += array(
 	//Whitepaper
-	'whitepaper.download_pdf' => 'Download PDF',
-	'whitepaper.software' => 'The whitepapers are available in Portable Document Format (PDF). Please use your preferred <a href="http://pdfreaders.org/">software for reading</a>.',
+	'whitepaper.download_pdf' => 'PDF Herunterladen',
+	'whitepaper.software' => 'Die Whitepapers liegen im Portable Document Format (PDF) vor. Bitte nutze deine bevorzugte <a href="http://pdfreaders.org/">PDF Software</a> um sie zu öffnen.',
 
 );
