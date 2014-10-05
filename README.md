@@ -13,7 +13,16 @@ If you have a simple change to the website, we ask that you put in a pull reques
 
 If don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/). 
 
-## Installing and Running
+### Translations
+Changes to translations as well as new translations can be submitted to
+[Peercoin.net's Transifex page](https://www.transifex.com/projects/p/website-ppc/).
+
+Translations are periodically pulled from Transifex and merged into the git repository.
+
+Important: We do not accept translation changes as GitHub pull requests because the next
+pull from Transifex would automatically overwrite them again.
+
+### Installing and Running
 Below are just some notes for running the website yourself. We run the website on a simple [Apache2](https://httpd.apache.org/) server with [PHP5](http://php.net/) installed.
 
 ### Deploy
