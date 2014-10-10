@@ -259,6 +259,8 @@ $lang['hi'] += array(
 	'wallet.peercoinqt_desc' => 'Peercoin-QT Peercoin का अन्तर्भाग प्रोटोकॉल है, जो विकासक Sunny King द्वारा निर्मित और अनुरक्षित है | यह केवल उच्च प्राथमिकता अद्यतनीकरण प्राप्त करता है |',
 	'wallet.paper_wallet' => 'काग़ज़ी बटुआ',
 	'wallet.paper_wallet_desc' => 'एक काग़ज़ी बटुआ पूरी तरह से ऑफ़लाइन रहता है | यह बटुए को सुरक्षित रखने के लिए कागज के एक टुकड़े पर छपा जाता है | आप अपने Peercoins तक पहुँच को सीमित करने के लिए, और एक लंबी समय के लिए उन्हें संचय करने के लिए काग़ज़ी बटुआ का उपयोग करें |',
+	'wallet.android_wallet' => 'Android Wallet',
+	'wallet.android_wallet_desc' => 'A mobile Peercoin wallet that allows you to manage your Peercoins without carrying a fullsized blockchain on your mobile phone. It conserves precious space on your android device and allows you to take your coins with you, wherever you are.',	
 	'wallet.download' => 'डाउनलोड',
 );
 

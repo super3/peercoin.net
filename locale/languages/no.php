@@ -256,6 +256,8 @@ $lang['no'] += array(
 	'wallet.peercoinqt_desc' => 'Peercoin-QT er Peercoin sin kjerneprotokoll, bygget og vedlikeholdt av Peercoin utvikleren Sunny King. Den mottar bare høyt prioriterte oppdateringer.',
 	'wallet.paper_wallet' => 'Lommebok På Papir',
 	'wallet.paper_wallet_desc' => 'En lommebok på papir forblir helt offline, skrevet ut på på et stykke papir for sikker lagring. Bruk en lommebok på papir hvis du ønsker å begrense tilgangen til dine peercoins, og planlegger å lagre dem over lengre tid.',
+	'wallet.android_wallet' => 'Android Wallet',
+	'wallet.android_wallet_desc' => 'A mobile Peercoin wallet that allows you to manage your Peercoins without carrying a fullsized blockchain on your mobile phone. It conserves precious space on your android device and allows you to take your coins with you, wherever you are.',
 	'wallet.download' => 'Last Ned',
 );
 

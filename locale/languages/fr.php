@@ -255,6 +255,8 @@ $lang['fr'] += array(
 	'wallet.peercoinqt_desc' => 'Peercoin-QT est le coeur du protocole Peercoin, construit et maintenu par le développeur de Peercoin Sunny King. Il reçoit uniquement des mises à jour de haute priorité.',
 	'wallet.paper_wallet' => 'Portefeuille Papier',
 	'wallet.paper_wallet_desc' => 'Un portefeuille papier reste complètement hors ligne, imprimé sur une feuille de papier sous bonne garde. Utilisez un portefeuille papier si vous voulez limiter l\'accès à vos peercoins, et planifiez de les conserver pendant une longue période.',
+	'wallet.android_wallet' => 'Android Wallet',
+	'wallet.android_wallet_desc' => 'A mobile Peercoin wallet that allows you to manage your Peercoins without carrying a fullsized blockchain on your mobile phone. It conserves precious space on your android device and allows you to take your coins with you, wherever you are.',
 	'wallet.download' => 'Télécharger',
 );
 
