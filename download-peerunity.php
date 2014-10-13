@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.0/peerunity-0.1.0-win-gitian.zip',
-        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.0/peerunity-0.1.0-osx.dmg',
-        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.0/peerunity-0.1.0-linux-gitian.zip'
+        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-win.zip',
+        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-osx.zip',
+        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-linux.zip'
     );
 
     $CurrOS = "windows";
