@@ -1,5 +1,28 @@
 <?php
 $lang['fr'] = array();
+$lang['fr'] += array(
+	// Header
+	'header.get_started' => 'Débuter',
+	'header.newcomers' => 'Nouveaux venus',
+	'header.investors' => 'Investisseurs',
+	'header.merchants' => 'Marchands',
+	'header.miners' => 'Mineurs',
+	'header.developers' => 'Développeurs',
+
+	'header.learn' => 'Apprendre',
+	'header.frequently_asked_questions' => 'Questions Fréquemment Posées',
+	'header.peercoin_whitepaper' => 'Livre Blanc Peercoin',
+	'header.exchanges' => 'Échanges',
+	'header.mint_peercoins' => 'Frappe de Peercoins',
+
+	'header.wallet' => 'Portefeuilles',
+
+	'header.community' => 'Communauté',
+
+	'header.languages' => 'Langues',
+);
+
+
 
 $lang['fr'] += array(
 	//Developers
@@ -25,6 +48,10 @@ Si ASIC est un terme signifiant matériel dédié et énergétiquement efficace 
 	'developers.nubits_desc' => '<b>NuBits</b> est un projet à-être-dévoilé du créateur de Peershares, Jordan Lee. NuBits sera la première implémentation de Peershares. Il est destiné à résoudre le problème de volatilité des crypto-monnaies.',
 );
 
+
+
+
+
 $lang['fr'] += array(
 	//Exchanges
 	'exchanges.what_are' => 'Qu\'est-ce qu\'un Échange ?',
@@ -41,12 +68,17 @@ $lang['fr'] += array(
 );
 
 
+
+
+
 $lang['fr'] += array(
 	'footer.links' => 'Liens',
 	'footer.tools' => 'Outils',
 	'footer.exchanges' => 'Échanges',
 	'footer.mining' => 'Extraction',
 );
+
+
 
 
 $lang['fr'] += array(
@@ -74,6 +106,10 @@ $lang['fr'] += array(
 );
 
 
+
+
+
+
 $lang['fr'] += array(
 	// Global
 	'homepage_title' => 'Peercoin - Crypto-monnaie Fiable & Durable.',
@@ -83,29 +119,6 @@ $lang['fr'] += array(
 
 	'website' => 'Site web',
 	'forum' => 'Forum',
-);
-
-
-$lang['fr'] += array(
-	// Header
-	'header.get_started' => 'Débuter',
-	'header.newcomers' => 'Nouveaux venus',
-	'header.investors' => 'Investisseurs',
-	'header.merchants' => 'Marchands',
-	'header.miners' => 'Mineurs',
-	'header.developers' => 'Développeurs',
-
-	'header.learn' => 'Apprendre',
-	'header.frequently_asked_questions' => 'Questions Fréquemment Posées',
-	'header.peercoin_whitepaper' => 'Livre Blanc Peercoin',
-	'header.exchanges' => 'Échanges',
-	'header.mint_peercoins' => 'Frappe de Peercoins',
-
-	'header.wallet' => 'Portefeuilles',
-
-	'header.community' => 'Communauté',
-
-	'header.languages' => 'Langues',
 );
 
 
@@ -145,6 +158,10 @@ $lang['fr'] += array(
 	'index.newsletter_submit' => 'Inscrivez-moi !',
 );
 
+
+
+
+
 $lang['fr'] += array(
 	//Investors
 	'investors.established_network' => 'Réseau Établi',
@@ -158,6 +175,9 @@ $lang['fr'] += array(
 
 );
 
+
+
+
 $lang['fr'] += array(
 	//Merchants
 	'merchants.instant' => 'Soyez payé immédiatement',
@@ -170,6 +190,9 @@ $lang['fr'] += array(
 );
 
 
+
+
+
 $lang['fr'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Compatible avec Bitcoin',
@@ -179,6 +202,9 @@ $lang['fr'] += array(
 	'mining.sustainable_reward' => 'Récompense Durable',
 	'mining.sustainable_reward_desc' => 'La récompense pour l\'extraction d\'un bloc décline graduellement quand la puissance de calcul du réseau augmente. Avec le temps, l\'extraction aura un rôle en constante diminution sur la croissance de la masse monétaire.',
 );
+
+
+
 
 
 $lang['fr'] += array(
@@ -195,6 +221,10 @@ $lang['fr'] += array(
 
 );
 
+
+
+
+
 $lang['fr'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Frapper la monnaie n\'importe où',
@@ -205,6 +235,8 @@ $lang['fr'] += array(
 	'minting.earn_reward_desc' => 'Frapper la monnaie vous permet de gagner 1&#37; annuellement. Les pièces sont éligible à la frappe de monnaie 30 jours après avoir été transférées, et après 90 jours, leur chance de succès est maximale. Si vous frappez souvent, vos gains se composeront !',
 
 );
+
+
 
 
 $lang['fr'] += array(
@@ -222,6 +254,9 @@ $lang['fr'] += array(
 );
 
 
+
+
+
 $lang['fr'] += array(
 	'pig.title' => 'Utilisez les étapes suivantes pour accepter les peercoins sur votre site web :',
 	'pig.step1' => 'Utilisez l\'onglet Porte-monnaie en vrac sur <a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> pour pré-générer un grand nombre d\'adresses Peercoin. Copiez et collez la liste de valeurs séparées par des virgules (CSV) générée dans un fichier texte sécurisé sur votre ordinateur. Faites une sauvegarde du fichier et mettez-la dans un endroit sûr.',
@@ -232,6 +267,8 @@ $lang['fr'] += array(
 	'pig.step6' => 'Si vous rencontrez des problèmes, n\'hésitez pas à poster un message dans les <a href="http://peercointalk.org">forums de la communauté</a>.',
 	
 );
+
+
 
 
 $lang['fr'] += array(
@@ -245,6 +282,8 @@ $lang['fr'] += array(
 );
 
 
+
+
 $lang['fr'] += array(
 	// Wallet
 	'wallet.title' => 'Portefeuilles',
@@ -255,8 +294,8 @@ $lang['fr'] += array(
 	'wallet.peercoinqt_desc' => 'Peercoin-QT est le coeur du protocole Peercoin, construit et maintenu par le développeur de Peercoin Sunny King. Il reçoit uniquement des mises à jour de haute priorité.',
 	'wallet.paper_wallet' => 'Portefeuille Papier',
 	'wallet.paper_wallet_desc' => 'Un portefeuille papier reste complètement hors ligne, imprimé sur une feuille de papier sous bonne garde. Utilisez un portefeuille papier si vous voulez limiter l\'accès à vos peercoins, et planifiez de les conserver pendant une longue période.',
-	'wallet.android_wallet' => 'Android Wallet',
-	'wallet.android_wallet_desc' => 'A mobile Peercoin wallet that allows you to manage your Peercoins without carrying a fullsized blockchain on your mobile phone. It conserves precious space on your android device and allows you to take your coins with you, wherever you are.',
+	'wallet.android_wallet' => 'Portefeuille Android',
+	'wallet.android_wallet_desc' => 'Un portefeuille Peercoin qui vous permet de gérer vos peercoins sur votre téléphone portable sans avoir besoin de l\'intégralité de la chaîne de blocs. Il économise de l\'espace sur votre appareil android et vous permet d\'emporter vos pièces avec vous, où que vous soyez.',
 	'wallet.download' => 'Télécharger',
 );
 
@@ -267,3 +306,4 @@ $lang['fr'] += array(
 	'whitepaper.software' => 'Les livres blancs sont disponibles au format Portable Document Format (PDF). Veuillez utiliser votre <a href="http://pdfreaders.org/">logiciel</a> préféré pour les lire.',
 
 );
+

@@ -25,6 +25,7 @@ $lang['no'] += array(
 );
 
 
+
 $lang['no'] += array(
 	//Exchanges
 	'exchanges.what_are' => 'Hva er en børs?',
@@ -41,12 +42,6 @@ $lang['no'] += array(
 );
 
 
-$lang['no'] += array(
-	'footer.links' => 'Lenker',
-	'footer.tools' => 'Verktøy',
-	'footer.exchanges' => 'Børser',
-	'footer.mining' => 'Graving',
-);
 
 
 $lang['no'] += array(
@@ -74,6 +69,18 @@ $lang['no'] += array(
 );
 
 
+
+
+
+$lang['no'] += array(
+	'footer.links' => 'Lenker',
+	'footer.tools' => 'Verktøy',
+	'footer.exchanges' => 'Børser',
+	'footer.mining' => 'Graving',
+);
+
+
+
 $lang['no'] += array(
 	// Global
 	'homepage_title' => 'Peercoin - Sikker & Bærekraftig Kryptomynt.',
@@ -84,6 +91,8 @@ $lang['no'] += array(
 	'website' => 'Websiden',
 	'forum' => 'Forum',
 );
+
+
 
 
 $lang['no'] += array(
@@ -107,6 +116,9 @@ $lang['no'] += array(
 
 	'header.languages' => 'Språk',
 );
+
+
+
 
 $lang['no'] += array(
 	// Index page
@@ -145,6 +157,8 @@ $lang['no'] += array(
 );
 
 
+
+
 $lang['no'] += array(
 	//Investors
 	'investors.established_network' => 'Etablert Nettverk',
@@ -159,6 +173,7 @@ $lang['no'] += array(
 );
 
 
+
 $lang['no'] += array(
 	//Merchants
 	'merchants.instant' => 'Motta betaling umiddelbart',
@@ -171,6 +186,8 @@ $lang['no'] += array(
 );
 
 
+
+
 $lang['no'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Kompatibel med Bitcoin',
@@ -180,6 +197,8 @@ $lang['no'] += array(
 	'mining.sustainable_reward' => 'Bærekraftig Belønning',
 	'mining.sustainable_reward_desc' => 'Belønningen for å finne en blokk vil gradvis reduseres når datakraft i nettverket vokser. Over tid vil graving ha en stadig mindre innvirkning på veksten i pengemengden.',
 );
+
+
 
 
 $lang['no'] += array(
@@ -196,6 +215,8 @@ $lang['no'] += array(
 );
 
 
+
+
 $lang['no'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Preg Over Alt',
@@ -206,6 +227,7 @@ $lang['no'] += array(
 	'minting.earn_reward_desc' => 'Ved preging tjener du 1&#37; årlig. Mynter er først kvalifisert for preging 30 dager etter at de er overført, og etter 90 dager er deres sjanse til å lykkes maksimal. Hvis du preger ofte vil du tjene renters rente!',
 
 );
+
 
 
 $lang['no'] += array(
@@ -223,6 +245,23 @@ $lang['no'] += array(
 );
 
 
+
+$lang['no'] += array(
+	// Wallet
+	'wallet.title' => 'Lommebøker',
+	'wallet.desc' => 'En Peercoin-lommebok er et program som brukes til å lagre og utveksle peercoins med andre brukere. Peercoin har to lommebøker for datamaskiner: Peerunity og Peercoin-QT. Vi anbefaler Peerunity for de fleste brukere. For mer informasjon om hvordan du bruker lommeboken, kan du gå til <a href="newcomers">Nykommere siden</a>.',
+	'wallet.peerunity' => 'Peerunity (anbefalt)',
+	'wallet.peerunity_desc' => 'Peerunity er utviklet av Peercoin samfunnet. Den inkluderer funksjoner utover kjerneprotokollen, som for eksempel ett klikk preging og myntkontroll. Fremtidige utgivelser vil inneholde et redesignet kontrollpanel, integrasjon av Peershares og en dedikert fane for preging.',
+	'wallet.peercoinqt' => 'Peercoin-QT<br>(kjerneprotokollen)',
+	'wallet.peercoinqt_desc' => 'Peercoin-QT er Peercoin sin kjerneprotokoll, bygget og vedlikeholdt av Peercoin utvikleren Sunny King. Den mottar bare høyt prioriterte oppdateringer.',
+	'wallet.paper_wallet' => 'Lommebok På Papir',
+	'wallet.paper_wallet_desc' => 'En lommebok på papir forblir helt offline, skrevet ut på på et stykke papir for sikker lagring. Bruk en lommebok på papir hvis du ønsker å begrense tilgangen til dine peercoins, og planlegger å lagre dem over lengre tid.',
+	'wallet.android_wallet' => 'Lommebok for Android',
+	'wallet.android_wallet_desc' => 'En mobil Peercoin-lommebok som lar deg administrere dine peercoins uten å bære hele blokkjeden på mobiltelefonen. Dette sparer dyrebar plass på din Android-enhet, og lar deg ta med myntene dine uansett hvor du er.',
+	'wallet.download' => 'Last Ned',
+);
+
+
 $lang['no'] += array(
 	'pig.title' => 'Følg følgende trinn for å akseptere Peercoins på din webside:',
 	'pig.step1' => 'Bruk fanen "Bulk Wallet" på <a href="http://wallet.peercointalk.org"> wallet.peercointalk.org</a> for å forhåndsgenerere et stort antall Peercoin-adresser. Kopier og lim inn den genererte kommadelte verdi (CSV) listen til en sikker tekstfil på datamaskinen din. Sikkerhetskopier filen til et sikkert sted.',
@@ -233,6 +272,7 @@ $lang['no'] += array(
 	'pig.step6' => 'Hvis du støter på problemer, kan du gjerne poste i <a href="http://peercointalk.org">samfunnets forum </a>.',
 	
 );
+
 
 
 $lang['no'] += array(
@@ -246,20 +286,6 @@ $lang['no'] += array(
 );
 
 
-$lang['no'] += array(
-	// Wallet
-	'wallet.title' => 'Lommebøker',
-	'wallet.desc' => 'En Peercoin-lommebok er et program som brukes til å lagre og utveksle peercoins med andre brukere. Peercoin har to lommebøker for datamaskiner: Peerunity og Peercoin-QT. Vi anbefaler Peerunity for de fleste brukere. For mer informasjon om hvordan du bruker lommeboken, kan du gå til <a href="newcomers">Nykommere siden</a>.',
-	'wallet.peerunity' => 'Peerunity (anbefalt)',
-	'wallet.peerunity_desc' => 'Peerunity er utviklet av Peercoin samfunnet. Den inkluderer funksjoner utover kjerneprotokollen, som for eksempel ett klikk preging og myntkontroll. Fremtidige utgivelser vil inneholde et redesignet kontrollpanel, integrasjon av Peershares og en dedikert fane for preging.',
-	'wallet.peercoinqt' => 'Peercoin-QT<br>(kjerneprotokollen)',
-	'wallet.peercoinqt_desc' => 'Peercoin-QT er Peercoin sin kjerneprotokoll, bygget og vedlikeholdt av Peercoin utvikleren Sunny King. Den mottar bare høyt prioriterte oppdateringer.',
-	'wallet.paper_wallet' => 'Lommebok På Papir',
-	'wallet.paper_wallet_desc' => 'En lommebok på papir forblir helt offline, skrevet ut på på et stykke papir for sikker lagring. Bruk en lommebok på papir hvis du ønsker å begrense tilgangen til dine peercoins, og planlegger å lagre dem over lengre tid.',
-	'wallet.android_wallet' => 'Android Wallet',
-	'wallet.android_wallet_desc' => 'A mobile Peercoin wallet that allows you to manage your Peercoins without carrying a fullsized blockchain on your mobile phone. It conserves precious space on your android device and allows you to take your coins with you, wherever you are.',
-	'wallet.download' => 'Last Ned',
-);
 
 
 $lang['no'] += array(
@@ -268,3 +294,4 @@ $lang['no'] += array(
 	'whitepaper.software' => 'Hvitboken er tilgjengelig i Portable Document Format (PDF). Bruk din foretrukne <a href="http://pdfreaders.org/">programvare for lesing</a>.',
 
 );
+

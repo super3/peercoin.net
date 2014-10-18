@@ -1,9 +1,12 @@
 <?php
 
 $locale_languages = array(
+	'ar'    =>  'العربية',
+	'in'    =>  'Bahasa Indonesia',
+	'es'    =>  'Español',
 	'en'	=>	'English',
-	'fr'	=>  'French',
-	'hi'	=>  'Hindi',
+	'fr'	=>  'Français',
+	'hi'	=>  'हिन्दी',
 	'it'    => 	'Italiano',
 	'no'	=>	'Norsk',
 );
