@@ -60,6 +60,9 @@
 			            <a target="_blank" href="https://www.youtube.com/user/peercoin">
 			              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
 			        </a>
+			            <a target="_blank" href="https://github.com/super3/peercoin.net">
+			              <img src="assets/img/icons/social-github.png" alt="Source Code (Github)">
+			        </a>
 	          	</div>
           	</div><!-- /row -->
 
