@@ -247,7 +247,7 @@ $lang['es'] += array(
 $lang['es'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Comenzar con Peercoin',
-	'newcomers.downlaod_wallet' => 'Descargar Cartera',
+	'newcomers.download_wallet' => 'Descargar Cartera',
 	'newcomers.download_wallet_desc' => 'Primero la <a href="wallet"> página de descarga </a>, donde podrá tomar el programa que necesita para almacenar y gestionar sus nuevas monedas ..',
 	'newcomers.buy_from_exchange' => 'Comprar en un intercambio',
 	'newcomers.buy_from_exchange_desc' => 'Envíe su dinero a un </a> intercambio Peercoin <a href="exchanges">, donde podrás comprar de otros operadores en el mercado abierto.',

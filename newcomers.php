@@ -10,7 +10,7 @@
 	</div>
 	<div class="row row-nomargin">
 		<div class="col-md-4 col-md-offset-1 step">
-			<span class="number">1.</span> <span class="name"> <?php echo $Locale->getText("newcomers.downlaod_wallet"); ?></span>
+			<span class="number">1.</span> <span class="name"> <?php echo $Locale->getText("newcomers.download_wallet"); ?></span>
 			<br>
 			<a href="wallet"><img src="assets/img/types/newcomer/download.svg" class="svg-halfwidth" /></a>
 			<p>

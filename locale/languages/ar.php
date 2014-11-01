@@ -214,7 +214,7 @@ $lang['ar'] += array(
 $lang['ar'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'ابدأ مع بِيركُيِن',
-	'newcomers.downlaod_wallet' => 'حمِّل محفظة',
+	'newcomers.download_wallet' => 'حمِّل محفظة',
 	'newcomers.download_wallet_desc' => 'توجَّه إلى <a href="wallet">صفحة التحميل</a>، حيث يمكنك تحميل البرمجية التي تحتاجها للتحكم بعملاتك.',
 	'newcomers.buy_from_exchange' => 'اشتر بِيركُيِن',
 	'newcomers.buy_from_exchange_desc' => 'توجّه إلى إحدى <a href="exchanges">البورصات</a> حيث يمكنك الشراء عبر السوق الحر.',
