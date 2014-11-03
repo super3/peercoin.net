@@ -15,7 +15,7 @@
             'linux' => '(Linux)|(X11)',
             'mac' => '(Mac_PowerPC)|(Macintosh)',
     );
-     
+
     // Loop through the array of user agents and matching operating systems
     foreach($OSList as $CurrOS=>$Match)
     {
@@ -88,8 +88,8 @@
                                 <td>27bf05e1e36e2a8c82901b89fdfc227291b1bdace89e42685bf0b3d0fee7c738</td>
                             </tr>
                             <tr>
-                                <td><code>PPcoin-Qt.dmg</code></td>
-                                <td>ca9d89439a915ff222d4792617aa34f6be5c62a2b36dfaf2a3298c5cf70cee2a</td>
+                                <td><code>PPCoin-Qt-v0_4_0.dmg</code></td>
+                                <td>3afe072d676571458ca58f623138e9c3532d6e32df50df7d9cf451949674c9dc</td>
                             </tr>
                             <tr>
                                 <td><code>ppcoin-0.4.0-linux.tar.gz</code></td>
@@ -145,13 +145,13 @@
             <code>Start menu -&gt; Run...</code> (or press
             <code>Winkey-R</code>), type
             <code>%APPDATA%\PPCoin</code> into the field, and press
-            <code>Enter</code>.</p>             
+            <code>Enter</code>.</p>
           </div>
           <div class="tab-pane<?php if($CurrOS == "mac") echo " active"; ?>" id="mac">
             <h3>OS X</h3>
 
             <ul>
-                <li>Mount <code>PPCoin-Qt.dmg</code> by opening
+                <li>Mount <code>PPCoin-Qt-v0_4_0.dmg</code> by opening
                 it</li>
 
                 <li>Drag <code>PPCoin-Qt.app</code> to
@@ -178,7 +178,7 @@
             <code>~/Library/Application Support/PPCoin</code>. To
             open the folder, press <code>Command-Shift-G</code> in
             Finder, insert the path, and press
-            <code>Enter</code>.</p>              
+            <code>Enter</code>.</p>
           </div>
           <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="lin">
             <h3>Linux</h3>
@@ -205,7 +205,7 @@
             <code>~/.ppcoin</code>.</p>
 
             <p><em>Note: 64 bit binaries available in
-            <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>              
+            <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>
         </div>
 
         <div class="tab-pane" id="adv">
