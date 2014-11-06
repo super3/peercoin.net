@@ -242,7 +242,7 @@ $lang['fr'] += array(
 $lang['fr'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Débuter avec Peercoin',
-	'newcomers.downlaod_wallet' => 'Télécharger un logiciel portefeuille',
+	'newcomers.download_wallet' => 'Télécharger un logiciel portefeuille',
 	'newcomers.download_wallet_desc' => 'Rendez-vous à la <a href="wallet">page de téléchargement</a>, où vous pouvez récupérer dont vous aurez besoin pour conserver et gérer vos nouvelles pièces.',
 	'newcomers.buy_from_exchange' => 'Acheter sur une bourse d\'échange',
 	'newcomers.buy_from_exchange_desc' => 'Envoyez votre argent à une <a href="exchanges">bourse d\'échange Peercoin</a>, où vous pourrez acheter à d\'autre traders dans le marché libre.',

@@ -234,7 +234,7 @@ $lang['in'] += array(
 $lang['in'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Memulai dengan Peercoin',
-	'newcomers.downlaod_wallet' => 'Mengunduh perangkat lunak dompet',
+	'newcomers.download_wallet' => 'Mengunduh perangkat lunak dompet',
 	'newcomers.download_wallet_desc' => 'Di atas <a href="wallet">halaman unduh</a>, di mana Anda dapat mengambil program Anda harus menyimpan dan mengelola uang logam baru Anda.',
 	'newcomers.buy_from_exchange' => 'Beli dari pertukaran',
 	'newcomers.buy_from_exchange_desc' => 'Kirim uang Anda ke <a href="exchanges">pertukaran Peercoin</a>, di mana Anda akan dapat membeli dari pedagang lain di pasar terbuka.',
