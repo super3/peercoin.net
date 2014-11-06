@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	'mintguide.title' => 'Follow the guide corresponding to your Peercoin client to start minting!',
 	'mintguide.qt_step1' => 'Ensure your wallet is encrypted with a good passphrase. Write this down and keep it somewhere safe; if you forget the passphrase you will lose your coins. The wallet encryption option can be found under the settings tab in the Peercoin-Qt wallet program.',

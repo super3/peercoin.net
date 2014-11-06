@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Getting Started with Peercoin',

@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	'pig.title' => 'Use the following steps to accept Peercoins on your website:',
 	'pig.step1' => 'Use the Bulk Wallet tab at <a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> to pre-generate a large number of Peercoin addresses. Copy and paste the generated comma separated values (CSV) list to a secure text file on your computer. Back up the file to a secure location.',

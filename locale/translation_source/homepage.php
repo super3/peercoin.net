@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	// Index page
 	'index.why_peercoin' => 'Why Peercoin',

@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	//Whitepaper
 	'whitepaper.download_pdf' => 'Download PDF',

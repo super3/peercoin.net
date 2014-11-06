@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	'footer.links' => 'Links',
 	'footer.tools' => 'Tools',

@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	// Header
 	'header.get_started' => 'Get started',

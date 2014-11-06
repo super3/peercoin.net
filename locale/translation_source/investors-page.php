@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	//Investors
 	'investors.established_network' => 'Established Network',

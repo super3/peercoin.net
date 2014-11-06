@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	// FAQ
 	'faq.yes' => 'Yes',

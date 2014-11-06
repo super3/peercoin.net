@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	// Global
 	'homepage_title' => '﻿Peercoin - Secure & Sustainable Cryptocoin.',

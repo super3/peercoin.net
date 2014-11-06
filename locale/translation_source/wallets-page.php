@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	// Wallet
 	'wallet.title' => 'Wallets',

@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	'waldownload.download' => 'Download',
 	'waldownload.source' => 'Source Code',

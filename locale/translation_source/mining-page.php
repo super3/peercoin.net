@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Compatible with Bitcoin',

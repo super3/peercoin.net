@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Peercoin development is moving ahead at a rapid pace.',

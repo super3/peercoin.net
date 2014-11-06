@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	//Exchanges
 	'exchanges.what_are' => 'What is an Exchange?',

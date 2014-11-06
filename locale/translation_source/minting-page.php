@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Mint Anywhere',

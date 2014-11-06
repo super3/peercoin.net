@@ -1,4 +1,3 @@
-<?php
 $lang['en'] += array(
 	//Merchants
 	'merchants.instant' => 'Get paid instantly',
