@@ -102,6 +102,8 @@
                 <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
                 <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/peercoin">YouTube</a></li>
+                <li><a target="_blank" href="https://github.com/super3/Peercoin.net">GitHub</a></li>
+                <li><a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">Transifex</a></li>
               </ul>
             </li>
             <li class="dropdown dropdown-language">

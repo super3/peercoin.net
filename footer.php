@@ -60,6 +60,12 @@
 			            <a target="_blank" href="https://www.youtube.com/user/peercoin">
 			              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
 			        </a>
+			            <a target="_blank" href="https://github.com/super3/Peercoin.net">
+			              <img src="assets/img/icons/social-github.png" alt="Source code on GitHub">
+			        </a>
+			            <a target="_blank" href="https://www.transifex.com/projects/p/website-ppc/">
+			              <img src="assets/img/icons/social-transifex.png" alt="Translate website on Transifex">
+			        </a>
 	          	</div>
           	</div><!-- /row -->
 
