@@ -48,8 +48,14 @@
 
 			<div class="row">
 				<div class="col-lg-12 social-icons" style="margin:1em 0">
+			        <a target="_blank" href="http://www.peercointalk.org">
+			              <img src="assets/img/icons/social-peercointalk.png" alt="Join us on PeercoinTalk">
+			        </a>
 			        <a target="_blank" href="https://www.facebook.com/Peercoin">
 			              <img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook">
+			        </a>
+			        <a target="_blank" href="https://plus.google.com/109267388527420438684/posts">
+			              <img src="assets/img/icons/social-google.png" alt="Visit us on Google+">
 			        </a>
 			            <a target="_blank" href="http://www.reddit.com/r/peercoin">
 			              <img src="assets/img/icons/social-reddit.png" alt="Reddit">
@@ -63,7 +69,7 @@
 			            <a target="_blank" href="https://github.com/super3/Peercoin.net">
 			              <img src="assets/img/icons/social-github.png" alt="Source code on GitHub">
 			        </a>
-			            <a target="_blank" href="https://www.transifex.com/projects/p/website-ppc/">
+			            <a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">
 			              <img src="assets/img/icons/social-transifex.png" alt="Translate website on Transifex">
 			        </a>
 	          	</div>
