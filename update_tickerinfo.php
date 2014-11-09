@@ -87,6 +87,7 @@ function fetch_alternative_market_info() {
     $total_supply = fetch_total_circulation();
     $price = fetch_btce_market_price();
     $market_cap = $price * $total_supply;
+    return round($market_cap, 0);
 
     $info = array(
         'price' => floatval($price),
