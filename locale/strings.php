@@ -8,3 +8,5 @@ include("languages/no.php");
 include("languages/es.php");
 include("languages/ar.php");
 include("languages/in.php");
+include("languages/de.php");
+include("languages/ru.php");
