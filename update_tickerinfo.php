@@ -60,7 +60,7 @@ function fetch_cmc_market_info() {
     // returned as floats
     $info = array(
         'price' => floatval($ppc_usd),
-        'market_cap' => floatval($market_cap),
+        'market_cap' => round(floatval($market_cap),0),
         'total_supply' => intval($total_supply),
     );
     
@@ -90,7 +90,7 @@ function fetch_alternative_market_info() {
 
     $info = array(
         'price' => floatval($price),
-        'market_cap' => floatval($market_cap),
+        'market_cap' => round(floatval($market_cap),0),
         'total_supply' => intval($total_supply),
     );
 
