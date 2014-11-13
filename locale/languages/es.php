@@ -312,3 +312,14 @@ $lang['es'] += array(
 
 );
 
+$lang['es'] += array(
+	'mineguide.title' => 'Siga estos pasos para iniciar la minería Peercoin!',
+	'mineguide.step1' => 'Configure el software de cartera',
+	'mineguide.step1_desc' => 'Si aún no tiene, descargue la <a href="wallet">Cartera Peercoin</a>.',
+	'mineguide.step2' => 'Seleccione una piscina minería',
+	'mineguide.step2_poollist' => 'Piscinas dedicada a Peercoin:',
+	'mineguide.step2_multipoollist' => 'Piscinas multimoneda:',
+	'mineguide.step3' => 'Regístrese con la piscina',
+	'mineguide.step3_desc' => 'Siga las instrucciones que aparecen en la página web de la piscina.',
+);
+
