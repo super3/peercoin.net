@@ -19,7 +19,7 @@ $(document).ready(function() {
                     $('#seconds-since-update').text(secondsSinceUpdate + " " + secondUnit);
                 }, 1000);
             }
-            $('#current-price').text("$" + data['price'] + " USD/PPC");
+            $('#current-price').text("$" + data['price'] + " PPC/USD");
             $('#market-cap').text("$" + commaSeparateNumber(data['market_cap']));
             $('#total-supply').text(commaSeparateNumber(data['total_supply']) + " PPC");
             secondsSinceUpdate = 0;
