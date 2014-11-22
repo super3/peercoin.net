@@ -45,20 +45,34 @@
 	<div class="row">
 		<div class="col-lg-12 text-center">
 			<a href="#" class="exchange-button active" data-toggle="tooltip" data-placement="top" title="AllCoin" data-exchange="allcoin"><img src="assets/img/exchanges/logos/AllCoin.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="AllCrypt" data-exchange="allcrypt"><img src="assets/img/exchanges/logos/AllCrypt.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="ANXPRO" data-exchange="anxpro"><img src="assets/img/exchanges/logos/ANXPRO.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Anycoin Direct" data-exchange="anycoin_direct"><img src="assets/img/exchanges/logos/Anycoin_Direct.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Atomic Trade" data-exchange="atomic_trade"><img src="assets/img/exchanges/logos/Atomic_Trade.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bitspark" data-exchange="bitspark"><img src="assets/img/exchanges/logos/Bitspark.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bittylicious" data-exchange="bittylicious"><img src="assets/img/exchanges/logos/bittylicious.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bleutrade" data-exchange="bleutrade"><img src="assets/img/exchanges/logos/Bleutrade.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTC38" data-exchange="btc38"><img src="assets/img/exchanges/logos/btc38.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTC-e" data-exchange="btce"><img src="assets/img/exchanges/logos/btce.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTER" data-exchange="bter"><img src="assets/img/exchanges/logos/BTER.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BX Thailand" data-exchange="bx_thailand"><img src="assets/img/exchanges/logos/BX_Thailand.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="CCEDK" data-exchange="ccedk"><img src="assets/img/exchanges/logos/CCEDK.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinbroker" data-exchange="coinbroker"><img src="assets/img/exchanges/logos/Coinbroker.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="CoinMkt" data-exchange="coinmkt"><img src="assets/img/exchanges/logos/CoinMkt.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinomat" data-exchange="coinomat"><img src="assets/img/exchanges/logos/coinomat.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coins-E" data-exchange="coins-e"><img src="assets/img/exchanges/logos/Coins-E.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Comkort" data-exchange="comkort"><img src="assets/img/exchanges/logos/Comkort.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptonit" data-exchange="cryptonit"><img src="assets/img/exchanges/logos/Cryptonit.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Crypto-Trade" data-exchange="crypto-trade"><img src="assets/img/exchanges/logos/Crypto-Trade.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptsy" data-exchange="cryptsy"><img src="assets/img/exchanges/logos/cryptsy.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="LiteBit" data-exchange="litebit"><img src="assets/img/exchanges/logos/LiteBit.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="NIX-E" data-exchange="nix-e"><img src="assets/img/exchanges/logos/NIX-E.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Poloniex" data-exchange="poloniex"><img src="assets/img/exchanges/logos/Poloniex.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="ShapeShift" data-exchange="shapeshift"><img src="assets/img/exchanges/logos/ShapeShift.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="SWISSCEX" data-exchange="swisscex"><img src="assets/img/exchanges/logos/SWISSCEX.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="The Rock" data-exchange="therock"><img src="assets/img/exchanges/logos/therock.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Vault of Satoshi" data-exchange="vault-of-satoshi"><img src="assets/img/exchanges/logos/vault-of-satoshi.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Vircurex" data-exchange="vircurex"><img src="assets/img/exchanges/logos/Vircurex.png"></a>
 		</div>
 		<div class="col-lg-12">
 
@@ -76,6 +90,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.allcoin.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-allcrypt" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/AllCrypt.png"> AllCrypt</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.allcrypt.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-anxpro" class="exchange-info">
@@ -110,6 +140,38 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://anycoindirect.eu/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
+			<div id="exchange-atomic_trade" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Atomic_Trade.png"> Atomic Trade</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Canada</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.atomic-trade.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-bitspark" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Bitspark.png"> Bitspark</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Hong Kong</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.bitspark.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
 			<div id="exchange-bittylicious" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/bittylicious.png"> Bittylicious</b></h3>
@@ -124,6 +186,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bittylicious.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-bleutrade" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Bleutrade.png"> Bleutrade</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Brazil</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bleutrade.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-btc38" class="exchange-info">
@@ -174,6 +252,22 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bter.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
+			<div id="exchange-bx_thailand" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/BX_Thailand.png"> BX Thailand</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Thailand</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bx.in.th/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
 			<div id="exchange-ccedk" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/CCEDK.png"> CCEDK</b></h3>
@@ -188,6 +282,38 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.ccedk.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-coinbroker" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Coinbroker.png"> Coinbroker</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinbroker.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-coinmkt" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/CoinMkt.png"> CoinMkt</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>United States</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinmkt.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-coinomat" class="exchange-info">
@@ -206,6 +332,38 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinomat.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
+			<div id="exchange-coins-e" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Coins-E.png"> Coins-E</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Canada</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.coins-e.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-comkort" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Comkort.png"> Comkort</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Estonia</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://comkort.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
 			<div id="exchange-cryptonit" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/Cryptonit.png"> Cryptonit</b></h3>
@@ -220,6 +378,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://cryptonit.net/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-crypto-trade" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Crypto-Trade.png"> Crypto-Trade</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Hong Kong</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://crypto-trade.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-cryptsy" class="exchange-info">
@@ -254,6 +428,38 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.litebit.eu/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
+			<div id="exchange-nix-e" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/NIX-E.png"> NIX-E</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Russia</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.nix-e.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-poloniex" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Poloniex.png"> Poloniex</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>United States</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://poloniex.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
 			<div id="exchange-shapeshift" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/ShapeShift.png"> ShapeShift</b></h3>
@@ -268,6 +474,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://shapeshift.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-swisscex" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/SWISSCEX.png"> SWISSCEX</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Switzerland</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.swisscex.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-therock" class="exchange-info">
@@ -300,6 +522,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.vaultofsatoshi.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-vircurex" class="exchange-info active">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Vircurex.png" height="50" width="50"> Vircurex</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>China</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>-</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://vircurex.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 		</div>
