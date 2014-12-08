@@ -78,7 +78,7 @@
 		</div>
 		<div class="col-lg-12">
 
-			<div id="exchange-allcoin" class="exchange-info">
+			<div id="exchange-allcoin" class="exchange-info active">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/AllCoin.png"> AllCoin</b></h3>
 					<table>
@@ -542,7 +542,7 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.therocktrading.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
-			<div id="exchange-vault-of-satoshi" class="exchange-info active">
+			<div id="exchange-vault-of-satoshi" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/vault-of-satoshi.png" height="50" width="50"> Vault of Satoshi</b></h3>
 					<table>
@@ -558,7 +558,7 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.vaultofsatoshi.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
-			<div id="exchange-vircurex" class="exchange-info active">
+			<div id="exchange-vircurex" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/Vircurex.png" height="50" width="50"> Vircurex</b></h3>
 					<table>
