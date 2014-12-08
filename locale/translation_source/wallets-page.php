@@ -10,5 +10,8 @@ $lang['en'] += array(
 	'wallet.paper_wallet_desc' => 'A paper wallet stays completely offline, printed onto on a piece of paper for safekeeping. Use a paper wallet if you want to limit access to your Peercoins, and plan to store them for a long period of time.',
 	'wallet.android_wallet' => 'Android Wallet',
 	'wallet.android_wallet_desc' => 'A mobile Peercoin wallet that allows you to manage your Peercoins without carrying a fullsized blockchain on your mobile phone. It conserves precious space on your android device and allows you to take your coins with you, wherever you are.',
+	'wallet.bkchain_wallet' => 'Bkchain Wallet',
+	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Download',
+	'wallet.visit_site' => 'Visit',
 );
