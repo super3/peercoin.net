@@ -67,6 +67,39 @@
             </a>
         </div>
 
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title"><a class=
+                    "accordion-toggle collapsed" data-parent="#accordion"
+                    data-toggle="collapse" href=
+                    "#collapseSignatures"><span class="fui-plus"></span> <?php echo $Locale->getText("waldownload.signatures"); ?></a></h4>
+                </div>
+
+                <div class="panel-collapse collapse" id="collapseSignatures">
+                    <div class="panel-body">
+                        <table style="font-size: 12px">
+                            <tr>
+                                <th>File</th>
+                                <th>SHA-256</th>
+                            </tr>
+                            <tr>
+                                <td><code>peerunity-0.1.1-win.zip</code></td>
+                                <td>13f618f8567654693735d4da5b05a23b29c75986e634b1401eafc3ae76ffd8e6</td>
+                            </tr>
+                            <tr>
+                                <td><code>peerunity-0.1.1-osx.zip</code></td>
+                                <td>ec2f592a3aed258665293c9385ec57c9ad50d550dfbc390ca0edbb617fe9b278</td>
+                            </tr>
+                            <tr>
+                                <td><code>peerunity-0.1.1-linux.zip</code></td>
+                                <td>6e087639aadb898b5642aec08f1241690030123dfabe12c6b21fbbc4399b1478</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
