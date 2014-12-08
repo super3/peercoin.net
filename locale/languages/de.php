@@ -1,7 +1,5 @@
 <?php
-
 $lang['de'] = array();
-
 $lang['de'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Die Entwicklung von Peercoin macht rasante Fortschritte. ',
@@ -53,7 +51,7 @@ $lang['de'] += array(
 	'faq.q1' => 'Hatte Peercoin einen fairen Start?',
 	'faq.q1_ans' => 'Sunny King hat die geplante Veröffentlichung von Peercoin 9 Tage vor der eigentlichen Veröffentlichung angekündigt. Es wurden keine Blöcke vor dem Start geschürft. Ein Mitglied des Forums schrieb: "[Sunny King] hat zum angekündigten Zeitpunkt (5 Minuten vor 18:00 Uhr UTC) einen Link zum Quelltext in dem anderen Diskussionsfaden veröffentlicht. Ein Vorschürfen fand nicht statt. Als ich den Quelltext kompiliert und zum Laufen gebracht habe, gab es 5 geschürfte Blöcke."',
 	'faq.q2' => 'Welchen Zweck haben die Kontrollpunkte?',
-	'faq.q2_ans' => 'Ab der Version 0.2 sind zentral verbreitete Kontrollpunkte nicht länger ein kritischer Bestandteil des Protokolls. Deren Zweck ist die Verteidigung des Netzwerkes während der anfänglichen Wachstumsperiode und die Hilfe bei der Sicherstellung eines reibungslosen Aktualisierungspfades. Zentralisierte Kontrollpunkte werden nun allmählich abgeschwächt und irgendwann entfernt werden, um ein ähnliches Dezentralisierungsniveau wie bei Bitcoin zu erzielen. Die Kontrollpunkte existieren lediglich als eine Sicherheitsmaßnahme: falls etwas katastrophales passieren sollte, dann haben wir die Kontrollpunkte als Sicherung.',
+	'faq.q2_ans' => 'Ab der Version 0.2 sind zentral verbreitete Kontrollpunkte nicht länger ein kritischer Bestandteil des Protokolls. Deren Zweck ist die Verteidigung des Netzwerkes während der anfänglichen Wachstumsperiode und die Hilfe bei der Sicherstellung eines reibungslosen Aktualisierungspfades. Zentralisierte Kontrollpunkte werden nun allmählich abgeschwächt und irgendwann entfernt werden, um ein ähnliches Dezentralisierungsniveau wie bei Bitcoin zu erzielen. Die Kontrollpunkte existieren lediglich als eine Sicherheitsmaßnahme. Falls etwas katastrophales passieren sollte, haben wir die Kontrollpunkte als Sicherung.',
 	'faq.q3' => 'Ist Peercoin ein Bitcoin-Klon?',
 	'faq.q3_ans' => 'Peercoin gehört zu den wahrhaftig einzigartigen alternativen Kryptomünzen. Obwohl sein Code auf Bitcoin basiert, ist Peercoin die erste Kryptomünze, die den Beweis-durch-Anteil für die Sicherung des Netzwerkes eingeführt hat. Der Beweis-durch-Arbeit wird bei Peercoin ebenfalls verwendet, um die gerechte Verteilung der Münzen zu fördern, ist jedoch für die Sicherheit des Netzwerkes nicht vonnöten.',
 	'faq.q4' => 'Ist Peercoin eine Pump-and-Dump Münze?',
@@ -108,11 +106,11 @@ $lang['de'] += array(
 	'index.last_updated' => 'Zuletzt aktualisiert vor:',
 	'index.last_updated_never' => '--',
 	'index.why_peercoin_q' => 'Wieso <strong>Peercoin</strong>?',
-	'index.why_peercoin_desc' => 'Peercoin strebt es an, die sicherste Kryptomünze bei den geringsten Kosten zu sein, durchs Belohnen aller Nutzer für die Stärkung des Netzwerkes.',
+	'index.why_peercoin_desc' => 'Peercoin strebt es an, die sicherste Kryptomünze bei den geringsten Kosten zu sein. Möglich wird dies durch das Belohnen aller Nutzer für die Stärkung des Netzwerkes.',
 	'index.built_to_last' => '<b>Für die Ewigkeit</b> gebaut',
 	'index.built_to_last_desc' => 'Die weltweit erste Kryptomünze mit Beweis-durch-Anteil.',
 	'index.fair_distribution' => '<b>Gerechte</b> Verteilung',
-	'index.fair_distribution_desc' => 'Kein Insider-Vorverkauf oder augenblickliches Schürfen.',
+	'index.fair_distribution_desc' => 'Kein Insider-Vorverkauf oder Schürfen vor Veröffentlichung.',
 	'index.transparent_protocol' => '<b>Transparentes</b> Protokoll',
 	'index.transparent_protocol_desc' => 'Das Netzwerk ist komplett quelloffen.',
 	'index.energy_efficient' => '<b>Energieeffizient</b>',
@@ -130,7 +128,7 @@ $lang['de'] += array(
 	'index.developers' => 'Entwickler',
 	'index.developers_desc' => 'Werfen Sie einen Blick auf einige Innovationen in der Pipeline.',
 	'index.newsletter' => 'Newsletter',
-	'index.newsletter_placeholder' => 'Geben Sie Ihrer E-Mail-Adresse ein...',
+	'index.newsletter_placeholder' => 'Geben Sie Ihre E-Mail-Adresse ein...',
 	'index.newsletter_submit' => 'Abonnieren!',
 );
 $lang['de'] += array(
@@ -156,21 +154,11 @@ $lang['de'] += array(
 
 );
 $lang['de'] += array(
-	'mineguide.title' => 'Befolgen Sie die folgenden Schritte, um mit dem Schürfen von Peercoins anzufangen!',
-	'mineguide.step1' => 'Installieren Sie die Brieftaschen-Software.',
-	'mineguide.step1_desc' => 'Laden Sie die <a href="wallet">Peercoin-Brieftasche</a> herunter, falls Sie es noch nicht getan haben.',
-	'mineguide.step2' => 'Wählen Sie einen Pool zum Schürfen aus',
-	'mineguide.step2_poollist' => 'Peercoin-dedizierte Pools:',
-	'mineguide.step2_multipoollist' => 'Multiwährungs-Pools:',
-	'mineguide.step3' => 'Registrieren Sie sich bei dem Pool.',
-	'mineguide.step3_desc' => 'Befolgen Sie die Anweisungen auf der Webseite des Pools.',
-);
-$lang['de'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Kompatibel mit Bitcoin',
 	'mining.compatible_with_bitcoin_desc' => 'Peercoin verwendet denselben Algorithmus zum Schürfen wie Bitcoin, nämlich SHA-256. Jede Hardware, die für das Bitcoin-Netzwerk geeignet ist, kann auch zum Schürfen von Peercoins verwendet werden.',
 	'mining.fair_distribution' => 'Gerechte Verteilung',
-	'mining.fair_distribution_desc' => 'Das Beweis-durch-Arbeit-Schürfen wird für die Verteilung der Ausschüttung neuer Münzen verwendet, während die Sicherheit des Netzwerkes vollständig durch das Beweis-durch-Anteil-Prägen gewährleistet wird. Das bedeutet, dass die Schwachstellen des Bitcoin-Schürfens wie egoistisches Schürfen keine Auswirkungen auf Peercoins Sicherheit haben.',
+	'mining.fair_distribution_desc' => 'Das Beweis-durch-Arbeit-Schürfen wird für die Verteilung der neu ausgeschütteten Münzen verwendet, während die Sicherheit des Netzwerkes vollständig durch das Beweis-durch-Anteil-Prägen gewährleistet wird. Das bedeutet, dass die Schwachstellen des Bitcoin-Schürfens, wie egoistisches Schürfen, keine Auswirkungen auf Peercoins Sicherheit haben.',
 	'mining.sustainable_reward' => 'Nachhaltige Belohnung',
 	'mining.sustainable_reward_desc' => 'Die Belohnung für das Schürfen eines Blocks sinkt allmählich mit dem Wachstum der Rechenleistung des Netzwerks. Im Laufe der Zeit wird Schürfen einen stetig abnehmenden Einfluss auf das Wachstum der Geldmenge haben.',
 );
@@ -187,11 +175,21 @@ $lang['de'] += array(
 
 );
 $lang['de'] += array(
+	'mineguide.title' => 'Befolgen Sie die folgenden Schritte, um mit dem Schürfen von Peercoins anzufangen!',
+	'mineguide.step1' => 'Installieren Sie die Brieftaschen-Software.',
+	'mineguide.step1_desc' => 'Laden Sie die <a href="wallet">Peercoin-Brieftasche</a> herunter, falls Sie es noch nicht getan haben.',
+	'mineguide.step2' => 'Wählen Sie einen Pool zum Schürfen aus',
+	'mineguide.step2_poollist' => 'Peercoin-dedizierte Pools:',
+	'mineguide.step2_multipoollist' => 'Multiwährungs-Pools:',
+	'mineguide.step3' => 'Registrieren Sie sich bei dem Pool.',
+	'mineguide.step3_desc' => 'Befolgen Sie die Anweisungen auf der Webseite des Pools.',
+);
+$lang['de'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Prägen Sie überall',
 	'minting.mint_anywhere_desc' => 'Die meisten Kryptomünzen erfordern eine spezielle Hardware fürs Schürfen. Im Gegensatz dazu können Peercoins auf jedem Computer geprägt werden. Das Prägen ist energieeffizient, da es von Ihren Peercoins abhängig ist, anstatt der Rechenleistung, die Sie besitzen.',
 	'minting.secure_the_network' => 'Sichern Sie das Netzwerk ab',
-	'minting.secure_the_network_desc' => 'Jedes Mal, wenn Ihre Brieftasche mit dem Prägungsverfahren einen Block generiert hat, helfen Ihre Münzen bei der Absicherung des Netzwerks. Um einen erfolgversprechenden Angriff auf das Peercoin-Netzwerk zu starten, muss ein böswilliger Nutzer die Mehrzahl aller geprägten Münzen kontrollieren. Ein Angriff könnte somit eine Schädigung seiner eigenen Investition nach sich ziehen.',
+	'minting.secure_the_network_desc' => 'Jedes Mal, wenn Ihre Brieftasche mit dem Prägungsverfahren einen Block generiert hat, helfen Ihre Münzen bei der Absicherung des Netzwerks. Um einen erfolgversprechenden Angriff auf das Peercoin-Netzwerk zu starten, muss ein böswilliger Nutzer die Mehrzahl aller prägenden Münzen kontrollieren. Ein Angriff könnte somit eine Schädigung seiner eigenen Investition nach sich ziehen.',
 	'minting.earn_reward' => 'Erzielen Sie Gewinne',
 	'minting.earn_reward_desc' => 'Das Prägen bringt Ihnen einen jährlichen 1&#37;igen Gewinn ein. Die Münzen erhalten eine erstmalige Berechtigung zur Teilenahme am Prägungsverfahren, nachdem 30 Tage seit ihrer Überweisung vergangen sind. Nach 90 Tagen erreichen die Erfolgschancen der Münzen ein Maximum. Wenn Sie öfter prägen, dann werden Ihre Erträge kombiniert.',
 
@@ -204,7 +202,7 @@ $lang['de'] += array(
 	'newcomers.buy_from_exchange' => 'An der Börse kaufen',
 	'newcomers.buy_from_exchange_desc' => 'Überweisen Sie Ihr Geld zu einer <a href="exchanges">Peercoin-Börse</a>, wo Sie am freien Markt von anderen Händlern kaufen können.',
 	'newcomers.withdraw_coins' => 'Eigene Münzen abheben',
-	'newcomers.withdraw_coins_desc' => 'Nehmen Sie Ihre Peercoins in Besitz, in dem Sie sie an eine Adresse schicken, die von der Brieftaschen-Software generiert wurde. Dies wird Sie vor dem Fall, bei dem die Börse schließen würde, während Ihr Geld dort liegt, bewahren.',
+	'newcomers.withdraw_coins_desc' => 'Nehmen Sie Ihre Peercoins in Besitz, in dem Sie sie an eine Adresse schicken, die von der Brieftaschen-Software generiert wurde. Dies wird Sie vor dem Fall, bei dem die Börse schließen würde, während Ihr Geld dort liegt, schützen.',
 	'newcomers.learn_more' => 'Erfahren Sie mehr',
 	'newcomers.learn_more_desc' => 'Da Ihre Brieftasche nun Münzen enthält, ist es an der Zeit zu lernen, wie Ihre Investition mit dem <a href="minting">Prägen von Peercoins</a> wachsen kann.',
 
@@ -212,7 +210,7 @@ $lang['de'] += array(
 $lang['de'] += array(
 	'pig.title' => 'Befolgen Sie die folgenden Schritte, um Peercoins auf Ihrer Webseite zu akzeptieren:',
 	'pig.step1' => 'Benutzen Sie den "Bulk Wallet"-Reiter (große Brieftasche) auf href="http://wallet.peercointalk.org">wallet.peercointalk.org</a>, um eine große Menge an Peercoin-Adressen zu generieren. Kopieren Sie die Liste der kommagetrennten Werte (CSV-Format) und fügen Sie sie in eine sichere Textdatei ein. Erstellen Sie eine Sicherheitskopie und bewahren Sie diese an einem sicheren Ort auf.',
-	'pig.step2' => 'Importieren Sie die öffentlichen Peercoin-Adressen in eine Datenbank-Tabelle auf Ihren Webserver. Importieren Sie nicht die privaten Schlüssel! Halten Sie diese Schlüssel offline, um Sie vor Hackern zu schützen.',
+	'pig.step2' => 'Importieren Sie die öffentlichen Peercoin-Adressen in eine Datenbank-Tabelle auf Ihrem Webserver. Importieren Sie nicht die privaten Schlüssel! Halten Sie diese Schlüssel offline, um Sie vor Hackern zu schützen.',
 	'pig.step3' => 'Fügen Sie eine Peercoin-Bezahloption dem Kundeneinkaufswagen Ihrer Webseite hinzu. Wenn diese Option ausgewählt ist, dann zeigen Sie dem Kunden eine der Adressen, die in Ihrer Datenbank gespeichert sind, als Bezahladresse an. Speichern Sie diese Bezahladresse zusammen mit der Bestellung.',
 	'pig.step4' => 'Verwenden Sie einen Block-Explorer, um eingehende Zahlungen zu erfassen. Ein Dienst dieser Art ist zu finden unter <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
 	'pig.step5' => 'Peercoins, die an die importierten Adressen überwiesen wurden, sind durch die dazugehörigen privaten Schlüssel abgesichert. Um diese Peercoin auszugeben, verwenden sie die ursprüngliche Brieftaschen-Datei, die im 1. Schritt erzeugt wurde.',
@@ -229,6 +227,12 @@ $lang['de'] += array(
 	'waldownload.peerunity_title' => 'Peerunity',	
 );
 $lang['de'] += array(
+	//Whitepaper
+	'whitepaper.download_pdf' => 'PDF herunterladen',
+	'whitepaper.software' => 'Die Weißbücher sind im Portable Document Format (PDF) verfügbar. Bitte verwenden Sie zum Lesen <a href="http://pdfreaders.org/">eine Software</a> Ihrer Wahl.',
+
+);
+$lang['de'] += array(
 	// Wallet
 	'wallet.title' => 'Brieftaschen',
 	'wallet.desc' => 'Ein Peercoin-Brieftasche ist eine Anwendung, die zum Lagern und Abwickeln von Transaktionen mit anderen Nutzern verwendet wird. Peercoin verfügt über zwei Brieftaschen für Desktop-Computer: Peerunity und Peercoin-QT. Wir empfehlen den meisten Nutzern die Nutzung von Peerunity. Um mehr darüber zu erfahren, wie Sie Ihre Brieftaschen-Software nutzen können, besuchen Sie die <a href="newcomers">Seite für Neu­an­kömm­linge</a>.',
@@ -240,11 +244,8 @@ $lang['de'] += array(
 	'wallet.paper_wallet_desc' => 'Eine Papier-Brieftasche wird zwecks sicherer Aufbewahrung auf ein Blatt Papier gedruckt und bleibt somit komplett offline. Verwenden Sie eine Papier-Brieftasche, wenn Sie den Zugriff auf Ihren Peercoins beschränken möchten und eine langfristige Lagerung planen.',
 	'wallet.android_wallet' => 'Android-Brieftasche',
 	'wallet.android_wallet_desc' => 'Eine mobile Peercoin-Brieftasche, die Ihnen das Verwalten Ihrer Peercoins auf einem Handy ermöglicht, ohne dass Sie die Blockkette in voller Größe bei sich tragen müssen. Es schont den wertvollen Speicherplatz auf Ihrem Android-Gerät und ermöglicht Ihnen, Ihre Münzen mitzunehmen, wo auch immer Sie sind.',
+	'wallet.bkchain_wallet' => 'Bkchain Wallet',
+	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Herunterladen',
-);
-$lang['de'] += array(
-	//Whitepaper
-	'whitepaper.download_pdf' => 'PDF herunterladen',
-	'whitepaper.software' => 'Die Weißbücher sind im Portable Document Format (PDF) verfügbar. Bitte verwenden Sie zum Lesen <a href="http://pdfreaders.org/">eine Software</a> Ihrer Wahl.',
-
+	'wallet.visit_site' => 'Visit',
 );

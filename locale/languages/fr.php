@@ -1,30 +1,6 @@
 <?php
 $lang['fr'] = array();
 $lang['fr'] += array(
-	// Header
-	'header.get_started' => 'Débuter',
-	'header.newcomers' => 'Nouveaux venus',
-	'header.investors' => 'Investisseurs',
-	'header.merchants' => 'Marchands',
-	'header.miners' => 'Mineurs',
-	'header.developers' => 'Développeurs',
-
-	'header.learn' => 'Apprendre',
-	'header.frequently_asked_questions' => 'Questions Fréquemment Posées',
-	'header.peercoin_whitepaper' => 'Livre Blanc Peercoin',
-	'header.exchanges' => 'Échanges',
-	'header.mint_peercoins' => 'Frappe de Peercoins',
-
-	'header.wallet' => 'Portefeuilles',
-
-	'header.community' => 'Communauté',
-
-	'header.languages' => 'Langues',
-);
-
-
-
-$lang['fr'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Le développement de Peercoin progresse à un rythme rapide.',
 	'developers.core_protocol' => 'Protocole de base',
@@ -47,11 +23,6 @@ $lang['fr'] += array(
 Si ASIC est un terme signifiant matériel dédié et énergétiquement efficace pour l\'extraction, alors Peerbox est l\'ASIC de la Preuve-de-Part.',
 	'developers.nubits_desc' => '<b>NuBits</b> est un projet à-être-dévoilé du créateur de Peershares, Jordan Lee. NuBits sera la première implémentation de Peershares. Il est destiné à résoudre le problème de volatilité des crypto-monnaies.',
 );
-
-
-
-
-
 $lang['fr'] += array(
 	//Exchanges
 	'exchanges.what_are' => 'Qu\'est-ce qu\'un Échange ?',
@@ -67,20 +38,12 @@ $lang['fr'] += array(
 	'exchanges.visit' => 'Visiter',
 );
 
-
-
-
-
 $lang['fr'] += array(
 	'footer.links' => 'Liens',
 	'footer.tools' => 'Outils',
 	'footer.exchanges' => 'Échanges',
-	'footer.mining' => 'Extraction',
+	'footer.mining' => 'Minage',
 );
-
-
-
-
 $lang['fr'] += array(
 	// FAQ
 	'faq.yes' => 'Oui',
@@ -102,14 +65,7 @@ $lang['fr'] += array(
 	'faq.q6_l2' => 'Le nombre de transactions (réduit la masse monétaire de 0.01 PPC par transaction)',
 	'faq.q6_l3' => 'La frappe de monnaie par Preuve de Part (augmente la masse monétaire à un taux pouvant atteindre 1&#37; par an)',
 	'faq.q6_ans2' => 'Grâce à l\'augmentation de la participation à la frappe de monnaie, le taux d\'inflation de Peercoin est constamment resté inférieur à 5&#37; pendant la première moitié de 2014. À la vitesse d\'adoption actuelle, ce taux va encore décliner avec le temps, faisant de Peercoin une monnaie moins inflationniste et plus durable que la plupart des crypto-monnaies.',
-
 );
-
-
-
-
-
-
 $lang['fr'] += array(
 	// Global
 	'homepage_title' => 'Peercoin - Crypto-monnaie Fiable & Durable.',
@@ -120,8 +76,27 @@ $lang['fr'] += array(
 	'website' => 'Site web',
 	'forum' => 'Forum',
 );
+$lang['fr'] += array(
+	// Header
+	'header.get_started' => 'Débuter',
+	'header.newcomers' => 'Nouveaux venus',
+	'header.investors' => 'Investisseurs',
+	'header.merchants' => 'Marchands',
+	'header.miners' => 'Mineurs',
+	'header.developers' => 'Développeurs',
 
+	'header.learn' => 'Apprendre',
+	'header.frequently_asked_questions' => 'Questions Fréquemment Posées',
+	'header.peercoin_whitepaper' => 'Livre Blanc Peercoin',
+	'header.exchanges' => 'Échanges',
+	'header.mint_peercoins' => 'Frappe de Peercoins',
 
+	'header.wallet' => 'Portefeuilles',
+
+	'header.community' => 'Communauté',
+
+	'header.languages' => 'Langues',
+);
 $lang['fr'] += array(
 	// Index page
 	'index.why_peercoin' => 'Pourquoi Peercoin',
@@ -157,11 +132,6 @@ $lang['fr'] += array(
 	'index.newsletter_placeholder' => 'Entrez votre adresse e-mail...',
 	'index.newsletter_submit' => 'Inscrivez-moi !',
 );
-
-
-
-
-
 $lang['fr'] += array(
 	//Investors
 	'investors.established_network' => 'Réseau Établi',
@@ -174,10 +144,6 @@ $lang['fr'] += array(
 	'investors.guaranteed_returns_desc' => 'Après avoir été conservés pendant 30 jours, les peercoins ont la possibilité de gagner une récompense annualisée de 1&#37;. <a href="minting">Cliquez pour en savoir plus</a>.',
 
 );
-
-
-
-
 $lang['fr'] += array(
 	//Merchants
 	'merchants.instant' => 'Soyez payé immédiatement',
@@ -188,11 +154,6 @@ $lang['fr'] += array(
 	'merchants.no_transaction_fees_desc' => 'Pour effectuer un paiement, chaque client paye des frais de seulement 0.01 peercoin. En tant que marchand, vous ne payez absolument rien.',
 
 );
-
-
-
-
-
 $lang['fr'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Compatible avec Bitcoin',
@@ -202,11 +163,6 @@ $lang['fr'] += array(
 	'mining.sustainable_reward' => 'Récompense Durable',
 	'mining.sustainable_reward_desc' => 'La récompense pour l\'extraction d\'un bloc décline graduellement quand la puissance de calcul du réseau augmente. Avec le temps, l\'extraction aura un rôle en constante diminution sur la croissance de la masse monétaire.',
 );
-
-
-
-
-
 $lang['fr'] += array(
 	'mintguide.title' => 'Suivez le guide correspondant à votre client Peercoin pour commencer à frapper la monnaie !',
 	'mintguide.qt_step1' => 'Assurez-vous que votre portefeuille est crypté avec une bonne phrase de passe. Écrivez-la quelque part et gardez-la en lieu sûr; si vous oubliez la phrase de passe vous perdrez vos pièces. L\'option de cryptage du portefeuille se trouve dans le menu des réglages du programme portefeuille Peercoin-Qt.',
@@ -220,11 +176,16 @@ $lang['fr'] += array(
 	'mintguide.peerunity_step3' => 'Vous pouvez vérifier que vous êtes en train de frapper la monnaie en regardant le petit cadenas dans le coin en bas à droite du client. Après quelques secondes il devrait être ouvert. Si vous passez votre souris dessus, il devrait être écrit "Le porte-monnaie est chiffré et actuellement déverrouillé uniquement pour la frappe de monnaie".',
 
 );
-
-
-
-
-
+$lang['fr'] += array(
+	'mineguide.title' => 'Suivez ces étapes pour commencer à miner du Peercoin !',
+	'mineguide.step1' => 'Installez le logiciel de portefeuille',
+	'mineguide.step1_desc' => 'Si vous ne l\'avez pas encore fait, téléchargez le <a href="wallet">portefeuille Peercoin</a>.',
+	'mineguide.step2' => 'Sélectionnez un pool de minage',
+	'mineguide.step2_poollist' => 'Pools dédiés au Peercoin :',
+	'mineguide.step2_multipoollist' => 'Pools multi-monnaies :',
+	'mineguide.step3' => 'Inscrivez-vous au pool',
+	'mineguide.step3_desc' => 'Suivez les instructions affichées sur  le site web du pool',
+);
 $lang['fr'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Frapper la monnaie n\'importe où',
@@ -235,10 +196,6 @@ $lang['fr'] += array(
 	'minting.earn_reward_desc' => 'Frapper la monnaie vous permet de gagner 1&#37; annuellement. Les pièces sont éligible à la frappe de monnaie 30 jours après avoir été transférées, et après 90 jours, leur chance de succès est maximale. Si vous frappez souvent, vos gains se composeront !',
 
 );
-
-
-
-
 $lang['fr'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Débuter avec Peercoin',
@@ -252,11 +209,6 @@ $lang['fr'] += array(
 	'newcomers.learn_more_desc' => 'Maintenant que vous avez vos pièces dans votre portefeuille, il est temps d\'apprendre comment faire fructifier votre investissement avec <a href="minting">la frappe de peercoins</a>.',
 
 );
-
-
-
-
-
 $lang['fr'] += array(
 	'pig.title' => 'Utilisez les étapes suivantes pour accepter les peercoins sur votre site web :',
 	'pig.step1' => 'Utilisez l\'onglet Porte-monnaie en vrac sur <a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> pour pré-générer un grand nombre d\'adresses Peercoin. Copiez et collez la liste de valeurs séparées par des virgules (CSV) générée dans un fichier texte sécurisé sur votre ordinateur. Faites une sauvegarde du fichier et mettez-la dans un endroit sûr.',
@@ -267,10 +219,6 @@ $lang['fr'] += array(
 	'pig.step6' => 'Si vous rencontrez des problèmes, n\'hésitez pas à poster un message dans les <a href="http://peercointalk.org">forums de la communauté</a>.',
 	
 );
-
-
-
-
 $lang['fr'] += array(
 	'waldownload.download' => 'Télécharger',
 	'waldownload.source' => 'Code Source',
@@ -280,10 +228,12 @@ $lang['fr'] += array(
 	'waldownload.qt_title' => 'Peercoin-QT',
 	'waldownload.peerunity_title' => 'Peerunity',	
 );
+$lang['fr'] += array(
+	//Whitepaper
+	'whitepaper.download_pdf' => 'Télécharger PDF',
+	'whitepaper.software' => 'Les livres blancs sont disponibles au format Portable Document Format (PDF). Veuillez utiliser votre <a href="http://pdfreaders.org/">logiciel</a> préféré pour les lire.',
 
-
-
-
+);
 $lang['fr'] += array(
 	// Wallet
 	'wallet.title' => 'Portefeuilles',
@@ -296,25 +246,8 @@ $lang['fr'] += array(
 	'wallet.paper_wallet_desc' => 'Un portefeuille papier reste complètement hors ligne, imprimé sur une feuille de papier sous bonne garde. Utilisez un portefeuille papier si vous voulez limiter l\'accès à vos peercoins, et planifiez de les conserver pendant une longue période.',
 	'wallet.android_wallet' => 'Portefeuille Android',
 	'wallet.android_wallet_desc' => 'Un portefeuille Peercoin qui vous permet de gérer vos peercoins sur votre téléphone portable sans avoir besoin de l\'intégralité de la chaîne de blocs. Il économise de l\'espace sur votre appareil android et vous permet d\'emporter vos pièces avec vous, où que vous soyez.',
+	'wallet.bkchain_wallet' => 'Bkchain Wallet',
+	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Télécharger',
+	'wallet.visit_site' => 'Visit',
 );
-
-
-$lang['fr'] += array(
-	//Whitepaper
-	'whitepaper.download_pdf' => 'Télécharger PDF',
-	'whitepaper.software' => 'Les livres blancs sont disponibles au format Portable Document Format (PDF). Veuillez utiliser votre <a href="http://pdfreaders.org/">logiciel</a> préféré pour les lire.',
-
-);
-
-$lang['fr'] += array(
-	'mineguide.title' => 'Suivez ces étapes pour commencer à miner du Peercoin !',
-	'mineguide.step1' => 'Installez le logiciel de portefeuille',
-	'mineguide.step1_desc' => 'Si vous ne l\'avez pas encore fait, téléchargez le <a href="wallet">portefeuille Peercoin</a>.',
-	'mineguide.step2' => 'Sélectionnez un pool de minage',
-	'mineguide.step2_poollist' => 'Pools dédiés au Peercoin :',
-	'mineguide.step2_multipoollist' => 'Pools multi-monnaies :',
-	'mineguide.step3' => 'Inscrivez-vous au pool',
-	'mineguide.step3_desc' => 'Suivez les instructions affichées sur  le site web du pool',
-);
-

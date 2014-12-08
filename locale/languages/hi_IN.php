@@ -1,7 +1,6 @@
 <?php
-$lang['hi'] = array();
-
-$lang['hi'] += array(
+$lang['hi_IN'] = array();
+$lang['hi_IN'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Peercoin का विकास तेजी से आगे बढ़ रहा है |',
 	'developers.core_protocol' => 'अन्तर्भाग प्रोटोकॉल',
@@ -23,11 +22,7 @@ $lang['hi'] += array(
 	'developers.peerbox_desc' => '<b>Peerbox</b> मुद्रांकन और Peercoin नोड्स चलाने के लिए एक सुरक्षित ऑपरेटिंग सिस्टम है, और वर्तमान सक्रिय विकास के अंतर्गत है | यह सस्ती, ऊर्जा दक्ष यंत्रों, यथा Raspberry Pi, पर केंद्रित है, जो ऊर्जा दक्ष cryptocurrency उपलब्ध कराने के Peercoin के लक्ष्य के साथ संगत है | अगर ASIC समर्पित और ऊर्जा दक्ष खनन के लिए एक शब्द है, तो PeerBox हिस्सेदारी-के-प्रमाण तंत्र का ASIC है |',
 	'developers.nubits_desc' => '<b>NuBits</ b> Peershares के निर्माता, Jordan Lee से भविष्य में अनावरण होने वाली एक परियोजना है | NuBits Peershares के प्रथम कार्यान्वयन होगी | इससे cryptocurrencies में अस्थिरता की समस्या का समाधान करने का इरादा है |',
 );
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	//Exchanges
 	'exchanges.what_are' => 'विनिमय केंद्र क्या होता है ?',
 	'exchanges.what_are_desc' => 'अपनी सरकार समर्थित मुद्रा के इस्तेमाल करके, जैसे कि अमरीकी डॉलर या यूरो, Peercoins खरीदने और बेचने की सहायता विनिमय केन्द्रों करते हैं | विनिमय केन्द्रों में peercoins और अन्य cryptocurrencies, यथा Bitcoin, के बीच व्यापार की सुविधा उपलब्ध होता है |',
@@ -42,21 +37,13 @@ $lang['hi'] += array(
 	'exchanges.visit' => 'दर्शन करें',
 );
 
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	'footer.links' => 'लिंकें',
 	'footer.tools' => 'उपकरण',
 	'footer.exchanges' => 'विनिमय केन्द्र',
 	'footer.mining' => 'खनन',
 );
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	// FAQ
 	'faq.yes' => 'हां',
 	'faq.no' => 'नहीं',
@@ -78,14 +65,8 @@ $lang['hi'] += array(
 	'faq.q6_l2' => 'लेनदेन की संख्या (प्रति लेनदेन द्वारा 0.01 PPC से आपूर्ति न्यून हो जाता है)',
 	'faq.q6_l3' => 'Proof of Stake - हिस्सेदारी-के-प्रमाण तंत्र के माध्यम से मुद्रांकन (प्रति वर्ष 1&#37; तक की दर से आपूर्ति बढ़ जाती है)',
 	'faq.q6_ans2' => 'खनन भागीदारी में वृद्धि की वजह से, Peercoin के मुद्रास्फीति की दर 2014 के पहली छमाही के लिए लगातार 5&#37; से नीचे बनी हुई है | वर्तमान के अभिग्रहण के दर पर, इस दर में समय के साथ गिरावट होगी, जिससे Peercoin कम स्फीतिकारी और अन्य cryptocoin से अधिक टिकाऊ बनेगा |',
-
 );
-
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	// Global
 	'homepage_title' => 'Peercoin - सुरक्षित और संपोषणीय Cryptocoin',
 
@@ -95,12 +76,7 @@ $lang['hi'] += array(
 	'website' => 'वेबसाइट',
 	'forum' => 'जन मंच',
 );
-
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	// Header
 	'header.get_started' => 'शुरू हो जाइये',
 	'header.newcomers' => 'नवागंतुकों',
@@ -121,12 +97,7 @@ $lang['hi'] += array(
 
 	'header.languages' => 'भाषाएँ',
 );
-
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	// Index page
 	'index.why_peercoin' => 'Peercoin क्यों ?',
 	'index.download_wallet' => 'बटुआ डाउनलोड करें',
@@ -161,12 +132,7 @@ $lang['hi'] += array(
 	'index.newsletter_placeholder' => 'अपना e-mail पता दर्ज करें ...',
 	'index.newsletter_submit' => 'मुझे शामिल कीजिये !',
 );
-
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	//Investors
 	'investors.established_network' => 'सुस्थित नेटवर्क',
 	'investors.established_network_desc' => 'Peercoin जिसे 2012 में शुरू किया गया था, सबसे पुराना और सबसे विश्वसनीय cryptocoin नेटवर्कों में से एक है |',
@@ -178,11 +144,7 @@ $lang['hi'] += array(
 	'investors.guaranteed_returns_desc' => 'Peercoins 30 दिनों के लिए धारण करने के बाद, वे एक 1&#37; वार्षिक इनाम कमाने के लिए पात्र हैं | <a href="minting">अधिक जानकारी  के लिए यहां क्लिक करें</a> |',
 
 );
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	//Merchants
 	'merchants.instant' => 'तुरन्त भुगतान पाइए',
 	'merchants.instant_desc' => 'लेनदेन Peercoin के blockchain अर्थात् ब्लॉकश्रृंखला प्रौद्योगिकी के माध्यम से लगभग तुरंत कार्रवाई की जाती है | एक ब्लॉक अन्वेषक तुरन्त एक आने वाली भुगतान की पुष्टि करती है |',
@@ -192,12 +154,7 @@ $lang['hi'] += array(
 	'merchants.no_transaction_fees_desc' => 'भुगतान करने के लिए, प्रत्येक प्रेषक सिर्फ 0.01 Peercoin का एक शुल्क का भुगतान करता है | एक व्यापारी होने के नाते, आपको बिल्कुल कुछ भी नहीं देना पड़ेगा |',
 
 );
-
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Bitcoin के साथ सुसंगत',
 	'mining.compatible_with_bitcoin_desc' => 'Peercoin Bitcoin समान खनन कलन विधि का उपयोग करता है, जिसे SHA-256 के नाम से जाना जाता है  | Bitcoin नेटवर्क पर काम करता हुआ किसी भी हार्डवेयर Peercoins खान के लिए भी इस्तेमाल किया जा सकता है |',
@@ -206,12 +163,7 @@ $lang['hi'] += array(
 	'mining.sustainable_reward' => 'संपोषणीय इनाम',
 	'mining.sustainable_reward_desc' => 'नेटवर्क की कंप्यूटिंग शक्ति बढ़ने से एक ब्लॉक खनन के लिए इनाम में धीरे धीरे गिरावट आती है | समय के साथ, मुद्रा आपूर्ति की वृद्धि पर खनन का असर कम होते जायेगा |',
 );
-
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	'mintguide.title' => 'मुद्रांकन शुरू करने के लिए अपने Peercoin ग्राहक सॉफ्टवेयर अनुरूप मार्गदर्शक पत्र का पालन करें !',
 	'mintguide.qt_step1' => 'अपने बटुए को एक अच्छा कूटपदबंध के साथ सुनिश्चित रूप से कूटबद्ध करें | इसे लिखके कहीं पर सुरक्षित रखें; अगर आप कूटपदबंध भूल जाते हैं तो आप अपने सिक्के खो देंगे | बटुआ कूटबद्ध करने का विकल्प Peercoin-Qt बटुआ सॉफ्टवेयर कार्यक्रम के settings tab के नीचे पाया जा सकता है |',
 	'mintguide.qt_step2' => 'मुद्रांकन शुरू करने के लिए help -> debug window -> console तक जाएं और यह दर्ज करें: <br><kbd>walletpassphrase abc 999999 true</kbd><br> जहां \'abc\' आपका कूटपदबंध है और "999999" है आप कितने समय के लिए मुद्रांकन करना चाहते हैं, सेकंड में है | आप समय की मात्रा को कोई भी संख्या में बदल सकते हैं लेकिन एक बहुत अधिक संख्या डालना आमतौर पर सबसे आसान है | अगर आपके कूट पदबंध में रिक्त स्थान हैं तो उद्धरण चिह्न में उसे घेरें |',
@@ -224,12 +176,17 @@ $lang['hi'] += array(
 	'mintguide.peerunity_step3' => 'आप ग्राहक सॉफ्टवेयर के नीचे दायें कोने में छोटे से ताला को देखकर, मुद्रांकन हो रहा है की नहीं जान सकते हैं | कुछ ही क्षणों बाद यह खुल जाना चाहिए | आप इस पर अपने माउस मंडराने से यह कहना चाहिए कि, "Wallet is encypted and currently unlocked for block minting only" |',
 
 );
-
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
+	'mineguide.title' => 'Peercoin खनन शुरू करने के लिए इन चरणों का पालन करें!',
+	'mineguide.step1' => 'बटुआ सॉफ्टवेयर व्यवस्थित करें ',
+	'mineguide.step1_desc' => 'अगर आप नहीं किए हैं, <a href="wallet">Peercoin बटुआ</a> डाउनलोड करें |',
+	'mineguide.step2' => 'खनन समुच्चय का चयन करें ',
+	'mineguide.step2_poollist' => 'Peercoin-समर्थित समुच्चय',
+	'mineguide.step2_multipoollist' => 'एकाधिक-मुद्रा समुच्चय:',
+	'mineguide.step3' => 'समुच्चय में शामिल हो जाइये ',
+	'mineguide.step3_desc' => 'समुच्चय वेबसाइट पर दिए गए निर्देशों का पालन करें',
+);
+$lang['hi_IN'] += array(
 	// minting
 	'minting.mint_anywhere' => 'मुद्रांकन कहीं पर भी करें',
 	'minting.mint_anywhere_desc' => 'अधिकांश cryptocoin के खनन के लिए विशेष हार्डवेयर की आवश्यकता है, लेकिन Peercoin मुद्रांकन किसी भी कंप्यूटर पर किया जा सकता है | मुद्रांकन तंत्र ऊर्जा दक्ष है क्योंकि यह आपके धारित Peercoins पर आधारित है न की अपने प्रसंस्करण शक्ति पर से |',
@@ -239,11 +196,7 @@ $lang['hi'] += array(
 	'minting.earn_reward_desc' => 'मुद्रांकन आपको वार्षिक 1&#37; कमाता है | सिक्के वे स्थानांतरित करने के 30 दिनों के बाद टकसाल के लिए पात्र हैं, और 90 दिनों के बाद, मुद्रांकन के सफलता के मौका अधिकतम है | अगर आप अक्सर मुद्रांकन करते हैं, आपकी आय यौगिक होगा |',
 
 );
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Peercoin के साथ शुरू होने की सूचना',
 	'newcomers.downlaod_wallet' => 'बटुआ सॉफ्टवेयर डाउनलोड करें',
@@ -256,12 +209,7 @@ $lang['hi'] += array(
 	'newcomers.learn_more_desc' => 'अब जो आपके बटुए में मुद्राएं हैं, <a href="minting"> Peercoin मुद्रांकन</a> के साथ अपने निवेश कैसे बढ़ाएं यह सिखने का समय है |',
 
 );
-
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	'pig.title' => 'अपनी वेबसाइट पर Peercoins स्वीकार करने के लिए निम्नलिखित क़दमों का उपयोग करें:',
 	'pig.step1' => '<a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> पर Bulk Wallet टैब का उपयोग करके Peercoin पतों की एक बड़ी संख्या में पूर्व से उत्पन्न करें | उत्पन्न किये गए, अल्पविराम से अलग मूल्यों (CSV) सूची को एक सुरक्षित टेक्स्ट फ़ाइल पर कॉपी और चस्पा करें | इस फाइल को एक सुरक्षित स्थान में बैकअप करें | ',
 	'pig.step2' => 'अपने वेब सर्वर पर एक डेटाबेस तालिका में सार्वजनिक peercoin पते आयात करें | निजी कुंजी (private keys) आयात न करें बल्कि हैकर्स से सुरक्षित रखने के लिए उन्हें ऑफ़लाइन रखें |',
@@ -271,11 +219,7 @@ $lang['hi'] += array(
 	'pig.step6' => 'अगर आप किसी भी मुद्दे का सामना करते हैं, <a href="http://peercointalk.org">समुदाय जनमंच</a> पर विवरण देने में संकोच न करें |',
 	
 );
-
-
-
-
-$lang['hi'] += array(
+$lang['hi_IN'] += array(
 	'waldownload.download' => 'डाउनलोड',
 	'waldownload.source' => 'सूत्र कोड',
 	'waldownload.license' => 'अनुज्ञाप‍त्र',
@@ -284,11 +228,13 @@ $lang['hi'] += array(
 	'waldownload.qt_title' => 'Peercoin-QT',
 	'waldownload.peerunity_title' => 'Peerunity',	
 );
+$lang['hi_IN'] += array(
+	//Whitepaper
+	'whitepaper.download_pdf' => 'PDF डाउनलोड करें',
+	'whitepaper.software' => 'श्वेतपत्रों Portable Document Format (PDF) स्वरूप उपलब्ध हैं | पढ़ने के लिए अपना <a href="http://pdfreaders.org/">पसंदीदा सॉफ्टवेयर</a> का उपयोग करें |',
 
-
-
-
-$lang['hi'] += array(
+);
+$lang['hi_IN'] += array(
 	// Wallet
 	'wallet.title' => 'बटुए',
 	'wallet.desc' => '﻿एक Peercoin बटुआ ऐसा एक सॉफ्टवेयर प्रयोज्यता है जिसे Peercoins संचय करने के लिए और अन्य उपयोगकर्ताओं के साथ Peercoins लेनदेन करने के लिए उपयोग किया जाता है | Peercoin के लिए दो डेस्कटॉप बटुए उपलब्ध हैं: Peerunity और Peercoin-QT | हम अधिकांश उपयोगकर्ताओं के लिए Peerunity का उपयोग करने की सलाह देते हैं | अपने बटुए सॉफ्टवेयर का उपयोग करने के बारे में अधिक जानकारी के लिए, <a href="newcomers"> नवागंतुकों</a> पृष्ठ पर जाएं |',
@@ -300,14 +246,8 @@ $lang['hi'] += array(
 	'wallet.paper_wallet_desc' => 'एक कागज़ी बटुआ पूरी तरह से ऑफ़लाइन रहता है | यह बटुए को सुरक्षित रखने के लिए कागज के एक टुकड़े पर छपा जाता है | आप अपने Peercoins तक पहुँच को सीमित करने के लिए, और एक लंबी समय के लिए उन्हें संचय करने के लिए काग़ज़ी बटुआ का उपयोग करें |',
 	'wallet.android_wallet' => 'एंड्रॉयड बटुआ',
 	'wallet.android_wallet_desc' => 'एक मोबाइल Peercoin बटुआ  सम्पूर्ण ब्लॉकश्रृंखला डाउनलोड किए बिना अपने Peercoins का प्रबंधन करने की सुविधा देता है | इससे आपके एंड्राइड यन्त्र के कीमती भण्डारण स्थान में बचत होती है और आप अपने साथ कहीं पर भी अपने Peercoins ले सकते हैं |',
+	'wallet.bkchain_wallet' => 'Bkchain Wallet',
+	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'डाउनलोड करें',
+	'wallet.visit_site' => 'Visit',
 );
-
-
-$lang['hi'] += array(
-	//Whitepaper
-	'whitepaper.download_pdf' => 'PDF डाउनलोड करें',
-	'whitepaper.software' => 'श्वेतपत्रों Portable Document Format (PDF) स्वरूप उपलब्ध हैं | पढ़ने के लिए अपना <a href="http://pdfreaders.org/">पसंदीदा सॉफ्टवेयर</a> का उपयोग करें |',
-
-);
-

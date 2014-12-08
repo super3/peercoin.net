@@ -1,6 +1,5 @@
 <?php
 $lang['no'] = array();
-
 $lang['no'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Utviklingen av Peercoin går fremover i hurtig tempo.',
@@ -23,9 +22,6 @@ $lang['no'] += array(
 	'developers.peerbox_desc' => '<b>PeerBox</b> er et sikkert operativsystem for preging og kjøring av Peercoin-noder, og er for tiden under aktiv utvikling. Den fokuserer på billige og energieffektive enheter som Raspberry Pi, som er kompatibel med Peercoin sitt mål om å være en energieffektiv kryptovaluta. Hvis ASIC er et begrep for dedikert og energieffektiv graving, da er PeerBox en ASIC for Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> er et prosjekt som venter på avduking, og som er ledet av skaperen av Peershares, Jordan Lee. NuBits vil være den første implementeringen av Peershares. Det er ment å løse problemet med volatilitet i kryptovalutaer.',
 );
-
-
-
 $lang['no'] += array(
 	//Exchanges
 	'exchanges.what_are' => 'Hva er en børs?',
@@ -41,9 +37,12 @@ $lang['no'] += array(
 	'exchanges.visit' => 'Besøk',
 );
 
-
-
-
+$lang['no'] += array(
+	'footer.links' => 'Lenker',
+	'footer.tools' => 'Verktøy',
+	'footer.exchanges' => 'Børser',
+	'footer.mining' => 'Graving',
+);
 $lang['no'] += array(
 	// FAQ
 	'faq.yes' => 'Ja',
@@ -65,22 +64,7 @@ $lang['no'] += array(
 	'faq.q6_l2' => 'Antall transaksjoner (minker pengemengden med 0,01 PPC per transaksjon)',
 	'faq.q6_l3' => 'Proof-of-Stake preging (øker pengemengden med 1&#37; per år)',
 	'faq.q6_ans2' => 'Takket være økt deltakelse i graving, har Peercoin sin inflasjonsrate konsekvent ligget under 5&#37; i første halvår av 2014. Med dagens adopsjonsmønster vil denne falle ytterligere over tid, noe som gjør Peercoin mindre inflasjonsutsatt og mer bærekraftig enn de fleste andre kryptomynter.',
-
 );
-
-
-
-
-
-$lang['no'] += array(
-	'footer.links' => 'Lenker',
-	'footer.tools' => 'Verktøy',
-	'footer.exchanges' => 'Børser',
-	'footer.mining' => 'Graving',
-);
-
-
-
 $lang['no'] += array(
 	// Global
 	'homepage_title' => 'Peercoin - Sikker & Bærekraftig Kryptomynt.',
@@ -91,10 +75,6 @@ $lang['no'] += array(
 	'website' => 'Websiden',
 	'forum' => 'Forum',
 );
-
-
-
-
 $lang['no'] += array(
 	// Header
 	'header.get_started' => 'Kom i gang',
@@ -116,10 +96,6 @@ $lang['no'] += array(
 
 	'header.languages' => 'Språk',
 );
-
-
-
-
 $lang['no'] += array(
 	// Index page
 	'index.why_peercoin' => 'Hvorfor Peercoin',
@@ -155,10 +131,6 @@ $lang['no'] += array(
 	'index.newsletter_placeholder' => 'Skriv inn din e-postadresse...',
 	'index.newsletter_submit' => 'Meld meg på!',
 );
-
-
-
-
 $lang['no'] += array(
 	//Investors
 	'investors.established_network' => 'Etablert Nettverk',
@@ -171,9 +143,6 @@ $lang['no'] += array(
 	'investors.guaranteed_returns_desc' => 'Etter at peercoins er holdt i 30 dager, er de kvalifisert til å tjene en 1&#37; årlig belønning. <a href="minting"> Klikk her for å lære mer</a>.',
 
 );
-
-
-
 $lang['no'] += array(
 	//Merchants
 	'merchants.instant' => 'Motta betaling umiddelbart',
@@ -184,10 +153,6 @@ $lang['no'] += array(
 	'merchants.no_transaction_fees_desc' => 'For å sette i gang en betaling, betaler hver avsender et gebyr på bare 0,01 peercoin. Som kjøpmann betaler du ingenting.',
 
 );
-
-
-
-
 $lang['no'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Kompatibel med Bitcoin',
@@ -197,10 +162,6 @@ $lang['no'] += array(
 	'mining.sustainable_reward' => 'Bærekraftig Belønning',
 	'mining.sustainable_reward_desc' => 'Belønningen for å finne en blokk vil gradvis reduseres når datakraft i nettverket vokser. Over tid vil graving ha en stadig mindre innvirkning på veksten i pengemengden.',
 );
-
-
-
-
 $lang['no'] += array(
 	'mintguide.title' => 'Følg guiden som gjelder for din Peercoin-klient for å starte med preging!',
 	'mintguide.qt_step1' => 'Krypter lommeboken din med et godt passord. Skriv dette ned og gjem det på et sikkert sted. Hvis du glemmer passordet vil du miste myntene dine. Alternativet for å kryptere lommeboken finner du under fanen innstillinger i Peercoin-Qt.',
@@ -213,10 +174,16 @@ $lang['no'] += array(
 	'mintguide.peerunity_step3' => 'Du kan sjekke at du preger ved å se på den lille hengelåsen nederst i høyre hjørne av klienten. Etter en stund bør den bli låst opp. Hvis du holder musa over den, bør den si "Lommeboken er kryptert og for øyeblikket kun låst opp for preging av blokker".',
 
 );
-
-
-
-
+$lang['no'] += array(
+	'mineguide.title' => 'Følg disse punktene for å starte graving av Peercoin!',
+	'mineguide.step1' => 'Installer lommebok',
+	'mineguide.step1_desc' => 'Hvis du ikke har gjort det ennå, last ned <a href="wallet">Peercoin lommeboken</a>.',
+	'mineguide.step2' => 'Velg et andelslag for graving',
+	'mineguide.step2_poollist' => 'Dedikerte andelslag for Peercoin:',
+	'mineguide.step2_multipoollist' => 'Andelslag for flere mynter:',
+	'mineguide.step3' => 'Registrer deg hos andelslaget',
+	'mineguide.step3_desc' => 'Følg instruksjonene på andelslagets webside.',
+);
 $lang['no'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Preg Over Alt',
@@ -227,9 +194,6 @@ $lang['no'] += array(
 	'minting.earn_reward_desc' => 'Ved preging tjener du 1&#37; årlig. Mynter er først kvalifisert for preging 30 dager etter at de er overført, og etter 90 dager er deres sjanse til å lykkes maksimal. Hvis du preger ofte vil du tjene renters rente!',
 
 );
-
-
-
 $lang['no'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Komme I Gang Med Peercoin',
@@ -243,9 +207,31 @@ $lang['no'] += array(
 	'newcomers.learn_more_desc' => 'Nå som du har mynter i lommeboken din, er det på tide å lære hvordan du kan øke beholdningen din ved å <a href="minting">prege peercoins</a>.',
 
 );
+$lang['no'] += array(
+	'pig.title' => 'Følg følgende trinn for å akseptere Peercoins på din webside:',
+	'pig.step1' => 'Bruk fanen "Bulk Wallet" på <a href="http://wallet.peercointalk.org"> wallet.peercointalk.org</a> for å forhåndsgenerere et stort antall Peercoin-adresser. Kopier og lim inn den genererte kommadelte verdi (CSV) listen til en sikker tekstfil på datamaskinen din. Sikkerhetskopier filen til et sikkert sted.',
+	'pig.step2' => 'Importer de offentlige Peercoin-adressene inn i en database på webserveren din. Ikke importer de private nøklene, men hold dem i stedet offline for å beskytte dem mot hackere.',
+	'pig.step3' => 'Tilby et alternativ, i handlekurven på ditt nettsted, for kunden å betale i peercoins. Når dette alternativet blir valgt, vises en av adressene fra databasen til kunden som betalingsadresse, og lagre den så med ordren.',
+	'pig.step4' => 'Bruk en blokkutforsker for å se den innkommende transaksjonen. En slik tjeneste kan man finne på <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
+	'pig.step5' => 'Peercoins sendt til de importerte adressene er sikret med deres private nøkler. For å bruke dem, bruk den opprinnelige lommebokfilen generert i trinn 1.',
+	'pig.step6' => 'Hvis du støter på problemer, kan du gjerne poste i <a href="http://peercointalk.org">samfunnets forum </a>.',
+	
+);
+$lang['no'] += array(
+	'waldownload.download' => 'Last Ned',
+	'waldownload.source' => 'Kildekode',
+	'waldownload.license' => 'Lisens',
+	'waldownload.other_platforms' => 'Andre plattformer',
+	'waldownload.signatures' => 'Signaturer',
+	'waldownload.qt_title' => 'Peercoin-QT',
+	'waldownload.peerunity_title' => 'Peerunity',	
+);
+$lang['no'] += array(
+	//Whitepaper
+	'whitepaper.download_pdf' => 'Last ned PDF',
+	'whitepaper.software' => 'Hvitboken er tilgjengelig i Portable Document Format (PDF). Bruk din foretrukne <a href="http://pdfreaders.org/">programvare for lesing</a>.',
 
-
-
+);
 $lang['no'] += array(
 	// Wallet
 	'wallet.title' => 'Lommebøker',
@@ -258,51 +244,8 @@ $lang['no'] += array(
 	'wallet.paper_wallet_desc' => 'En lommebok på papir forblir helt offline, skrevet ut på på et stykke papir for sikker lagring. Bruk en lommebok på papir hvis du ønsker å begrense tilgangen til dine peercoins, og planlegger å lagre dem over lengre tid.',
 	'wallet.android_wallet' => 'Lommebok for Android',
 	'wallet.android_wallet_desc' => 'En mobil Peercoin-lommebok som lar deg administrere dine peercoins uten å bære hele blokkjeden på mobiltelefonen. Dette sparer dyrebar plass på din Android-enhet, og lar deg ta med myntene dine uansett hvor du er.',
+	'wallet.bkchain_wallet' => 'Bkchain Wallet',
+	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Last Ned',
+	'wallet.visit_site' => 'Visit',
 );
-
-
-$lang['no'] += array(
-	'pig.title' => 'Følg følgende trinn for å akseptere Peercoins på din webside:',
-	'pig.step1' => 'Bruk fanen "Bulk Wallet" på <a href="http://wallet.peercointalk.org"> wallet.peercointalk.org</a> for å forhåndsgenerere et stort antall Peercoin-adresser. Kopier og lim inn den genererte kommadelte verdi (CSV) listen til en sikker tekstfil på datamaskinen din. Sikkerhetskopier filen til et sikkert sted.',
-	'pig.step2' => 'Importer de offentlige Peercoin-adressene inn i en database på webserveren din. Ikke importer de private nøklene, men hold dem i stedet offline for å beskytte dem mot hackere.',
-	'pig.step3' => 'Tilby et alternativ, i handlekurven på ditt nettsted, for kunden å betale i peercoins. Når dette alternativet blir valgt, vises en av adressene fra databasen til kunden som betalingsadresse, og lagre den så med ordren.',
-	'pig.step4' => 'Bruk en blokkutforsker for å se den innkommende transaksjonen. En slik tjeneste kan man finne på <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
-	'pig.step5' => 'Peercoins sendt til de importerte adressene er sikret med deres private nøkler. For å bruke dem, bruk den opprinnelige lommebokfilen generert i trinn 1.',
-	'pig.step6' => 'Hvis du støter på problemer, kan du gjerne poste i <a href="http://peercointalk.org">samfunnets forum </a>.',
-	
-);
-
-
-
-$lang['no'] += array(
-	'waldownload.download' => 'Last Ned',
-	'waldownload.source' => 'Kildekode',
-	'waldownload.license' => 'Lisens',
-	'waldownload.other_platforms' => 'Andre plattformer',
-	'waldownload.signatures' => 'Signaturer',
-	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
-);
-
-
-
-
-$lang['no'] += array(
-	//Whitepaper
-	'whitepaper.download_pdf' => 'Last ned PDF',
-	'whitepaper.software' => 'Hvitboken er tilgjengelig i Portable Document Format (PDF). Bruk din foretrukne <a href="http://pdfreaders.org/">programvare for lesing</a>.',
-
-);
-
-$lang['no'] += array(
-	'mineguide.title' => 'Følg disse punktene for å starte graving av Peercoin!',
-	'mineguide.step1' => 'Installer lommebok',
-	'mineguide.step1_desc' => 'Hvis du ikke har gjort det ennå, last ned <a href="wallet">Peercoin lommeboken</a>.',
-	'mineguide.step2' => 'Velg et andelslag for graving',
-	'mineguide.step2_poollist' => 'Dedikerte andelslag for Peercoin:',
-	'mineguide.step2_multipoollist' => 'Andelslag for flere mynter:',
-	'mineguide.step3' => 'Registrer deg hos andelslaget',
-	'mineguide.step3_desc' => 'Følg instruksjonene på andelslagets webside.',
-);
-

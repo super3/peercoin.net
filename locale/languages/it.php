@@ -1,6 +1,5 @@
 <?php
 $lang['it'] = array();
-
 $lang['it'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Lo sviluppo di Peercoin procede rapidamente.',
@@ -23,10 +22,6 @@ $lang['it'] += array(
 	'developers.peerbox_desc' => '<b>Peerbox</b> è un sistema operativo sicuro per coniare e mantenere nodi Peercoin, è attualmente in sviluppo attivo. Esso si concentra su dispositivi economici ed energeticamente efficienti come Raspberry Pi, la quale è compatibile con l\'obiettivo di Peercoin nel provvedere una critptovaluta energeticamente efficiente. Se ASIC è un termine per mining dedicato ed energeticamente efficiente, allora Peerbox è l\'ASIC del Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> è un progetto che deve essere ancora inaugurato, dal creatore di Peershares, Jordan Lee. NuBits sarà la prima implementazion di Peershares. Il suo obiettivo è quello di risolvere il problema della volatilità nelle criptovalute.',
 );
-
-
-
-
 $lang['it'] += array(
 	//Exchanges
 	'exchanges.what_are' => 'Cos\'è un Exchange?',
@@ -42,9 +37,12 @@ $lang['it'] += array(
 	'exchanges.visit' => 'Visita',
 );
 
-
-
-
+$lang['it'] += array(
+	'footer.links' => 'Collegamenti',
+	'footer.tools' => 'Strumenti',
+	'footer.exchanges' => 'Exchanges',
+	'footer.mining' => 'Mining',
+);
 $lang['it'] += array(
 	// FAQ
 	'faq.yes' => 'Si',
@@ -66,21 +64,7 @@ $lang['it'] += array(
 	'faq.q6_l2' => 'Numero di transazioni (diminuisce la disponibilità di 0.01 PPC per transazione)',
 	'faq.q6_l3' => 'Coniazione Proof of Stake (aumenta la disponibilità ad un tasso fino a  1&#37; annuo)',
 	'faq.q6_ans2' => 'Grazie alla maggiore partecipazione al mining, il tasso di inflazione di Peercoin è costantemente rimasto sotto il 5&#37; per la prima metà del 2014. Al presente tasso di adozione, questo tasso diminuirà ulteriormente nel tempo e Peercoin sarà meno inflazionaria e molto piu  sostenibile che altre cryptovalute.',
-
 );
-
-
-
-
-$lang['it'] += array(
-	'footer.links' => 'Collegamenti',
-	'footer.tools' => 'Strumenti',
-	'footer.exchanges' => 'Exchanges',
-	'footer.mining' => 'Mining',
-);
-
-
-
 $lang['it'] += array(
 	// Global
 	'homepage_title' => 'Peercoin - Criptovaluta Sicura e Sostenibile',
@@ -91,10 +75,6 @@ $lang['it'] += array(
 	'website' => 'Sito Internet',
 	'forum' => 'Forum',
 );
-
-
-
-
 $lang['it'] += array(
 	// Header
 	'header.get_started' => 'Comincia subito',
@@ -116,10 +96,6 @@ $lang['it'] += array(
 
 	'header.languages' => 'Lingue',
 );
-
-
-
-
 $lang['it'] += array(
 	// Index page
 	'index.why_peercoin' => 'Perchè Peercoin',
@@ -155,10 +131,6 @@ $lang['it'] += array(
 	'index.newsletter_placeholder' => 'Inserisci il tuo indirizzo e-mail...',
 	'index.newsletter_submit' => 'Iscriviti!',
 );
-
-
-
-
 $lang['it'] += array(
 	//Investors
 	'investors.established_network' => 'Rete Solida',
@@ -171,9 +143,6 @@ $lang['it'] += array(
 	'investors.guaranteed_returns_desc' => 'Dopo che possiedi Peercoins per 30 giorni, è possibile cominciare a guadagnare l\' 1&#37; di rendimento annuo <a href="minting">Clicca qui per saperne di più</a>.',
 
 );
-
-
-
 $lang['it'] += array(
 	//Merchants
 	'merchants.instant' => 'Pagamenti istantanei',
@@ -184,10 +153,6 @@ $lang['it'] += array(
 	'merchants.no_transaction_fees_desc' => 'Per effettuare un pagamento, chi invia ha una tariffa di solo 0.01 Peercoin. Come venditore, non paghi assolutamente nulla.',
 
 );
-
-
-
-
 $lang['it'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Compatibilie con Bitcoin',
@@ -197,10 +162,6 @@ $lang['it'] += array(
 	'mining.sustainable_reward' => 'Rendimento Sostenibile',
 	'mining.sustainable_reward_desc' => 'Il rendimento per il mining di un blocco, diminuisce gradualmente con l\'aumentare della capacità di calcolo della rete. Con il passare del tempo, il mining ha un impatto sempre minore sulla crescita della valuta disponibile.',
 );
-
-
-
-
 $lang['it'] += array(
 	'mintguide.title' => 'Segui la guida che corrisponde al tuo client Peercoin e comincia a coniare!',
 	'mintguide.qt_step1' => 'Assicurati che il tuo portafoglio sia criptato con una password sicura. Scrivila e conservala in un posto sicuro; se dimenticassi la tua password potresti perdere le tue monete. L\'opzione per criptare il portafoglio si trova nel menu settings del programma portafoglio Peercoin-Qt.',
@@ -213,10 +174,16 @@ $lang['it'] += array(
 	'mintguide.peerunity_step3' => 'Puoi controllare che stai coniando guardando il lucchetto in basso a destra nel client. Dopo qualche istante dovrebbe aprirsi. Puntando il mouse sopra il lucchetto, dovrebbe apparire "Wallet is encypted and currently unlocked for block minting only".',
 
 );
-
-
-
-
+$lang['it'] += array(
+	'mineguide.title' => 'Segui questi passi per cominciare con il mining di Peercoin!',
+	'mineguide.step1' => 'Setup del portafoglio software',
+	'mineguide.step1_desc' => 'Se non l\'hai già fatto, scarica il  <a href="wallet">portafoglio Peercoin</a>.',
+	'mineguide.step2' => 'Seleziona una pool per il mining',
+	'mineguide.step2_poollist' => 'Pools dedicate a Peercoin:',
+	'mineguide.step2_multipoollist' => 'Pools multimoneta:',
+	'mineguide.step3' => 'Iscriviti al pool',
+	'mineguide.step3_desc' => 'Segui le istruzioni sul sito della pool.',
+);
 $lang['it'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Conia Dovunque',
@@ -227,23 +194,6 @@ $lang['it'] += array(
 	'minting.earn_reward_desc' => 'Coniare ti permette di guadagnare l\'1&#37; annuo. Le monete possono essere utilizzate per coniare 30 giorni dopo che sono state trasferite, e dopo 90 giorni, la loro probabilità di successo è massimizzata. Se coni spesso, i tuoi guadagni capitalizzeranno!',
 
 );
-
-
-$lang['it'] += array(
-	// Wallet
-	'wallet.title' => 'Portafogli',
-	'wallet.desc' => 'Il portafoglio Peercoin è un\'applicazione utilizzata per risparmiare ed effettuare transazioni di Peercoins con altri utenti. Peercoin ha due portafogli per il desktop: Peerunity e Peercoin-QT. Raccomandiamo Peerunity per la maggior parte degli utenti. Per maggiori informazioni su come utilizzare il tuo portafoglio software visita la <a href="newcomer">pagina Nuovi Arrivati</a>.',
-	'wallet.peerunity' => 'Peerunity (raccomandato)',
-	'wallet.peerunity_desc' => 'Peerunity è sviluppato dalla comunità Percoin. Esso include caratteristiche ulteriori rispetto al portafoglio protocollo core, come coniazione con un click e controllo monete. Le prossime edizioni conterranno un pannello con un nuovo design, integrazione con Peershares, ed una tab dedicata alla Coniazione.',
-	'wallet.peercoinqt' => 'Peercoin-QT<br>(protocollo core)',
-	'wallet.peercoinqt_desc' => 'Peercoin-QT è il protocollo core di Peercoin, sviluppato e mantenuto dallo sviluppatore di Peercoin, Sunny King. Esso riceve solo aggiornamenti ad alta priorità.',
-	'wallet.paper_wallet' => 'Portafoglio Cartaceo',
-	'wallet.paper_wallet_desc' => 'Il portafoglio cartaceo rimane completamente offline, stampato su di un foglio di carta per maggiore sicurezza. Utilizza il portafoglio cartaceo se vuoi limitare l\'accesso ai tuoi Peercoins, e se intendi metterli da parte per un lungo periodo di tempo.',
-	'wallet.android_wallet' => 'Portafolgio per Android',
-	'wallet.android_wallet_desc' => 'Un portafoglio portatile Peercoin che permette di gestire i tuoi Peercoins senza trasportare una completa chiave a blocchi sul tuo cellulare. Esso conserva spazio prezioso sul tuo dispositivo android e ti permette di portare le tue monete con te, ovunque tu sia.',
-	'wallet.download' => 'Scarica',
-);
-
 $lang['it'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Comincia subito con Peercoin',
@@ -257,10 +207,6 @@ $lang['it'] += array(
 	'newcomers.learn_more_desc' => 'Adesso che hai le tue monete nel tuo portafoglio, è il momento di imparare come crescere il tuo investimento con la <a href="minting">coniazione diPeercoin</a>.',
 
 );
-
-
-
-
 $lang['it'] += array(
 	'pig.title' => 'Segui la seguente procedura per accettare Peercoins sul tuo sito internet:',
 	'pig.step1' => 'Utilizza la tab Bulk Wallet su <a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> per pre-generare un grande numero di indirizzi Peercoin. Copia ed incolla la lista comma separated values (CSV)  su un file sicuro sul tuo computer. Effettua il backup del file su un dispositivo sicuro.',
@@ -271,9 +217,6 @@ $lang['it'] += array(
 	'pig.step6' => 'Per qualsiasi problema, puoi inserire un post nel <a href="http://peercointalk.org">forum della comunità</a>.',
 	
 );
-
-
-
 $lang['it'] += array(
 	'waldownload.download' => 'Scarica',
 	'waldownload.source' => 'Codice Sorgente',
@@ -283,25 +226,26 @@ $lang['it'] += array(
 	'waldownload.qt_title' => 'Peercoin-QT',
 	'waldownload.peerunity_title' => 'Peerunity',	
 );
-
-
-
-
 $lang['it'] += array(
 	//Whitepaper
 	'whitepaper.download_pdf' => 'Scarica il PDF',
 	'whitepaper.software' => 'Le tesi sono disponibili in Portable Document Format (PDF). Per la lettura utilizza  <a href="http://pdfreaders.org/">il programma</a> che preferisci.',
 
 );
-
 $lang['it'] += array(
-	'mineguide.title' => 'Segui questi passi per cominciare con il mining di Peercoin!',
-	'mineguide.step1' => 'Setup del portafoglio software',
-	'mineguide.step1_desc' => 'Se non l\'hai già fatto, scarica il  <a href="wallet">portafoglio Peercoin</a>.',
-	'mineguide.step2' => 'Seleziona una pool per il mining',
-	'mineguide.step2_poollist' => 'Pools dedicate a Peercoin:',
-	'mineguide.step2_multipoollist' => 'Pools multimoneta:',
-	'mineguide.step3' => 'Iscriviti al pool',
-	'mineguide.step3_desc' => 'Segui le istruzioni sul sito della pool.',
+	// Wallet
+	'wallet.title' => 'Portafogli',
+	'wallet.desc' => 'Il portafoglio Peercoin è un\'applicazione utilizzata per risparmiare ed effettuare transazioni di Peercoins con altri utenti. Peercoin ha due portafogli per il desktop: Peerunity e Peercoin-QT. Raccomandiamo Peerunity per la maggior parte degli utenti. Per maggiori informazioni su come utilizzare il tuo portafoglio software visita la <a href="newcomer">pagina Nuovi Arrivati</a>.',
+	'wallet.peerunity' => 'Peerunity (raccomandato)',
+	'wallet.peerunity_desc' => 'Peerunity è sviluppato dalla comunità Percoin. Esso include caratteristiche ulteriori rispetto al portafoglio protocollo core, come coniazione con un click e controllo monete. Le prossime edizioni conterranno un pannello con un nuovo design, integrazione con Peershares, ed una tab dedicata alla Coniazione.',
+	'wallet.peercoinqt' => 'Peercoin-QT<br>(protocollo core)',
+	'wallet.peercoinqt_desc' => 'Peercoin-QT è il protocollo core di Peercoin, sviluppato e mantenuto dallo sviluppatore di Peercoin, Sunny King. Esso riceve solo aggiornamenti ad alta priorità.',
+	'wallet.paper_wallet' => 'Portafoglio Cartaceo',
+	'wallet.paper_wallet_desc' => 'Il portafoglio cartaceo rimane completamente offline, stampato su di un foglio di carta per maggiore sicurezza. Utilizza il portafoglio cartaceo se vuoi limitare l\'accesso ai tuoi Peercoins, e se intendi metterli da parte per un lungo periodo di tempo.',
+	'wallet.android_wallet' => 'Portafolgio per Android',
+	'wallet.android_wallet_desc' => 'Un portafoglio portatile Peercoin che permette di gestire i tuoi Peercoins senza trasportare una completa chiave a blocchi sul tuo cellulare. Esso conserva spazio prezioso sul tuo dispositivo android e ti permette di portare le tue monete con te, ovunque tu sia.',
+	'wallet.bkchain_wallet' => 'Bkchain Wallet',
+	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
+	'wallet.download' => 'Scarica',
+	'wallet.visit_site' => 'Visit',
 );
-

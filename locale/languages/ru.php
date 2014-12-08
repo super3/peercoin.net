@@ -1,7 +1,5 @@
 <?php
-
 $lang['ru'] = array();
-
 $lang['ru'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Развитие peercoin продвигается быстрыми темпами.',
@@ -156,16 +154,6 @@ $lang['ru'] += array(
 
 );
 $lang['ru'] += array(
-	'mineguide.title' => 'Следуйте этим шагам, чтобы начать майнить Peercoin!',
-	'mineguide.step1' => 'Установить программное обеспечение кошелька',
-	'mineguide.step1_desc' => 'Если вы еще не сделали этого, скачайте <a href="wallet">Кошелек Peercoin</a>.',
-	'mineguide.step2' => 'Выберите майнинг пул',
-	'mineguide.step2_poollist' => 'Пулы, связанные с Peercoin:',
-	'mineguide.step2_multipoollist' => 'Мультимонетные пулы: ',
-	'mineguide.step3' => 'Подписаться на этот пул',
-	'mineguide.step3_desc' => 'Следуйте инструкциям на сайте пула. ',
-);
-$lang['ru'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Совместимость с Bitcoin',
 	'mining.compatible_with_bitcoin_desc' => 'Peercoin использует тот же алгоритм майнинга, что и Bitcoin, известный, как SHA-256. Любое программное обеспечение, работающее с сетями Bitcoin, может так же быть использовано для майнинга Peercoin. ',
@@ -185,6 +173,16 @@ $lang['ru'] += array(
 	'mintguide.peerunity_step2' => 'Чтобы начать создавать монеты, просто нажмите кнопку "Открыть кошелек только для создания монет", введите Ваш пароль и нажмите ОК. ',
 	'mintguide.peerunity_step3' => 'Вы Вы можете проверить, как проходит процесс создания монет, взглянув на замок в нижнем правом углу клиента. Через несколько секунд он должен разблокироваться. Если Вы наведете на него курсор мыши, должно появиться сообщение "Кошелек зашифрован и в данный момент открыт только для создания блоков".',
 
+);
+$lang['ru'] += array(
+	'mineguide.title' => 'Следуйте этим шагам, чтобы начать майнить Peercoin!',
+	'mineguide.step1' => 'Установить программное обеспечение кошелька',
+	'mineguide.step1_desc' => 'Если вы еще не сделали этого, скачайте <a href="wallet">Кошелек Peercoin</a>.',
+	'mineguide.step2' => 'Выберите майнинг пул',
+	'mineguide.step2_poollist' => 'Пулы, связанные с Peercoin:',
+	'mineguide.step2_multipoollist' => 'Мультимонетные пулы: ',
+	'mineguide.step3' => 'Подписаться на этот пул',
+	'mineguide.step3_desc' => 'Следуйте инструкциям на сайте пула. ',
 );
 $lang['ru'] += array(
 	// minting
@@ -229,6 +227,12 @@ $lang['ru'] += array(
 	'waldownload.peerunity_title' => 'Peerunity ',	
 );
 $lang['ru'] += array(
+	//Whitepaper
+	'whitepaper.download_pdf' => 'Скачать PDF',
+	'whitepaper.software' => 'Техническое описание доступно в формате (PDF). Пожалуйста, пользуйтесь предпочтительным для Вас программным обеспечением: <a href="http://pdfreaders.org/">программы для чтения</a>.',
+
+);
+$lang['ru'] += array(
 	// Wallet
 	'wallet.title' => 'Кошельки',
 	'wallet.desc' => 'Кошелек Peercoin - приложение, используемое для хранения и проведения различных операций с другими пользователями. Peercoin имеет два кошелька для рабочего стола: Peerunity и Peercoin-QT. Мы рекомендуем Peerunity для большинства пользователей. Больше информации о том, как пользоваться программным обеспечением Вашего кошелька, Вы можете получить посетив  <a href="newcomers">Новичкам</a>.',
@@ -240,11 +244,8 @@ $lang['ru'] += array(
 	'wallet.paper_wallet_desc' => 'Бумажный кошелек остается полностью оффлайн, напечатанным на листе бумаги для безопасного хранения. Используйте бумажный кошелек, если Вы хотите ограничить доступ к Вашим монетам и планируете хранить их в течение длительного периода времени. ',
 	'wallet.android_wallet' => 'Android Кошелек',
 	'wallet.android_wallet_desc' => 'Мобильный кошелек Peercoin, который позволяет Вам управлять Вашими монетами без переноски полноразмерных цепочек блоков на Вашем мобильном телефоне. Это экономит драгоценное пространство на вашем андроид-устройстве и позволяет Вам брать монеты с собой, где бы Вы ни были. ',
+	'wallet.bkchain_wallet' => 'Bkchain Wallet',
+	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Скачать',
-);
-$lang['ru'] += array(
-	//Whitepaper
-	'whitepaper.download_pdf' => 'Скачать PDF',
-	'whitepaper.software' => 'Техническое описание доступно в формате (PDF). Пожалуйста, пользуйтесь предпочтительным для Вас программным обеспечением: <a href="http://pdfreaders.org/">программы для чтения</a>.',
-
+	'wallet.visit_site' => 'Visit',
 );

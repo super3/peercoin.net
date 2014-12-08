@@ -1,6 +1,6 @@
 <?php
-$lang['in'] = array();
-$lang['in'] += array(
+$lang['id'] = array();
+$lang['id'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Pengembangan Peercoin bergerak maju dengan pesat.',
 	'developers.core_protocol' => 'Protokol Inti',
@@ -22,11 +22,7 @@ $lang['in'] += array(
 	'developers.peerbox_desc' => '<b>PeerBox</b> adalah sebuah sistem operasi yang aman untuk pencetakan dan menjalankan pembengkakkan Peercoin, dan saat ini sedang dalam pengembangan aktif. Ini berfokus pada murah, perangkat hemat energi seperti Raspberry Pi, yang kompatibel dengan tujuan Peercoin menyediakan cryptocurrency hemat energi. Jika ASIC adalah istilah untuk pertambangan berdedikasi dan hemat energi, maka PeerBox adalah ASIC Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> adalah sebuah proyek yang akan diluncurkan oleh pencipta Peershares, Jordan Lee. NuBits akan menjadi implementasi pertama dari Peershares. Hal ini dimaksudkan untuk memecahkan masalah ketidakstabilan cryptocurrencies.',
 );
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	//Exchanges
 	'exchanges.what_are' => 'Apa itu Pertukaran ? ',
 	'exchanges.what_are_desc' => '<b>Pertukaran</b> memungkinkan Anda untuk bertukar mata uang yang didukung pemerintah, seperti Dolar AS atau Euro, untuk membeli dan menjual Peercoins. Pertukaran juga memfasilitasi perdagangan antara peercoins dan cryptocurrencies lainnya, seperti Bitcoin.',
@@ -41,19 +37,13 @@ $lang['in'] += array(
 	'exchanges.visit' => 'Kunjungan',
 );
 
-
-
-
-$lang['in'] += array(
-	'footer.links' => 'Links',
-	'footer.tools' => 'Tools',
-	'footer.exchanges' => 'Pertukaran',
+$lang['id'] += array(
+	'footer.links' => 'Link',
+	'footer.tools' => 'Alat',
+	'footer.exchanges' => 'Bursa',
 	'footer.mining' => 'Pertambangan',
 );
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	// FAQ
 	'faq.yes' => 'Iya',
 	'faq.no' => 'Tidak',
@@ -74,15 +64,8 @@ $lang['in'] += array(
 	'faq.q6_l2' => 'Jumlah transaksi (penurunan pasokan sebesar 0,01 PPC per transaksi)',
 	'faq.q6_l3' => 'Pencetakan Proof of Stake (meningkatkan pasokan hingga di tingkat 1&#37 per tahun)',
 	'faq.q6_ans2' => 'Terima kasih untuk meningkatkan pastisipasi pertambangan, tingkat inflasi Peercoin secara konsisten tetap di bawah 5&#37; untuk semester pertama 2014 Pada tingkat adopsi saat ini, tingkat ini akan menurun lebih lanjut dari waktu ke waktu, membuat Peercoin berkurang inflasi dan lebih berkelanjutan daripada kebanyakan cryptocoins lainnya.',
-
 );
-
-
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	// Global
 	'homepage_title' => 'Peercoin - Aman & Cryptocoin Berkelanjutan.',
 
@@ -92,11 +75,7 @@ $lang['in'] += array(
 	'website' => 'Website',
 	'forum' => 'Forum',
 );
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	// Header
 	'header.get_started' => 'Memulai',
 	'header.newcomers' => 'Pendatang Baru',
@@ -117,11 +96,7 @@ $lang['in'] += array(
 
 	'header.languages' => 'Bahasa',
 );
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	// Index page
 	'index.why_peercoin' => 'Kenapa Peercoin',
 	'index.download_wallet' => 'Mengunduh Dompet',
@@ -156,11 +131,7 @@ $lang['in'] += array(
 	'index.newsletter_placeholder' => 'Masukan alamat e-mail Anda ...',
 	'index.newsletter_submit' => 'Daftarkan saya!',
 );
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	//Investors
 	'investors.established_network' => 'Jaringan didirikan',
 	'investors.established_network_desc' => 'Peercoin diluncurkan pada tahun 2012, menjadikannya salah satu jaringan cryptocoin tertua dan paling dapat diandalkan.',
@@ -172,10 +143,7 @@ $lang['in'] += array(
 	'investors.guaranteed_returns_desc' => 'Setelah Peercoins disimpan selama 30 hari, mereka berhak untuk mendapatkan reward tahunan 1&#37; . <a href="minting">Klik di sini untuk mempelajari lebih lanjut</a>.',
 
 );
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	//Merchants
 	'merchants.instant' => 'Dapat DIbayar Instan',
 	'merchants.instant_desc' => 'Transaksi diproses segera melalui teknologi blockchain Peercoin ini. Sebuah blok explorer langsung memeriksa pembayaran masuk.',
@@ -185,11 +153,7 @@ $lang['in'] += array(
 	'merchants.no_transaction_fees_desc' => 'Untuk melakukan pembayaran, setiap pengirim membayar biaya hanya 0.01 Peercoin. Sebagai pedagang, Anda tidak membayar apapun.',
 
 );
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	// Mining
 	'mining.compatible_with_bitcoin' => 'Kompatibel dengan Bitcoin',
 	'mining.compatible_with_bitcoin_desc' => 'Peercoin menggunakan algoritma pertambangan sama dengan Bitcoin, yang dikenal sebagai SHA-256. Setiap perangkat keras yang bekerja pada jaringan Bitcoin juga dapat digunakan untuk menambang Peercoins.',
@@ -198,11 +162,7 @@ $lang['in'] += array(
 	'mining.sustainable_reward' => 'Reward Berkelanjutan',
 	'mining.sustainable_reward_desc' => 'Reward untuk penambang blok secara bertahap menurun sebagai kekuatan menghitung jaringan tumbuh. Seiring waktu, pertambangan akan berdampak terus menurun pada pertumbuhan jumlah uang beredar.',
 );
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	'mintguide.title' => 'Ikuti panduan yang sesuai dengan klien Peercoin Anda untuk mulai pencetakan!',
 	'mintguide.qt_step1' => 'Pastikan dompet Anda dienkripsi dengan password yang baik. Catat ini dan menyimpannya di suatu tempat yang aman; jika Anda lupa kata sandi Anda akan kehilangan uang Anda. Pilihan enkripsi dompet dapat ditemukan di bawah tab pengaturan dalam program dompet Peercoin-Qt.',
 	'mintguide.qt_step2' => 'Untuk memulai pencetakan pergi ke tombol membantu -> jendela debug -> konsol dan masukkan: <br> <kbd>walletpassphrase abc 999.999 true</kbd> <br> mana "abc" adalah password Anda dan "999999" adalah waktu dimana Anda ingin cetak dalam detik. Anda dapat mengubah jumlah waktu untuk apa pun yang Anda suka, tetapi biasanya paling mudah adalah mengaturnya pada angka yang sangat tinggi. Jika passphrase Anda memiliki ruang maka diapit dengan tanda kutip.',
@@ -214,11 +174,17 @@ $lang['in'] += array(
 	'mintguide.peerunity_step3' => 'Anda dapat memeriksa pencetakan Anda dengan melihat gembok kecil di sudut kanan bawah klien. Setelah beberapa saat itu harus menjadi terkunci. Jika Anda membawa mouse Anda di atasnya, itu harus mengatakan "Dompet ini encypted dan saat ini dibuka hanya untuk blok pencetakan".',
 
 );
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
+	'mineguide.title' => 'Ikuti langkah-langkah ini untuk memulai penambangan Peercoin!',
+	'mineguide.step1' => 'Mengatur software dompet',
+	'mineguide.step1_desc' => 'Jika Anda belum memiliki, downlaod <a href="wallet">dompet Peercoin</a>.',
+	'mineguide.step2' => 'Pilih kelompok pertambangan',
+	'mineguide.step2_poollist' => 'Peercoin-mempersembahkan kelompok:',
+	'mineguide.step2_multipoollist' => 'Kelompok-kelompok Multikoin:',
+	'mineguide.step3' => 'Mendaftar dengan kelompok',
+	'mineguide.step3_desc' => 'Ikuti petunjuk di situs kelompok.',
+);
+$lang['id'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Pencetakan Di mana saja',
 	'minting.mint_anywhere_desc' => 'Kebanyakan pertambangan cryptocoin memerlukan perangkat keras khusus, tetapi percetakan Peercoin dapat dilakukan pada komputer manapun. Percetakan yang dilakukan hemat energi, karena didasarkan pada Peercoins yang Anda pegang, bukan pada kekuatan pemrosesan Anda.',
@@ -228,10 +194,7 @@ $lang['in'] += array(
 	'minting.earn_reward_desc' => 'Pencetakan  Anda mendapatkan 1&#37; per tahun. Koin yang pertama berhak mencetak 30 hari setelah mereka telah dipindahkan, dan setelah 90 hari, tingkat keberhasilan mereka dimaksimalkan. Jika Anda mencetak lebih sering, penghasilan Anda akan bergabung!',
 
 );
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Memulai dengan Peercoin',
 	'newcomers.downlaod_wallet' => 'Mengunduh perangkat lunak dompet',
@@ -244,11 +207,7 @@ $lang['in'] += array(
 	'newcomers.learn_more_desc' => 'Sekarang bahwa Anda memiliki koin dalam dompet Anda, saatnya untuk mempelajari bagaimana untuk mengembangkan investasi Anda dengan <a href="minting">Pencetakan Peercoin</a>.',
 
 );
-
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	'pig.title' => 'Gunakan langkah berikut untuk menerima Peercoins di situs web Anda:',
 	'pig.step1' => 'Gunakan Dompet Massal di <a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> untuk pra-produksi alamat Peercoin dalam jumlah besar. Copy dan paste  daftar comma separated value (CSV​​) yang diproduksi ke file teks aman komputer Anda. Back up file ke lokasi yang aman.',
 	'pig.step2' => 'Impor alamat peercoin publik ke dalam tabel database pada server web Anda. Jangan mengimpor kunci pribadi, melainkan tetap secara offline untuk melindungi mereka dari hacker.',
@@ -258,10 +217,7 @@ $lang['in'] += array(
 	'pig.step6' => 'Jika Anda mengalami masalah, jangan ragu untuk posting di <a href="http://peercointalk.org">forum komunitas</a>.',
 	
 );
-
-
-
-$lang['in'] += array(
+$lang['id'] += array(
 	'waldownload.download' => 'Mengunduh',
 	'waldownload.source' => 'Sumber Kode',
 	'waldownload.license' => 'Lisensi',
@@ -270,10 +226,13 @@ $lang['in'] += array(
 	'waldownload.qt_title' => 'Peercoin-QT',
 	'waldownload.peerunity_title' => 'Peerunity',	
 );
+$lang['id'] += array(
+	//Whitepaper
+	'whitepaper.download_pdf' => 'Unduh PDF',
+	'whitepaper.software' => 'Panduan tersedia dalam Portable Document Format (PDF). Silahkan gunakan <a href="http://pdfreaders.org/">perangkat lunak untuk membaca</a>.',
 
-
-
-$lang['in'] += array(
+);
+$lang['id'] += array(
 	// Wallet
 	'wallet.title' => 'Dompet',
 	'wallet.desc' => 'Sebuah dompet Peercoin adalah aplikasi yang digunakan untuk menyimpan dan bertransaksi Peercoins dengan pengguna lain. Peercoin memiliki dua dompet desktop yaitu: Peerunity dan Peercoin-QT. Kami merekomendasikan Peerunity untuk sebagian besar pengguna. Untuk informasi lebih lanjut tentang cara menggunakan software dompet Anda, kunjungi  <a href="newcomer">Halaman Pendatang Baru</a>.',
@@ -285,13 +244,8 @@ $lang['in'] += array(
 	'wallet.paper_wallet_desc' => 'Sebuah dompet kertas benar-benar tetap offline, dicetak di atas pada selembar kertas untuk diamankan. Gunakan dompet kertas jika Anda ingin membatasi akses ke Peercoins Anda, dan berencana untuk menyimpannya untuk jangka waktu yang panjang.',
 	'wallet.android_wallet' => 'Dompet Android',
 	'wallet.android_wallet_desc' => 'Sebuah Peercoin dompet ponsel yang memungkinkan untuk mengelola Peercoins Anda tanpa membawa seluruh blockchain di ponsel Anda. Ini menghemat ruang pada perangkat android dan memungkinkan Anda untuk mengambil koin, dimanapun Anda berada.',
+	'wallet.bkchain_wallet' => 'Bkchain Wallet',
+	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Mengunduh',
+	'wallet.visit_site' => 'Visit',
 );
-
-$lang['in'] += array(
-	//Whitepaper
-	'whitepaper.download_pdf' => 'Unduh PDF',
-	'whitepaper.software' => 'Panduan tersedia dalam Portable Document Format (PDF). Silahkan gunakan <a href="http://pdfreaders.org/">perangkat lunak untuk membaca</a>.',
-
-);
-

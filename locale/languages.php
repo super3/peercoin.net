@@ -2,13 +2,15 @@
 
 $locale_languages = array(
 	'ar'    =>  'العربية',
-	'in'    =>  'Bahasa Indonesia',
+	'id'    =>  'Bahasa Indonesia',
+	'zh'	=>  '中文',
 	'de'    =>  'Deutsch',
 	'es'    =>  'Español',
 	'en'	=>	'English',
 	'fr'	=>  'Français',
-	'hi'	=>  'हिन्दी',
+	'hi_IN'	=>  'हिन्दी',
 	'it'    => 	'Italiano',
 	'no'	=>	'Norsk',
 	'ru'    =>  'Русский',
+	'tl_PH' =>  'Taglog (Philippines)',
 );
