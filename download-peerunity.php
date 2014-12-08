@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-win.zip',
-        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-osx.zip',
-        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-linux.zip'
+        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.2-RC1/peerunity-0.1.2-RC1-win.zip',
+        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.2-RC1/peerunity-0.1.2-RC1-osx.zip',
+        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.2-RC1/peerunity-0.1.2-RC1-linux.zip'
     );
 
     $CurrOS = "windows";
@@ -67,6 +67,39 @@
             </a>
         </div>
 
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title"><a class=
+                    "accordion-toggle collapsed" data-parent="#accordion"
+                    data-toggle="collapse" href=
+                    "#collapseSignatures"><span class="fui-plus"></span> <?php echo $Locale->getText("waldownload.signatures"); ?></a></h4>
+                </div>
+                
+                <div class="panel-collapse collapse" id="collapseSignatures">
+                    <div class="panel-body">
+                        <table style="font-size: 12px">
+                            <tr>
+                                <th>File</th>
+                                <th>SHA-256</th>
+                            </tr>
+                            <tr>
+                                <td><code>peerunity-0.1.2-RC1-win.zip</code></td>
+                                <td>9f8cc3c21a6d12dda4d35625c3b559bb1169b773b7e9695462b4e110a4e7ad42</td>
+                            </tr>
+                            <tr>
+                                <td><code>peerunity-0.1.2-RC1-osx.zip</code></td>
+                                <td>4d25bdab34230ee0bf6b05a0335c406eba136aed80e6c2061e4439413ef56801</td>
+                            </tr>
+                            <tr>
+                                <td><code>peerunity-0.1.2-RC1-linux.zip</code></td>
+                                <td>cf27c1ebe9663e8fc0be1c8d83cfefb60b94d679c7c761ac09918109e7364de4</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
