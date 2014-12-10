@@ -44,7 +44,8 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-12 text-center">
-			<a href="#" class="exchange-button active" data-toggle="tooltip" data-placement="top" title="AllCoin" data-exchange="allcoin"><img src="assets/img/exchanges/logos/AllCoin.png"></a>
+			<a href="#" class="exchange-button active" data-toggle="tooltip" data-placement="top" title="247exchange" data-exchange="247exchange"><img src="assets/img/exchanges/logos/247exchange.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="AllCoin" data-exchange="allcoin"><img src="assets/img/exchanges/logos/AllCoin.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="AllCrypt" data-exchange="allcrypt"><img src="assets/img/exchanges/logos/AllCrypt.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="ANXPRO" data-exchange="anxpro"><img src="assets/img/exchanges/logos/ANXPRO.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Anycoin Direct" data-exchange="anycoin_direct"><img src="assets/img/exchanges/logos/Anycoin_Direct.png"></a>
@@ -65,6 +66,7 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptonit" data-exchange="cryptonit"><img src="assets/img/exchanges/logos/Cryptonit.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Crypto-Trade" data-exchange="crypto-trade"><img src="assets/img/exchanges/logos/Crypto-Trade.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptsy" data-exchange="cryptsy"><img src="assets/img/exchanges/logos/cryptsy.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="ExchangeMyCoins" data-exchange="exchangemycoins"><img src="assets/img/exchanges/logos/ExchangeMyCoins.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Excoin" data-exchange="excoin"><img src="assets/img/exchanges/logos/Excoin.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="HolyTransaction" data-exchange="holytransaction"><img src="assets/img/exchanges/logos/HolyTransaction.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="LiteBit" data-exchange="litebit"><img src="assets/img/exchanges/logos/LiteBit.png"></a>
@@ -78,7 +80,23 @@
 		</div>
 		<div class="col-lg-12">
 
-			<div id="exchange-allcoin" class="exchange-info active">
+			<div id="exchange-247exchange" class="exchange-info active">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/247exchange.png"> 247exchange</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Belize</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>OTC exchange between cryptocurrencies and fiat</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.247exchange.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-allcoin" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/AllCoin.png"> AllCoin</b></h3>
 					<table>
@@ -88,7 +106,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.allcoin.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -104,7 +122,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.allcrypt.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -120,7 +138,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://anxpro.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -136,7 +154,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>OTC exchange between cryptocurrencies and fiat</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://anycoindirect.eu/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -152,7 +170,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.atomic-trade.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -168,7 +186,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.bitspark.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -184,7 +202,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>OTC exchange between cryptocurrencies and fiat</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bittylicious.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -200,7 +218,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bleutrade.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -216,7 +234,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://www.btc38.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -232,7 +250,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://btc-e.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -248,7 +266,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bter.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -264,7 +282,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bx.in.th/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -280,7 +298,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.ccedk.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -296,7 +314,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinbroker.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -312,7 +330,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinmkt.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -328,7 +346,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>Allows instant trades at market price. No registration is required.</td>
+							<td>Instant OTC exchange between cryptocurrencies</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinomat.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -344,7 +362,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.coins-e.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -360,7 +378,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://comkort.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -376,7 +394,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://cryptonit.net/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -392,7 +410,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://crypto-trade.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -408,10 +426,26 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.cryptsy.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-exchangemycoins" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/ExchangeMyCoins.png"> ExchangeMyCoins</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Denmark</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>Instant OTC exchange between cryptocurrencies</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://www.exchangemycoins.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-excoin" class="exchange-info">
@@ -420,11 +454,11 @@
 					<table>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
-							<td>-</td>
+							<td>United States</td>
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://exco.in/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -440,7 +474,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Instant OTC exchange between cryptocurrencies</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://holytransaction.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -456,7 +490,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>OTC exchange between cryptocurrencies and fiat</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.litebit.eu/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -472,7 +506,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.nix-e.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -488,7 +522,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://poloniex.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -504,7 +538,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>Buy Coins Instantly. No Account Needed.</td>
+							<td>Instant OTC exchange between cryptocurrencies</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://shapeshift.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -520,7 +554,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.swisscex.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -536,7 +570,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.therocktrading.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -552,7 +586,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.vaultofsatoshi.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
@@ -568,7 +602,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>-</td>
+							<td>Market trading exchange</td>
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://vircurex.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
