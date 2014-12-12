@@ -75,6 +75,7 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="ShapeShift" data-exchange="shapeshift"><img src="assets/img/exchanges/logos/ShapeShift.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="SWISSCEX" data-exchange="swisscex"><img src="assets/img/exchanges/logos/SWISSCEX.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="The Rock" data-exchange="therock"><img src="assets/img/exchanges/logos/therock.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Tuminium" data-exchange="tuminium"><img src="assets/img/exchanges/logos/Tuminium.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Vault of Satoshi" data-exchange="vault-of-satoshi"><img src="assets/img/exchanges/logos/vault-of-satoshi.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Vircurex" data-exchange="vircurex"><img src="assets/img/exchanges/logos/Vircurex.png"></a>
 		</div>
@@ -574,6 +575,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.therocktrading.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-tuminium" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Tuminium.png"> Tuminium</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Mexico</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>Market trading exchange</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://tuminium.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-vault-of-satoshi" class="exchange-info">
