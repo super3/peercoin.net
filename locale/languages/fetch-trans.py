@@ -26,7 +26,7 @@ resources = [
 import requests
 
 final = "<?php\n$lang['"+ lang +"'] = array();\n"
-cookies = dict(sessionid='"MY_SESS_ID"')
+cookies = dict(sessionid='".eJxrYKotZNSI4GdgYIgvTi0uzszPi0-tKMgsqixk8mLoVWcIFYpPLC3JiC8tTi2KT0pMzk7NSylkDjUqKUrMK85MS63QS0xOzi_NKynWg8oW67nmJmbm-BeFArXkJeamOkF1sYTyIpmVmVLI6lX4kYmhVA8A6_AvEA:1Xy3hn:dw3nPrM2JIw0GyXlSbu9P1r3DC8"')
 
 for resource in resources:
 	o = requests.get(resource, cookies=cookies)
