@@ -3,6 +3,7 @@
 $locale_languages = array(
 	'ar'    =>  'العربية',
 	'id'    =>  'Bahasa Indonesia',
+	'pt_BR' =>  'Brazilian portuguese',
 	'zh'	=>  '中文',
 	'de'    =>  'Deutsch',
 	'es'    =>  'Español',

@@ -12,3 +12,4 @@ include("languages/no.php");
 include("languages/ru.php");
 include("languages/tl_PH.php");
 include("languages/zh.php");
+include("languages/pt_BR.php");
