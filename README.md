@@ -53,3 +53,6 @@ The script(deploy.sh):
 The ticker sources data from CoinMarketCap, and if that fails, falls back to the Vircurex API. `tickerinfo.php` returns a JSON array containing the last price, market capitalization, and total number of PPC in circulation.
 
 Ensure that `ppcmarket.txt` is writeable by the PHP user so that the ticker can store updated information. Running `update_tickerinfo.php` will update the info provided by the ticker. This should be run via cron.
+
+### License
+Licensed under the MIT License (MIT). See LICENSE file for information.
