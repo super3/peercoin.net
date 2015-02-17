@@ -54,7 +54,6 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bleutrade" data-exchange="bleutrade"><img src="assets/img/exchanges/logos/Bleutrade.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTC38" data-exchange="btc38"><img src="assets/img/exchanges/logos/btc38.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTC-e" data-exchange="btce"><img src="assets/img/exchanges/logos/btce.png"></a>
-			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTER" data-exchange="bter"><img src="assets/img/exchanges/logos/BTER.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BX Thailand" data-exchange="bx_thailand"><img src="assets/img/exchanges/logos/BX_Thailand.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="CCEDK" data-exchange="ccedk"><img src="assets/img/exchanges/logos/CCEDK.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinbroker" data-exchange="coinbroker"><img src="assets/img/exchanges/logos/Coinbroker.png"></a>
@@ -238,22 +237,6 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://btc-e.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
-				</div>
-			</div>
-			<div id="exchange-bter" class="exchange-info">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h3><b><img src="assets/img/exchanges/logos/BTER.png"> BTER</b></h3>
-					<table>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
-							<td>British Virgin Islands</td>
-						</tr>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>Market trading exchange</td>
-						</tr>
-					</table>
-					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bter.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-bx_thailand" class="exchange-info">
