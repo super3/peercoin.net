@@ -86,7 +86,7 @@ $lang['en'] += array(
 
 $lang['en'] += array(
 	// Header
-	'header.get_started' => 'Get started',
+	'header.get_started' => 'Get Started',
 	'header.newcomers' => 'Newcomers',
 	'header.investors' => 'Investors',
 	'header.merchants' => 'Merchants',
