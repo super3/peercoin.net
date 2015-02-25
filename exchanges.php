@@ -396,7 +396,7 @@
 							<td>Instant OTC exchange between cryptocurrencies</td>
 						</tr>
 					</table>
-					<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://www.exchangemycoins.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.exchangemycoins.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-holytransaction" class="exchange-info">
@@ -508,7 +508,7 @@
 							<td>Instant OTC exchange between cryptocurrencies</td>
 						</tr>
 					</table>
-					<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://shapeshift.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://shapeshift.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-swisscex" class="exchange-info">
