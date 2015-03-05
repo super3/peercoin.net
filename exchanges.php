@@ -48,7 +48,7 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="AllCoin" data-exchange="allcoin"><img src="assets/img/exchanges/logos/AllCoin.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="AllCrypt" data-exchange="allcrypt"><img src="assets/img/exchanges/logos/AllCrypt.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Anycoin Direct" data-exchange="anycoin_direct"><img src="assets/img/exchanges/logos/Anycoin_Direct.png"></a>
-			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Atomic Trade" data-exchange="atomic_trade"><img src="assets/img/exchanges/logos/Atomic_Trade.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Banx.io" data-exchange="banx"><img src="assets/img/exchanges/logos/Banx.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bitspark" data-exchange="bitspark"><img src="assets/img/exchanges/logos/Bitspark.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bittylicious" data-exchange="bittylicious"><img src="assets/img/exchanges/logos/bittylicious.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bleutrade" data-exchange="bleutrade"><img src="assets/img/exchanges/logos/Bleutrade.png"></a>
@@ -143,20 +143,20 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://anycoindirect.eu/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
-			<div id="exchange-atomic_trade" class="exchange-info">
+			<div id="exchange-banx" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
-					<h3><b><img src="assets/img/exchanges/logos/Atomic_Trade.png"> Atomic Trade</b></h3>
+					<h3><b><img src="assets/img/exchanges/logos/Banx.png"> Banx.io</b></h3>
 					<table>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
-							<td>Canada</td>
+							<td>Panama</td>
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
 							<td>Market trading exchange</td>
 						</tr>
 					</table>
-					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.atomic-trade.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.banx.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-bitspark" class="exchange-info">
