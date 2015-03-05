@@ -96,12 +96,14 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.community"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="http://www.peercointalk.org">PeercoinTalk Forum</a></li>
+                <li><a href="https://www.peercointalk.org">PeercoinTalk Forum</a></li>
                 <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
                 <li><a target="_blank" href="https://plus.google.com/109267388527420438684/posts">Google+</a></li>
-                <li><a target="_blank" href="http://www.reddit.com/r/peercoin">Reddit</a></li>
+                <li><a target="_blank" href="https://www.reddit.com/r/peercoin">Reddit</a></li>
                 <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/peercoin">YouTube</a></li>
+                <li><a target="_blank" href="http://peer4commit.com">Peer4commit</a></li>
+                <li><a target="_blank" href="https://peerbox.me">Peerbox</a></li>
                 <li><a target="_blank" href="https://github.com/super3/Peercoin.net">GitHub</a></li>
                 <li><a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">Transifex</a></li>
               </ul>

@@ -48,7 +48,7 @@
 
 			<div class="row">
 				<div class="col-lg-12 social-icons" style="margin:1em 0">
-			        <a target="_blank" href="http://www.peercointalk.org">
+			        <a target="_blank" href="https://www.peercointalk.org">
 			              <img src="assets/img/icons/social-peercointalk.png" alt="Join us on PeercoinTalk">
 			        </a>
 			        <a target="_blank" href="https://www.facebook.com/Peercoin">
@@ -57,7 +57,7 @@
 			        <a target="_blank" href="https://plus.google.com/109267388527420438684/posts">
 			              <img src="assets/img/icons/social-google.png" alt="Visit us on Google+">
 			        </a>
-			            <a target="_blank" href="http://www.reddit.com/r/peercoin">
+			            <a target="_blank" href="https://www.reddit.com/r/peercoin">
 			              <img src="assets/img/icons/social-reddit.png" alt="Reddit">
 			        </a>
 			            <a target="_blank" href="https://twitter.com/PeercoinPPC">
@@ -65,6 +65,12 @@
 			        </a>
 			            <a target="_blank" href="https://www.youtube.com/user/peercoin">
 			              <img src="assets/img/icons/social-yt.png" alt="Watch videos on YouTube">
+			        </a>
+			            <a target="_blank" href="http://peer4commit.com">
+			              <img src="assets/img/icons/social-peer4commit.png" alt="Peer4commit">
+			        </a>
+			            <a target="_blank" href="https://peerbox.me">
+			              <img src="assets/img/icons/social-peerbox.png" alt="Peerbox">
 			        </a>
 			            <a target="_blank" href="https://github.com/super3/Peercoin.net">
 			              <img src="assets/img/icons/social-github.png" alt="Source code on GitHub">
