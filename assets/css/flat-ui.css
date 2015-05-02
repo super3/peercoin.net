@@ -1139,7 +1139,7 @@ address {
   opacity: 0;
   position: absolute;
   top: 0;
-  width: 234px;
+  width: auto;
   -webkit-transform: scale(1, 0.99);
   -webkit-transform-origin: 0 0;
   visibility: hidden;
