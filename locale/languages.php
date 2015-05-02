@@ -6,6 +6,7 @@ $locale_languages = array(
 	'pt_BR' =>  'Brazilian portuguese',
 	'zh'	=>  '中文',
 	'de'    =>  'Deutsch',
+	'el_GR' =>  'ελληνικά',
 	'es'    =>  'Español',
 	'en'	=>  'English',
 	'fr'	=>  'Français',
