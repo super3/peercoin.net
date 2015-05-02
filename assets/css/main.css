@@ -383,6 +383,7 @@ a:hover {
 
 .svgicons > div > h3 {
 	font-size: 36px;
+	word-break: break-all;
 }
 
 .svgicons > div > div {
