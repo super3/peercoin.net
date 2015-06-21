@@ -57,16 +57,15 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinbroker" data-exchange="coinbroker"><img src="assets/img/exchanges/logos/Coinbroker.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinnector" data-exchange="coinnector"><img src="assets/img/exchanges/logos/Coinnector.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinomat" data-exchange="coinomat"><img src="assets/img/exchanges/logos/coinomat.png"></a>
-			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coins-E" data-exchange="coins-e"><img src="assets/img/exchanges/logos/Coins-E.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Comkort" data-exchange="comkort"><img src="assets/img/exchanges/logos/Comkort.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptonit" data-exchange="cryptonit"><img src="assets/img/exchanges/logos/Cryptonit.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptsy" data-exchange="cryptsy"><img src="assets/img/exchanges/logos/cryptsy.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="HolyTransaction" data-exchange="holytransaction"><img src="assets/img/exchanges/logos/HolyTransaction.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Jubi" data-exchange="jubi"><img src="assets/img/exchanges/logos/Jubi.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Laissez Faire" data-exchange="laissez_faire"><img src="assets/img/exchanges/logos/Laissez_Faire.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="LiteBit" data-exchange="litebit"><img src="assets/img/exchanges/logos/LiteBit.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="NIX-E" data-exchange="nix-e"><img src="assets/img/exchanges/logos/NIX-E.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Poloniex" data-exchange="poloniex"><img src="assets/img/exchanges/logos/Poloniex.png"></a>
-			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="PS Coin" data-exchange="ps_coin"><img src="assets/img/exchanges/logos/PS_Coin.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="ShapeShift" data-exchange="shapeshift"><img src="assets/img/exchanges/logos/ShapeShift.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="The Rock" data-exchange="therock"><img src="assets/img/exchanges/logos/therock.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Tuminium" data-exchange="tuminium"><img src="assets/img/exchanges/logos/Tuminium.png"></a>
@@ -283,22 +282,6 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://coinomat.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
-			<div id="exchange-coins-e" class="exchange-info">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h3><b><img src="assets/img/exchanges/logos/Coins-E.png"> Coins-E</b></h3>
-					<table>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
-							<td>Canada</td>
-						</tr>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>Market trading exchange</td>
-						</tr>
-					</table>
-					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.coins-e.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
-				</div>
-			</div>
 			<div id="exchange-comkort" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/Comkort.png"> Comkort</b></h3>
@@ -379,6 +362,22 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="http://www.jubi.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
+			<div id="exchange-laissez_faire" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Laissez_Faire.png"> Laissez Faire</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>United States</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>Market trading exchange</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://lzf.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
 			<div id="exchange-litebit" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/LiteBit.png"> LiteBit</b></h3>
@@ -425,22 +424,6 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://poloniex.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
-				</div>
-			</div>
-			<div id="exchange-ps_coin" class="exchange-info">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h3><b><img src="assets/img/exchanges/logos/PS_Coin.png"> PS Coin</b></h3>
-					<table>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
-							<td>United States</td>
-						</tr>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>Market trading exchange</td>
-						</tr>
-					</table>
-					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://pscoin.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-shapeshift" class="exchange-info">
