@@ -48,6 +48,7 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="AllCoin" data-exchange="allcoin"><img src="assets/img/exchanges/logos/AllCoin.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Anycoin Direct" data-exchange="anycoin_direct"><img src="assets/img/exchanges/logos/Anycoin_Direct.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Banx.io" data-exchange="banx"><img src="assets/img/exchanges/logos/Banx.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bittrex" data-exchange="bittrex"><img src="assets/img/exchanges/logos/Bittrex.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bittylicious" data-exchange="bittylicious"><img src="assets/img/exchanges/logos/bittylicious.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bleutrade" data-exchange="bleutrade"><img src="assets/img/exchanges/logos/Bleutrade.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="BTC38" data-exchange="btc38"><img src="assets/img/exchanges/logos/btc38.png"></a>
@@ -69,6 +70,7 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="ShapeShift" data-exchange="shapeshift"><img src="assets/img/exchanges/logos/ShapeShift.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="The Rock" data-exchange="therock"><img src="assets/img/exchanges/logos/therock.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Tuminium" data-exchange="tuminium"><img src="assets/img/exchanges/logos/Tuminium.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="useCryptos" data-exchange="usecryptos"><img src="assets/img/exchanges/logos/useCryptos.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Vircurex" data-exchange="vircurex"><img src="assets/img/exchanges/logos/Vircurex.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="YoBit" data-exchange="yobit"><img src="assets/img/exchanges/logos/YoBit.png"></a>
 		</div>
@@ -136,6 +138,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.banx.io/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-bittrex" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Bittrex.png"> Bittrex</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>United States</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>Market trading exchange</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://bittrex.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-bittylicious" class="exchange-info">
@@ -432,7 +450,7 @@
 					<table>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
-							<td>-</td>
+							<td>Switzerland</td>
 						</tr>
 						<tr>
 							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
@@ -472,6 +490,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://tuminium.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-usecryptos" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/useCryptos.png" height="50" width="50"> useCryptos</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>Portugal</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>Market trading exchange</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://usecryptos.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-vircurex" class="exchange-info">
