@@ -66,7 +66,7 @@
                     <?php echo $Locale->getText("wallet.bkchain_wallet_desc"); ?>
                 </p>
                 <div>
-                    <a class="btn btn-primary btn-large btn-block" href="https://bkchain.org/ppc/wallet"><?php echo $Locale->getText("wallet.visit_site"); ?> bkchain.org</a>
+                    <a class="btn btn-primary btn-large btn-block" href="https://bkchain.org/ppc/wallet"><?php echo $Locale->getText("wallet.visit_site"); ?> <br>bkchain.org</a>
                 </div>
             </div>
         </div>
