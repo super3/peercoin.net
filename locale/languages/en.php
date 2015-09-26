@@ -104,6 +104,8 @@ $lang['en'] += array(
 	'header.community' => 'Community',
 
 	'header.languages' => 'Languages',
+	
+	'header.wiki' => 'Wiki',
 );
 
 $lang['en'] += array(
