@@ -30,7 +30,7 @@
   	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
    	<!-- Bootstrap core CSS -->
-   	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+   	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" integrity="sha384-dkTxiR4Mv8i0ubTj0fsgTCmhYmOtrc0o6rdrEO6hDZs9cAifak0Y2VVL2cecWHLQ" crossorigin="anonymous">
    	<link rel="stylesheet" href="assets/css/flat-ui.css">
 
     <!-- Font Awesome -->
