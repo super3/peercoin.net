@@ -102,8 +102,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" integrity="sha384-aBL3Lzi6c9LNDGvpHkZrrm3ZVsIwohDD7CDozL0pk8FwCrfmV7H9w8j3L7ikEv6h" crossorigin="anonymous"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js" integrity="sha384-Zzs5x1/YUvlxpCu06c197tRCubLCMA7pCoHbZeoZuz/oEgYD6NVmvLzDSKYBoc3J" crossorigin="anonymous"></script>
     <script type="text/javascript">
         var secondText = "<?php echo $Locale->getText("second_ago"); ?>";
         var secondsText = "<?php echo $Locale->getText("seconds_ago"); ?>";
