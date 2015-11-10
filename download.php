@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'http://downloads.sourceforge.net/project/ppcoin/0.4.0/ppcoin-0.4.0-win32-setup.exe',
-        'mac' => 'https://dl.dropboxusercontent.com/u/4111133/Peercoin/Distributions/PeercoinReference/PPCoin-Qt-v0_4_0.dmg',
-        'linux' => 'http://downloads.sourceforge.net/project/ppcoin/0.4.0/ppcoin-0.4.0-linux.tar.gz'
+        'windows' => 'http://downloads.sourceforge.net/project/ppcoin/0.4.1%20RC1/ppcoin-0.4.1rc1-win32-setup.exe',
+        'mac' => 'https://github.com/ppcoin/ppcoin/tree/0.4.1',
+        'linux' => 'https://github.com/ppcoin/ppcoin/tree/0.4.1'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.4.0-win32-setup.exe</code></td>
-                                <td>27bf05e1e36e2a8c82901b89fdfc227291b1bdace89e42685bf0b3d0fee7c738</td>
+                                <td><code>ppcoin-0.4.1rc1-win32-setup.exe</code></td>
+                                <td>c0fa41ad46ee6c27571a39e6bac4ef68d92f6e2b8c53919472ead98bc31c4bdb</td>
                             </tr>
                             <tr>
-                                <td><code>PPCoin-Qt-v0_4_0.dmg</code></td>
-                                <td>3afe072d676571458ca58f623138e9c3532d6e32df50df7d9cf451949674c9dc</td>
+                                <td><code>https://github.com/ppcoin/ppcoin/tree/0.4.1</code></td>
+                                <td>-</td>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.4.0-linux.tar.gz</code></td>
-                                <td>561076e8d4e82085d577eb717b9f8b52571556fea2b8181fa8eb6039218d3f06</td>
+                                <td><code>https://github.com/ppcoin/ppcoin/tree/0.4.1</code></td>
+                                <td>-</td>
                             </tr>
                         </table>
                     </div>
@@ -120,7 +120,7 @@
 
             <ul>
                 <li>Install
-                <code>ppcoin-0.4.0-win32-setup.exe</code>
+                <code>ppcoin-0.4.1rc1-win32-setup.exe</code>
 
                 <li>Default installation directory is
                 <code>C:\Program Files\PPCoin</code></li>
@@ -356,7 +356,7 @@
         <h4 class="modal-title" id="myModalLabel">The MIT License (MIT)</h4>
       </div>
       <div class="modal-body">
-        Copyright © 2011-2014 Peercoin Developers
+        Copyright © 2011-2015 Peercoin Developers
         Copyright © 2009-2012 Bitcoin Developers
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
