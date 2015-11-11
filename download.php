@@ -4,7 +4,7 @@
     $download_links = array(
         'windows' => 'http://downloads.sourceforge.net/project/ppcoin/0.4.1%20RC1/ppcoin-0.4.1rc1-win32-setup.exe',
         'mac' => 'https://github.com/ppcoin/ppcoin/tree/0.4.1',
-        'linux' => 'https://github.com/ppcoin/ppcoin/tree/0.4.1'
+        'linux' => 'http://downloads.sourceforge.net/project/ppcoin/0.4.1%20RC1/ppcoin-0.4.1ppc.rc1-linux.tgz'
     );
 
     $CurrOS = "windows";
@@ -92,8 +92,8 @@
                                 <td>-</td>
                             </tr>
                             <tr>
-                                <td><code>https://github.com/ppcoin/ppcoin/tree/0.4.1</code></td>
-                                <td>-</td>
+                                <td><code>ppcoin-0.4.1ppc.rc1-linux.tgz</code></td>
+                                <td>bdf52cf39aebf0d18561d56922054000811a216200ad58267052e245a6dd2b0c</td>
                             </tr>
                         </table>
                     </div>
@@ -185,7 +185,7 @@
 
             <ul>
                 <li>Unpack
-                <code>ppcoin-0.4.0-linux.tar.gz</code></li>
+                <code>ppcoin-0.4.1ppc.rc1-linux.tgz</code></li>
 
                 <li>Run <code>bin/32/ppcoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
@@ -356,8 +356,8 @@
         <h4 class="modal-title" id="myModalLabel">The MIT License (MIT)</h4>
       </div>
       <div class="modal-body">
-        Copyright © 2011-2015 Peercoin Developers
-        Copyright © 2009-2012 Bitcoin Developers
+Copyright (c) 2011-2015 The Peercoin developers<br>
+Copyright (c) 2009-2012 The Bitcoin Core developers<br><br>
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
