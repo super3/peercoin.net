@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-win.zip',
-        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-osx.zip',
-        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.1/peerunity-0.1.1-linux.zip'
+        'windows' => 'https://github.com/Peerunity/Peerunity/tree/0.1.3',
+        'mac' => 'https://github.com/Peerunity/Peerunity/tree/0.1.3',
+        'linux' => 'https://github.com/Peerunity/Peerunity/tree/0.1.3'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.1.1-win.zip</code></td>
-                                <td>13f618f8567654693735d4da5b05a23b29c75986e634b1401eafc3ae76ffd8e6</td>
+                                <td><code>https://github.com/Peerunity/Peerunity/tree/0.1.3</code></td>
+                                <td>-</td>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.1.1-osx.zip</code></td>
-                                <td>ec2f592a3aed258665293c9385ec57c9ad50d550dfbc390ca0edbb617fe9b278</td>
+                                <td><code>https://github.com/Peerunity/Peerunity/tree/0.1.3</code></td>
+                                <td>-</td>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.1.1-linux.zip</code></td>
-                                <td>6e087639aadb898b5642aec08f1241690030123dfabe12c6b21fbbc4399b1478</td>
+                                <td><code>https://github.com/Peerunity/Peerunity/tree/0.1.3</code></td>
+                                <td>-</td>
                             </tr>
                         </table>
                     </div>
@@ -111,7 +111,7 @@
         <h4 class="modal-title" id="myModalLabel">The MIT License (MIT)</h4>
       </div>
       <div class="modal-body">
-        Copyright © 2011-2014 Peercoin Developers
+        Copyright © 2011-2015 Peercoin Developers
         Copyright © 2009-2012 Bitcoin Developers
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
