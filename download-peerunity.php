@@ -3,7 +3,7 @@
     // Download link list:
     $download_links = array(
         'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.3-RC1/Peerunity-0.1.3-RC1-win32-setup.exe',
-        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.3-RC1/Peerunity-1.3.0-RC1.dmg',
+        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.3-RC1/Peerunity-0.1.3-RC1.dmg',
         'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.3-RC1/peerunity-0.1.3-RC1-linux.tar.xz'
     );
 
@@ -88,7 +88,7 @@
                                 <td>33d964ac44725995a323c1b0fb9c7ec34ed31f8ec91bc77f99f659a8cfe9e2ee</td>
                             </tr>
                             <tr>
-                                <td><code>Peerunity-1.3.0-RC1.dmg</code></td>
+                                <td><code>Peerunity-0.1.3-RC1.dmg</code></td>
                                 <td>78737aa8264403d3f490dffa3d9db2aaa57058501e991e0a8bea3d1349e126d1</td>
                             </tr>
                             <tr>
