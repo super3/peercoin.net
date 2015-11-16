@@ -45,7 +45,6 @@
 	<div class="row">
 		<div class="col-lg-12 text-center">
 			<a href="#" class="exchange-button active" data-toggle="tooltip" data-placement="top" title="247exchange" data-exchange="247exchange"><img src="assets/img/exchanges/logos/247exchange.png"></a>
-			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="AllCoin" data-exchange="allcoin"><img src="assets/img/exchanges/logos/AllCoin.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Anycoin Direct" data-exchange="anycoin_direct"><img src="assets/img/exchanges/logos/Anycoin_Direct.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Banx.io" data-exchange="banx"><img src="assets/img/exchanges/logos/Banx.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Bittrex" data-exchange="bittrex"><img src="assets/img/exchanges/logos/Bittrex.png"></a>
@@ -60,11 +59,13 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinomat" data-exchange="coinomat"><img src="assets/img/exchanges/logos/coinomat.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Comkort" data-exchange="comkort"><img src="assets/img/exchanges/logos/Comkort.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptonit" data-exchange="cryptonit"><img src="assets/img/exchanges/logos/Cryptonit.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptopia" data-exchange="cryptopia"><img src="assets/img/exchanges/logos/Cryptopia.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptsy" data-exchange="cryptsy"><img src="assets/img/exchanges/logos/cryptsy.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="HolyTransaction" data-exchange="holytransaction"><img src="assets/img/exchanges/logos/HolyTransaction.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Jubi" data-exchange="jubi"><img src="assets/img/exchanges/logos/Jubi.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Laissez Faire" data-exchange="laissez_faire"><img src="assets/img/exchanges/logos/Laissez_Faire.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="LiteBit" data-exchange="litebit"><img src="assets/img/exchanges/logos/LiteBit.png"></a>
+			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Livecoin" data-exchange="livecoin"><img src="assets/img/exchanges/logos/Livecoin.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="NIX-E" data-exchange="nix-e"><img src="assets/img/exchanges/logos/NIX-E.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Poloniex" data-exchange="poloniex"><img src="assets/img/exchanges/logos/Poloniex.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="ShapeShift" data-exchange="shapeshift"><img src="assets/img/exchanges/logos/ShapeShift.png"></a>
@@ -90,22 +91,6 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.247exchange.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
-				</div>
-			</div>
-			<div id="exchange-allcoin" class="exchange-info">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h3><b><img src="assets/img/exchanges/logos/AllCoin.png"> AllCoin</b></h3>
-					<table>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
-							<td>British Virgin Islands</td>
-						</tr>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>Market trading exchange</td>
-						</tr>
-					</table>
-					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.allcoin.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-anycoin_direct" class="exchange-info">
@@ -332,6 +317,22 @@
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://cryptonit.net/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
+			<div id="exchange-cryptopia" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Cryptopia.png"> Cryptopia</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>New Zealand</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>Market trading exchange</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.cryptopia.co.nz/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
 			<div id="exchange-cryptsy" class="exchange-info">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h3><b><img src="assets/img/exchanges/logos/cryptsy.png"> Cryptsy</b></h3>
@@ -410,6 +411,22 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.litebit.eu/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
+				</div>
+			</div>
+			<div id="exchange-livecoin" class="exchange-info">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h3><b><img src="assets/img/exchanges/logos/Livecoin.png"> Livecoin</b></h3>
+					<table>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
+							<td>United Kingdom</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
+							<td>Market trading exchange</td>
+						</tr>
+					</table>
+					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.livecoin.net/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-nix-e" class="exchange-info">
