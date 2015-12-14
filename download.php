@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'http://downloads.sourceforge.net/project/ppcoin/0.4.1%20RC1/ppcoin-0.4.1rc1-win32-setup.exe',
-        'mac' => 'https://github.com/ppcoin/ppcoin/tree/0.4.1',
-        'linux' => 'http://downloads.sourceforge.net/project/ppcoin/0.4.1%20RC1/ppcoin-0.4.1ppc.rc1-linux.tgz'
+        'windows' => 'http://sourceforge.net/projects/ppcoin/files/0.4.2/ppcoin-0.4.2-win32-setup.exe/download',
+        'mac' => 'https://github.com/ppcoin/ppcoin/tree/0.4.2',
+        'linux' => 'http://sourceforge.net/projects/ppcoin/files/0.4.2/ppcoin-0.4.2ppc-linux.tgz/download'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.4.1rc1-win32-setup.exe</code></td>
-                                <td>c0fa41ad46ee6c27571a39e6bac4ef68d92f6e2b8c53919472ead98bc31c4bdb</td>
+                                <td><code>ppcoin-0.4.2-win32-setup.exe</code></td>
+                                <td>8028229f6105578fdc37ce25fe454d9d7c7021f086403049d3d875f43d8e5b22</td>
                             </tr>
                             <tr>
-                                <td><code>https://github.com/ppcoin/ppcoin/tree/0.4.1</code></td>
+                                <td><code>https://github.com/ppcoin/ppcoin/tree/0.4.2</code></td>
                                 <td>-</td>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.4.1ppc.rc1-linux.tgz</code></td>
-                                <td>bdf52cf39aebf0d18561d56922054000811a216200ad58267052e245a6dd2b0c</td>
+                                <td><code>ppcoin-0.4.2ppc-linux.tgz</code></td>
+                                <td>4a2c45bcd1abd595fffbc4db1ea439c5bc1bd08943fe4de1ab755ef8d72f5bb3</td>
                             </tr>
                         </table>
                     </div>
@@ -120,7 +120,7 @@
 
             <ul>
                 <li>Install
-                <code>ppcoin-0.4.1rc1-win32-setup.exe</code>
+                <code>ppcoin-0.4.2-win32-setup.exe</code>
 
                 <li>Default installation directory is
                 <code>C:\Program Files\PPCoin</code></li>
@@ -185,7 +185,7 @@
 
             <ul>
                 <li>Unpack
-                <code>ppcoin-0.4.1ppc.rc1-linux.tgz</code></li>
+                <code>ppcoin-0.4.2ppc-linux.tgz</code></li>
 
                 <li>Run <code>bin/32/ppcoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
