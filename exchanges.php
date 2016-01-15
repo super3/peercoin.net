@@ -59,7 +59,6 @@
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Coinomat" data-exchange="coinomat"><img src="assets/img/exchanges/logos/coinomat.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptonit" data-exchange="cryptonit"><img src="assets/img/exchanges/logos/Cryptonit.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptopia" data-exchange="cryptopia"><img src="assets/img/exchanges/logos/Cryptopia.png"></a>
-			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Cryptsy" data-exchange="cryptsy"><img src="assets/img/exchanges/logos/cryptsy.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="HolyTransaction" data-exchange="holytransaction"><img src="assets/img/exchanges/logos/HolyTransaction.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Jubi" data-exchange="jubi"><img src="assets/img/exchanges/logos/Jubi.png"></a>
 			<a href="#" class="exchange-button" data-toggle="tooltip" data-placement="top" title="Laissez Faire" data-exchange="laissez_faire"><img src="assets/img/exchanges/logos/Laissez_Faire.png"></a>
@@ -314,22 +313,6 @@
 						</tr>
 					</table>
 					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.cryptopia.co.nz/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
-				</div>
-			</div>
-			<div id="exchange-cryptsy" class="exchange-info">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h3><b><img src="assets/img/exchanges/logos/cryptsy.png"> Cryptsy</b></h3>
-					<table>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.location"); ?>:</b></td>
-							<td>United States</td>
-						</tr>
-						<tr>
-							<td style="padding: 0px 15px 0px 15px"><b><?php echo $Locale->getText("exchanges.notes"); ?>:</b></td>
-							<td>Market trading exchange</td>
-						</tr>
-					</table>
-					<a class="btn btn-primary btn-large btn-block" target="_blank" href="https://www.cryptsy.com/"><?php echo $Locale->getText("exchanges.visit"); ?></a>
 				</div>
 			</div>
 			<div id="exchange-holytransaction" class="exchange-info">
