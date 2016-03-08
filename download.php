@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'http://sourceforge.net/projects/ppcoin/files/0.4.2/ppcoin-0.4.2-win32-setup.exe/download',
-        'mac' => 'https://github.com/ppcoin/ppcoin/tree/0.4.2',
-        'linux' => 'http://sourceforge.net/projects/ppcoin/files/0.4.2/ppcoin-0.4.2ppc-linux.tgz/download'
+        'windows' => 'https://sourceforge.net/projects/ppcoin/files/0.5.2/ppcoin-0.5.2-win32-setup.exe/download',
+        'mac' => 'https://github.com/ppcoin/ppcoin/',
+        'linux' => 'https://sourceforge.net/projects/ppcoin/files/0.5.2/ppcoin-0.5.2ppc-linux.tar.gz/download'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.4.2-win32-setup.exe</code></td>
-                                <td>8028229f6105578fdc37ce25fe454d9d7c7021f086403049d3d875f43d8e5b22</td>
+                                <td><code>ppcoin-0.5.2-win32-setup.exe</code></td>
+                                <td>25efeebf131e2216bddcce503a324b7616b12134b1d18f2a405cb8b0a295492c</td>
                             </tr>
                             <tr>
-                                <td><code>https://github.com/ppcoin/ppcoin/tree/0.4.2</code></td>
+                                <td><code>https://github.com/ppcoin/ppcoin/</code></td>
                                 <td>-</td>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.4.2ppc-linux.tgz</code></td>
-                                <td>4a2c45bcd1abd595fffbc4db1ea439c5bc1bd08943fe4de1ab755ef8d72f5bb3</td>
+                                <td><code>ppcoin-0.5.2ppc-linux.tar.gz</code></td>
+                                <td>a4a6a7901bbe8f3c74d04458852cb84016f697ad3ca7461005077a2fab8e00bc</td>
                             </tr>
                         </table>
                     </div>
@@ -120,7 +120,7 @@
 
             <ul>
                 <li>Install
-                <code>ppcoin-0.4.2-win32-setup.exe</code>
+                <code>ppcoin-0.5.2-win32-setup.exe</code>
 
                 <li>Default installation directory is
                 <code>C:\Program Files\PPCoin</code></li>
@@ -151,7 +151,7 @@
             <h3>OS X</h3>
 
             <ul>
-                <li>Mount <code>PPCoin-Qt-v0_4_0.dmg</code> by opening
+                <li>Mount <code>PPCoin-Qt-v0_5_2.dmg</code> by opening
                 it</li>
 
                 <li>Drag <code>PPCoin-Qt.app</code> to
@@ -185,7 +185,7 @@
 
             <ul>
                 <li>Unpack
-                <code>ppcoin-0.4.2ppc-linux.tgz</code></li>
+                <code>ppcoin-0.5.2ppc-linux.tar.gz</code></li>
 
                 <li>Run <code>bin/32/ppcoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
