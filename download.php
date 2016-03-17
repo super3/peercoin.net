@@ -110,6 +110,7 @@
           <li<?php if($CurrOS == "windows") echo " class=\"active\""; ?>><a href="#win" role="tab" data-toggle="tab">Windows</a></li>
           <li<?php if($CurrOS == "mac") echo " class=\"active\""; ?>><a href="#mac" role="tab" data-toggle="tab">OS X</a></li>
           <li<?php if($CurrOS == "linux") echo " class=\"active\""; ?>><a href="#lin" role="tab" data-toggle="tab">Linux</a></li>
+          <li><a href="#arch" role="tab" data-toggle="tab">Arch Linux</a></li>
           <li><a href="#adv" role="tab" data-toggle="tab">Advanced Configuration</a></li>
         </ul>
 
@@ -206,6 +207,15 @@
 
             <p><em>Note: 64 bit binaries available in
             <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>
+        </div>
+        
+        <div class="tab-pane" id="arch">
+            <h2 id="config">Arch Linux</h2>
+
+            <p><em>If you are Arch Linux user, you can find Peercoin packages in AUR.</em></p>
+            <h4>Or you can use AUR helper like yaourt to automate the process for you.</h4>
+
+            <p><code>yaourt -S peercoin-qt</code></p>
         </div>
 
         <div class="tab-pane" id="adv">
