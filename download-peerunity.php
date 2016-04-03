@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.3-RC1/Peerunity-0.1.3-RC1-win32-setup.exe',
-        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.3-RC1/Peerunity-1.3.0-RC1.dmg',
-        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.1.3-RC1/peerunity-0.1.3-RC1-linux.tar.xz'
+        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.0/peerunity-0.2.0-win-gitian.zip',
+        'mac' => 'https://github.com/Peerunity/Peerunity/tree/0.2.0',
+        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.0/peerunity-0.2.0-linux-gitian.tar.xz'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>Peerunity-0.1.3-RC1-win32-setup.exe</code></td>
-                                <td>33d964ac44725995a323c1b0fb9c7ec34ed31f8ec91bc77f99f659a8cfe9e2ee</td>
+                                <td><code>peerunity-0.2.0-win-gitian.zip</code></td>
+                                <td>8ec7c94c5cdba47846888c694474783717b89a8597cbd289bfd405e38f8a6b47</td>
                             </tr>
                             <tr>
-                                <td><code>Peerunity-1.3.0-RC1.dmg</code></td>
-                                <td>78737aa8264403d3f490dffa3d9db2aaa57058501e991e0a8bea3d1349e126d1</td>
+                                <td><code>https://github.com/Peerunity/Peerunity/tree/0.2.0</code></td>
+                                <td>-</td>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.1.3-RC1-linux.tar.xz</code></td>
-                                <td>1406c01f0d836ece34135233fe87ad0c5b8da44df5b2d5916a66f330208f410f</td>
+                                <td><code>peerunity-0.2.0-linux-gitian.tar.xz</code></td>
+                                <td>e92bf0f22aa1439e5b4d1f244a9fa19aadf5e7081f408411c33bbd2ce6ad92f2</td>
                             </tr>
                         </table>
                     </div>
@@ -111,7 +111,7 @@
         <h4 class="modal-title" id="myModalLabel">The MIT License (MIT)</h4>
       </div>
       <div class="modal-body">
-Copyright (c) 2011-2015 The Peercoin developers<br>
+Copyright (c) 2011-2016 The Peercoin developers<br>
 Copyright (c) 2009-2012 The Bitcoin Core developers<br><br>
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
