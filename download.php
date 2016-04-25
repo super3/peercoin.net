@@ -186,7 +186,7 @@
 
             <ul class="nav nav-tabs" role="tablist">
             <li><a href="#gen" role="tab" data-toggle="tab"> Generic </a></li>
-            <li><a href="#arch" role="tab" data-toggle="tab">Arch</a></li>
+            <li><a href="#arch" role="tab" data-toggle="tab">Arch Linux</a></li>
             <li><a href="#deb" role="tab" data-toggle="tab">Debian </a></li>
             <li><a href="#ubu" role="tab" data-toggle="tab">Ubuntu</a></li>
             </ul>
