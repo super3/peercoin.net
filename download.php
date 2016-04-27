@@ -185,8 +185,8 @@
             <div class="tab-content">
 
             <ul class="nav nav-tabs" role="tablist">
-            <li><a href="#gen" role="tab" data-toggle="tab"> Generic </a></li>
-            <li><a href="#arch" role="tab" data-toggle="tab">Arch Linux</a></li>
+            <li><a href="#gen" role="tab" data-toggle="tab"> Generic Linux </a></li>
+            <li><a href="#arch" role="tab" data-toggle="tab">ArchLinux</a></li>
             <li><a href="#deb" role="tab" data-toggle="tab">Debian </a></li>
             <li><a href="#ubu" role="tab" data-toggle="tab">Ubuntu</a></li>
             </ul>
@@ -218,9 +218,9 @@
         </div>
         
                 <div class="tab-pane" id="arch">
-                    <h2 id="config">Arch Linux</h2>
+                    <h2 id="config">ArchLinux</h2>
 
-                    <p><em>If you are Arch Linux user, you can find Peercoin packages in AUR.</em></p>
+                    <p><em>If you are ArchLinux user, you can find Peercoin packages in AUR.</em></p>
                     <h4>Or you can use AUR helper like yaourt to automate the process for you.</h4>
 
                     <p><code>yaourt -S peercoin-qt</code></p>
@@ -242,7 +242,7 @@
                     </div>
                     <p><em>Update and install:</em></p>
                     <div style="background-color:#F1F1F1">
-                        <code>apt-get install ppcoin && apt-get install peerunity  </code><br>
+                        <code>apt-get update && apt-get install peerunity  </code><br>
                         <code>  </code></p>
                 </div>
                 </div>
