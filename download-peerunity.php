@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.0/peerunity-0.2.0-win-gitian.zip',
-        'mac' => 'https://github.com/Peerunity/Peerunity/tree/0.2.0',
-        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.0/peerunity-0.2.0-linux-gitian.tar.xz'
+        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.1/peerunity-0.2.1-win-gitian.zip',
+        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.1/peerunity-0.2.1-osx.dmg',
+        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.1/peerunity-0.2.1-linux-gitian.zip'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.2.0-win-gitian.zip</code></td>
-                                <td>8ec7c94c5cdba47846888c694474783717b89a8597cbd289bfd405e38f8a6b47</td>
+                                <td><code>peerunity-0.2.1-win-gitian.zip</code></td>
+                                <td>56f73771cedb095970d6231472901c46af57018bc15cb08cc76ac693ca851a0f</td>
                             </tr>
                             <tr>
-                                <td><code>https://github.com/Peerunity/Peerunity/tree/0.2.0</code></td>
-                                <td>-</td>
+                                <td><code>peerunity-0.2.1-osx.dmg</code></td>
+                                <td>c1cbdf54eeffb49538484d6408d5788537ce2b5fd186d8ead206493d0266d752</td>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.2.0-linux-gitian.tar.xz</code></td>
-                                <td>e92bf0f22aa1439e5b4d1f244a9fa19aadf5e7081f408411c33bbd2ce6ad92f2</td>
+                                <td><code>peerunity-0.2.1-linux-gitian.zip</code></td>
+                                <td>21577b706d9e561d710332962b1287ab21a5f5e88db99fb76a1e228f9c71362e</td>
                             </tr>
                         </table>
                     </div>
