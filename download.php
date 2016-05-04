@@ -110,7 +110,6 @@
           <li<?php if($CurrOS == "windows") echo " class=\"active\""; ?>><a href="#win" role="tab" data-toggle="tab">Windows</a></li>
           <li<?php if($CurrOS == "mac") echo " class=\"active\""; ?>><a href="#mac" role="tab" data-toggle="tab">OS X</a></li>
           <li<?php if($CurrOS == "linux") echo " class=\"active\""; ?>><a href="#lin" role="tab" data-toggle="tab">Linux</a></li>
-          <li><a href="#arch" role="tab" data-toggle="tab">Arch Linux</a></li>
           <li><a href="#adv" role="tab" data-toggle="tab">Advanced Configuration</a></li>
         </ul>
 
@@ -181,9 +180,18 @@
             Finder, insert the path, and press
             <code>Enter</code>.</p>
           </div>
-          <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="lin">
-            <h3>Linux</h3>
 
+          <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="lin">
+            <div class="tab-content">
+
+            <ul class="nav nav-tabs" role="tablist">
+            <li><a href="#gen" role="tab" data-toggle="tab"> Generic Linux </a></li>
+            <li><a href="#arch" role="tab" data-toggle="tab">ArchLinux</a></li>
+            <li><a href="#deb" role="tab" data-toggle="tab">Debian </a></li>
+            <li><a href="#ubu" role="tab" data-toggle="tab">Ubuntu</a></li>
+            </ul>
+        
+        <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="gen">                    
             <ul>
                 <li>Unpack
                 <code>ppcoin-0.5.3ppc-linux.tar.gz</code></li>
@@ -209,13 +217,62 @@
             <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>
         </div>
         
-        <div class="tab-pane" id="arch">
-            <h2 id="config">Arch Linux</h2>
+                <div class="tab-pane" id="arch">
+                    <h2 id="config">ArchLinux</h2>
 
-            <p><em>If you are Arch Linux user, you can find Peercoin packages in AUR.</em></p>
-            <h4>Or you can use AUR helper like yaourt to automate the process for you.</h4>
+                    <p><em>If you are ArchLinux user, you can find Peercoin packages in AUR.</em></p>
+                    <h4>Or you can use AUR helper like yaourt to automate the process for you.</h4>
 
-            <p><code>yaourt -S peercoin-qt</code></p>
+                    <p><code>yaourt -S peercoin-qt</code></p>
+                </div>
+                <div class="tab-pane" id="deb">
+                    <h2 id="config">Debian 8.0</h2>
+
+                    <p><em>Open the terminal as root and paste following commands:</em></p>
+                    <p><em>Add keys</em></p>
+                    <div style="background-color:#F1F1F1">
+                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/Debian_8.0/Release.key</code>
+                        <br>
+                        <code> apt-key add - &#60; Release.key </code>
+                        </p>
+                    </div>
+                    <p><em>Add repository:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        <p><code>echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/Debian_8.0/ /' >> /etc/apt/sources.list.d/ppcoin.list   </code><br>
+                    </div>
+                    <p><em>Update and install:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        <code>apt-get update && apt-get install peerunity  </code><br>
+                        <code>  </code></p>
+                </div>
+                </div>
+                <div class="tab-pane" id="ubu">
+                    <h2 id="config">Ubuntu 15.10</h2>
+                   
+                    <h4>Important: Only Ubuntu 15.10 and <b>above</b> are supported</h4>
+   
+                    <p><em>Open the terminal and paste following commands:</em></p>
+                    <p><em>Add key:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/xUbuntu_15.10/Release.key</code>
+                        <br>
+                        <code> sudo apt-key add - &#60; Release.key </code>
+                        </p>
+                    </div>
+                    <p><em>Add repository:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        
+                        <p><code>sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/ppcoin.list" </code><br>
+                        
+                    </div>
+                    <p><em>Update and install:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        
+                        <p><code>sudo apt-get update && sudo apt-get install ppcoin </code><br>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="tab-pane" id="adv">

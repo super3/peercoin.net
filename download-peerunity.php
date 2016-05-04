@@ -103,6 +103,82 @@
     </div>
 </div>
 
+
+
+<?php if($CurrOS == "linux"): ?>
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="page-subtitle">How to Install</h1>
+
+            <ul class="nav nav-tabs" role="tablist">
+            <li><a href="#deb" role="tab" data-toggle="tab">Debian </a></li>
+            <li><a href="#ubu" role="tab" data-toggle="tab">Ubuntu</a></li>
+            </ul>
+        
+        <div class="tab-content">
+        
+               
+                <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="deb">
+                    <h2 id="config">Debian 8.0</h2>
+
+                    <p><em>Open the terminal as root and paste following commands:</em></p>
+                    <p><em>Add keys</em></p>
+                    <div style="background-color:#F1F1F1">
+                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/Debian_8.0/Release.key</code>
+                        <br>
+                        <code> apt-key add - &#60; Release.key </code>
+                        </p>
+                    </div>
+                    <p><em>Add repository:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        <p><code>echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/Debian_8.0/ /' >> /etc/apt/sources.list.d/peercoin.list   </code><br>
+                    </div>
+                    <p><em>Update and install:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        <code>sudo apt-get update && sudo apt-get install peerunity  </code><br>
+                        <code>  </code></p>
+                </div>
+                </div>
+                <div class="tab-pane" id="ubu">
+                    <h2 id="config">Ubuntu 15.10</h2>
+                   
+                    <h4>Important: Only Ubuntu 15.10 and <b>above</b> are supported</h4>
+   
+                    <p><em>Open the terminal and paste following commands:</em></p>
+                    <p><em>Add key:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/xUbuntu_15.10/Release.key</code>
+                        <br>
+                        <code> sudo apt-key add - &#60; Release.key </code>
+                        </p>
+                    </div>
+                    <p><em>Add repository:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        
+                        <p><code>sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/peercoin.list" </code><br>
+                        
+                    </div>
+                    <p><em>Update and install:</em></p>
+                    <div style="background-color:#F1F1F1">
+                        
+                        <p><code>sudo apt-get update && sudo apt-get install peerunity </code><br>
+                        
+                    </div>
+              
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<?php endif; ?>
+
+
+
+
+
+
 <div class="modal fade" id="license" tabindex="-1" role="dialog" aria-labelledby="licenseLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
