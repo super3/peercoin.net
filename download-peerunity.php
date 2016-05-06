@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.1/peerunity-0.2.1-win-gitian.zip',
-        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.1/peerunity-0.2.1-osx.dmg',
-        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.1/peerunity-0.2.1-linux-gitian.zip'
+        'windows' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.2/peerunity-0.2.2-win-gitian.zip',
+        'mac' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.2/peerunity-0.2.2-osx.dmg',
+        'linux' => 'https://github.com/Peerunity/Peerunity/releases/download/v0.2.2/peerunity-0.2.2-linux-gitian.zip'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.2.1-win-gitian.zip</code></td>
-                                <td>56f73771cedb095970d6231472901c46af57018bc15cb08cc76ac693ca851a0f</td>
+                                <td><code>peerunity-0.2.2-win-gitian.zip</code></td>
+                                <td>773321a704dff365971d31d4f0ea172d3ff725227cab19104fb18104fabacdb0</td>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.2.1-osx.dmg</code></td>
-                                <td>c1cbdf54eeffb49538484d6408d5788537ce2b5fd186d8ead206493d0266d752</td>
+                                <td><code>peerunity-0.2.2-osx.dmg</code></td>
+                                <td>f366c9dfc8405eeaf299ace573fc5090de744fc7a72621805e3ea260059016ba</td>
                             </tr>
                             <tr>
-                                <td><code>peerunity-0.2.1-linux-gitian.zip</code></td>
-                                <td>21577b706d9e561d710332962b1287ab21a5f5e88db99fb76a1e228f9c71362e</td>
+                                <td><code>peerunity-0.2.2-linux-gitian.zip</code></td>
+                                <td>14e271f35a4bb3083da47c6f1372ad0e8ea4fcac930625b4835868fdee4c64e1</td>
                             </tr>
                         </table>
                     </div>
