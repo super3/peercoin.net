@@ -84,7 +84,7 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.5.3-win32-setup.exe</code></td>
+                                <td><code>ppcoin-0.5.4-win32-setup.exe</code></td>
                                 <td>92f36c2fc23a9202a23fef5f18c2a161e92d4bc81a5be49c41e6597b2868fc8a</td>
                             </tr>
                             <tr>
@@ -92,7 +92,7 @@
                                 <td>-</td>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.5.3ppc-linux.tar.gz</code></td>
+                                <td><code>ppcoin-0.5.4ppc-linux.tar.gz</code></td>
                                 <td>1a15a190e95507b1686b5f4a32568e9b891cbed0e86ab711c489939d685e159a</td>
                             </tr>
                         </table>
