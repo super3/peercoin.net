@@ -167,17 +167,21 @@
                     </div>
               
             </div>
+            <div class="tab-pane" id="arch">
+                <h2 id="config">ArchLinux</h2>
+
+                <p><em>If you are ArchLinux user, you can find Peercoin packages in AUR.</em></p>
+                <h4>Or you can use AUR helper like yaourt to automate the process for you.</h4>
+
+                <p><code>yaourt -S peerunity</code></p>
+            </div>            
+
         </div>
         </div>
     </div>
 </div>
 
 <?php endif; ?>
-
-
-
-
-
 
 <div class="modal fade" id="license" tabindex="-1" role="dialog" aria-labelledby="licenseLabel" aria-hidden="true">
   <div class="modal-dialog">
