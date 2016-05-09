@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://sourceforge.net/projects/ppcoin/files/0.5.3/ppcoin-0.5.3-win32-setup.exe/download',
+        'windows' => 'https://sourceforge.net/projects/ppcoin/files/0.5.4/ppcoin-0.5.4-win32-setup.exe/download',
         'mac' => 'https://github.com/ppcoin/ppcoin/',
-        'linux' => 'https://sourceforge.net/projects/ppcoin/files/0.5.3/ppcoin-0.5.3ppc-linux.tar.gz/download'
+        'linux' => 'https://sourceforge.net/projects/ppcoin/files/0.5.4/ppcoin-0.5.4ppc-linux.tar.gz/download'
     );
 
     $CurrOS = "windows";
@@ -85,7 +85,7 @@
                             </tr>
                             <tr>
                                 <td><code>ppcoin-0.5.3-win32-setup.exe</code></td>
-                                <td>b1bb128ce0f991047af044d276fdf75a84c8d965bc30129e88f3877d33051d92</td>
+                                <td>92f36c2fc23a9202a23fef5f18c2a161e92d4bc81a5be49c41e6597b2868fc8a</td>
                             </tr>
                             <tr>
                                 <td><code>https://github.com/ppcoin/ppcoin/</code></td>
@@ -93,7 +93,7 @@
                             </tr>
                             <tr>
                                 <td><code>ppcoin-0.5.3ppc-linux.tar.gz</code></td>
-                                <td>3bcb5ce3957d7ad6c56fa4e44deb4b9bafb7caa6c45aad9305ed935991eb2c06</td>
+                                <td>1a15a190e95507b1686b5f4a32568e9b891cbed0e86ab711c489939d685e159a</td>
                             </tr>
                         </table>
                     </div>
@@ -120,7 +120,7 @@
 
             <ul>
                 <li>Install
-                <code>ppcoin-0.5.3-win32-setup.exe</code>
+                <code>ppcoin-0.5.4-win32-setup.exe</code>
 
                 <li>Default installation directory is
                 <code>C:\Program Files\PPCoin</code></li>
@@ -151,7 +151,7 @@
             <h3>OS X</h3>
 
             <ul>
-                <li>Mount <code>PPCoin-Qt-v0_5_3.dmg</code> by opening
+                <li>Mount <code>PPCoin-Qt-v0_5_4.dmg</code> by opening
                 it</li>
 
                 <li>Drag <code>PPCoin-Qt.app</code> to
@@ -194,7 +194,7 @@
         <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="gen">                    
             <ul>
                 <li>Unpack
-                <code>ppcoin-0.5.3ppc-linux.tar.gz</code></li>
+                <code>ppcoin-0.5.4ppc-linux.tar.gz</code></li>
 
                 <li>Run <code>bin/32/ppcoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
@@ -423,7 +423,7 @@
         <h4 class="modal-title" id="myModalLabel">The MIT License (MIT)</h4>
       </div>
       <div class="modal-body">
-Copyright (c) 2011-2015 The Peercoin developers<br>
+Copyright (c) 2011-2016 The Peercoin developers<br>
 Copyright (c) 2009-2012 The Bitcoin Core developers<br><br>
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
