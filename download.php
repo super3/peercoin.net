@@ -242,7 +242,7 @@
                     </div>
                     <p><em>Update and install:</em></p>
                     <div style="background-color:#F1F1F1">
-                        <code>apt-get update && apt-get install peerunity  </code><br>
+                        <code>apt-get update && apt-get install ppcoin  </code><br>
                         <code>  </code></p>
                 </div>
                 </div>
