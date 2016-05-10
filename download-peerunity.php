@@ -114,6 +114,7 @@
             <ul class="nav nav-tabs" role="tablist">
             <li><a href="#deb" role="tab" data-toggle="tab">Debian </a></li>
             <li><a href="#ubu" role="tab" data-toggle="tab">Ubuntu</a></li>
+            <li><a href="#arch" role="tab" data-toggle="tab">ArchLinux</a></li>
             </ul>
         
         <div class="tab-content">
