@@ -152,7 +152,7 @@ $lang['en'] += array(
 	'investors.efficient_security' => 'Efficient Security',
 	'investors.efficient_security_desc' => 'Peercoin is the first proof-of-stake coin, which means it doesn’t require massive computing power to secure the network. Get into the nitty-gritty with the <a href="whitepaper">Peercoin whitepaper</a>.',
 	'investors.guaranteed_returns' => 'Guaranteed Returns',
-	'investors.guaranteed_returns_desc' => 'After Peercoins are held for 30 days, they are eligible to earn a 1&#37; annualized reward. <a href="minting">Learn more about how to mint</a>. You can also buy coins from one of the many <a href="exchanges">Peercoin exchange</a>.',
+	'investors.guaranteed_returns_desc' => 'After Peercoins are held for 30 days, they are eligible to earn a 1&#37; annualized reward. <a href="minting">Learn more about minting</a>. You can also buy coins from one of the many <a href="exchanges">Peercoin exchange</a>.',
 
 );
 
