@@ -43,13 +43,13 @@ The script(deploy.sh):
 	# Update
 	cd /var/www/
 	git fetch origin
-	git reset --hard origin/master
+	git reset --hard origin/master 
 	
 	# Update Ticker
 	php /var/www/update_tickerinfo.php
 
 
 ### Market Ticker
-The ticker sources data from CoinMarketCap, and if that fails, falls back to the Vircurex API. `tickerinfo.php` returns a JSON array containing the last price, market capitalization, and total number of PPC in circulation.
+The ticker sources data from CoinMarketCap, and if that fails, falls back to the BTC-e and Blockr.io API. `tickerinfo.php` returns a JSON array containing the last price, market capitalization, and total number of PPC in circulation.
 
 Ensure that `ppcmarket.txt` is writeable by the PHP user so that the ticker can store updated information. Running `update_tickerinfo.php` will update the info provided by the ticker. This should be run via cron.
