@@ -8,36 +8,49 @@ define('TRY_CMC', TRUE); // Whether or not we try to get data from CoinMarketCap
 
 // Grab new data from CoinMarketCap
 function fetch_cmc_market_info() {
-    // Grab the CMC API
-    $api = file_get_contents('https://coinmarketcap-nexuist.rhcloud.com/api/ppc');
+    // Grab the CMC homepage
+    $html = file_get_html("http://www.coinmarketcap.com/");
 
-    // Don't try to parse the API if it isn't there
-    if ($api == FALSE) {
+    // Don't try to parse the HTML if it isn't there
+    if ($html == FALSE) {
         return FALSE;
     }
 
-    // Grab market cap from CMC
-    $api = json_decode($api, true);
-    $market_cap = $api['market_cap']['usd'];
-    return round($market_cap, 0);
+    // Get Peercoin's table
+    $ppc_data = $html->find('#ppc', 0);
+    if (!is_object($ppc_data)) {
+        return FALSE;
+    }
+
+    // Market cap is stored in the "data-usd" tag of a 'td'
+    $market_cap_td = $ppc_data->find('td[class=market-cap]', 0);
+    if (is_object($market_cap_td)) {
+        $market_cap = $market_cap_td->getAttribute('data-usd');
+        // Market cap is returned with commas that break floatval()
+        $market_cap = str_replace(",", "", $market_cap);
     }
     else {
         $market_cap = null;
     }
 
-    // Grab price from CMC
-    $api = json_decode($api, true);
-    $ppc_usd = $api['price']['usd'];
-    return round($ppc_usd, 2);
+    // Individual price is stored in the "data-usd" tag of an 'a'
+    $ppc_usd_a = $ppc_data->find('a[class=price]', 0);
+    if (is_object($ppc_usd_a)) {
+        $ppc_usd = $ppc_usd_a->getAttribute('data-usd');
     }
     else {
         $ppc_usd = null;
     }
     
-    // Grab total supply from CMC
-    $api = json_decode($api, true);
-    $total_supply = $api['supply'];
-    return round($total_supply, 0);
+    // Total supply does not have a marking class,
+    // but at the time of writing is the 5th <td>
+    $total_supply_td = $ppc_data->find('td', 4);
+    if (is_object($total_supply_td)) {
+        $total_supply = $total_supply_td->plaintext;
+        // Ugly hack because CMC doesn't provide a data tag
+        // so we have to strip off the text
+        $total_supply = str_replace(",", "", $total_supply);
+        $total_supply = str_replace(" PPC", "", $total_supply);
     }
     else {
         $total_supply = null;
@@ -47,14 +60,14 @@ function fetch_cmc_market_info() {
     // returned as floats
     $info = array(
         'price' => floatval($ppc_usd),
-        'market_cap' => floatval($market_cap),
+        'market_cap' => round(floatval($market_cap),0),
         'total_supply' => intval($total_supply),
     );
     
     return $info;
 }
 
-// Alternative: Get PPC price from BTC-e
+// Get PPC price from BTC-e
 function fetch_btce_market_price() {
     $data = file_get_contents('https://btc-e.com/api/2/ppc_usd/ticker');
     $data = json_decode($data, true);
@@ -62,7 +75,7 @@ function fetch_btce_market_price() {
     return round($ppc_usd, 2);
 }
 
-// Alternative: Get the total circulation from Blockr.io
+// Get the total circulation from blockr.io
 function fetch_total_circulation() {
     $data = file_get_contents('http://ppc.blockr.io/api/v1/coin/info');
     $data = json_decode($data, true);
@@ -77,7 +90,7 @@ function fetch_alternative_market_info() {
 
     $info = array(
         'price' => floatval($price),
-        'market_cap' => round(floatval($market_cap), 0),
+        'market_cap' => round(floatval($market_cap),0),
         'total_supply' => intval($total_supply),
     );
 
