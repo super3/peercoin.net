@@ -69,7 +69,7 @@
 			            <a target="_blank" href="http://peer4commit.com">
 			              <img src="assets/img/icons/social-peer4commit.png" alt="Peer4commit">
 			        </a>
-			            <a target="_blank" href="https://www.peerbox.me">
+			            <a target="_blank" href="http://www.peerbox.me">
 			              <img src="assets/img/icons/social-peerbox.png" alt="Peerbox">
 			        </a>
 			            <a target="_blank" href="https://github.com/super3/Peercoin.net">
