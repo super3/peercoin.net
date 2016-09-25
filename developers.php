@@ -93,12 +93,13 @@
 	</div>
 <div class="row">
 		<div class="col-lg-3 col-lg-offset-1 col-md-4 text-center vcenter">
+			<h1 class="h-smargin"> <?php echo $Locale->getText("developers.devforums"); ?></h1>
 		</div>
-		<div class="col-lg-7 col-md-8 vcenter">
-			<p>
-				<?php echo $Locale->getText("developers.devforums"); ?>
-			</p>
-		</div>
+		#<div class="col-lg-7 col-md-8 vcenter">
+			#<p>
+			#	<?php echo $Locale->getText("developers.devforums"); ?>
+			#</p>
+		#</div>
 	</div>
 </div>
 <?php include ('footer.php'); ?>
