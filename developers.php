@@ -91,5 +91,14 @@
 			<a href="http://www.peercointalk.org/index.php?board=61.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
 		</div>
 	</div>
+<div class="row">
+		<div class="col-lg-3 col-lg-offset-1 col-md-4 text-center vcenter">
+		</div>
+		<div class="col-lg-7 col-md-8 vcenter">
+			<p>
+				<?php echo $Locale->getText("developers.devforums"); ?>
+			</p>
+		</div>
+	</div>
 </div>
 <?php include ('footer.php'); ?>
