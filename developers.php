@@ -92,7 +92,7 @@
 		</div>
 	</div>
 	<div class="row text-center">
-		<h1><?php echo $Locale->getText("developers.devforums"); ?></h1>
+		<h2><?php echo $Locale->getText("developers.devforums"); ?></h2>
 	</div>
 </div>
 <?php include ('footer.php'); ?>
