@@ -5,7 +5,7 @@
 
   <!-- Headerwrap -->
 		<div class="container" id="header-banner">
-			<div class="col-sm-4 col-sm-offset-1 text-right">
+			<div class="col-sm-4 text-right">
 				<img src="assets/img/logos/logo.svg" class="plogo" alt="peercoin" />
 				<br>
 				<br>
