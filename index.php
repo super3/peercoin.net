@@ -13,7 +13,6 @@
 			<div class="col-sm-4 text-left">
 				<div>
 					<br>
-					<br>
 					<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
 				</div>
 	    	</div>
