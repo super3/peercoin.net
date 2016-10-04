@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   width="16"
+   height="16"
+   sodipodi:docname="favicon.ico"
+   inkscape:export-filename="/home/mal/Downloads/peercoin.net-master/fav.ico.png"
+   inkscape:export-xdpi="59.919624"
+   inkscape:export-ydpi="59.919624">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <clipPath
+       id="_clip1">
+      <rect
+         x="4296"
+         y="0"
+         width="1024"
+         height="1024"
+         id="rect8" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="1035"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="8"
+     inkscape:cx="8.3147217"
+     inkscape:cy="-6.8387802"
+     inkscape:window-x="-5"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     style="fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41420996"
+     transform="matrix(0.01556689,0,0,0.01556689,-65.731661,0.02973103)"
+     id="g4">
+    <g
+       id="leaf-logo"
+       transform="matrix(0.860254,0,0,1,600.349,0)">
+      <clipPath
+         id="clipPath3013">
+        <rect
+           x="4296"
+           y="0"
+           width="1024"
+           height="1024"
+           id="rect3015" />
+      </clipPath>
+      <g
+         clip-path="url(#_clip1)"
+         id="g10">
+        <g
+           transform="matrix(13.5128,0,0,11.6245,-187.821,-5013.4)"
+           id="g12">
+          <g
+             id="g14">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 331.819,431.279 c 61.093,2.189 84.652,37.71 72.825,69.411 -3.351,8.821 -6.911,13.649 -14.399,18.679 0.305,-1.271 0.619,-2.549 0.856,-3.85 4.43,-24.732 -3.964,-54.49 -45.02,-70.929 32.665,18.834 45.847,52.341 30.614,73.971 -25.927,3.948 -44.876,-17.502 -44.876,-42.215 l 0,-45.067 z"
+               style="fill:#3cb054"
+               id="path16" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
