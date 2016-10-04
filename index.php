@@ -8,39 +8,7 @@
 			<div class="col-sm-4 col-sm-offset-1 text-right">
 				<img src="assets/img/logos/logo.svg" class="plogo" alt="peercoin" />
 			</div>
-			<div class="col-sm-6 text-left" style="padding-left: 30px;">
-				<div>
-					<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
-					<br>
-					<a href="investors" class="btn btn-primary"><?php echo $Locale->getText("index.why_peercoin"); ?></a>
-					<a href="wallet" class="btn btn-primary"><?php echo $Locale->getText("index.download_wallet"); ?></a>
-				</div>
-	    	</div>
 		</div>
-		<div class="container centered marketcap">
-				<div class="col-sm-2 col-sm-offset-3">
-					<b><span id="current-price"></span></b>
-					<br>
-				    <?php echo $Locale->getText("index.price"); ?>
-				</div>
-				<div class="col-sm-2">
-					<b><span id="market-cap"></span></b>
-					<br>
-					<?php echo $Locale->getText("index.market_cap"); ?>
-				</div>
-				<div class="col-sm-2">
-					<b><span id="total-supply"></span></b>
-					<br>
-					<?php echo $Locale->getText("index.total_supply"); ?>
-				</div>
-			</div>
-			<div class="col-md-12">
-				<div class="updated">
-			        <span><?php echo $Locale->getText("index.last_updated"); ?></span>
-	    	        <span id="seconds-since-update"><?php echo $Locale->getText("index.last_updated_never"); ?></span>
-		        </div>
-			</div>
-		</div><!-- /container -->
 	</header>
 
     <!-- Call To Action -->
