@@ -10,7 +10,7 @@
 			</div>
 			<div class="col-sm-6 text-left" style="padding-left: 30px;">
 				<div>
-					<img src="assets/img/logos/peercoin_ltext.png" style="margin:10px 0;" class="pltext" alt="peercoin" />
+					<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
 					<br>
 					<a href="investors" class="btn btn-primary"><?php echo $Locale->getText("index.why_peercoin"); ?></a>
 					<a href="wallet" class="btn btn-primary"><?php echo $Locale->getText("index.download_wallet"); ?></a>
