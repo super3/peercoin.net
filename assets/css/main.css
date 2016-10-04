@@ -56,7 +56,7 @@ body {
 }
 
 a:hover {
-	color: #333333;
+	color: gray;
 }
 
 .centered {
@@ -131,7 +131,7 @@ a:hover {
 }
 
 .dropdown-language > a:hover {
-	color: #474747 !important;
+	color: #333333 !important;
 }
 
 .vcenter {
