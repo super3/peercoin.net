@@ -22,7 +22,7 @@
   	<meta property="og:title" content="Peercoin">
   	<meta property="og:type" content="website">
   	<meta property="og:url" content="http://peercoin.net">
-  	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png">
+  	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.svg">
   	<meta property="og:description" content="Secure and sustainable cryptocoin.">
 
     <!-- Misc Meta -->
