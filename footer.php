@@ -108,7 +108,6 @@
         var secondText = "<?php echo $Locale->getText("second_ago"); ?>";
         var secondsText = "<?php echo $Locale->getText("seconds_ago"); ?>";
     </script>
-    <script src="assets/js/ticker.js"></script>
 	<script src="assets/js/peercoin.js"></script>
 	<script src="assets/js/grids.min.js"></script>
 
