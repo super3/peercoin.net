@@ -13,7 +13,7 @@ $lang['en'] += array(
 	'header.exchanges' => 'Exchanges',
 	'header.mint_peercoins' => 'Peercoin Minting',
 
-	'header.wallet' => 'Wallets',
+	'header.wallet' => 'Downloads',
 
 	'header.community' => 'Community',
 
