@@ -5,14 +5,14 @@
 
   <!-- Headerwrap -->
 		<div class="container" id="header-banner">
-			<div class="col-sm-5">
+			<div class="col-sm-4 col-sm-offset-1 text-right">
 				<img src="assets/img/logos/logo.svg" class="plogo" alt="peercoin" />
 				<br>
 				<br>
 			</div>
 			<div class="col-sm-6">
 				<div>
-					<img src="assets/img/logos/peercoin_ltext.svg" style="padding-left: 0px auto;" class="pltext" alt="peercoin" />
+					<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
 				</div>
 	    	</div>
 		</div>
