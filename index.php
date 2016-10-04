@@ -8,11 +8,11 @@
 			<div class="col-sm-5 col-sm-offset-1">
 				<img src="assets/img/logos/logo.svg" class="plogo" alt="peercoin" />
 				<br>
+				<br>
 			</div>
 			<div class="col-sm-6">
 				<div>
-					<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
-					<br>
+					<img src="assets/img/logos/peercoin_ltext.svg" class="pltext" alt="peercoin" />
 				</div>
 	    	</div>
 		</div>
