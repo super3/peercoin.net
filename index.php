@@ -6,7 +6,7 @@
   <!-- Headerwrap -->
 		<div class="container" id="header-banner">
 			<div class="col-sm-4 col-sm-offset-1 text-right">
-				<img src="assets/img/logos/logo.png" class="plogo" alt="peercoin" />
+				<img src="assets/img/logos/logo.svg" class="plogo" alt="peercoin" />
 			</div>
 			<div class="col-sm-6 text-left" style="padding-left: 30px;">
 				<div>
