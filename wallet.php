@@ -1,4 +1,4 @@
-<?php $page_title = "Wallets"; include ('header.php'); ?>
+<?php $page_title = "Downloads"; include ('header.php'); ?>
 <h1 class="page-title"><?php echo $Locale->getText("wallet.title"); ?></h1>
 <div class="row">
     <div class="col-md-8 col-md-offset-2"><img src="assets/img/downloads/banner.svg" style="svg-fullwidth" /></div>
