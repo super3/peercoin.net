@@ -10,7 +10,7 @@
 				<br>
 				<br>
 			</div>
-			<div class="col-sm-6 text-left" style="padding-left: 30px;">
+			<div class="col-sm-4 text-left" style="padding-left: 30px;">
 				<div>
 					<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
 				</div>
