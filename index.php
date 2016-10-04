@@ -9,7 +9,7 @@
 				<img src="assets/img/logos/logo.svg" class="plogo" alt="peercoin" />
 				<br>
 			</div>
-			<div class="col-sm-6" style="padding-left: 30px;">
+			<div class="col-sm-6" style="padding-left: 5px;">
 				<div>
 					<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
 					<br>
