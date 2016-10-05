@@ -28,8 +28,7 @@ Below are just some notes for running the website yourself. We run the website o
 ### Deploy
 URL Rewriting via Apache's ```mod_rewrite``` module has issues when the ```MultiViews``` [option](https://httpd.apache.org/docs/2.2/mod/core.html#options) is set in any of the config files in the ```sites-available``` directory. Ensure this option is removed from your site's config files or errors will occur with URL rewriting (```/mining.php -> /mining```)
 
-We run the deploy.sh every 10 minutes, so that the live site is always up to date. This also calls the market ticker updater. The cron job
-is listed below:
+We run the deploy.sh every 10 minutes, so that the live site is always up to date. The cron job is listed below:
 
 	*/10 * * * * /root/deploy.sh > /root/error.txt 2>&1
 
@@ -44,12 +43,3 @@ The script(deploy.sh):
 	cd /var/www/
 	git fetch origin
 	git reset --hard origin/master
-	
-	# Update Ticker
-	php /var/www/update_tickerinfo.php
-
-
-### Market Ticker
-The ticker sources data from CoinMarketCap, and if that fails, falls back to the Vircurex API. `tickerinfo.php` returns a JSON array containing the last price, market capitalization, and total number of PPC in circulation.
-
-Ensure that `ppcmarket.txt` is writeable by the PHP user so that the ticker can store updated information. Running `update_tickerinfo.php` will update the info provided by the ticker. This should be run via cron.
