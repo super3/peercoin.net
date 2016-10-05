@@ -44,14 +44,5 @@
 	</div>
 </section>
 
-<div class="row">
-	<div class="col-md-6 col-md-offset-3">
-		<div class="videoWrapper">
-		    <!-- Copy & Pasted from YouTube -->
-		    <iframe width="560" height="315" src="//www.youtube.com/embed/-g6oz3one_k" frameborder="0" allowfullscreen></iframe>
-		</div>
-	</div>
-</div>
-
 </div>
 <?php $exchange_page = true; include ('footer.php'); ?>
