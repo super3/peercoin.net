@@ -47,19 +47,10 @@
 	</div>
 	<br><br><br>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<div class="videoWrapper">
-				    <!-- Copy & Pasted from YouTube -->
-				    <iframe width="560" height="315" src="//www.youtube.com/embed/13Q9tg5axVc" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
 		<br><br>
 		<div class="row text-center">
-			<a href="mining-guide"><img class="svg-quickstart" src="assets/img/misc/quick-start.svg"></a>
+			<a href="mining-guide"><img class="svg-quickstart" src="assets/img/misc/mining-guide.png"></a>
 		</div>
 	</div>
-
 </div>
 <?php include ('footer.php'); ?>

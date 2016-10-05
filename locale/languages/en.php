@@ -22,7 +22,7 @@ $lang['en'] += array(
 	'developers.peershares_desc' => '<b>Peershares</b> is an inexpensive and decentralized ledger to be used by businesses for raising funds, tracking share ownership and distributing dividends in an automated fashion. Each business using Peershares has its own blockchain that is independent of all others and secured cheaply and easily using Peercoin’s proof-of-stake.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> is a secure operating system for minting and running Peercoin nodes, and is currently under active development. It focuses on inexpensive, energy-efficient devices such as the Raspberry Pi, which is compatible with Peercoin\'s goal of providing an energy efficient cryptocurrency. If ASIC is a term for dedicated and energy efficient mining, then Peerbox is the ASIC of Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> is a project by the creator of Peershares, Jordan Lee. NuBits is the first implementation of Peershares. It is intended to solve the problem of volatility in cryptocurrencies.',
-	'developers.devforums' => 'Find more innovative ideas on our <a href="https://www.peercointalk.org/index.php?board=61.0">forums</a>, you can also discuss or share your own by visiting our <a href="https://peercoin.chat">chat</a>.',
+	'developers.devforums' => 'Find more innovative ideas on our <a href="https://www.peercointalk.org/index.php?board=61.0">forums</a> or join the <a href="https://peercoin.chat">chat</a> to discuss and share your own.',
 );
 
 $lang['en'] += array(
@@ -33,7 +33,7 @@ $lang['en'] += array(
 	'exchanges.buy_sell_desc' => 'Trades begin by the placing of buy and sell orders. Create a <b>Buy order</b> to request a certain amount of Peercoins for a specific price. Create a <b>Sell order</b> to offer to sell Peercoins. When different orders overlap in price, the trade is automatically completed, and the accounts of both parties are credited with the currencies they traded. A <b>Market Order</b> will trade immediately at the price currently available.',
 	'exchanges.fees' => 'Fees',
 	'exchanges.fees_desc' => 'Each time a trade occurs, a small percentage is taken by the exchange for facilitating the transaction. This is known as a <b>Trading Fee</b>. Some exchanges also charge a <b>Withdrawal Fee</b> when you withdraw your new currency from the exchange.',
-	'exchanges.choosing' => 'Select an exchange',
+	'exchanges.choosing' => '<b>Find a Peercoin exchange using <a href="http://coinmarketcap.com/currencies/peercoin/#markets">CoinMarketCap</a></b>',
 	'exchanges.disclaimer' => 'Reminder: Be sure to withdraw your Peercoins from the exchange after you purchase them. Storing coins in your own wallet is more secure, and makes you eligible for Peercoin’s 1&#37; minting reward.',
 	'exchanges.location' => 'Location',
 	'exchanges.notes' => 'Notes',
@@ -93,17 +93,15 @@ $lang['en'] += array(
 	'header.merchants' => 'Merchants',
 	'header.miners' => 'Miners',
 	'header.developers' => 'Developers',
-
+	'header.tutorials' => 'Video Tutorials',
 	'header.learn' => 'Learn',
 	'header.frequently_asked_questions' => 'Frequently Asked Questions',
 	'header.peercoin_whitepaper' => 'Peercoin Whitepaper',
 	'header.exchanges' => 'Exchanges',
-	'header.mint_peercoins' => 'Peercoin Minting',
-
+	'header.mint_peercoins' => 'Minting',
+	'header.mining-guide' => 'Mining',
 	'header.wallet' => 'Wallets',
-
 	'header.community' => 'Community',
-
 	'header.languages' => 'Languages',
 );
 
@@ -117,7 +115,7 @@ $lang['en'] += array(
 	'index.last_updated' => 'Last Updated:',
 	'index.last_updated_never' => 'never',
 	'index.why_peercoin_q' => 'Why <strong>Peercoin</strong>?',
-	'index.why_peercoin_desc' => 'Peercoin seeks to be the most secure cryptocoin at the lowest cost, rewarding all users for strengthening the network by giving them 1&#37; return on their investment.',
+	'index.why_peercoin_desc' => 'Peercoin seeks to be the most secure cryptocoin at the lowest cost, rewarding all users for strengthening the network by giving them a 1&#37; annual PPC return when minting.',
 	'index.built_to_last' => 'Built <b>to Last</b>',
 	'index.built_to_last_desc' => 'The world\'s first Proof-of-Stake coin.',
 	'index.fair_distribution' => '<b>Fair</b> Distribution',
@@ -131,7 +129,7 @@ $lang['en'] += array(
 	'index.newcomers' => 'Newcomers',
 	'index.newcomers_desc' => '﻿Learn how to buy, sell, spend, and store Peercoin.',
 	'index.investors' => 'Investors',
-	'index.investors_desc' => 'Guaranteed 1&#37; return on your investment.',
+	'index.investors_desc' => '1&#37; annual PPC return when minting.',
 	'index.merchants' => 'Merchants',
 	'index.merchants_desc' => '﻿It\'s time to cut down on transaction fees.',
 	'index.miners' => 'Miners',
@@ -149,11 +147,11 @@ $lang['en'] += array(
 	'investors.established_network' => 'Established Network',
 	'investors.established_network_desc' => 'Peercoin was launched in 2012, making it one of the oldest and most reliable cryptocoin networks in existence.',
 	'investors.limited_supply' => 'Limited Supply',
-	'investors.limited_supply_desc' => 'Peercoin’s annual inflation rate has averaged below 5&#37; during the year 2014, and continues to fall. See <a href="http://peerchain.net/charts.html">peerchain.net</a> for detailed historic data.',
+	'investors.limited_supply_desc' => 'Peercoin’s annual inflation rate has averaged below 5&#37; during the year 2014, and continues to fall.',
 	'investors.efficient_security' => 'Efficient Security',
 	'investors.efficient_security_desc' => 'Peercoin is the first proof-of-stake coin, which means it doesn’t require massive computing power to secure the network. Get into the nitty-gritty with the <a href="whitepaper">Peercoin whitepaper</a>.',
 	'investors.guaranteed_returns' => 'Guaranteed Returns',
-	'investors.guaranteed_returns_desc' => 'After Peercoins are held for 30 days, they are eligible to earn a 1&#37; annualized reward. <a href="minting">Learn more about minting</a>. You can also buy coins from one of the many <a href="exchanges">Peercoin exchange</a>.',
+	'investors.guaranteed_returns_desc' => 'After Peercoins are held for 30 days, they are eligible to earn a 1&#37; annualized reward. <a href="minting">Learn more about minting</a> or you can also get started by buying coins from one of the many <a href="exchanges">Peercoin exchange</a>.',
 
 );
 

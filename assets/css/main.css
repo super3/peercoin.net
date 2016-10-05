@@ -131,7 +131,7 @@ a:hover {
 }
 
 .dropdown-language > a:hover {
-	color: #474747 !important;
+	color: #333333 !important;
 }
 
 .vcenter {
@@ -175,7 +175,7 @@ a:hover {
 }
 
 #headerwrap-2 {
-	background: #383838;
+	background: #333333;
 	margin-top: 0px;
 	padding-top: 30px;
 	text-align:center;
@@ -270,7 +270,7 @@ a:hover {
 /* 1.4 Footer */
 
 .footer {
-	background: #383838;
+	background: #333333;
 	padding: 70px 0 50px;
 	text-align: center;
 }
@@ -650,7 +650,7 @@ a:hover {
 	display: block;
 	padding: 8px 15px;
 	color: #ffffff;
-	background-color: #36994b;
+	background-color: #3cb054;
 	border-radius: 3px;
 }
 
@@ -816,7 +816,7 @@ margin-top:3em;
 
 .whitepapers li .inner {
 	padding: 30px;
-	background-color: #36994b;
+	background-color: #3cb054;
 	color: #fff;
 	border-radius: 3px;
 }

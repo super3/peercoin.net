@@ -1,7 +1,7 @@
 <?php  $page_title = "Mining Guide"; include ('header.php'); ?>
 
 	<div class="row text-center">
-		<img class="svg-quickstart" src="assets/img/misc/quick-start.svg" />
+		<img class="svg-quickstart" src="assets/img/misc/mining-guide.png" />
 	</div>
 
 	<div class="row row-nomargin">

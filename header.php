@@ -22,7 +22,7 @@
   	<meta property="og:title" content="Peercoin">
   	<meta property="og:type" content="website">
   	<meta property="og:url" content="http://peercoin.net">
-  	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.png">
+  	<meta property="og:image" content="http://peercoin.net/assets/img/logos/logo.svg">
   	<meta property="og:description" content="Secure and sustainable cryptocoin.">
 
     <!-- Misc Meta -->
@@ -68,7 +68,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href=".">
-            <img src="assets/img/logos/Dark-Text-350.png" class="peercoin-logo" alt="Peercoin">
+            <img src="assets/img/logos/Dark-Text-350.svg" class="peercoin-logo" alt="Peercoin">
           </a>
         </div>
         <div class="navbar-collapse collapse">
@@ -88,6 +88,8 @@
               <ul class="dropdown-menu">
                 <li><a href="exchanges"><?php echo $Locale->getText("header.exchanges"); ?></a></li>
                 <li><a href="minting"><?php echo $Locale->getText("header.mint_peercoins"); ?></a></li>
+                <li><a href="mining-guide"><?php echo $Locale->getText("header.mining-guide"); ?></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLvd1OhApu6fVgcvkEdSNYJiuM8iAi_2iu"><?php echo $Locale->getText("header.tutorials"); ?></a></li>
                 <li><a href="whitepaper"><?php echo $Locale->getText("header.peercoin_whitepaper"); ?></a></li>
                 <li><a href="faq"><?php echo $Locale->getText("header.frequently_asked_questions"); ?></a></li>
               </ul>
@@ -96,10 +98,10 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.community"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="https://www.peercointalk.org">PeercoinTalk Forum</a></li>
+                <li><a target="_blank" href="https://www.peercointalk.org">PeercoinTalk Forum</a></li>
                 <li><a target="_blank" href="https://peercoin.chat">Chat</a></li>
                 <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
-                <li><a target="_blank" href="https://plus.google.com/109267388527420438684/posts">Google+</a></li>
+                <li><a target="_blank" href="https://plus.google.com/+PeercoinNet">Google+</a></li>
                 <li><a target="_blank" href="https://www.reddit.com/r/peercoin">Reddit</a></li>
                 <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/peercoin">YouTube</a></li>
