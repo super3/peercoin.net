@@ -23,7 +23,7 @@
     </div>
     <div class="col-md-2">
         <div class="tile text-center wallet-entry">
-            <img src="assets/img/logos/logo.svg" alt="" class="tile-image big-illustration svg-100">
+            <img src="assets/img/logos/peercoin.svg" alt="" class="tile-image big-illustration svg-100">
             <h3 class="tile-title"><?php echo $Locale->getText("wallet.peercoinqt"); ?></h3>
             <p>
                 <?php echo $Locale->getText("wallet.peercoinqt_desc"); ?>
