@@ -10,14 +10,6 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
-			<div class="videoWrapper">
-			    <!-- Copy & Pasted from YouTube -->
-			    <iframe width="560" height="315" src="//www.youtube.com/embed/k7WU8JM8Dy0" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
-	<div class="row">
 		<div class="col-md-6">
 			<h1>Peercoin Client v0.4</h1>
 			<ol>
