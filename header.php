@@ -101,7 +101,7 @@
                 <li><a target="_blank" href="https://www.peercointalk.org">PeercoinTalk Forum</a></li>
                 <li><a target="_blank" href="https://peercoin.chat">Chat</a></li>
                 <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
-                <li><a target="_blank" href="https://plus.google.com/109267388527420438684/posts">Google+</a></li>
+                <li><a target="_blank" href="https://plus.google.com/+PeercoinNet">Google+</a></li>
                 <li><a target="_blank" href="https://www.reddit.com/r/peercoin">Reddit</a></li>
                 <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/peercoin">YouTube</a></li>
