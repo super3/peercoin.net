@@ -49,7 +49,7 @@
 	</div>
 	<br>
 	<div class="row text-center">
-		<a href="minting-guide"><img class="svg-quickstart" src="assets/img/misc/minting-guide.svg"></a>
+		<a href="minting-guide"><img class="svg-quickstart" src="assets/img/misc/minting-guide.png"></a>
 	</div>
 </div>
 <?php include ('footer.php'); ?>
