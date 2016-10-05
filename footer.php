@@ -54,7 +54,7 @@
 			        <a target="_blank" href="https://www.facebook.com/Peercoin">
 			              <img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook">
 			        </a>
-			        <a target="_blank" href="https://plus.google.com/109267388527420438684/posts">
+			        <a target="_blank" href="https://plus.google.com/+PeercoinNet">
 			              <img src="assets/img/icons/social-google.png" alt="Visit us on Google+">
 			        </a>
 			            <a target="_blank" href="https://www.reddit.com/r/peercoin">
