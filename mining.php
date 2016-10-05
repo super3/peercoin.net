@@ -57,7 +57,7 @@
 		</div>
 		<br><br>
 		<div class="row text-center">
-			<a href="mining-guide"><img class="svg-quickstart" src="assets/img/misc/mining-guide.svg"></a>
+			<a href="mining-guide"><img class="svg-quickstart" src="assets/img/misc/mining-guide.png"></a>
 		</div>
 	</div>
 
