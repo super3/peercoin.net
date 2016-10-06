@@ -22,7 +22,6 @@
 	2.6 Tutorials
 	2.7 Videocontainer
 	2.8 Wallet Download
-	2.9 IE Image Size
 3. Custom Media Queries
 	3.1 Mobile Navigation
 	3.2 FAQ
@@ -903,22 +902,6 @@ margin-top:3em;
 	color: #fff;
 }
 
-/*
- * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
- *
- * [1] IE9
- * [2] IE10+
- */
-/* 1 */
-.ie9 img[src$=".svg"] {
-  width: 100%; 
-}
-/* 2 */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  img[src$=".svg"] {
-    width: 100%; 
-  }
-}
 /*
 *
 *
