@@ -10,14 +10,12 @@
 				<br>
 				<br>
 			</div>
-			<div class="col-sm-4 text-left">
-				<div>
-					<br>
-					<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
-				</div>
-	    	</div>
-		</div>
-		
+			<div class="col-sm-6 text-left" style="padding-left: 30px;">
+			<div>
+				<br>
+				<img src="assets/img/logos/peercoin_ltext.svg" style="margin:10px 0;" class="pltext" alt="peercoin" />
+			</div>
+	    	</div>		
 	</header>
 
     <!-- Call To Action -->
