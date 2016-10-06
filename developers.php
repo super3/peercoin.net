@@ -49,7 +49,7 @@
 			<p>
 				<?php echo $Locale->getText("developers.peerunity_desc"); ?>
 			</p>
-			<a href="http://www.peercointalk.org/index.php?board=64.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
+			<a href="https://www.peercointalk.org/index.php?board=61.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
 		</div>
 	</div>
 	<div class="row">
@@ -62,7 +62,7 @@
 				<?php echo $Locale->getText("developers.peerbox_desc"); ?>
 			</p>
 			<a href="http://www.peerbox.me/" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("website"); ?></a>
-			<a href="http://www.peercointalk.org/index.php?board=68.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
+			<a href="https://www.peercointalk.org/index.php?board=61.0" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
 		</div>
 	</div>
 	<div class="row text-center">
