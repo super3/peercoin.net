@@ -12,9 +12,9 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   width="350"
-   height="77"
-   sodipodi:docname="Dark-Text-350.png">
+   width="158.99001"
+   height="37.380001"
+   sodipodi:docname="Dark-Text-350.svg">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,7 +53,7 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="2.5859905"
-     inkscape:cx="160.07693"
+     inkscape:cx="95.111494"
      inkscape:cy="59.714735"
      inkscape:window-x="-5"
      inkscape:window-y="-12"
@@ -61,7 +61,7 @@
      inkscape:current-layer="svg2" />
   <g
      style="fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41420996"
-     transform="matrix(0.31969667,0,0,0.31969667,-332.04055,0.00649656)"
+     transform="matrix(0.15527428,0,0,0.15527428,-166.7708,-0.006006)"
      id="g4">
     <g
        id="text-only"
