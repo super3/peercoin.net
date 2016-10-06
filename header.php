@@ -68,7 +68,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href=".">
-            <img src="assets/img/logos/Dark-Text-350.svg" class="peercoin-logo" alt="Peercoin">
+            <img src="assets/img/logos/Dark-Text-350.png" class="peercoin-logo" alt="Peercoin">
           </a>
         </div>
         <div class="navbar-collapse collapse">
