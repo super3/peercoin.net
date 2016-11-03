@@ -4,18 +4,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
-#Peercoin.com redirect
-RewriteBase /
-RewriteCond %{HTTP_HOST} !peercoin.com$ [NC]
-RewriteRule ^(.*)$ http://peercoin.net/$1 [L,R=301]
-
-#Peercoin.org redirect
-RewriteCond %{HTTP_HOST} !peercoin.org$ [NC]
-RewriteRule ^(.*)$ http://peercoin.net/$1 [L,R=301]
- 
 # HTTP to HTTPS rewrite		
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{HTTPS} off		
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 # pretty view rewrite rule for single page views of tabbed content. sytax will be.net/page/[param(which is the id of the php page we want]
 RewriteRule ^/?page/([^/d]+)/?$ single.php?doc=$1 [L,QSA]
