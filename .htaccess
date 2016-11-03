@@ -9,10 +9,6 @@ RewriteCond %{HTTP_HOST} ^peercoin.com$ [OR]
 RewriteCond %{HTTP_HOST} ^peercoin.org$
 RewriteRule (.*)$ http://peercoin.net [R=301,L]
 
-# HTTPS to HTTP Redirect fix
-RewriteCond %{HTTPS} on
-RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
 # HTTP to HTTPS rewrite		
 RewriteCond %{HTTPS} off		
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
