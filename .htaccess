@@ -6,13 +6,10 @@ RewriteRule ^(.*)$ $1.php
 
 # HTTP Domain Redirects
 RewriteCond %{HTTP_HOST} ^peercoin\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^peercoin\.org$
-RewriteRule ^(.*)$ "http\:\/\/peercoin\.net" [R=301,L]
-
-# HTTPS Domain Redirects
-RewriteCond %{HTTPS_HOST} ^peercoin\.com$ [OR]
-RewriteCond %{HTTPS_HOST} ^peercoin\.org$
-RewriteRule ^(.*)$ "http\:\/\/peercoin\.net" [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.peercoin\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^peercoin\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.peercoin\.org$
+RewriteRule (.*)$ "http\:\/\/peercoin\.net/$1" [R=301,L]
 
 # HTTP to HTTPS rewrite		
 RewriteCond %{HTTPS} off		
