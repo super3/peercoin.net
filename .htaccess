@@ -4,14 +4,13 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
-#Peercoin.org redirect
-RewriteBase /
-RewriteCond %{HTTP_HOST} !peercoin.org$ [NC]
-RewriteRule ^(.*)$ http://peercoin.net/$1 [L,R=301]
-
 #Peercoin.com redirect
 RewriteBase /
 RewriteCond %{HTTP_HOST} !peercoin.com$ [NC]
+RewriteRule ^(.*)$ http://peercoin.net/$1 [L,R=301]
+
+#Peercoin.org redirect
+RewriteCond %{HTTP_HOST} !peercoin.org$ [NC]
 RewriteRule ^(.*)$ http://peercoin.net/$1 [L,R=301]
  
 # HTTP to HTTPS rewrite		
