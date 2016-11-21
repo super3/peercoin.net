@@ -277,5 +277,5 @@ $lang['en'] += array(
 	'mineguide.step2_poollist' => 'Peercoin-dedicated pools:',
 	'mineguide.step2_multipoollist' => 'Multicoin pools:',
 	'mineguide.step3' => 'Sign up with the pool',
-	'mineguide.step3_desc' => 'Follow the instructions on the pool\'s website.',
+	'mineguide.step3_desc' => 'Follow the instructions on the pool\'s website. You can also find more pools <a href="https://wiki.peercointalk.org/index.php?title=List_of_services#Mining_Pools">here</a>.',
 );
