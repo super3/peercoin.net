@@ -4,12 +4,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
-# HTTP Domain Redirects
+# HTTP Domain Redirects (Now using "Redirect permanent / https://peercoin.net/" in Apache's VirtualHost with aliases for net com org)
 # RewriteCond %{HTTP_HOST}    !^peercoin\.net [NC]
 # RewriteCond %{HTTP_HOST}    !^$
 # RewriteRule ^/(.*)  http://peercoin.net/$1 [L,R=301]
 
-# HTTP to HTTPS rewrite		
+# HTTP to HTTPS rewrite	(Now using "Redirect permanent / https://peercoin.net/" in Apache's VirtualHost with aliases for net com org)
 # RewriteCond %{HTTPS} off		
 # RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
