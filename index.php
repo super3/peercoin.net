@@ -120,7 +120,7 @@
 	<div class="newsletter">
 		<div class="container centered">
 			<h2 class="col-md-4"><?php echo $Locale->getText("index.newsletter"); ?></h2>
-			<form action="//peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877" method="post" name="mc-embedded-subscribe-form"target="_blank">
+			<form action="//peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877" method="post" name="mc-embedded-subscribe-form" target="_blank">
 				<div class="col-md-8">
 					<div class="col-sm-8">
 						<input type="text" name="EMAIL" placeholder="<?php echo $Locale->getText("index.newsletter_placeholder"); ?>" />
