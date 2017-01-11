@@ -8,7 +8,7 @@ $lang['en'] += array(
 	'developers.optional_checkpointing' => 'Optional Checkpointing',
 	'developers.optional_checkpointing_desc' => 'Today, the network uses centralized checkpointing to protect against attacks. The need for this security decreases as the network grows, upcoming versions will make these checkpoints optional. A future version will turn off checkpoints by default.',
 	'developers.peercoin_ecosystem' => 'Peercoin Ecosystem',
-	'developers.peer4commit' => 'Would you like to get involved in Peercoin development <strong>and</strong> get paid for it? Here’s your chance! <a href="http://peer4commit.com/">Peer4commit</a> provides a central hub for development. You can:',
+	'developers.peer4commit' => 'Would you like to get involved in Peercoin development <strong>and</strong> get paid for it? Here’s your chance! <a href="https://peer4commit.com">Peer4commit</a> provides a central hub for development. You can:',
 	'developers.peer4commit.1' => 'Select a project on the site, work on it, and receive peercoins as a reward.',
 	'developers.peer4commit.2' => 'Pick a project you’d like to support, and contribute peercoins toward it.',
 	'developers.peer4commit.3' => 'Think up a new project, submit it, and receive donations towards its development.',
@@ -19,5 +19,5 @@ $lang['en'] += array(
 	'developers.peershares_desc' => '<b>Peershares</b> is an inexpensive and decentralized ledger to be used by businesses for raising funds, tracking share ownership and distributing dividends in an automated fashion. Each business using Peershares has its own blockchain that is independent of all others and secured cheaply and easily using Peercoin’s proof-of-stake.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> is a secure operating system for minting and running Peercoin nodes, and is currently under active development. It focuses on inexpensive, energy-efficient devices such as the Raspberry Pi, which is compatible with Peercoin\'s goal of providing an energy efficient cryptocurrency. If ASIC is a term for dedicated and energy efficient mining, then Peerbox is the ASIC of Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> is a project by the creator of Peershares, Jordan Lee. NuBits is the first implementation of Peershares. It is intended to solve the problem of volatility in cryptocurrencies.',
-	'developers.devforums' => 'Find more innovative ideas on our <a href="https://www.peercointalk.org/index.php?board=61.0">forums</a> or join the <a href="https://peercoin.chat">chat</a> to discuss and share your own.',
+	'developers.devforums' => 'Find more innovative ideas on our <a href="https://talk.peercoin.net/c/projects">forums</a> or join the <a href="https://peercoin.chat">chat</a> to discuss and share your own.',
 );

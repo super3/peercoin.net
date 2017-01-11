@@ -215,7 +215,7 @@ $lang['pt_BR'] += array(
 	'pig.step3' => 'Disponibilize uma opção no carro de compras para permitir que o seu cliente pague em Peercoin. Quando seleccionada, mostre ao seu cliente, a título de morada para pagamento, uma das moradas da sua base de dados e guarde-a no ordem associada ao carro de compras.',
 	'pig.step4' => 'Utilize um explorador de blocos para detectar algum eventual recebimento. Pode encontrar esse serviço em <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
 	'pig.step5' => 'As Peercoins enviadas para moradas importadas estão seguras pelas suas chaves privadas, Para gastá-las, utilize o ficheiro original gerado pela carteira no passo 1.',
-	'pig.step6' => 'Se encontrar algum problema, por favor crie um tópico no forum da comunidade <a href="http://peercointalk.org">',
+	'pig.step6' => 'Se encontrar algum problema, por favor crie um tópico no forum da comunidade <a href="https://talk.peercoin.net">',
 	
 );
 $lang['pt_BR'] += array(

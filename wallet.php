@@ -53,7 +53,7 @@
                 <?php echo $Locale->getText("wallet.android_wallet_desc"); ?>
             </p>
             <div>
-                <a class="btn btn-primary btn-large btn-block" href="http://www.peercointalk.org/index.php?topic=3331.0"><?php echo $Locale->getText("wallet.download"); ?> Android Wallet</a>
+                <a class="btn btn-primary btn-large btn-block" href="https://talk.peercoin.net/t/ann-peercoin-android-wallet-3-1-released/2846"><?php echo $Locale->getText("wallet.download"); ?> Android Wallet</a>
             </div>
         </div>
     </div>

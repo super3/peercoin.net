@@ -214,7 +214,7 @@ $lang['it'] += array(
 	'pig.step3' => 'Metti a disposizione l\'opzione sul tuo carrello della spesa del tuo sito internet in modo che i tuoi clienti possano pagare in Peercoin. Quando questa opzione viene selezionata, mostra uno degli indirizzi dal tuo database al cliente come indirizzo di pagamento e salvalo insieme all\'ordine di acquisto.',
 	'pig.step4' => 'Utilizza un esploratore di blocchi per identificare un pagamento in entrata. Tale servizio puo\' essere trovato su  <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
 	'pig.step5' => 'Peercoins inviati sugli indirizzi importati sono messi al sicuro dalle chiavi private. Per spenderli, utilizza il file portafoglio originale generato nel punto 1.',
-	'pig.step6' => 'Per qualsiasi problema, puoi inserire un post nel <a href="http://peercointalk.org">forum della comunità</a>.',
+	'pig.step6' => 'Per qualsiasi problema, puoi inserire un post nel <a href="https://talk.peercoin.net">forum della comunità</a>.',
 	
 );
 $lang['it'] += array(

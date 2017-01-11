@@ -9,7 +9,7 @@
 					<ul>
 						<li><a href="https://github.com/ppcoin/ppcoin">Source Code (Github)</a></li>
 						<li><a href="https://github.com/ppcoin/ppcoin/wiki">Wiki</a></li>
-						<li><a href="http://www.peercointalk.org/">Forum</a></li>
+						<li><a href="https://talk.peercoin.net">Forum</a></li>
 						<li><a href="http://peercoinmyths.com/">Myths</a></li>
 					</ul>
 				</div>
@@ -48,8 +48,8 @@
 
 			<div class="row">
 				<div class="col-lg-12 social-icons" style="margin:1em 0">
-			        <a target="_blank" href="https://www.peercointalk.org">
-			              <img src="assets/img/icons/social-peercointalk.png" alt="Join us on PeercoinTalk">
+			        <a target="_blank" href="https://talk.peercoin.net">
+			              <img src="assets/img/icons/social-peercointalk.png" alt="Join us on the Peercoin Forum">
 			        </a>
 			        <a target="_blank" href="https://www.facebook.com/Peercoin">
 			              <img src="assets/img/icons/social-fb.png" alt="Visit us on Facebook">

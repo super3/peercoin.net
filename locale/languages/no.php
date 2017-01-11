@@ -214,7 +214,7 @@ $lang['no'] += array(
 	'pig.step3' => 'Tilby et alternativ, i handlekurven på ditt nettsted, for kunden å betale i peercoins. Når dette alternativet blir valgt, vises en av adressene fra databasen til kunden som betalingsadresse, og lagre den så med ordren.',
 	'pig.step4' => 'Bruk en blokkutforsker for å se den innkommende transaksjonen. En slik tjeneste kan man finne på <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
 	'pig.step5' => 'Peercoins sendt til de importerte adressene er sikret med deres private nøkler. For å bruke dem, bruk den opprinnelige lommebokfilen generert i trinn 1.',
-	'pig.step6' => 'Hvis du støter på problemer, kan du gjerne poste i <a href="http://peercointalk.org">samfunnets forum </a>.',
+	'pig.step6' => 'Hvis du støter på problemer, kan du gjerne poste i <a href="https://talk.peercoin.net">samfunnets forum </a>.',
 	
 );
 $lang['no'] += array(

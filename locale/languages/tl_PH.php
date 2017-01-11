@@ -214,7 +214,7 @@ $lang['tl_PH'] += array(
 	'pig.step3' => 'Magbigay ng pagpipilian sa iyong website shopping cart para sa mga kustomer na magbabayad sa Peercoin. Kung ang opsyon na ito ay napili, ipakita ang isa sa mga kinaroroonan mula sa iyong database sa iyong kustomer bilang isang kinaroroonan na pagbabayad, at ibukod ito kasama sa shopping cart order.',
 	'pig.step4' => 'Gumamit ng isang blokeng mananaliksik  upang makita ang mga papasok na pagbabayad. Ang isang tulad ng serbisyo ay maaaring matagpuan sa  <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
 	'pig.step5' => 'Ang mga Peercoins na ipinadala sa mga angkat na tirahan ay ligtas sa pamamagitan ng kanilang pribadong mga susi. Upang gastusin ang mga ito, gamiting ang orihinal na pitaka na salansan na binuo sa 1 hakbang.',
-	'pig.step6' => 'Kung nakaranas ka ng anumang mga isyu, huwag mag-atubiling mag-post sa <a href="http://peercointalk.org">pagtitipon ng komunidad</a>.',
+	'pig.step6' => 'Kung nakaranas ka ng anumang mga isyu, huwag mag-atubiling mag-post sa <a href="https://talk.peercoin.net">pagtitipon ng komunidad</a>.',
 	
 );
 $lang['tl_PH'] += array(
