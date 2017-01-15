@@ -214,7 +214,7 @@ $lang['de'] += array(
 	'pig.step3' => 'Fügen Sie eine Peercoin-Bezahloption dem Kundeneinkaufswagen Ihrer Webseite hinzu. Wenn diese Option ausgewählt ist, dann zeigen Sie dem Kunden eine der Adressen, die in Ihrer Datenbank gespeichert sind, als Bezahladresse an. Speichern Sie diese Bezahladresse zusammen mit der Bestellung.',
 	'pig.step4' => 'Verwenden Sie einen Block-Explorer, um eingehende Zahlungen zu erfassen. Ein Dienst dieser Art ist zu finden unter <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
 	'pig.step5' => 'Peercoins, die an die importierten Adressen überwiesen wurden, sind durch die dazugehörigen privaten Schlüssel abgesichert. Um diese Peercoin auszugeben, verwenden sie die ursprüngliche Brieftaschen-Datei, die im 1. Schritt erzeugt wurde.',
-	'pig.step6' => 'Sollten bei Ihnen irgendwelche Probleme auftreten, dann zögern Sie nicht, einen Beitrag im <a href="http://peercointalk.org">Gemeinschaftsforum</a> zu dem Thema zu verfassen.',
+	'pig.step6' => 'Sollten bei Ihnen irgendwelche Probleme auftreten, dann zögern Sie nicht, einen Beitrag im <a href="https://talk.peercoin.net">Gemeinschaftsforum</a> zu dem Thema zu verfassen.',
 	
 );
 $lang['de'] += array(

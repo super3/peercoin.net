@@ -98,7 +98,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.community"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a target="_blank" href="https://www.peercointalk.org">PeercoinTalk Forum</a></li>
+                <li><a target="_blank" href="https://talk.peercoin.net">Peercoin Forum</a></li>
                 <li><a target="_blank" href="https://peercoin.chat">Chat</a></li>
                 <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
                 <li><a target="_blank" href="https://plus.google.com/+PeercoinNet">Google+</a></li>

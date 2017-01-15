@@ -214,7 +214,7 @@ $lang['zh'] += array(
 	'pig.step3' => '在你的网站购物篮中给你的客户提供点点币支付选项。当点点币支付选中的话，显示你数据库中的一个地址作为客户的支付地址，并与购物订单一起保存。',
 	'pig.step4' => '使用一个浏览器来查询进入的支付交易，这种区块链浏览器查询服务可以在 <a href="http://ppc.blockr.io">ppc.blockr.io</a>.找到。',
 	'pig.step5' => '发送到导入数据库中的点点币地址中的点点币由其私钥保护，需要花费的时候，使用在第1步中生成的初始钱包文件。',
-	'pig.step6' => '如果你碰到任何问题，请在 <a href="http://peercointalk.org">社区论坛</a>中发出来。.',
+	'pig.step6' => '如果你碰到任何问题，请在 <a href="https://talk.peercoin.net">社区论坛</a>中发出来。.',
 	
 );
 $lang['zh'] += array(

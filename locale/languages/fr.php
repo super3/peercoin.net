@@ -216,7 +216,7 @@ $lang['fr'] += array(
 	'pig.step3' => 'Fournissez une option dans le panier de votre site web permettant à vos clients de payer en peercoins. Quand cette option est sélectionnée, affichez l\'une des adresses de votre base de données au client comme adresse de paiement, et enregistrez-la avec la commande du panier.',
 	'pig.step4' => 'Utilisez un explorateur de blocs pour détecter l\'encaissement. Un tel service peut être trouvé sur <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
 	'pig.step5' => 'Les peercoins envoyés aux adresses importées sont sécurisés par leurs clés privées. Pour les dépenser, utilisez le fichier portefeuille original généré à l\'étape 1.',
-	'pig.step6' => 'Si vous rencontrez des problèmes, n\'hésitez pas à poster un message dans les <a href="http://peercointalk.org">forums de la communauté</a>.',
+	'pig.step6' => 'Si vous rencontrez des problèmes, n\'hésitez pas à poster un message dans les <a href="https://talk.peercoin.net">forums de la communauté</a>.',
 	
 );
 $lang['fr'] += array(

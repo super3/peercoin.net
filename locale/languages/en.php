@@ -227,7 +227,7 @@ $lang['en'] += array(
 	'pig.step3' => 'Provide an option on your website shopping cart for your customer to pay in Peercoin. When this option is selected, display one of the addresses from your database to the customer as a payment address, and save it with the shopping cart order.',
 	'pig.step4' => 'Use a block explorer to detect the incoming payment. One such service can be found at <a href="http://ppc.blockr.io">ppc.blockr.io</a>.',
 	'pig.step5' => 'Peercoins sent to the imported addresses are secured by their private keys. To spend them, use the original wallet file generated in step 1.',
-	'pig.step6' => 'If you encounter any issues, feel free to post in the <a href="http://peercointalk.org">community forums</a>.',
+	'pig.step6' => 'If you encounter any issues, feel free to post in the <a href="https://talk.peercoin.net">community forums</a>.',
 	
 );
 
