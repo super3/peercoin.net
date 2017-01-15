@@ -170,7 +170,7 @@ $lang['hi_IN'] += array(
 	'mintguide.qt_step3' => 'Ctrl-L दबाकर अपनी कूटपदबंध क्षेत्र ख़ाली करें  |',
 	'mintguide.qt_step4' => 'आप ग्राहक सॉफ्टवेयर के नीचे दायें कोने में छोटे से ताला को देखकर, मुद्रांकन हो रहा है की नहीं जान सकते हैं | कुछ ही क्षणों बाद यह खुल जाना चाहिए | आप इस पर अपने माउस मंडराने से यह कहना चाहिए कि, "Wallet is encypted and currently unlocked for block minting only" |',
 	'mintguide.peerunity' => 'Peerunity Peercoin समुदाय द्वारा विकसित एक ग्राहक सॉफ्टवेयर है | इसमें मानक Peercoin v0.4 ग्राहक सॉफ्टवेयर से अधिक सुविधाएँ हैं, और मुद्रांकन के लिए सरलतर व्यवस्था
-भी है | यह Windows, Linux, और OS X के लिए उपलब्ध है | आप इसे यहाँ डाउनलोड कर सकते हैं और <a href="http://www.peercointalk.org/index.php?topic=2902.0">यहाँ</a> ',
+भी है | यह Windows, Linux, और OS X के लिए उपलब्ध है | आप इसे यहाँ डाउनलोड कर सकते हैं और <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">यहाँ</a> ',
 	'mintguide.peerunity_step1' => 'अपने बटुए को एक अच्छा कूटपदबंध के साथ सुनिश्चित रूप से कूटबद्ध करें | इसे लिखके कहीं पर सुरक्षित रखें; अगर आप कूटपदबंध भूल जाते हैं तो आप अपने मुद्राएं खो देंगे | बटुआ कूटबद्ध करने का विकल्प Peerunity के settings tab के नीचे पाया जा सकता है |',
 	'mintguide.peerunity_step2' => 'मुद्रांकन शुरू करने के लिए, बस "Unlock Wallet for Minting Only"वाली बटन दबाएँ, कूटपदबंध दर्ज करें और OK दबाएँ |',
 	'mintguide.peerunity_step3' => 'आप ग्राहक सॉफ्टवेयर के नीचे दायें कोने में छोटे से ताला को देखकर, मुद्रांकन हो रहा है की नहीं जान सकते हैं | कुछ ही क्षणों बाद यह खुल जाना चाहिए | आप इस पर अपने माउस मंडराने से यह कहना चाहिए कि, "Wallet is encypted and currently unlocked for block minting only" |',
