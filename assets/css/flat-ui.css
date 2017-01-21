@@ -583,7 +583,7 @@ blockquote:before {
   height: 100%;
   top: 0;
   bottom: 0;
-  background-color: #ebedee;
+  background-color: #f6f6f6;
   content: "";
   border-radius: 2px;
 }
