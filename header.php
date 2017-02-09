@@ -109,9 +109,9 @@
                 <li><a target="_blank" href="http://www.peerbox.me">Peerbox</a></li>
                 <li><a target="_blank" href="https://github.com/super3/Peercoin.net">GitHub</a></li>
                 <li><a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">Transifex</a></li>
-                <li><a target="_blank" href="https://wiki.peercointalk.org">Peercoin Wiki</a></li>
               </ul>
             </li>
+            <li><a target="_blank" href="https://wiki.peercointalk.org"><?php echo $Locale->getText("header.wiki"); ?></a></li>
             <li class="dropdown dropdown-language">
               <a href="#" id="lang-tooltip" class="dropdown-toggle" data-toggle="dropdown" data-placement="left" title="<?php echo $Locale->getText("header.languages"); ?>"><i class="fa fa-language fa-3x"></i></a>
               <ul class="dropdown-menu">

@@ -95,6 +95,8 @@ $lang['ru'] += array(
 	'header.community' => 'Сообщество',
 
 	'header.languages' => 'Языки',
+	
+	'header.wiki' => 'Вики',
 );
 $lang['ru'] += array(
 	// Index page
