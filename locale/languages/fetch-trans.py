@@ -3,24 +3,24 @@
 lang = input("Input the language shorthand: ")
 
 resources = [
-	"https://www.transifex.com/projects/p/website-ppc/resource/developers-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/exchanges-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/footer/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/frequently-asked-questions-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/global-variables/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/header/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/homepage/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/investors-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/merchants-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/mining-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/minting-guide/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/mining-guidephp/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/minting-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/newcomers-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/payment-integration-guide/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/wallet-download-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/whitepaper-page/l/" + lang + "/download/for_use/",
-	"https://www.transifex.com/projects/p/website-ppc/resource/wallets-page/l/" + lang + "/download/for_use/"
+	"https://www.transifex.com/peercoinnet/website-ppc/developers-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/exchanges-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/footer/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/frequently-asked-questions-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/global-variables/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/header/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/homepage/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/investors-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/merchants-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/mining-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/minting-guide/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/mining-guidephp/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/minting-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/newcomers-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/payment-integration-guide/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/wallet-download-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/whitepaper-page/" + lang + "/download/for_use/",
+	"https://www.transifex.com/peercoinnet/website-ppc/wallets-page/" + lang + "/download/for_use/"
 ]
 
 import requests
