@@ -98,18 +98,19 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.community"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a target="_blank" href="https://talk.peercoin.net">Peercoin Forum</a></li>
+                <li><a target="_blank" href="https://talk.peercoin.net">Forum</a></li>
                 <li><a target="_blank" href="https://peercoin.chat">Chat</a></li>
-                <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
-                <li><a target="_blank" href="https://plus.google.com/+PeercoinNet">Google+</a></li>
+                <li><a target="_blank" href="https://telegram.me/peercoin">Telegram</a></li>
                 <li><a target="_blank" href="https://www.reddit.com/r/peercoin">Reddit</a></li>
                 <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
+                <li><a target="_blank" href="https://plus.google.com/+PeercoinNet">Google+</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/peercoin">YouTube</a></li>
-                <li><a target="_blank" href="http://peer4commit.com">Peer4commit</a></li>
+                <li><a target="_blank" href="https://peer4commit.com">Peer4commit</a></li>
                 <li><a target="_blank" href="http://www.peerbox.me">Peerbox</a></li>
                 <li><a target="_blank" href="https://github.com/super3/Peercoin.net">GitHub</a></li>
-                <li><a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">Transifex</a></li>
-                <li><a target="_blank" href="https://wiki.peercointalk.org">Peercoin Wiki</a></li>
+                <li><a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">Translations</a></li>
+                <li><a target="_blank" href="https://wiki.peercointalk.org">Wiki</a></li>
               </ul>
             </li>
             <li class="dropdown dropdown-language">
