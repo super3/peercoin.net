@@ -86,7 +86,6 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.learn"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="exchanges"><?php echo $Locale->getText("header.exchanges"); ?></a></li>
                 <li><a href="minting"><?php echo $Locale->getText("header.mint_peercoins"); ?></a></li>
                 <li><a href="mining-guide"><?php echo $Locale->getText("header.mining-guide"); ?></a></li>
                 <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLvd1OhApu6fVgcvkEdSNYJiuM8iAi_2iu"><?php echo $Locale->getText("header.tutorials"); ?></a></li>
