@@ -94,6 +94,18 @@
                 <li><a href="faq"><?php echo $Locale->getText("header.frequently_asked_questions"); ?></a></li>
               </ul>
             </li>
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.resources"); ?><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a target="_blank" href="https://coinmarketcap.com/currencies/peercoin/#markets">Exchanges</a></li>
+                <li><a target="_blank" href="https://www.peercoinexplorer.net/">Block Explorers</a></li>               
+                <li><a target="_blank" href="https://peer4commit.com">Peer4commit</a></li>
+                <li><a target="_blank" href="http://www.peerbox.me">Peerbox</a></li>
+                <li><a target="_blank" href="https://github.com/super3/Peercoin.net">GitHub</a></li>
+                <li><a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">Transifex</a></li>
+                <li><a target="_blank" href="https://wiki.peercointalk.org">Wiki</a></li>
+              </ul>
+            </li>
             <li><a href="wallet"><?php echo $Locale->getText("header.wallet"); ?></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.community"); ?><b class="caret"></b></a>
@@ -106,11 +118,6 @@
                 <li><a target="_blank" href="https://www.facebook.com/Peercoin">Facebook</a></li>
                 <li><a target="_blank" href="https://plus.google.com/+PeercoinNet">Google+</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/peercoin">YouTube</a></li>
-                <li><a target="_blank" href="https://peer4commit.com">Peer4commit</a></li>
-                <li><a target="_blank" href="http://www.peerbox.me">Peerbox</a></li>
-                <li><a target="_blank" href="https://github.com/super3/Peercoin.net">GitHub</a></li>
-                <li><a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">Transifex</a></li>
-                <li><a target="_blank" href="https://wiki.peercointalk.org">Wiki</a></li>
               </ul>
             </li>
             <li class="dropdown dropdown-language">
