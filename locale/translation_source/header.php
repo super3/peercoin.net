@@ -14,6 +14,7 @@ $lang['en'] += array(
 	'header.mint_peercoins' => 'Minting',
 	'header.mining-guide' => 'Mining',
 	'header.wallet' => 'Wallets',
+	'header.resources' => 'Resources',
 	'header.community' => 'Community',
 	'header.languages' => 'Languages',
 );
