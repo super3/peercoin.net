@@ -83,7 +83,7 @@ $lang['el_GR'] += array(
 	'header.merchants' => 'Έμποροι',
 	'header.miners' => 'Miners',
 	'header.developers' => 'Προγραμματιστές',
-
+	'header.resources' => 'πόροι',
 	'header.learn' => 'Μαθαίνοντας',
 	'header.frequently_asked_questions' => 'Συχνές Ερωτήσεις',
 	'header.peercoin_whitepaper' => 'Peercoin Whitepaper',
