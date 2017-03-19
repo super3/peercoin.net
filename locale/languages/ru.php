@@ -83,7 +83,7 @@ $lang['ru'] += array(
 	'header.merchants' => 'Торговцам',
 	'header.miners' => 'Майнерам',
 	'header.developers' => 'Разработчикам',
-
+	'header.resources' => 'Ресурсы',
 	'header.learn' => 'Узнать',
 	'header.frequently_asked_questions' => 'Часто Задаваемые Вопросы',
 	'header.peercoin_whitepaper' => 'Техническое описание',

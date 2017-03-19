@@ -83,7 +83,7 @@ $lang['no'] += array(
 	'header.merchants' => 'Kjøpmenn',
 	'header.miners' => 'Gravere',
 	'header.developers' => 'Utviklere',
-
+	'header.resources' => 'Ressurser',
 	'header.learn' => 'Lær',
 	'header.frequently_asked_questions' => 'Ofte Stilte Spørsmål',
 	'header.peercoin_whitepaper' => 'Peercoin Hvitbok',

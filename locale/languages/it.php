@@ -83,7 +83,7 @@ $lang['it'] += array(
 	'header.merchants' => 'Venditori',
 	'header.miners' => 'Minatori',
 	'header.developers' => 'Sviluppatori',
-
+	'header.resources' => 'Risorse',
 	'header.learn' => 'Impara',
 	'header.frequently_asked_questions' => 'Domande frequenti',
 	'header.peercoin_whitepaper' => 'Tesi Peercoin',

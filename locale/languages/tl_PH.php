@@ -83,7 +83,7 @@ $lang['tl_PH'] += array(
 	'header.merchants' => 'Mga mangangalakal',
 	'header.miners' => 'Mga Minero',
 	'header.developers' => 'Mga Nagpa-unlad',
-
+	'header.resources' => 'Kayamanan',
 	'header.learn' => 'Matuto',
 	'header.frequently_asked_questions' => 'Mga Madalas Itanong',
 	'header.peercoin_whitepaper' => 'Puting papel na Peercoin',

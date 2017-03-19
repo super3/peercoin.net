@@ -83,7 +83,7 @@ $lang['zh'] += array(
 	'header.merchants' => '商户',
 	'header.miners' => '矿工',
 	'header.developers' => '开发者',
-
+	'header.resources' => '资源',
 	'header.learn' => '学习',
 	'header.frequently_asked_questions' => '常见问题',
 	'header.peercoin_whitepaper' => '点点币白皮书',

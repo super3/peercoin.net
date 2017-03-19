@@ -83,7 +83,7 @@ $lang['ar'] += array(
 	'header.merchants' => 'التجار',
 	'header.miners' => 'المنقبون',
 	'header.developers' => 'المُطوّرون',
-
+	'header.resources' => 'اموارد',
 	'header.learn' => 'تعلّم',
 	'header.frequently_asked_questions' => 'أسئلة شائعة',
 	'header.peercoin_whitepaper' => 'ورقة عمل بِيركُيِن',

@@ -84,7 +84,7 @@ $lang['hi_IN'] += array(
 	'header.merchants' => 'व्यापारियों',
 	'header.miners' => 'खनिकों',
 	'header.developers' => 'विकासकों',
-
+	'header.resources' => 'संसाधन',
 	'header.learn' => 'ज्ञान प्राप्त करें',
 	'header.frequently_asked_questions' => 'अक्सर पूछे जाने वाले प्रश्न',
 	'header.peercoin_whitepaper' => 'Peercoin श्वेतपत्र',
