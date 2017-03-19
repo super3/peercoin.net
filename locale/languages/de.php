@@ -83,7 +83,7 @@ $lang['de'] += array(
 	'header.merchants' => 'Händler',
 	'header.miners' => 'Schürfer',
 	'header.developers' => 'Entwickler',
-
+	'header.developers' => 'Ressourcen',
 	'header.learn' => 'Mehr Erfahren',
 	'header.frequently_asked_questions' => 'Häufig gestellte Fragen',
 	'header.peercoin_whitepaper' => 'Peercoin-Weißbuch',
