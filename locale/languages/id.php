@@ -83,7 +83,7 @@ $lang['id'] += array(
 	'header.merchants' => 'Penjual',
 	'header.miners' => 'Penambang',
 	'header.developers' => 'Pengembang',
-
+	'header.resources' => 'Sumber',
 	'header.learn' => 'Mempelajari',
 	'header.frequently_asked_questions' => 'Pertanyaan yang sering diajukan',
 	'header.peercoin_whitepaper' => 'Panduan Peercoin',
