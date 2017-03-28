@@ -4071,7 +4071,7 @@
 
 					Q.validate();
 					if (!ECDSA.verifyRaw(e, r, s, Q)) {
-						throw "Pubkey recovery unsuccessful";
+						throw "Public key recovery unsuccessful!";
 					}
 
 					var pubKey = new Bitcoin.ECKey();
@@ -5210,9 +5210,9 @@
 					"brainalertpassphrasedoesnotmatch": "Las contraseñas no coinciden.",
 					"detailalertnotvalidprivatekey": "El texto que has introducido no es una clave privada válida",
 					"detailconfirmsha256": "El texto que has introducido no es una clave privada válida\n\n¿Quieres usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de tal contraseña?\n\nAviso: Es importante escoger una contraseña fuerte para evitar ataques de fuerza bruta a fin de adivinarla y robar tus bitcoins.",
-					"vanityinvalidinputcouldnotcombinekeys": "Entrada no válida. No se puede combinar claves.",
+					"vanityinvalidinputcouldnotcombinekeys": "Entrada no válida. No puede combinar claves.",
 					"vanityalertinvalidinputpublickeysmatch": "Entrada no válida. La clave pública de ambos coincidan entradas. Debe introducir dos claves diferentes.",
-					"vanityalertinvalidinputcannotmultiple": "Entrada no válida. No se puede multiplicar dos claves públicas. Seleccione 'Añadir' para agregar dos claves públicas para obtener una dirección bitcoin.",
+					"vanityalertinvalidinputcannotmultiple": "Entrada no válida. No puede multiplicar dos claves públicas. Seleccione 'Añadir' para agregar dos claves públicas para obtener una dirección bitcoin.",
 					"vanityprivatekeyonlyavailable": "Sólo está disponible cuando se combinan dos claves privadas",
 					"vanityalertinvalidinputprivatekeysmatch": "Entrada no válida. La clave privada de ambos coincidan entradas. Debe introducir dos claves diferentes.",
 
