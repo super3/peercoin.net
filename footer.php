@@ -20,6 +20,7 @@
 						<li><a href="http://ppc.blockr.io/">Blockr.io - Block Explorer</a></li>
 						<li><a href="http://bkchain.org/ppc">bkchain.org - Block Explorer</a></li>
 						<li><a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">Network Statistics</a></li>
+						<li><a href="http://peercoin.link/">Peercoin Link - Donate Peercoins</a></li>
 						<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator/">Mining Calculator</a></li>
 					</ul>
 				</div>
