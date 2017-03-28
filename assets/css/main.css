@@ -40,6 +40,7 @@ END of Table of Contents */
 
 body {
   padding-top: 75px;
+  overflow: hidden;
 }
 
 /* 1.2 Misc */
