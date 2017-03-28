@@ -73,5 +73,20 @@
     </div>
 </div>
 
+<div class="row">
+    <div class="col-md-3">
+        <div class="tile text-center wallet-entry">
+            <h1 class="tile-image big-illustration svg-100 centered">bkchain.org</h1>
+            <h3 class="tile-title"><?php echo $Locale->getText("wallet.bkchain_wallet"); ?></h3>
+            <p>
+                <?php echo $Locale->getText("wallet.bkchain_wallet_desc"); ?>
+            </p>
+            <div>
+                <a class="btn btn-primary btn-large btn-block" href="https://bkchain.org/ppc/wallet"><?php echo $Locale->getText("wallet.visit_site"); ?> bkchain.org</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
 <?php include ('footer.php'); ?>
