@@ -81,18 +81,11 @@
 	          	</div>
           	</div><!-- /row -->
 
-			<div class="row">
-				<div id="footer-language-bar" class="col-lg-12">
-	            	<?php
-		            	foreach($Locale->getLanguages() as $language_code => $language_text):
-			            	if($Locale->locale_code!=$language_code){
-			            		$url_loc = substr($_SERVER['PHP_SELF'], 0, strpos($_SERVER['PHP_SELF'], '.php')+4);
-			            		echo "<a href=\"".$url_loc."?locale=".$language_code."\">".$language_text."</a>";
-			            	}
-		            	endforeach;
-	            	?>
+                <div class="row">
+			<div id="footer-language-bar" class="col-lg-12">
+                                Copyright © 2014-2015 Shawn Wilkinson
 	        	</div>
-			</div><!-- /row -->
+		</div><!-- /row -->
 
 		</div><!-- /container -->
 	</footer>
