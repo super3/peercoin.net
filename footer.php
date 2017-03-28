@@ -19,6 +19,7 @@
 						<li><a href="http://wallet.peercointalk.org/">Wallet Generator (Beta!)</a></li>
 						<li><a href="http://ppc.blockr.io/">Blockr.io - Block Explorer</a></li>
 						<li><a href="http://bkchain.org/ppc">bkchain.org - Block Explorer</a></li>
+						<li><a href="https://peerchain.co/">Peerchain - Block Explorer</a></li>
 						<li><a href="http://bitinfocharts.com/comparison/hashrate-ppc.html">Network Statistics</a></li>
 						<li><a href="http://www.coinwarz.com/calculators/peercoin-mining-calculator/">Mining Calculator</a></li>
 					</ul>
@@ -29,6 +30,7 @@
 					<ul>
 						<li><a href="http://www.btc38.com/trade.html?btc38_trade_coin_name=ppc">BTC38</a></li>
 						<li><a href="https://btc-e.com/exchange/ppc_btc/">BTC-E</a></li>
+						<li><a href="https://www.ccedk.com/ppc-btc">CCEDK</a></li>
 						<li><a href="https://coinomat.com/#BTC/PPC">Coinomat</a></li>
 						<li><a href="https://www.cryptsy.com/markets/view/28">Cryptsy</a></li>
 						<li><a href="https://www.vaultofsatoshi.com/">Vault of Satoshi</a></li>
