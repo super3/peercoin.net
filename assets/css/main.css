@@ -1969,21 +1969,14 @@ margin-top:3em;
 
 .leafList > .item {
 	margin: 20px 0px;
+	padding-left: 60px;
+	background-image: url("../img/types/investor/efficiency.svg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 40px 40px;
 }
 
-.leafList > .item > img {
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	margin-right: 20px;
-	vertical-align: top;
-}
-
-.leafList > .item > .text {
-	display: inline-block;
-}
-
-.leafList > .item > .text > .name {
+.leafList > .item > .name {
 	display: inline-block;
 	font-size: 24px;
 }

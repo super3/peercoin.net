@@ -31,34 +31,22 @@
 			<div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-6 text-left">
 				<div class="leafList">
 					<div class="item">
-						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
-						<div class="text">
-							<div class="name"><?php echo $Locale->getText("index.built_to_last"); ?></div>
-							<div class="description"><?php echo $Locale->getText("index.built_to_last_desc"); ?></div>
-						</div>
+						<div class="name"><?php echo $Locale->getText("index.built_to_last"); ?></div>
+						<div class="description"><?php echo $Locale->getText("index.built_to_last_desc"); ?></div>
 					</div>
 					<div class="item">
-						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
-						<div class="text">
-							<div class="name"><?php echo $Locale->getText("index.fair_distribution"); ?></div>
-							<div class="description"><?php echo $Locale->getText("index.fair_distribution_desc"); ?></div>
-						</div>
+						<div class="name"><?php echo $Locale->getText("index.fair_distribution"); ?></div>
+						<div class="description"><?php echo $Locale->getText("index.fair_distribution_desc"); ?></div>
 					</div>
 					<div class="item">
-						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
-						<div class="text">
-							<div class="name"><?php echo $Locale->getText("index.energy_efficient"); ?></div>
-							<div class="description"><?php echo $Locale->getText("index.energy_efficient_desc"); ?></div>
-						</div>
+						<div class="name"><?php echo $Locale->getText("index.energy_efficient"); ?></div>
+						<div class="description"><?php echo $Locale->getText("index.energy_efficient_desc"); ?></div>
 					</div>
 					<div class="item">
-						<img src="assets/img/types/investor/efficiency.svg" alt="bullet">
-						<div class="text">
-							<div class="name"><?php echo $Locale->getText("index.transparent_protocol"); ?></div>
-							<div class="description"><?php echo $Locale->getText("index.transparent_protocol_desc"); ?></div>
-						</div>
+						<div class="name"><?php echo $Locale->getText("index.transparent_protocol"); ?></div>
+						<div class="description"><?php echo $Locale->getText("index.transparent_protocol_desc"); ?></div>
 					</div>
-					</div>
+				</div>
 				<br><br>
 			</div>
 			<div class="col-lg-6 col-md-7 col-sm-6">
