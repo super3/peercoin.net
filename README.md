@@ -1,4 +1,4 @@
-Peercoin.net Repo
+Peercoin.net Repo (has now moved to https://github.com/peercoin/peercoin.net) please submit any issues/pull requests there.
 ============
 The static html files for [Peercoin.net](http://peercoin.net). The website is automatically updated from this repo every 10 minutes, so be careful with any commits to the `master` branch.
 
