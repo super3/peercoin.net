@@ -948,7 +948,7 @@ margin-top:3em;
 	}
 
 	.navbar-header button {
-		margin-top: 25px;
+		margin-top: 15px;
 		outline: 0;
 	}
 
@@ -1312,8 +1312,10 @@ margin-top:3em;
 		}
 
 		.peercoin-logo {
-			width: 227px;
-			height: 50px;
+			width: 157px;
+			height: auto;
+			margin-top: 6px;
+			margin-left: 10px;
 		}
 
 		.content .downloads ul li {
@@ -1368,21 +1370,35 @@ margin-top:3em;
 		margin-top: 0px;
 		}
 	}
-	@media only screen and (max-width: 530px) {
-		#headerwrap-2 {
-			min-height: 460px;
-            margin-top: -10px;
-		}
+	@media only screen and (max-width: 768px) {
+	    #header-banner .pltext {
+		width: 100% !important;
+		height: auto !important;
+		margin-left: -10px !important;
+		margin-top: 20px !important;
+		max-width: 270px;
+		margin-bottom: 0 !important;
+	    }
 
-		#headerwrap-2 h1 {
-			font-size: 44px;
-			line-height: 60px;
-			margin-bottom: 40px;
-		}
+	    #header-banner br {
+		display: none;
+	    }
 
-		#headerwrap-2 a.btn {
-			margin-bottom: 10px;
-		}
+	    #headerwrap-2 {
+		padding: 30px 0;
+		min-height: 0;
+		margin-top: 0;
+	    }
+
+	    #headerwrap-2 h1 {
+		font-size: 44px;
+		line-height: 60px;
+		margin-bottom: 40px;
+	    }
+
+	    #headerwrap-2 a.btn {
+		margin-bottom: 10px;
+	    }
 	}
 
 	@media only screen and (max-width: 400px) {
