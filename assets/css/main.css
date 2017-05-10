@@ -948,7 +948,7 @@ margin-top:3em;
 	}
 
 	.navbar-header button {
-		margin-top: 25px;
+		margin-top: 15px;
 		outline: 0;
 	}
 
@@ -1312,8 +1312,10 @@ margin-top:3em;
 		}
 
 		.peercoin-logo {
-			width: 227px;
-			height: 50px;
+			width: 157px;
+			height: auto;
+			margin-top: 6px;
+			margin-left: 10px;
 		}
 
 		.content .downloads ul li {
